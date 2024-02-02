@@ -1,0 +1,30 @@
+[project]
+name = "sc_data"
+version = "0.0.1"
+description = "Structured data collected by sc-crawler."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name="Attila Nagy" },
+  { name="Gergely Daroczi" },
+  { name="Balazs Hodobay" },
+]
+maintainers = [
+  { name="Spare Cores team", email="pkg@sparecores.com" }
+]
+dependencies = [
+    "requests",
+    "safe_exit",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Development Status :: 1 - Planning",
+]
+
+[project.urls]
+Homepage = "https://github.com/SpareCores/sc-data"
+Issues = "https://github.com/SpareCores/sc-data/issues"
+
+[tool.setuptools]
+include-package-data = true  # see MANIFEST.in
