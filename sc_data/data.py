@@ -44,7 +44,7 @@ class Data(threading.Thread):
         self.updated = threading.Event()
         self.lock = threading.Lock()
         self.actual_db_path = get_parameter("db_path")
-        self.actual_db_hash = None
+        self.actual_db_hash = get_hash(self.actual_db_path)
         super().__init__(*args, **kwargs)
 
     @property
@@ -78,9 +78,6 @@ class Data(threading.Thread):
     def run(self):
         """Start the update thread if no_update is not set."""
         if get_parameter("no_update"):
-            hexdigest = get_hash(self.actual_db_path)
-            with self.lock:
-                self.actual_db_hash = hexdigest
             self.updated.set()
             return
         while True:
