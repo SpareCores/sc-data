@@ -5,8 +5,8 @@ Usage:
 
 ```
 import sc_data
-sc_data.db_path  # this will hold the actual data file's path (either the built-in or a temporary file when update is not disabled
-sc_data.db_hash  # an SHA256 hash of the DB, can be used to track changes and reopen the database if needed
+sc_data.db.path  # this will hold the actual data file's path (either the built-in or a temporary file when update is not disabled
+sc_data.db.hash  # an SHA256 hash of the DB, can be used to track changes and reopen the database if needed
 ```
 
 The module accepts the following parameters (must be set before importing):
@@ -20,11 +20,8 @@ import safe_exit
 from . import constants
 from .data import close_tmpfiles, get_parameter, Data
 
-d = Data(name="remote_update")
-d.start()
+db = Data(name="remote_update")
+db.start()
 if not get_parameter("no_update"):
-    safe_exit.register(close_tmpfiles, d.tmpfiles)
-d.updated.wait(get_parameter("http_timeout") + 1)
-
-db_path = d.db_path
-db_hash = d.db_hash
+    safe_exit.register(close_tmpfiles, db.tmpfiles)
+db.updated.wait(get_parameter("http_timeout") + 1)

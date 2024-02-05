@@ -48,12 +48,12 @@ class Data(threading.Thread):
         super().__init__(*args, **kwargs)
 
     @property
-    def db_path(self):
+    def path(self):
         with self.lock:
             return self.actual_db_path
 
     @property
-    def db_hash(self):
+    def hash(self):
         with self.lock:
             return self.actual_db_hash
 
