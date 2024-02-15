@@ -1,1 +1,1 @@
-include sc_data/data/*
+include src/sc_data/data/*

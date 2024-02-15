@@ -28,3 +28,6 @@ Issues = "https://github.com/SpareCores/sc-data/issues"
 
 [tool.setuptools]
 include-package-data = true  # see MANIFEST.in
+
+[tool.setuptools.packages.find]
+where = ["src"]
