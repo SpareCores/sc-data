@@ -13,10 +13,11 @@ from . import constants
 
 def get_parameter(name):
     """Get a parameter either from builtins, envvars or the constants module."""
-    return (getattr(builtins, f"sc_data_{name}", None)
-            or os.environ.get(f"SC_DATA_{name.upper()}")
-            or getattr(constants, name.upper(), None)
-            )
+    return (
+        getattr(builtins, f"sc_data_{name}", None)
+        or os.environ.get(f"SC_DATA_{name.upper()}")
+        or getattr(constants, name.upper(), None)
+    )
 
 
 def close_tmpfiles(tmpfiles):
@@ -61,9 +62,16 @@ class Data(threading.Thread):
         """Update the database file if necessary."""
 
         # initiate a streaming GET, to receive the headers, but halt the content
-        r = requests.get(get_parameter("db_url"), timeout=float(get_parameter("http_timeout")), stream=True)
+        r = requests.get(
+            get_parameter("db_url"),
+            timeout=float(get_parameter("http_timeout")),
+            stream=True,
+        )
         # fetch the file if necessary (200 status and etag is missing or different than previous)
-        if 200 <= r.status_code < 300 and (etag := r.headers.get("etag", time.time())) != self.etag:
+        if (
+            200 <= r.status_code < 300
+            and (etag := r.headers.get("etag", time.time())) != self.etag
+        ):
             tmpfile = tempfile.NamedTemporaryFile()
             shutil.copyfileobj(r.raw, tmpfile)
             tmpfile.flush()
