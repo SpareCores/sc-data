@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.10"
       - name: Set up Python dependencies
-        run: pip install git+https://github.com/SpareCores/sc-crawler
+        run: pip install "sc_crawler[all] @ git+https://github.com/SpareCores/sc-crawler"
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
