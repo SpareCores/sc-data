@@ -29,10 +29,10 @@ jobs:
         run: sc-crawler pull --connection-string sqlite:///$FILE --include-vendor aws
       - name: Upload if changed
         run: |
-          LHASH=`md5sum $FILE | cut -c -32`
-          RHASH=`aws s3api head-object --bucket $BUCKET --key $FILE --query "Metadata.md5" --output=text`
+          LHASH=`sc-crawler hash --connection-string sqlite:///$FILE`
+          RHASH=`aws s3api head-object --bucket $BUCKET --key $FILE --query "Metadata.hash" --output=text`
           if [ "$LHASH" != "$RHASH" ]; then
-            aws s3 cp $FILE s3://$BUCKET/$FILE --metadata="md5=`md5sum $FILE | cut -c -32`"
+            aws s3 cp $FILE s3://$BUCKET/$FILE --metadata="hash=$LHASH"
           fi
       - name: New release
         run: echo "TODO implement later"
