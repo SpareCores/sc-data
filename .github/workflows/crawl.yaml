@@ -3,7 +3,7 @@ name: Run SC Crawler
 on:
   schedule:
     - cron: "0 8 * * *"
-    - workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   crawl:
