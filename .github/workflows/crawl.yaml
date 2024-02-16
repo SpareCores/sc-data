@@ -32,8 +32,10 @@ jobs:
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         run: |
-          LHASH=`sc-crawler hash --connection-string sqlite:///$FILE`
           RHASH=`aws s3api head-object --bucket $BUCKET --key $FILE --query "Metadata.hash" --output=text`
+          echo "Last known hash in S3: $RHASH"
+          LHASH=`sc-crawler hash --connection-string sqlite:///$FILE`
+          echo "Currently pulled database's hash: $LHASH"
           if [ "$LHASH" != "$RHASH" ]; then
             aws s3 cp $FILE s3://$BUCKET/$FILE --metadata="hash=$LHASH"
             curl -X POST -H 'Content-type: application/json' \
