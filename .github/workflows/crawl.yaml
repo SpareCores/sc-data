@@ -1,0 +1,44 @@
+name: Run SC Crawler
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    env:
+      BUCKET: sc-data-public-40e9d310
+      FILE: sc-data-all.db
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Set up Python dependencies
+        run: pip install git+https://github.com/SpareCores/sc-crawler
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: Run SC Crawler
+        run: sc-crawler pull --connection-string sqlite:///$FILE --include-vendor aws
+      - name: Upload if changed
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        run: |
+          LHASH=`sc-crawler hash --connection-string sqlite:///$FILE`
+          RHASH=`aws s3api head-object --bucket $BUCKET --key $FILE --query "Metadata.hash" --output=text`
+          if [ "$LHASH" != "$RHASH" ]; then
+            aws s3 cp $FILE s3://$BUCKET/$FILE --metadata="hash=$LHASH"
+            curl -X POST -H 'Content-type: application/json' \
+              --data '{"text":"$FILE was updated on S3!"}' \
+              $SLACK_WEBHOOK
+          fi
+      - name: New release
+        run: echo "TODO implement later"
