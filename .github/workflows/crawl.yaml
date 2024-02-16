@@ -37,7 +37,7 @@ jobs:
           if [ "$LHASH" != "$RHASH" ]; then
             aws s3 cp $FILE s3://$BUCKET/$FILE --metadata="hash=$LHASH"
             curl -X POST -H 'Content-type: application/json' \
-              --data '{"text":"$FILE was updated on S3!"}' \
+              --data "{\"text\": \"$FILE was updated on S3!\"}" \
               $SLACK_WEBHOOK
           fi
       - name: New release
