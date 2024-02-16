@@ -29,11 +29,16 @@ jobs:
       - name: Run SC Crawler
         run: sc-crawler pull --connection-string sqlite:///$FILE --include-vendor aws
       - name: Upload if changed
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         run: |
           LHASH=`sc-crawler hash --connection-string sqlite:///$FILE`
           RHASH=`aws s3api head-object --bucket $BUCKET --key $FILE --query "Metadata.hash" --output=text`
           if [ "$LHASH" != "$RHASH" ]; then
             aws s3 cp $FILE s3://$BUCKET/$FILE --metadata="hash=$LHASH"
+            curl -X POST -H 'Content-type: application/json' \
+              --data '{"text":"$FILE was updated on S3!"}' \
+              $SLACK_WEBHOOK
           fi
       - name: New release
         run: echo "TODO implement later"
