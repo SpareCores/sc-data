@@ -1,4 +1,5 @@
 import builtins
+import bz2
 import collections
 import logging
 import os
@@ -24,6 +25,14 @@ def close_tmpfiles(tmpfiles):
     for tmpfile in tmpfiles.copy():
         tmpfile.close()
         tmpfiles.remove(tmpfile)
+
+
+def handle(f, url=None):
+    """Return the original or wrapped file handle depending on the file name."""
+    if url.endswith("bz2"):
+        return bz2.BZ2File(f, mode="rb")
+    else:
+        return f
 
 
 class Data(threading.Thread):
@@ -63,7 +72,9 @@ class Data(threading.Thread):
             and (db_hash := r.headers.get("x-amz-meta-hash", time.time())) != self.actual_db_hash
         ):
             tmpfile = tempfile.NamedTemporaryFile()
-            shutil.copyfileobj(r.raw, tmpfile)
+            # use the original, or a decompressor-wrapped file handle
+            fh = handle(r.raw, url=get_parameter("db_url"))
+            shutil.copyfileobj(fh, tmpfile)
             tmpfile.flush()
             with self.lock:
                 self.actual_db_path = tmpfile.name
