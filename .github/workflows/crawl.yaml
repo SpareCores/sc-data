@@ -37,7 +37,8 @@ jobs:
           LHASH=$(sc-crawler hash --connection-string sqlite:///$FILE)
           echo "Currently pulled database's hash: $LHASH"
           if [ "$LHASH" != "$RHASH" ]; then
-            aws s3 cp $FILE s3://$BUCKET/$FILE --metadata="hash=$LHASH"
+            bzip2 -9 "$FILE"
+            aws s3 cp "$FILE".bz2 "s3://$BUCKET/$FILE" --metadata="hash=$LHASH,compression=bzip2"
             curl -X POST -H 'Content-type: application/json' \
               --data "{\"text\": \"$FILE was updated on S3 with the following hash: $LHASH\"}" \
               $SLACK_WEBHOOK
