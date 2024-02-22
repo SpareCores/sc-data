@@ -1,6 +1,5 @@
 import builtins
 import collections
-import hashlib
 import logging
 import os
 import requests
@@ -27,25 +26,16 @@ def close_tmpfiles(tmpfiles):
         tmpfiles.remove(tmpfile)
 
 
-def get_hash(path, hashfunc=hashlib.sha256):
-    """Create a hex digest for a given path."""
-    h = hashfunc()
-    with open(path, "rb") as f:
-        while chunk := f.read(16 * 1024):
-            h.update(chunk)
-    return h.hexdigest()
-
-
 class Data(threading.Thread):
     daemon = True
 
     def __init__(self, *args, **kwargs):
-        self.etag = None
         self.tmpfiles = collections.deque()
         self.updated = threading.Event()
         self.lock = threading.Lock()
         self.actual_db_path = get_parameter("db_path")
-        self.actual_db_hash = get_hash(self.actual_db_path)
+        # initialize with embedded DB hash
+        self.actual_db_hash = constants.DB_HASH
         super().__init__(*args, **kwargs)
 
     @property
@@ -70,16 +60,14 @@ class Data(threading.Thread):
         # fetch the file if necessary (200 status and etag is missing or different than previous)
         if (
             200 <= r.status_code < 300
-            and (etag := r.headers.get("etag", time.time())) != self.etag
+            and (db_hash := r.headers.get("x-amz-meta-hash", time.time())) != self.actual_db_hash
         ):
             tmpfile = tempfile.NamedTemporaryFile()
             shutil.copyfileobj(r.raw, tmpfile)
             tmpfile.flush()
-            hexdigest = get_hash(tmpfile.name)
             with self.lock:
                 self.actual_db_path = tmpfile.name
-                self.actual_db_hash = hexdigest
-            self.etag = etag
+                self.actual_db_hash = db_hash
             close_tmpfiles(self.tmpfiles)
             self.tmpfiles.append(tmpfile)
 
