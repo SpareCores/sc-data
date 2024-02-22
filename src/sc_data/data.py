@@ -1,4 +1,5 @@
 import builtins
+import bz2
 import collections
 import hashlib
 import logging
@@ -34,6 +35,14 @@ def get_hash(path, hashfunc=hashlib.sha256):
         while chunk := f.read(16 * 1024):
             h.update(chunk)
     return h.hexdigest()
+
+
+def handle(f, compression=None):
+    """Return the original or wrapped file handle depending on compression value."""
+    if compression == "bzip2":
+        return bz2.BZ2File(f, mode="rb")
+    else:
+        return f
 
 
 class Data(threading.Thread):
@@ -73,7 +82,9 @@ class Data(threading.Thread):
             and (etag := r.headers.get("etag", time.time())) != self.etag
         ):
             tmpfile = tempfile.NamedTemporaryFile()
-            shutil.copyfileobj(r.raw, tmpfile)
+            # use the original, or a decompressor-wrapped file handle
+            fh = handle(r.raw, compression=r.headers.get("x-amz-meta-compression"))
+            shutil.copyfileobj(fh, tmpfile)
             tmpfile.flush()
             hexdigest = get_hash(tmpfile.name)
             with self.lock:
