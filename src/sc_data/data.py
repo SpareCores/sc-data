@@ -3,11 +3,13 @@ import bz2
 import collections
 import logging
 import os
-import requests
 import shutil
 import tempfile
 import threading
 import time
+
+import requests
+
 from . import constants
 
 
@@ -23,6 +25,10 @@ def get_parameter(name):
 def close_tmpfiles(tmpfiles):
     """Close/remove temporary files."""
     for tmpfile in tmpfiles.copy():
+        try:
+            os.unlink(tmpfile.name)
+        except FileNotFoundError:
+            pass
         tmpfile.close()
         tmpfiles.remove(tmpfile)
 
@@ -69,9 +75,12 @@ class Data(threading.Thread):
         # fetch the file if necessary (200 status and etag is missing or different than previous)
         if (
             200 <= r.status_code < 300
-            and (db_hash := r.headers.get("x-amz-meta-hash", time.time())) != self.actual_db_hash
+            and (db_hash := r.headers.get("x-amz-meta-hash", time.time()))
+            != self.actual_db_hash
         ):
-            tmpfile = tempfile.NamedTemporaryFile()
+            # delete=False due to Windows support
+            # https://stackoverflow.com/questions/15588314/cant-access-temporary-files-created-with-tempfile/15590253#15590253
+            tmpfile = tempfile.NamedTemporaryFile(delete=False)
             # use the original, or a decompressor-wrapped file handle
             fh = handle(r.raw, url=get_parameter("db_url"))
             shutil.copyfileobj(fh, tmpfile)

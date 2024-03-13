@@ -16,9 +16,10 @@ The module accepts the following parameters (must be set before importing):
     - builtins.sc_data_http_timeout / SC_DATA_HTTP_TIMEOUT - HTTP timeout in seconds
     - builtins.sc_data_db_refresh_seconds / SC_DATA_DB_REFRESH_SECONDS - update database after this has passed
 """
+
 import safe_exit
-from . import constants
-from .data import close_tmpfiles, get_parameter, Data
+
+from .data import Data, close_tmpfiles, get_parameter
 
 db = Data(name="remote_update")
 db.start()
