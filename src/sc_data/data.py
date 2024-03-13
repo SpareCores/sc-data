@@ -74,7 +74,7 @@ class Data(threading.Thread):
             and (db_hash := r.headers.get("x-amz-meta-hash", time.time()))
             != self.actual_db_hash
         ):
-            tmpfile = tempfile.NamedTemporaryFile()
+            tmpfile = tempfile.NamedTemporaryFile(delete=False)
             # use the original, or a decompressor-wrapped file handle
             fh = handle(r.raw, url=get_parameter("db_url"))
             shutil.copyfileobj(fh, tmpfile)
