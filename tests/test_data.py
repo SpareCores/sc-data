@@ -1,4 +1,5 @@
 from os.path import abspath, exists
+
 from sc_data import db
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker

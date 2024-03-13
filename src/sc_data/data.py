@@ -3,11 +3,13 @@ import bz2
 import collections
 import logging
 import os
-import requests
 import shutil
 import tempfile
 import threading
 import time
+
+import requests
+
 from . import constants
 
 
@@ -69,7 +71,8 @@ class Data(threading.Thread):
         # fetch the file if necessary (200 status and etag is missing or different than previous)
         if (
             200 <= r.status_code < 300
-            and (db_hash := r.headers.get("x-amz-meta-hash", time.time())) != self.actual_db_hash
+            and (db_hash := r.headers.get("x-amz-meta-hash", time.time()))
+            != self.actual_db_hash
         ):
             tmpfile = tempfile.NamedTemporaryFile()
             # use the original, or a decompressor-wrapped file handle
