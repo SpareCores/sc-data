@@ -25,6 +25,10 @@ def get_parameter(name):
 def close_tmpfiles(tmpfiles):
     """Close/remove temporary files."""
     for tmpfile in tmpfiles.copy():
+        try:
+            os.unlink(tmpfile.name)
+        except FileNotFoundError:
+            pass
         tmpfile.close()
         tmpfiles.remove(tmpfile)
 
@@ -74,6 +78,8 @@ class Data(threading.Thread):
             and (db_hash := r.headers.get("x-amz-meta-hash", time.time()))
             != self.actual_db_hash
         ):
+            # delete=False due to Windows support
+            # https://stackoverflow.com/questions/15588314/cant-access-temporary-files-created-with-tempfile/15590253#15590253
             tmpfile = tempfile.NamedTemporaryFile(delete=False)
             # use the original, or a decompressor-wrapped file handle
             fh = handle(r.raw, url=get_parameter("db_url"))
