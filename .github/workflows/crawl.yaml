@@ -45,9 +45,9 @@ jobs:
           fi
 
           FILE="sc-data-priceless.db"
-          echo "Updating $FILE..."
-          mv sc-data-data.db sc-data-priceless.db
-          sqlite3 sc-data-priceless.db "
+          echo "Truncating $FILE..."
+          mv sc-data-all.db $FILE
+          sqlite3 $FILE "
             DELETE FROM server_price;
             DELETE FROM storage_price;
             DELETE FROM traffic_price;
