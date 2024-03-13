@@ -11,7 +11,9 @@ def test_has_path():
 
 
 def test_can_query_db():
-    engine = create_engine("sqlite:///" + abspath(db.path))
+    connection_string = "sqlite:///" + abspath(db.path)
+    print(connection_string)
+    engine = create_engine(connection_string)
     Session = sessionmaker(engine)
     with Session() as s:
         servers = s.execute(text("SELECT COUNT(*) FROM server")).fetchone()[0]
