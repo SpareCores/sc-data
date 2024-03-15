@@ -64,11 +64,11 @@ jobs:
             aws s3 cp "$FILE".bz2 "s3://$BUCKET/$FILE".bz2 --metadata="hash=$LHASH"
 
             # update DBHUB
-            COMMIT=$(curl -s -F apikey=${DBHUB_TOKEN} \
+            COMMIT=$(curl -s --fail-with-body -F apikey=${DBHUB_TOKEN} \
               -F dbowner=sparecores -F dbname=sc-data-priceless.db \
               https://api.dbhub.io/v1/commits | jq -r "to_entries|sort_by(.value.timestamp)|last|.key")
             echo "Most recent commit: $COMMIT"
-            curl -F apikey=$DBHUB_TOKEN -F dbname=$FILE \
+            curl --fail-with-body -F apikey=$DBHUB_TOKEN -F dbname=$FILE \
               -F commitmsg="SC Crawler run on $(date '+%Y-%m-%d %H:%M:%S')" \
               -F commit=$COMMIT \
               -F "sourceurl=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
