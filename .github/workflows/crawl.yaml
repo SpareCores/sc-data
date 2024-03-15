@@ -66,8 +66,8 @@ jobs:
             # update DBHUB
             COMMIT=$(curl -s -F apikey=${DBHUB_TOKEN} \
               -F dbowner=sparecores -F dbname=sc-data-priceless.db \
-              https://api.dbhub.io/v1/commits  | jq -r "to_entries|last|.key")
-
+              https://api.dbhub.io/v1/commits | jq -r "to_entries|sort_by(.value.timestamp)|last|.key")
+            echo "Most recent commit: $COMMIT"
             curl -F apikey=$DBHUB_TOKEN -F dbname=$FILE \
               -F commitmsg="SC Crawler run on $(date '+%Y-%m-%d %H:%M:%S')" \
               -F commit=$COMMIT \
