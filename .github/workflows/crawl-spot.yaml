@@ -1,17 +1,22 @@
-name: Run SC Crawler
+name: Run SC Crawler for spot prices
 
 on:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "0 * * * *"
+    - cron: "5-55/5 * * * *"
   workflow_dispatch:
 
 jobs:
   crawl:
-    if: ${{ false }}  # disabled for the SCD-based crawler
     runs-on: ubuntu-latest
     env:
       BUCKET: sc-data-public-40e9d310
       FILE: sc-data-all.db
+      DB_HOST: ${{ secrets.DB_HOST }}
+      DB_PORT: ${{ secrets.DB_PORT }}
+      DB_USER: ${{ secrets.DB_USER }}
+      DB_NAME: ${{ secrets.DB_NAME }}
+      DB_REGION: us-west-2
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,8 +32,25 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
-      - name: Run SC Crawler
-        run: sc-crawler pull --connection-string sqlite:///$FILE --include-vendor aws
+
+      - name: Get connection string for remote database
+        run: |
+          export DB_PASS="$( aws --region ${DB_REGION} rds generate-db-auth-token --hostname ${DB_HOST} --port ${DB_PORT} --username ${DB_USER} )"
+          # URL-encode the IAM RDS token
+          export DB_PASS_ENCODED="$( jq -rn --arg x $DB_PASS '$x|@uri' )"
+          export REMOTE_DB="postgresql://${DB_USER}:${DB_PASS_ENCODED}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
+          echo "REMOTE_DB=${REMOTE_DB}" >> "$GITHUB_ENV"
+      - name: Get current database
+        run: sc-crawler copy --source ${REMOTE_DB} --target sqlite:///${FILE}
+      - name: Run SC Crawler on all resources once an hour
+        if: github.event.schedule == '0 * * * *'
+        run: sc-crawler pull --connection-string sqlite:///${FILE}
+      - name: Run SC Crawler only for spot prices
+        if: github.event.schedule == '5-55/5 * * * *'
+        run: sc-crawler pull --connection-string sqlite:///${FILE} --include-records server_prices_spot
+      - name: Sync back
+        run: sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd
+
       - name: Upload if changed
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
@@ -77,6 +99,9 @@ jobs:
 
             # note on Slack
             curl -X POST -H 'Content-type: application/json' \
-              --data "{\"text\": \"$FILE was updated on S3 with the following hash: $LHASH\"}" \
+              --data "{\"text\": \"$FILE was updated on S3/DBHUB with the following hash: $LHASH\"}" \
               $SLACK_WEBHOOK
           fi
+
+      - name: New release
+        run: echo "TODO implement later"
