@@ -1,7 +1,7 @@
 ## Spare Cores Data
 
 [![Build](https://img.shields.io/github/actions/workflow/status/SpareCores/sc-data/tests.yaml)](https://github.com/SpareCores/sc-data/actions/workflows/tests.yaml)
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Status-Alpha-blue"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Status-Alpha-blue"><img alt="Project Status: Alpha" src="https://img.shields.io/badge/Status-Alpha-blue"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/status-alpha-blue"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/status-alpha-blue"><img alt="Project Status: Alpha" src="https://img.shields.io/badge/status-alpha-blue"></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/maintenance/yes/2024"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/maintenance/yes/2024"><img alt="Maintenance Status: Active" src="https://img.shields.io/maintenance/yes/2024"></picture>
 [![CC-BY-SA 4.0 License](https://img.shields.io/github/license/SpareCores/sc-data)](https://github.com/SpareCores/sc-data/blob/main/LICENSE)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sc_data)
