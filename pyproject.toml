@@ -1,7 +1,7 @@
 [project]
-name = "sc_data"
-version = "0.0.1"
-description = "Structured data collected by sc-crawler."
+name = "sparecores-data"
+version = "0.1.0"
+description = "Structured data collected by sparecores-crawler."
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
@@ -19,7 +19,7 @@ dependencies = [
 classifiers = [
   "Programming Language :: Python :: 3",
   "Operating System :: OS Independent",
-  "Development Status :: 1 - Planning",
+  "Development Status :: 3 - Alpha",
 ]
 
 [project.urls]
@@ -28,7 +28,7 @@ Issues = "https://github.com/SpareCores/sc-data/issues"
 
 [project.optional-dependencies]
 testing = ["pytest", "sqlalchemy"]
-all = ["sc-data[testing]"]
+all = ["sparecores-data[testing]"]
 
 [tool.setuptools]
 include-package-data = true  # see MANIFEST.in
