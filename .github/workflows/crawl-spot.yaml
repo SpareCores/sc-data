@@ -39,6 +39,10 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
+      - name: Cache SQLite file
+        uses: actions/cache@v3
+        with:
+          path: ~/${FILE}
 
       - name: Get connection string for remote database
         run: |
@@ -48,9 +52,10 @@ jobs:
           export REMOTE_DB="postgresql://${DB_USER}:${DB_PASS_ENCODED}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
           echo "REMOTE_DB=${REMOTE_DB}" >> "$GITHUB_ENV"
       - name: Get current database
+        if: github.event.schedule == '0 * * * *' || github.event_name == 'workflow_dispatch'
         run: sc-crawler copy --source ${REMOTE_DB} --target sqlite:///${FILE}
       - name: Run SC Crawler on all resources once an hour
-        if: github.event.schedule == '0 * * * *'
+        if: github.event.schedule == '0 * * * *' || github.event_name == 'workflow_dispatch'
         run: sc-crawler pull --connection-string sqlite:///${FILE}
       - name: Run SC Crawler only for spot prices
         if: github.event.schedule == '5-55/5 * * * *'
@@ -75,7 +80,7 @@ jobs:
 
           FILE="sc-data-priceless.db"
           echo "Truncating $FILE..."
-          mv sc-data-all.db $FILE
+          cp sc-data-all.db $FILE
           sqlite3 $FILE "
             DELETE FROM server_price;
             DELETE FROM storage_price;
