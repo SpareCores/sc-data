@@ -27,6 +27,7 @@ jobs:
       - name: Cache uv
         uses: actions/cache@v4
         with:
+          key: uv
           path: ~/.cache/uv
       - name: Install uv
         uses: yezz123/setup-uv@v4
