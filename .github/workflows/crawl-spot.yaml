@@ -25,7 +25,10 @@ jobs:
         with:
           python-version: "3.10"
           cache: 'pip'
-      - uses: yezz123/setup-uv@v4
+      - name: Install uv
+        uses: yezz123/setup-uv@v4
+        with:
+          uv-venv: "sc_data"
       - name: Set up Python dependencies
         run: |
           uv pip install psycopg2
