@@ -42,7 +42,7 @@ jobs:
         uses: actions/cache@v3
         with:
           key: sc-data-current-sqlite
-          path: ~/${FILE}
+          path: sc-data-all.db
 
       - name: Get connection string for remote database
         run: |
