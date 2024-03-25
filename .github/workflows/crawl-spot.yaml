@@ -17,6 +17,7 @@ jobs:
       DB_USER: ${{ secrets.DB_USER }}
       DB_NAME: ${{ secrets.DB_NAME }}
       DB_REGION: us-west-2
+      COLUMNS: 120
     steps:
       - name: Checkout
         uses: actions/checkout@v4
