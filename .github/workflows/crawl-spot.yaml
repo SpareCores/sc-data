@@ -112,3 +112,13 @@ jobs:
 
       - name: New release
         run: echo "TODO implement later"
+
+  workflow-keepalive:
+    if: github.event.schedule == '0 * * * *'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: liskin/gh-workflow-keepalive@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
