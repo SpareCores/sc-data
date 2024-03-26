@@ -44,12 +44,6 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
-      - name: Cache SQLite file
-        id: cache-sqlite-restore
-        uses: actions/cache/restore@v4
-        with:
-          key: sc-data-current-sqlite
-          path: sc-data-all.db
 
       - name: Get connection string for remote database
         run: |
@@ -59,7 +53,6 @@ jobs:
           export REMOTE_DB="postgresql://${DB_USER}:${DB_PASS_ENCODED}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
           echo "REMOTE_DB=${REMOTE_DB}" >> "$GITHUB_ENV"
       - name: Get current database
-        if: github.event.schedule == '0 * * * *' || github.event_name == 'workflow_dispatch'
         run: sc-crawler copy --source ${REMOTE_DB} --target sqlite:///${FILE}
       - name: Run SC Crawler on all resources once an hour
         if: github.event.schedule == '0 * * * *' || github.event_name == 'workflow_dispatch'
@@ -121,12 +114,6 @@ jobs:
               --data "{\"text\": \"$FILE was updated on S3/DBHUB with the following hash: $LHASH\"}" \
               $SLACK_WEBHOOK
           fi
-      - name: Save SQLite file
-        id: cache-sqlite-save
-        uses: actions/cache/save@v4
-        with:
-          key: ${{ steps.cache-sqlite-restore.outputs.cache-primary-key }}
-          path: sc-data-all.db
 
       - name: New release
         run: echo "TODO implement later"
