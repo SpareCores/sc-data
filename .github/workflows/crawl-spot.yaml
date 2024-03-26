@@ -99,6 +99,7 @@ jobs:
             aws s3 cp "$FILE".bz2 "s3://$BUCKET/$FILE".bz2 --metadata="hash=$LHASH"
 
             # update DBHUB
+            GHARUNURL=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
             COMMIT=$(curl -s --fail-with-body -F apikey=${DBHUB_TOKEN} \
               -F dbowner=sparecores -F dbname=sc-data-priceless.db \
               https://api.dbhub.io/v1/commits | jq -r "to_entries|sort_by(.value.timestamp)|last|.key")
@@ -106,12 +107,12 @@ jobs:
             curl --fail-with-body -F apikey=$DBHUB_TOKEN -F dbname=$FILE \
               -F commitmsg="SC Crawler run on $(date '+%Y-%m-%d %H:%M:%S')" \
               -F commit=$COMMIT \
-              -F "sourceurl=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+              -F "sourceurl=$GHARUNURL" \
               -F file=@$FILE -F "branch=main" https://api.dbhub.io/v1/upload
 
             # note on Slack
             curl -X POST -H 'Content-type: application/json' \
-              --data "{\"text\": \"$FILE was updated on S3/DBHUB with the following hash: $LHASH\"}" \
+              --data "{\"text\": \"$FILE was <$GHARUNURL|updated> on S3/DBHUB with the following hash: $LHASH\"}" \
               $SLACK_WEBHOOK
           fi
 
