@@ -45,7 +45,8 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - name: Cache SQLite file
-        uses: actions/cache@v3
+        id: cache-sqlite-restore
+        uses: actions/cache/restore@v4
         with:
           key: sc-data-current-sqlite
           path: sc-data-all.db
@@ -120,6 +121,12 @@ jobs:
               --data "{\"text\": \"$FILE was updated on S3/DBHUB with the following hash: $LHASH\"}" \
               $SLACK_WEBHOOK
           fi
+      - name: Save SQLite file
+        id: cache-sqlite-save
+        uses: actions/cache/save@v4
+        with:
+          key: ${{ steps.cache-sqlite-restore.outputs.cache-primary-key }}
+          path: sc-data-all.db
 
       - name: New release
         run: echo "TODO implement later"
