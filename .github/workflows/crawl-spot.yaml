@@ -45,6 +45,13 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
+      - name: Load cached SQLite file
+        id: cache-sqlite-restore
+        uses: actions/cache/restore@v4
+        with:
+          key: sc-data-current-sqlite
+          path: sc-data-all.db
+
       - name: Get connection string for remote database
         run: |
           export DB_PASS="$( aws --region ${DB_REGION} rds generate-db-auth-token --hostname ${DB_HOST} --port ${DB_PORT} --username ${DB_USER} )"
@@ -52,9 +59,10 @@ jobs:
           export DB_PASS_ENCODED="$( jq -rn --arg x $DB_PASS '$x|@uri' )"
           export REMOTE_DB="postgresql://${DB_USER}:${DB_PASS_ENCODED}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
           echo "REMOTE_DB=${REMOTE_DB}" >> "$GITHUB_ENV"
-      - name: Get current database
+      - name: Get current database hourly or if not cached
+        if: github.event.schedule == '0 * * * *' || steps.cache-sqlite-restore.outputs.cache-hit != 'true'
         run: sc-crawler copy --source ${REMOTE_DB} --target sqlite:///${FILE}
-      - name: Run SC Crawler on all resources once an hour
+      - name: Run SC Crawler on all resources once an hour or on manual request
         if: github.event.schedule == '0 * * * *' || github.event_name == 'workflow_dispatch'
         run: sc-crawler pull --connection-string sqlite:///${FILE}
       - name: Run SC Crawler only for spot prices
@@ -115,6 +123,15 @@ jobs:
               --data "{\"text\": \"$FILE was <$GHARUNURL|updated> on S3/DBHUB with the following hash: $LHASH\"}" \
               $SLACK_WEBHOOK
           fi
+
+      - name: Clear SQLite file cache
+        run: gh cache delete sc-data-current-sqlite
+      - name: Save SQLite file
+        id: cache-sqlite-save
+        uses: actions/cache/save@v4
+        with:
+          key: sc-data-current-sqlite
+          path: sc-data-all.db
 
       - name: New release
         run: echo "TODO implement later"
