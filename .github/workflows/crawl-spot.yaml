@@ -125,6 +125,8 @@ jobs:
           fi
 
       - name: Clear SQLite file cache
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: gh cache delete sc-data-current-sqlite
       - name: Save SQLite file
         id: cache-sqlite-save
