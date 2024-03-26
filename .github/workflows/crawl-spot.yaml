@@ -125,6 +125,7 @@ jobs:
           fi
 
       - name: Clear SQLite file cache
+        if: steps.cache-sqlite-restore.outputs.cache-hit == 'true'
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: gh cache delete sc-data-current-sqlite
