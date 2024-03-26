@@ -146,4 +146,4 @@ jobs:
     steps:
       - uses: liskin/gh-workflow-keepalive@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
