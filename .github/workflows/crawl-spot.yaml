@@ -126,7 +126,7 @@ jobs:
 
       - name: Clear SQLite file cache
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: gh cache delete sc-data-current-sqlite
       - name: Save SQLite file
         id: cache-sqlite-save
@@ -146,4 +146,4 @@ jobs:
     steps:
       - uses: liskin/gh-workflow-keepalive@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
