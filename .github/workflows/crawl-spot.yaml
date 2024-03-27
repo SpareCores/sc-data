@@ -54,10 +54,10 @@ jobs:
 
       - name: Get connection string for remote database
         run: |
-          export DB_PASS="$( aws --region ${DB_REGION} rds generate-db-auth-token --hostname ${DB_HOST} --port ${DB_PORT} --username ${DB_USER} )"
+          DB_PASS="$( aws --region ${DB_REGION} rds generate-db-auth-token --hostname ${DB_HOST} --port ${DB_PORT} --username ${DB_USER} )"
           # URL-encode the IAM RDS token
-          export DB_PASS_ENCODED="$( jq -rn --arg x $DB_PASS '$x|@uri' )"
-          export REMOTE_DB="postgresql://${DB_USER}:${DB_PASS_ENCODED}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
+          DB_PASS_ENCODED="$( jq -rn --arg x ${DB_PASS} '$x|@uri' )"
+          REMOTE_DB="postgresql://${DB_USER}:${DB_PASS_ENCODED}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
           echo "REMOTE_DB=${REMOTE_DB}" >> "$GITHUB_ENV"
       - name: Get current database hourly or if not cached
         if: github.event.schedule == '0 * * * *' || steps.cache-sqlite-restore.outputs.cache-hit != 'true'
