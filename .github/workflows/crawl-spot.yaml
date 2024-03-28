@@ -74,7 +74,7 @@ jobs:
         continue-on-error: true
         run: |
           sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd
-          psql "host={DB_HOST} port=${DB_PORT} dbname=${DB_NAME} user=${DB_USER} sslmode=require" -c "VACUUM ANALYZE"
+          psql "host=${DB_HOST} port=${DB_PORT} dbname=${DB_NAME} user=${DB_USER} sslmode=require" -c "VACUUM ANALYZE"
       - name: Sync back (retry with renewed IAM tokan if needed)
         if: steps.sync-back.outcome == 'failure'
         run: |
