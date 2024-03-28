@@ -54,10 +54,11 @@ jobs:
 
       - name: Get connection string for remote database
         run: |
-          DB_PASS="$( aws --region ${DB_REGION} rds generate-db-auth-token --hostname ${DB_HOST} --port ${DB_PORT} --username ${DB_USER} )"
+          PGPASSWORD="$( aws --region ${DB_REGION} rds generate-db-auth-token --hostname ${DB_HOST} --port ${DB_PORT} --username ${DB_USER} )"
           # URL-encode the IAM RDS token
-          DB_PASS_ENCODED="$( jq -rn --arg x ${DB_PASS} '$x|@uri' )"
+          DB_PASS_ENCODED="$( jq -rn --arg x ${PGPASSWORD} '$x|@uri' )"
           REMOTE_DB="postgresql://${DB_USER}:${DB_PASS_ENCODED}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
+          echo "PGPASSWORD=${PGPASSWORD}" >> "$GITHUB_ENV"
           echo "REMOTE_DB=${REMOTE_DB}" >> "$GITHUB_ENV"
       - name: Get current database hourly or if not cached
         if: github.event.schedule == '0 * * * *' || steps.cache-sqlite-restore.outputs.cache-hit != 'true'
@@ -71,13 +72,15 @@ jobs:
       - name: Sync back
         id: sync-back
         continue-on-error: true
-        run: sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd
+        run: |
+          sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd
+          psql "host={DB_HOST} port=${DB_PORT} dbname=${DB_NAME} user=${DB_USER} sslmode=require" -c "VACUUM ANALYZE"
       - name: Sync back (retry with renewed IAM tokan if needed)
         if: steps.sync-back.outcome == 'failure'
         run: |
-          DB_PASS="$( aws --region ${DB_REGION} rds generate-db-auth-token --hostname ${DB_HOST} --port ${DB_PORT} --username ${DB_USER} )"
+          PGPASSWORD="$( aws --region ${DB_REGION} rds generate-db-auth-token --hostname ${DB_HOST} --port ${DB_PORT} --username ${DB_USER} )"
           # URL-encode the IAM RDS token
-          DB_PASS_ENCODED="$( jq -rn --arg x ${DB_PASS} '$x|@uri' )"
+          DB_PASS_ENCODED="$( jq -rn --arg x ${PGPASSWORD} '$x|@uri' )"
           REMOTE_DB="postgresql://${DB_USER}:${DB_PASS_ENCODED}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
           sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd
 
