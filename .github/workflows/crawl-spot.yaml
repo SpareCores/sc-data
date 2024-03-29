@@ -16,7 +16,7 @@ jobs:
       DB_PORT: ${{ secrets.DB_PORT }}
       DB_USER: ${{ secrets.DB_USER }}
       DB_NAME: ${{ secrets.DB_NAME }}
-      DB_REGION: us-west-2
+      DB_REGION: ${{ secrets.DB_REGION }}
       COLUMNS: 160
     steps:
       - name: Checkout
