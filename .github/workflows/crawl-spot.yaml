@@ -71,19 +71,9 @@ jobs:
         run: sc-crawler pull --connection-string sqlite:///${FILE} --include-records server_prices_spot
       - name: Sync back
         id: sync-back
-        continue-on-error: true
         run: |
-          psql "host=${DB_HOST} port=${DB_PORT} dbname=${DB_NAME} user=${DB_USER} sslmode=require" -c "select 1"
           sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd
           psql "host=${DB_HOST} port=${DB_PORT} dbname=${DB_NAME} user=${DB_USER} sslmode=require" -c "VACUUM ANALYZE"
-      - name: Sync back (retry with renewed IAM tokan if needed)
-        if: steps.sync-back.outcome == 'failure'
-        run: |
-          PGPASSWORD="$( aws --region ${DB_REGION} rds generate-db-auth-token --hostname ${DB_HOST} --port ${DB_PORT} --username ${DB_USER} )"
-          # URL-encode the IAM RDS token
-          DB_PASS_ENCODED="$( jq -rn --arg x ${PGPASSWORD} '$x|@uri' )"
-          REMOTE_DB="postgresql://${DB_USER}:${DB_PASS_ENCODED}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
-          sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd
 
       - name: Upload if changed
         env:
