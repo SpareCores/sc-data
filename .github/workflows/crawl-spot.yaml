@@ -58,6 +58,7 @@ jobs:
           # URL-encode the IAM RDS token
           DB_PASS_ENCODED="$( jq -rn --arg x ${PGPASSWORD} '$x|@uri' )"
           REMOTE_DB="postgresql://${DB_USER}:${DB_PASS_ENCODED}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
+          echo "::add-mask::$PGPASSWORD"
           echo "PGPASSWORD=${PGPASSWORD}" >> "$GITHUB_ENV"
           echo "REMOTE_DB=${REMOTE_DB}" >> "$GITHUB_ENV"
       - name: Get current database hourly or if not cached
