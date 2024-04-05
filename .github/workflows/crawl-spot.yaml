@@ -81,7 +81,6 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           DBHUB_TOKEN: ${{ secrets.DBHUB_TOKEN }}
         run: |
-          GHARUNURL=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
           echo "Updating $FILE..."
           RHASH=$(aws s3api head-object --bucket $BUCKET --key $FILE.bz2 --query "Metadata.hash" --output=text)
           echo "Last known hash in S3: $RHASH"
@@ -113,6 +112,7 @@ jobs:
             aws s3 cp "$FILE".bz2 "s3://$BUCKET/$FILE".bz2 --metadata="hash=$LHASH"
 
             # update DBHUB
+            GHARUNURL=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
             COMMIT=$(curl -s --fail-with-body -F apikey=${DBHUB_TOKEN} \
               -F dbowner=sparecores -F dbname=sc-data-priceless.db \
               https://api.dbhub.io/v1/commits | jq -r "to_entries|sort_by(.value.timestamp)|last|.key")
