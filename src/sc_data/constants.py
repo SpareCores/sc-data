@@ -1,6 +1,6 @@
 import importlib.resources
 
-PKG_DB_FILE = "data/sc-data-all.db"
+PKG_DB_FILE = "data/sc-data-priceless.db"
 PKG_DB_HASH = "data/db_hash"
 DB_PATH = importlib.resources.files(__name__.split(".")[0]).joinpath(PKG_DB_FILE)
 DB_HASH = (

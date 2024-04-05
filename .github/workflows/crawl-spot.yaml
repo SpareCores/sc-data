@@ -73,7 +73,7 @@ jobs:
       - name: Sync back
         id: sync-back
         run: |
-          sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd
+          sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd --log-changes-path changes.log --log-changes-tables country --log-changes-tables compliance_framework --log-changes-tables vendor --log-changes-tables vendor_compliance_link --log-changes-tables datacenter --log-changes-tables zone --log-changes-tables storage --log-changes-tables server
           psql "host=${DB_HOST} port=${DB_PORT} dbname=${DB_NAME} user=${DB_USER} sslmode=require" -c "VACUUM ANALYZE"
 
       - name: Upload if changed
@@ -81,6 +81,7 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           DBHUB_TOKEN: ${{ secrets.DBHUB_TOKEN }}
         run: |
+          GHARUNURL=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
           echo "Updating $FILE..."
           RHASH=$(aws s3api head-object --bucket $BUCKET --key $FILE.bz2 --query "Metadata.hash" --output=text)
           echo "Last known hash in S3: $RHASH"
@@ -112,7 +113,6 @@ jobs:
             aws s3 cp "$FILE".bz2 "s3://$BUCKET/$FILE".bz2 --metadata="hash=$LHASH"
 
             # update DBHUB
-            GHARUNURL=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
             COMMIT=$(curl -s --fail-with-body -F apikey=${DBHUB_TOKEN} \
               -F dbowner=sparecores -F dbname=sc-data-priceless.db \
               https://api.dbhub.io/v1/commits | jq -r "to_entries|sort_by(.value.timestamp)|last|.key")
@@ -128,6 +128,10 @@ jobs:
               --data "{\"text\": \"$FILE was <$GHARUNURL|updated> on S3/DBHUB with the following hash: $LHASH\"}" \
               $SLACK_WEBHOOK
           fi
+          ## pass required env vars and files for later steps
+          echo "GHARUNURL=${GHARUNURL}" >> "$GITHUB_ENV"
+          cp sc-data-priceless.db src/sc_data/data/sc-data-priceless.db
+          echo $LHASH > src/sc_data/data/db_hash
 
       - name: Clear SQLite file cache
         if: steps.cache-sqlite-restore.outputs.cache-hit == 'true'
@@ -141,8 +145,23 @@ jobs:
           key: sc-data-current-sqlite
           path: sc-data-all.db
 
-      - name: New release
-        run: echo "TODO implement later"
+      - name: Generate the commit message
+        id: generate-commit-message
+        run: |
+          echo 'message<<EOF' >> $GITHUB_OUTPUT
+          echo -e "Inventory changes found at $GHARUNURL\n\n" >> $GITHUB_OUTPUT
+          cat changes.log >> $GITHUB_OUTPUT
+          echo 'EOF' >> $GITHUB_OUTPUT
+
+          SCDATAV=$(python -c "from importlib.metadata import version; print(version('sc_data'))")
+          DATE=$(date '+%Y%m%d%H%M%S')
+          echo "tag=v$SCDATAV+$DATE" >> $GITHUB_OUTPUT
+      - name: Commit priceless SQLite changes to the repo
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: ${{ steps.generate-commit-message.outputs.message }}
+          file_pattern: "src/sc_data/data/*"
+          tagging_message: ${{ steps.generate-commit-message.outputs.tag }}
 
   workflow-keepalive:
     if: github.event.schedule == '0 * * * *'
