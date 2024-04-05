@@ -127,11 +127,26 @@ jobs:
             curl -X POST -H 'Content-type: application/json' \
               --data "{\"text\": \"$FILE was <$GHARUNURL|updated> on S3/DBHUB with the following hash: $LHASH\"}" \
               $SLACK_WEBHOOK
+
+            # update CHANGELOG
+            SCDATAV=$(python -c "from importlib.metadata import version; print(version('sc_data'))")
+            DATE=$(date '+%Y%m%d%H%M%S')
+            NEWVERSION="v$SCDATAV+$DATE"
+            echo "## $NEWVERSION ($(date '+%b %m, %Y'))" > CHANGELOG.new
+            echo -e "\nThis is an automated release with $(cat changes.log| grep '^-'|wc -l) new/updated/deleted resources. Job was run at ${GHARUNURL}" > CHANGELOG.new >> CHANGELOG.new
+            echo "" >> CHANGELOG.new
+            cat changes.log >> CHANGELOG.new
+            echo "" >> CHANGELOG.new
+            cat CHANGELOG.md >> CHANGELOG.new
+            mv CHANGELOG.new CHANGELOG.md
+
+            # pass required env vars and files for later steps
+            cp sc-data-priceless.db src/sc_data/data/sc-data-priceless.db
+            echo $LHASH > src/sc_data/data/db_hash
+            echo "GHARUNURL=${GHARUNURL}" >> "$GITHUB_ENV"
+            echo "NEWVERSION=${NEWVERSION}" >> "$GITHUB_ENV"
+
           fi
-          ## pass required env vars and files for later steps
-          echo "GHARUNURL=${GHARUNURL}" >> "$GITHUB_ENV"
-          cp sc-data-priceless.db src/sc_data/data/sc-data-priceless.db
-          echo $LHASH > src/sc_data/data/db_hash
 
       - name: Clear SQLite file cache
         if: steps.cache-sqlite-restore.outputs.cache-hit == 'true'
@@ -148,14 +163,11 @@ jobs:
       - name: Generate the commit message
         id: generate-commit-message
         run: |
+          echo "tag=$NEWVERSION" >> $GITHUB_OUTPUT
           echo 'message<<EOF' >> $GITHUB_OUTPUT
           echo -e "Inventory changes found at $GHARUNURL\n\n" >> $GITHUB_OUTPUT
           cat changes.log >> $GITHUB_OUTPUT
           echo 'EOF' >> $GITHUB_OUTPUT
-
-          SCDATAV=$(python -c "from importlib.metadata import version; print(version('sc_data'))")
-          DATE=$(date '+%Y%m%d%H%M%S')
-          echo "tag=v$SCDATAV+$DATE" >> $GITHUB_OUTPUT
       - name: Commit priceless SQLite changes to the repo
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
