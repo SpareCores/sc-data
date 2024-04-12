@@ -176,6 +176,12 @@ jobs:
           commit_message: ${{ steps.generate-commit-message.outputs.message }}
           file_pattern: "src/sc_data/data/*"
           tagging_message: ${{ steps.generate-commit-message.outputs.tag }}
+      - name: Archive changes
+        uses: actions/upload-artifact@v4
+        with:
+          name: changes
+          path: |
+            changes.log
 
   workflow-keepalive:
     if: github.event.schedule == '0 * * * *'
