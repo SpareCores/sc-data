@@ -39,6 +39,7 @@ jobs:
         run: |
           uv pip install psycopg2
           uv pip install "sparecores-crawler[all] @ git+https://github.com/SpareCores/sc-crawler"
+          uv pip install -e .
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
