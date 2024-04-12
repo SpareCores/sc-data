@@ -178,12 +178,15 @@ jobs:
           commit_message: ${{ steps.generate-commit-message.outputs.message }}
           file_pattern: "src/sc_data/data/*"
           tagging_message: ${{ steps.generate-commit-message.outputs.tag }}
-      - name: Archive changes
+      - name: Archive pricess
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: changes
+          name: priceless-data-and-changes
+          compression-level: 0
           path: |
             changes.log
+            sc-data-priceless.db.bz2
 
   workflow-keepalive:
     if: github.event.schedule == '0 * * * *'
