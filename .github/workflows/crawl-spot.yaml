@@ -65,7 +65,9 @@ jobs:
           echo "REMOTE_DB=${REMOTE_DB}" >> "$GITHUB_ENV"
       - name: Get current database hourly or if not cached
         if: github.event.schedule == '0 * * * *' || steps.cache-sqlite-restore.outputs.cache-hit != 'true'
-        run: sc-crawler copy --source ${REMOTE_DB} --target sqlite:///${FILE}
+        run: |
+          rm -f ${FILE}
+          sc-crawler copy --source ${REMOTE_DB} --target sqlite:///${FILE}
       - name: Run SC Crawler on all resources once an hour or on manual request
         if: github.event.schedule == '0 * * * *' || github.event_name == 'workflow_dispatch'
         run: sc-crawler pull --connection-string sqlite:///${FILE}
