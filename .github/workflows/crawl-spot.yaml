@@ -17,6 +17,7 @@ jobs:
       DB_USER: ${{ secrets.DB_USER }}
       DB_NAME: ${{ secrets.DB_NAME }}
       DB_REGION: ${{ secrets.DB_REGION }}
+      HCLOUD_TOKEN: ${{ secrets.HCLOUD_TOKEN }}
       COLUMNS: 160
     steps:
       - name: Checkout
