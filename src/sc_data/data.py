@@ -90,6 +90,9 @@ class Data(threading.Thread):
                 self.actual_db_hash = db_hash
             close_tmpfiles(self.tmpfiles)
             self.tmpfiles.append(tmpfile)
+            logging.debug("Updated database to hash %s", db_hash)
+        else:
+            logging.debug("No need to udpate database")
 
     def run(self):
         """Start the update thread if no_update is not set."""
