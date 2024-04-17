@@ -16,6 +16,7 @@ dependencies = [
     "requests",
     "safe_exit",
 ]
+keywords = ["cloud", "compute", "etl", "sqlite", "spot-instances", "cost-optimization"]
 classifiers = [
   "Programming Language :: Python :: 3",
   "Operating System :: OS Independent",
@@ -23,8 +24,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/SpareCores/sc-data"
-Issues = "https://github.com/SpareCores/sc-data/issues"
+repository = "https://github.com/SpareCores/sc-data"
+issues = "https://github.com/SpareCores/sc-data/issues"
+homepage = "https://sparecores.com"
 
 [project.optional-dependencies]
 testing = ["pytest", "sqlalchemy"]
