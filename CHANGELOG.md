@@ -1,4 +1,4 @@
-## v0.0.1+20240425000848 (Apr 04, 2024)
+## v0.1.0+20240425000848 (Apr 04, 2024)
 
 This is an automated release with 456 new/updated/deleted resources.
 Job was run at https://github.com/SpareCores/sc-data/actions/runs/8823650106/job/24224539869
@@ -480,7 +480,7 @@ Job was run at https://github.com/SpareCores/sc-data/actions/runs/8823650106/job
 - New: gcp/9905090
 - New: gcp/1741005
 
-## v0.0.1+20240425000848 (Apr 04, 2024)
+## v0.1.0+20240425000848 (Apr 04, 2024)
 
 This is an automated release with 820 new/updated/deleted resources.
 Job was run at https://github.com/SpareCores/sc-data/actions/runs/8661347379
