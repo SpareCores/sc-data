@@ -137,7 +137,7 @@ jobs:
               $SLACK_WEBHOOK
 
             # update CHANGELOG
-            SCDATAV=$(python -c "from importlib.metadata import version; print(version('sc_data'))")
+            SCDATAV=$(python -c "from importlib.metadata import version; print(version('sparecores-data'))")
             DATE=$(date '+%Y%m%d%H%M%S')
             NEWVERSION="v$SCDATAV+$DATE"
             echo "## $NEWVERSION ($(date '+%b %m, %Y'))" > CHANGELOG.new
