@@ -1,3 +1,13 @@
+## v0.1.3+20240513182814
+
+Inventory changes found at https://github.com/SpareCores/sc-data/actions/runs/9067897828
+
+### server
+
+- New: aws/c7i-flex.xlarge
+- New: aws/c7i-flex.large
+- New: aws/c7i-flex.4xlarge
+
 ## v0.1.3+20240509214913
 
 This is an automated release with 1155 new/updated/deleted resources.
