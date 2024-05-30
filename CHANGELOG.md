@@ -1,3 +1,17 @@
+## v0.1.3+20240528142450
+
+Inventory changes found at the below runs:
+
+- https://github.com/SpareCores/sc-data/actions/runs/9067897828
+- https://github.com/SpareCores/sc-data/actions/runs/9271046123
+
+### server
+
+- New: aws/u7i-12tb.224xlarge
+- New: aws/u7in-16tb.224xlarge
+- New: aws/u7in-24tb.224xlarge
+- New: aws/u7in-32tb.224xlarge
+
 ## v0.1.3+20240513182814
 
 Inventory changes found at https://github.com/SpareCores/sc-data/actions/runs/9067897828
