@@ -10,7 +10,7 @@ jobs:
   crawl:
     permissions:
       # for the stefanzweifel/git-auto-commit-action step
-      actions: write
+      contents: write
     runs-on: ubuntu-latest
     env:
       BUCKET: sc-data-public-40e9d310
