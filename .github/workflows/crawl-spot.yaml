@@ -143,7 +143,7 @@ jobs:
             SCDATAV=$(python -c "from importlib.metadata import version; print(version('sparecores-data'))")
             DATE=$(date '+%Y%m%d%H%M%S')
             NEWVERSION="v$SCDATAV+$DATE"
-            echo "## $NEWVERSION ($(date '+%b %m, %Y'))" > CHANGELOG.new
+            echo "## $NEWVERSION ($(date '+%b %d, %Y'))" > CHANGELOG.new
             echo -e "\nThis is an automated release with $(cat changes.log| grep '^-'|wc -l) new/updated/deleted resources.\nJob was run at ${GHARUNURL}" >> CHANGELOG.new
             echo "" >> CHANGELOG.new
             cat changes.log >> CHANGELOG.new
