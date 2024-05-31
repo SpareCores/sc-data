@@ -183,7 +183,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: ${{ steps.generate-commit-message.outputs.message }}
-          file_pattern: "src/sc_data/data/*"
+          file_pattern: "CHANGELOG.md src/sc_data/data/*"
           tagging_message: ${{ steps.generate-commit-message.outputs.tag }}
       - name: Archive pricess
         if: always()

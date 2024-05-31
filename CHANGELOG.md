@@ -1,3 +1,44 @@
+## v0.1.3+20240530232638
+
+Inventory changes found at https://github.com/SpareCores/sc-data/actions/runs/9310430977
+
+### server
+
+New: gcp/1760016
+New: gcp/1760192
+New: gcp/1760002
+New: gcp/1760032
+New: gcp/1760004
+New: gcp/1760048
+New: gcp/1760008
+New: gcp/1760096
+New: gcp/1761016
+New: gcp/1761192
+New: gcp/1761002
+New: gcp/1761032
+New: gcp/1761004
+New: gcp/1761048
+New: gcp/1761008
+New: gcp/1761096
+New: gcp/1762016
+New: gcp/1762192
+New: gcp/1762002
+New: gcp/1762032
+New: gcp/1762004
+New: gcp/1762048
+New: gcp/1762008
+New: gcp/1762096
+
+## v0.1.3+20240530132715
+
+Inventory changes found at https://github.com/SpareCores/sc-data/actions/runs/9303286648
+
+### server
+
+New: gcp/9904364
+New: gcp/9904365
+New: gcp/9904363
+
 ## v0.1.3+20240528142450
 
 Inventory changes found at the below runs:
