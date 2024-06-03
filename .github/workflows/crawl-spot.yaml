@@ -41,7 +41,7 @@ jobs:
       - name: Set up Python dependencies
         run: |
           uv pip install psycopg2
-          uv pip install "sparecores-crawler[all]==0.1.3"
+          uv pip install "sparecores-crawler[all]==0.2.0"
           uv pip install -e .
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -110,6 +110,7 @@ jobs:
             DELETE FROM storage_price;
             DELETE FROM traffic_price;
             DELETE FROM ipv4_price;
+            DELETE FROM benchmark_score;
             VACUUM;"
           echo "Updating $FILE..."
           RHASH=$(aws s3api head-object --bucket $BUCKET --key $FILE.bz2 --query "Metadata.hash" --output=text)
