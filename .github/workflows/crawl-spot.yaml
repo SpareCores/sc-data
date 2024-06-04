@@ -12,6 +12,8 @@ jobs:
       # for the stefanzweifel/git-auto-commit-action step
       contents: write
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}
     env:
       BUCKET: sc-data-public-40e9d310
       FILE: sc-data-all.db
