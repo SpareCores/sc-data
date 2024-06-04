@@ -84,7 +84,7 @@ jobs:
       - name: Sync back
         id: sync-back
         run: |
-          sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd --log-changes-path changes.log --log-changes-tables country --log-changes-tables compliance_framework --log-changes-tables vendor --log-changes-tables vendor_compliance_link --log-changes-tables datacenter --log-changes-tables zone --log-changes-tables storage --log-changes-tables server
+          sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd --log-changes-path changes.log --log-changes-tables country --log-changes-tables compliance_framework --log-changes-tables vendor --log-changes-tables vendor_compliance_link --log-changes-tables region --log-changes-tables zone --log-changes-tables storage --log-changes-tables server
           psql "host=${DB_HOST} port=${DB_PORT} dbname=${DB_NAME} user=${DB_USER} sslmode=require" -c "VACUUM ANALYZE"
 
       - name: Upload if changed
