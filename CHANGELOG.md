@@ -1,3 +1,13 @@
+## v0.2.1+20240604222339 (Jun 04, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9374954666
+
+
+### server
+
+- Update: aws/a1.metal
+
 ## v0.2.1+20240604182800 (Jun 04, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
