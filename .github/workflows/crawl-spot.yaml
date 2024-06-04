@@ -41,7 +41,7 @@ jobs:
       - name: Set up Python dependencies
         run: |
           uv pip install psycopg2
-          uv pip install "sparecores-crawler[all]==0.2.0"
+          uv pip install "sparecores-crawler[all]==0.2.1"
           uv pip install -e .
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4

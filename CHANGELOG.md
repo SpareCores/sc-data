@@ -1,3 +1,7 @@
+## v0.2.1 (June 4, 2024)
+
+Updated schema of the collected data via `sparecores-crawler` v0.2.1.
+
 ## v0.2.0 (June 4, 2024)
 
 Updated schema of the collected data via `sparecores-crawler` v0.2.0.
@@ -6,7 +10,6 @@ Updated schema of the collected data via `sparecores-crawler` v0.2.0.
 
 This is an automated release with 27 new/updated/deleted resources.
 Job was run at https://github.com/SpareCores/sc-data/actions/runs/9323851444
-
 
 ### server
 
