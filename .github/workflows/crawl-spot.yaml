@@ -148,7 +148,8 @@ jobs:
             NEWVERSION="v$SCDATAV+$DATE"
             NEWVERSIONDATE="$NEWVERSION ($(date '+%b %d, %Y'))"
             echo "## ${NEWVERSIONDATE}" > CHANGELOG.new
-            echo -e "\nThis is an automated release with $(cat changes.log| grep '^-'|wc -l) new/updated/deleted resources.\nJob was run at ${GHARUNURL}" >> CHANGELOG.new
+            CHANGESFOUND="\nThis is an automated release with $(cat changes.log| grep '^-'|wc -l) new/updated/deleted resources.\nJob was run at ${GHARUNURL}"
+            echo -e "${CHANGESFOUND}" >> CHANGELOG.new
             echo "" >> CHANGELOG.new
             cat changes.log >> CHANGELOG.new
             echo "" >> CHANGELOG.new
@@ -158,6 +159,7 @@ jobs:
             # pass required env vars and files for later steps
             cp sc-data-priceless.db src/sc_data/data/sc-data-priceless.db
             echo $LHASH > src/sc_data/data/db_hash
+            echo "CHANGESFOUND=${CHANGESFOUND}" >> "$GITHUB_ENV"
             echo "GHARUNURL=${GHARUNURL}" >> "$GITHUB_ENV"
             echo "NEWVERSION=${NEWVERSION}" >> "$GITHUB_ENV"
             echo "NEWVERSIONDATE=${NEWVERSIONDATE}" >> "$GITHUB_ENV"
@@ -181,7 +183,7 @@ jobs:
         run: |
           echo "tag=$NEWVERSION" >> $GITHUB_OUTPUT
           echo 'message<<EOF' >> $GITHUB_OUTPUT
-          echo -e "Inventory changes found at $GHARUNURL\n\n" >> $GITHUB_OUTPUT
+          echo -e "$CHANGESFOUND\n\n" >> $GITHUB_OUTPUT
           cat changes.log >> $GITHUB_OUTPUT
           echo 'EOF' >> $GITHUB_OUTPUT
       - name: Commit priceless SQLite changes to the repo
