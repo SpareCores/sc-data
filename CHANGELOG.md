@@ -1,3 +1,22 @@
+## v0.2.1+20240605102401 (Jun 05, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9382331245
+
+
+### server
+
+- Update: aws/a1.2xlarge
+- Update: aws/a1.4xlarge
+- Update: aws/a1.large
+- Update: aws/a1.medium
+- Update: aws/a1.xlarge
+- Update: aws/c1.xlarge
+- Update: aws/c3.2xlarge
+- Update: aws/c3.4xlarge
+- Update: aws/c3.8xlarge
+- Update: aws/c3.xlarge
+
 ## v0.2.1+20240605085844 (Jun 05, 2024)
 
 This is an automated release with 0 new/updated/deleted resources.
