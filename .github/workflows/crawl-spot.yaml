@@ -146,7 +146,8 @@ jobs:
             SCDATAV=$(python -c "from importlib.metadata import version; print(version('sparecores-data'))")
             DATE=$(date '+%Y%m%d%H%M%S')
             NEWVERSION="v$SCDATAV+$DATE"
-            echo "## $NEWVERSION ($(date '+%b %d, %Y'))" > CHANGELOG.new
+            NEWVERSIONDATE="$NEWVERSION ($(date '+%b %d, %Y'))"
+            echo "## ${NEWVERSIONDATE}" > CHANGELOG.new
             echo -e "\nThis is an automated release with $(cat changes.log| grep '^-'|wc -l) new/updated/deleted resources.\nJob was run at ${GHARUNURL}" >> CHANGELOG.new
             echo "" >> CHANGELOG.new
             cat changes.log >> CHANGELOG.new
@@ -159,6 +160,7 @@ jobs:
             echo $LHASH > src/sc_data/data/db_hash
             echo "GHARUNURL=${GHARUNURL}" >> "$GITHUB_ENV"
             echo "NEWVERSION=${NEWVERSION}" >> "$GITHUB_ENV"
+            echo "NEWVERSIONDATE=${NEWVERSIONDATE}" >> "$GITHUB_ENV"
 
           fi
 
@@ -184,10 +186,18 @@ jobs:
           echo 'EOF' >> $GITHUB_OUTPUT
       - name: Commit priceless SQLite changes to the repo
         uses: stefanzweifel/git-auto-commit-action@v5
+        id: auto-commit-action
         with:
           commit_message: ${{ steps.generate-commit-message.outputs.message }}
           file_pattern: "CHANGELOG.md src/sc_data/data/*"
           tagging_message: ${{ steps.generate-commit-message.outputs.tag }}
+      - name: Make release after new changes
+        uses: softprops/action-gh-release@v2
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        with:
+          tag_name: ${{ steps.generate-commit-message.outputs.tag }}
+          name: ${{env.NEWVERSIONDATE}}
+          body: ${{ steps.generate-commit-message.outputs.message }}
       - name: Archive pricess
         if: always()
         uses: actions/upload-artifact@v4
