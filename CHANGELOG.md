@@ -1,3 +1,30 @@
+## v0.2.1+20240606172625 (Jun 06, 2024)
+
+This is an automated release with 18 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9405114642
+
+
+### server
+
+- Update: gcp/9904363
+- Update: gcp/9904364
+- Update: gcp/9904365
+- Update: aws/c7g.medium
+- Update: aws/c7g.metal
+- Update: aws/c7gn.12xlarge
+- Update: aws/c7gn.16xlarge
+- Update: aws/c7gn.2xlarge
+- Update: aws/c7gn.4xlarge
+- Update: aws/c7gn.8xlarge
+- Update: aws/c7gn.large
+- Update: aws/c7gn.medium
+- Update: aws/c7gn.metal
+- Update: aws/c7gn.xlarge
+- Update: aws/c7g.xlarge
+- Update: aws/c7i.12xlarge
+- Update: aws/c7i.16xlarge
+- Update: aws/c7i.24xlarge
+
 ## v0.2.1+20240606162755 (Jun 06, 2024)
 
 This is an automated release with 9 new/updated/deleted resources.
