@@ -1,3 +1,121 @@
+## v0.2.1+20240606112144 (Jun 06, 2024)
+
+This is an automated release with 109 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9399889705
+
+
+### server
+
+- New: hcloud/104
+- New: hcloud/105
+- New: hcloud/106
+- New: hcloud/107
+- Update: hcloud/1
+- Update: hcloud/3
+- Update: hcloud/5
+- Update: hcloud/7
+- Update: hcloud/9
+- Update: aws/c1.medium
+- Update: aws/c3.large
+- Update: aws/c4.2xlarge
+- Update: aws/c4.4xlarge
+- Update: aws/c4.8xlarge
+- Update: aws/c4.large
+- Update: aws/c4.xlarge
+- Update: aws/c5.12xlarge
+- Update: aws/c5.18xlarge
+- Update: aws/c5.24xlarge
+- Update: aws/c5.2xlarge
+- Update: aws/c5.4xlarge
+- Update: aws/c5.9xlarge
+- Update: aws/c5a.12xlarge
+- Update: aws/c5a.16xlarge
+- Update: aws/c5a.24xlarge
+- Update: aws/c5a.2xlarge
+- Update: aws/c5a.4xlarge
+- Update: aws/c5a.8xlarge
+- Update: aws/c5ad.12xlarge
+- Update: aws/c5ad.16xlarge
+- Update: aws/c5ad.24xlarge
+- Update: aws/c5ad.2xlarge
+- Update: aws/c5ad.4xlarge
+- Update: aws/c5ad.8xlarge
+- Update: aws/c5ad.large
+- Update: aws/c5ad.xlarge
+- Update: aws/c5a.large
+- Update: aws/c5a.xlarge
+- Update: aws/c5d.12xlarge
+- Update: aws/c5d.18xlarge
+- Update: aws/c5d.24xlarge
+- Update: aws/c5d.2xlarge
+- Update: aws/c5d.4xlarge
+- Update: aws/c5d.9xlarge
+- Update: aws/c5d.large
+- Update: aws/c5d.metal
+- Update: aws/c5d.xlarge
+- Update: aws/c5.large
+- Update: aws/c5.metal
+- Update: aws/c5n.18xlarge
+- Update: aws/c5n.2xlarge
+- Update: aws/c5n.4xlarge
+- Update: aws/c5n.9xlarge
+- Update: aws/c5n.large
+- Update: aws/c5n.metal
+- Update: aws/c5n.xlarge
+- Update: aws/c5.xlarge
+- Update: aws/c6a.12xlarge
+- Update: aws/c6a.16xlarge
+- Update: aws/c6a.24xlarge
+- Update: aws/c6a.2xlarge
+- Update: aws/c6a.32xlarge
+- Update: aws/c6a.48xlarge
+- Update: aws/c6a.4xlarge
+- Update: aws/c6a.8xlarge
+- Update: aws/c6a.large
+- Update: aws/c6a.metal
+- Update: aws/c6a.xlarge
+- Update: aws/c6g.12xlarge
+- Update: aws/c6g.16xlarge
+- Update: aws/c6g.2xlarge
+- Update: aws/c6g.4xlarge
+- Update: aws/c6g.8xlarge
+- Update: aws/c6gd.12xlarge
+- Update: aws/c6gd.16xlarge
+- Update: aws/c6gd.2xlarge
+- Update: aws/c6gd.4xlarge
+- Update: aws/c6gd.8xlarge
+- Update: aws/c6gd.large
+- Update: aws/c6gd.medium
+- Update: aws/c6gd.metal
+- Update: aws/c6gd.xlarge
+- Update: aws/c6g.large
+- Update: aws/c6g.medium
+- Update: aws/c6g.metal
+- Update: aws/c6gn.12xlarge
+- Update: aws/c6gn.16xlarge
+- Update: aws/c6gn.2xlarge
+- Update: aws/c6gn.4xlarge
+- Update: aws/c6gn.8xlarge
+- Update: aws/c6gn.large
+- Update: aws/c6gn.medium
+- Update: aws/c6gn.xlarge
+- Update: aws/c6g.xlarge
+- Update: aws/c6i.12xlarge
+- Update: aws/c6i.16xlarge
+- Update: aws/c6i.24xlarge
+- Update: aws/c6i.2xlarge
+- Update: aws/c6i.32xlarge
+- Update: aws/c6i.4xlarge
+- Update: aws/c6i.8xlarge
+- Update: aws/c6id.12xlarge
+- Update: aws/c6id.16xlarge
+- Update: aws/c6id.24xlarge
+- Update: aws/c6id.2xlarge
+- Update: aws/c6id.32xlarge
+- Update: aws/c6id.4xlarge
+- Update: aws/c6id.8xlarge
+- Update: aws/c6id.large
+
 ## v0.2.1+20240606072322 (Jun 06, 2024)
 
 This is an automated release with 3 new/updated/deleted resources.
