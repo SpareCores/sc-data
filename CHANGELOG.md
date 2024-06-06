@@ -1,3 +1,17 @@
+## v0.2.1+20240606222136 (Jun 06, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9408533078
+
+
+### server
+
+- Update: aws/c7i-flex.large
+- Update: aws/d3en.8xlarge
+- Update: aws/d3en.xlarge
+- Update: aws/d3.xlarge
+- Update: aws/dl2q.24xlarge
+
 ## v0.2.1+20240606212356 (Jun 06, 2024)
 
 This is an automated release with 9 new/updated/deleted resources.
