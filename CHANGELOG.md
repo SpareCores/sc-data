@@ -1,3 +1,108 @@
+## v0.2.1+20240607102652 (Jun 07, 2024)
+
+This is an automated release with 96 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9415432877
+
+
+### server
+
+- Update: aws/c6gn.medium
+- Update: aws/c6i.12xlarge
+- Update: aws/c6i.16xlarge
+- Update: aws/c6i.24xlarge
+- Update: aws/c6i.2xlarge
+- Update: aws/c6i.32xlarge
+- Update: aws/c6i.4xlarge
+- Update: aws/c6i.8xlarge
+- Update: aws/c6id.12xlarge
+- Update: aws/c6id.16xlarge
+- Update: aws/c6id.24xlarge
+- Update: aws/c6id.2xlarge
+- Update: aws/c6id.32xlarge
+- Update: aws/c6id.4xlarge
+- Update: aws/c6id.8xlarge
+- Update: aws/c6id.large
+- Update: aws/c6id.metal
+- Update: aws/c6id.xlarge
+- Update: aws/c6i.large
+- Update: aws/c6i.metal
+- Update: aws/c6in.12xlarge
+- Update: aws/c6in.16xlarge
+- Update: aws/c6in.24xlarge
+- Update: aws/c6in.2xlarge
+- Update: aws/c6in.4xlarge
+- Update: aws/c6in.8xlarge
+- Update: aws/c6in.large
+- Update: aws/c6in.metal
+- Update: aws/c6in.xlarge
+- Update: aws/c6i.xlarge
+- Update: aws/c7a.12xlarge
+- Update: aws/c7a.16xlarge
+- Update: aws/c7a.24xlarge
+- Update: aws/c7a.2xlarge
+- Update: aws/c7a.32xlarge
+- Update: aws/c7a.8xlarge
+- Update: aws/c7a.large
+- Update: aws/c7a.medium
+- Update: aws/c7a.metal-48xl
+- Update: aws/c7a.xlarge
+- Update: aws/c7g.12xlarge
+- Update: aws/c7g.16xlarge
+- Update: aws/c7g.4xlarge
+- Update: aws/c7g.8xlarge
+- Update: aws/c7gd.12xlarge
+- Update: aws/c7gd.16xlarge
+- Update: aws/c7gd.2xlarge
+- Update: aws/c7gd.4xlarge
+- Update: aws/c7gd.8xlarge
+- Update: aws/c7gd.large
+- Update: aws/c7gd.medium
+- Update: aws/c7gd.metal
+- Update: aws/c7gd.xlarge
+- Update: aws/c7g.large
+- Update: aws/c7g.medium
+- Update: aws/c7g.metal
+- Update: aws/c7gn.12xlarge
+- Update: aws/c7gn.16xlarge
+- Update: aws/c7gn.2xlarge
+- Update: aws/c7gn.4xlarge
+- Update: aws/c7gn.8xlarge
+- Update: aws/c7gn.large
+- Update: aws/c7gn.medium
+- Update: aws/c7gn.metal
+- Update: aws/c7gn.xlarge
+- Update: aws/c7g.xlarge
+- Update: aws/c7i.12xlarge
+- Update: aws/c7i.16xlarge
+- Update: aws/c7i.24xlarge
+- Update: aws/c7i.2xlarge
+- Update: aws/c7i.4xlarge
+- Update: aws/c7i.8xlarge
+- Update: aws/c7i-flex.large
+- Update: aws/c7i.large
+- Update: aws/c7i.metal-24xl
+- Update: aws/c7i.xlarge
+- Update: aws/d2.2xlarge
+- Update: aws/d2.4xlarge
+- Update: aws/d2.8xlarge
+- Update: aws/d2.xlarge
+- Update: aws/d3.2xlarge
+- Update: aws/d3.4xlarge
+- Update: aws/d3.8xlarge
+- Update: aws/d3en.12xlarge
+- Update: aws/d3en.2xlarge
+- Update: aws/d3en.4xlarge
+- Update: aws/d3en.6xlarge
+- Update: aws/d3en.8xlarge
+- Update: aws/d3en.xlarge
+- Update: aws/d3.xlarge
+- Update: aws/dl2q.24xlarge
+- Update: aws/f1.2xlarge
+- Update: aws/g3s.xlarge
+- Update: aws/g4ad.xlarge
+- Update: aws/g4dn.xlarge
+- Update: aws/g5g.xlarge
+
 ## v0.2.1+20240607092526 (Jun 07, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
