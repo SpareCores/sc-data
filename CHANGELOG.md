@@ -1,3 +1,28 @@
+## v0.2.1+20240607212715 (Jun 07, 2024)
+
+This is an automated release with 16 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9423235664
+
+
+### server
+
+- Update: hcloud/105
+- Update: hcloud/45
+- Update: hcloud/5
+- Update: hcloud/7
+- Update: hcloud/9
+- Update: aws/c6in.32xlarge
+- Update: aws/m5d.2xlarge
+- Update: aws/m5d.4xlarge
+- Update: aws/m5d.8xlarge
+- Update: aws/m5d.large
+- Update: aws/m5d.metal
+- Update: aws/m5d.xlarge
+- Update: aws/m6g.12xlarge
+- Update: aws/m6g.16xlarge
+- Update: aws/m6g.2xlarge
+- Update: aws/m6g.4xlarge
+
 ## v0.2.1+20240607202703 (Jun 07, 2024)
 
 This is an automated release with 6 new/updated/deleted resources.
