@@ -1,3 +1,18 @@
+## v0.2.1+20240607132724 (Jun 07, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9417704434
+
+
+### server
+
+- Update: aws/i3en.large
+- Update: aws/i3en.metal
+- Update: aws/i3en.xlarge
+- Update: aws/i3.large
+- Update: aws/i3.metal
+- Update: aws/i3.xlarge
+
 ## v0.2.1+20240607123939 (Jun 07, 2024)
 
 This is an automated release with 12 new/updated/deleted resources.
