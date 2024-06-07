@@ -1,3 +1,23 @@
+## v0.2.1+20240607162712 (Jun 07, 2024)
+
+This is an automated release with 11 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9420091810
+
+
+### server
+
+- Update: aws/im4gn.8xlarge
+- Update: aws/im4gn.large
+- Update: aws/im4gn.xlarge
+- Update: aws/is4gen.2xlarge
+- Update: aws/is4gen.4xlarge
+- Update: aws/is4gen.8xlarge
+- Update: aws/is4gen.large
+- Update: aws/is4gen.medium
+- Update: aws/is4gen.xlarge
+- Update: aws/p3.2xlarge
+- Update: aws/r4.8xlarge
+
 ## v0.2.1+20240607152635 (Jun 07, 2024)
 
 This is an automated release with 9 new/updated/deleted resources.
