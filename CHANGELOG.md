@@ -1,3 +1,68 @@
+## v0.2.1+20240607172229 (Jun 07, 2024)
+
+This is an automated release with 56 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9420719824
+
+
+### server
+
+- Update: aws/h1.2xlarge
+- Update: aws/i2.2xlarge
+- Update: aws/i2.4xlarge
+- Update: aws/i3.16xlarge
+- Update: aws/i3.2xlarge
+- Update: aws/i3.4xlarge
+- Update: aws/i3.8xlarge
+- Update: aws/i3en.12xlarge
+- Update: aws/i3en.24xlarge
+- Update: aws/i3en.2xlarge
+- Update: aws/i3en.3xlarge
+- Update: aws/i3en.6xlarge
+- Update: aws/i3en.large
+- Update: aws/i3en.metal
+- Update: aws/i3en.xlarge
+- Update: aws/i3.large
+- Update: aws/i3.metal
+- Update: aws/i3.xlarge
+- Update: aws/i4g.16xlarge
+- Update: aws/i4g.2xlarge
+- Update: aws/i4g.4xlarge
+- Update: aws/i4g.8xlarge
+- Update: aws/i4g.large
+- Update: aws/i4g.xlarge
+- Update: aws/i4i.12xlarge
+- Update: aws/i4i.16xlarge
+- Update: aws/i4i.24xlarge
+- Update: aws/i4i.2xlarge
+- Update: aws/i4i.32xlarge
+- Update: aws/i4i.4xlarge
+- Update: aws/i4i.8xlarge
+- Update: aws/i4i.large
+- Update: aws/i4i.xlarge
+- Update: aws/im4gn.16xlarge
+- Update: aws/im4gn.2xlarge
+- Update: aws/im4gn.4xlarge
+- Update: aws/im4gn.8xlarge
+- Update: aws/im4gn.large
+- Update: aws/im4gn.xlarge
+- Update: aws/is4gen.2xlarge
+- Update: aws/is4gen.4xlarge
+- Update: aws/is4gen.8xlarge
+- Update: aws/is4gen.large
+- Update: aws/is4gen.medium
+- Update: aws/is4gen.xlarge
+- Update: aws/m1.large
+- Update: aws/m1.medium
+- Update: aws/m1.small
+- Update: aws/m1.xlarge
+- Update: aws/m2.2xlarge
+- Update: aws/m2.4xlarge
+- Update: aws/m2.xlarge
+- Update: aws/m3.2xlarge
+- Update: aws/m3.large
+- Update: aws/p3.2xlarge
+- Update: aws/r4.8xlarge
+
 ## v0.2.1+20240607162712 (Jun 07, 2024)
 
 This is an automated release with 11 new/updated/deleted resources.
