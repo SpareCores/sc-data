@@ -1,3 +1,21 @@
+## v0.2.1+20240608042737 (Jun 08, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9426128457
+
+
+### server
+
+- Update: aws/r5d.2xlarge
+- Update: aws/r5d.4xlarge
+- Update: aws/r5d.8xlarge
+- Update: aws/r5d.large
+- Update: aws/r5d.metal
+- Update: aws/r5dn.12xlarge
+- Update: aws/r5dn.16xlarge
+- Update: aws/r5dn.24xlarge
+- Update: aws/r5d.xlarge
+
 ## v0.2.1+20240608032452 (Jun 08, 2024)
 
 This is an automated release with 6 new/updated/deleted resources.
