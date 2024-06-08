@@ -1,3 +1,21 @@
+## v0.2.1+20240608212305 (Jun 08, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9431595576
+
+
+### server
+
+- Update: aws/m7a.metal-48xl
+- Update: aws/m7a.xlarge
+- Update: aws/m7g.12xlarge
+- Update: aws/m7g.16xlarge
+- Update: aws/m7g.2xlarge
+- Update: aws/m7g.4xlarge
+- Update: aws/m7g.8xlarge
+- Update: aws/m7g.large
+- Update: aws/m7g.medium
+
 ## v0.2.1+20240608202311 (Jun 08, 2024)
 
 This is an automated release with 11 new/updated/deleted resources.
