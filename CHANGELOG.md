@@ -1,3 +1,20 @@
+## v0.2.1+20240608082640 (Jun 08, 2024)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9427391294
+
+
+### server
+
+- Update: aws/r6i.32xlarge
+- Update: aws/r6i.4xlarge
+- Update: aws/r6i.8xlarge
+- Update: aws/r6i.large
+- Update: aws/r6i.metal
+- Update: aws/r6i.xlarge
+- Update: aws/t3.2xlarge
+- Update: aws/t3.large
+
 ## v0.2.1+20240608072343 (Jun 08, 2024)
 
 This is an automated release with 10 new/updated/deleted resources.
