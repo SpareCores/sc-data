@@ -1,3 +1,130 @@
+## v0.2.1+20240608102727 (Jun 08, 2024)
+
+This is an automated release with 118 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9428017106
+
+
+### server
+
+- Update: hcloud/105
+- Update: hcloud/107
+- Update: hcloud/22
+- Update: hcloud/23
+- Update: hcloud/24
+- Update: hcloud/25
+- Update: hcloud/26
+- Update: hcloud/45
+- Update: hcloud/5
+- Update: hcloud/7
+- Update: hcloud/9
+- Update: hcloud/93
+- Update: hcloud/94
+- Update: hcloud/95
+- Update: aws/c6in.32xlarge
+- Update: aws/c7a.48xlarge
+- Update: aws/m4.16xlarge
+- Update: aws/m5d.2xlarge
+- Update: aws/m5d.4xlarge
+- Update: aws/m5d.8xlarge
+- Update: aws/m5d.large
+- Update: aws/m5d.metal
+- Update: aws/m5d.xlarge
+- Update: aws/m6g.12xlarge
+- Update: aws/m6g.16xlarge
+- Update: aws/m6g.2xlarge
+- Update: aws/m6g.4xlarge
+- Update: aws/m6g.8xlarge
+- Update: aws/m6gd.12xlarge
+- Update: aws/m6gd.16xlarge
+- Update: aws/m6gd.2xlarge
+- Update: aws/m6gd.4xlarge
+- Update: aws/m6gd.8xlarge
+- Update: aws/m6gd.large
+- Update: aws/m6gd.medium
+- Update: aws/m6gd.metal
+- Update: aws/m6gd.xlarge
+- Update: aws/m6g.large
+- Update: aws/m6g.medium
+- Update: aws/m6g.metal
+- Update: aws/m6g.xlarge
+- Update: aws/m6i.12xlarge
+- Update: aws/m6i.16xlarge
+- Update: aws/m6i.24xlarge
+- Update: aws/m6i.2xlarge
+- Update: aws/m6i.32xlarge
+- Update: aws/m6i.4xlarge
+- Update: aws/m6i.8xlarge
+- Update: aws/m6i.large
+- Update: aws/m6i.metal
+- Update: aws/m6i.xlarge
+- Update: aws/r5.12xlarge
+- Update: aws/r5.16xlarge
+- Update: aws/r5.24xlarge
+- Update: aws/r5.2xlarge
+- Update: aws/r5.4xlarge
+- Update: aws/r5.8xlarge
+- Update: aws/r5d.12xlarge
+- Update: aws/r5d.16xlarge
+- Update: aws/r5d.24xlarge
+- Update: aws/r5d.2xlarge
+- Update: aws/r5d.4xlarge
+- Update: aws/r5d.8xlarge
+- Update: aws/r5d.large
+- Update: aws/r5d.metal
+- Update: aws/r5dn.12xlarge
+- Update: aws/r5dn.16xlarge
+- Update: aws/r5dn.24xlarge
+- Update: aws/r5dn.2xlarge
+- Update: aws/r5dn.4xlarge
+- Update: aws/r5dn.8xlarge
+- Update: aws/r5dn.large
+- Update: aws/r5dn.metal
+- Update: aws/r5dn.xlarge
+- Update: aws/r5d.xlarge
+- Update: aws/r5.large
+- Update: aws/r5.metal
+- Update: aws/r5n.12xlarge
+- Update: aws/r5n.16xlarge
+- Update: aws/r5n.24xlarge
+- Update: aws/r5n.2xlarge
+- Update: aws/r5n.4xlarge
+- Update: aws/r5n.8xlarge
+- Update: aws/r5n.large
+- Update: aws/r5n.metal
+- Update: aws/r5n.xlarge
+- Update: aws/r5.xlarge
+- Update: aws/r6g.12xlarge
+- Update: aws/r6g.16xlarge
+- Update: aws/r6g.2xlarge
+- Update: aws/r6g.4xlarge
+- Update: aws/r6g.8xlarge
+- Update: aws/r6g.large
+- Update: aws/r6g.medium
+- Update: aws/r6g.metal
+- Update: aws/r6g.xlarge
+- Update: aws/r6i.12xlarge
+- Update: aws/r6i.16xlarge
+- Update: aws/r6i.24xlarge
+- Update: aws/r6i.2xlarge
+- Update: aws/r6i.32xlarge
+- Update: aws/r6i.4xlarge
+- Update: aws/r6i.8xlarge
+- Update: aws/r6i.large
+- Update: aws/r6i.metal
+- Update: aws/r6i.xlarge
+- Update: aws/t3.2xlarge
+- Update: aws/t3.large
+- Update: aws/t3.medium
+- Update: aws/t3.nano
+- Update: aws/t3.small
+- Update: aws/t3.xlarge
+- Update: aws/t4g.2xlarge
+- Update: aws/t4g.large
+- Update: aws/t4g.medium
+- Update: aws/t4g.micro
+- Update: aws/t4g.small
+- Update: aws/t4g.xlarge
+
 ## v0.2.1+20240608092606 (Jun 08, 2024)
 
 This is an automated release with 8 new/updated/deleted resources.
