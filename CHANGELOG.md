@@ -1,3 +1,13 @@
+## v0.2.1+20240609082650 (Jun 09, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9435155952
+
+
+### server
+
+- Update: aws/i4i.metal
+
 ## v0.2.1+20240608222709 (Jun 08, 2024)
 
 This is an automated release with 12 new/updated/deleted resources.
