@@ -1,3 +1,22 @@
+## v0.2.1+20240609172310 (Jun 09, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9438226051
+
+
+### server
+
+- Update: aws/r6gd.2xlarge
+- Update: aws/r6gd.4xlarge
+- Update: aws/r6gd.8xlarge
+- Update: aws/r6gd.large
+- Update: aws/r6gd.medium
+- Update: aws/r6gd.metal
+- Update: aws/r6gd.xlarge
+- Update: aws/r6id.12xlarge
+- Update: aws/r6id.16xlarge
+- Update: aws/r6id.24xlarge
+
 ## v0.2.1+20240609162729 (Jun 09, 2024)
 
 This is an automated release with 6 new/updated/deleted resources.
