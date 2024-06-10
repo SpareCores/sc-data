@@ -1,3 +1,13 @@
+## v0.2.1+20240610092802 (Jun 10, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9445772390
+
+
+### server
+
+- Update: hcloud/100
+
 ## v0.2.1+20240610083115 (Jun 10, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
