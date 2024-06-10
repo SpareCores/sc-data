@@ -1,3 +1,20 @@
+## v0.2.1+20240610043036 (Jun 10, 2024)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9442440350
+
+
+### server
+
+- Update: aws/r7iz.metal-16xl
+- Update: aws/r7iz.metal-32xl
+- Update: aws/r7iz.xlarge
+- Update: aws/t1.micro
+- Update: aws/t2.2xlarge
+- Update: aws/t2.large
+- Update: aws/t2.medium
+- Update: aws/t2.micro
+
 ## v0.2.1+20240610032702 (Jun 10, 2024)
 
 This is an automated release with 4 new/updated/deleted resources.
