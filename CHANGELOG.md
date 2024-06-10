@@ -1,3 +1,21 @@
+## v0.2.1+20240610052503 (Jun 10, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9442864988
+
+
+### server
+
+- Update: aws/t2.nano
+- Update: aws/t2.small
+- Update: aws/t2.xlarge
+- Update: aws/t3a.2xlarge
+- Update: aws/t3a.large
+- Update: aws/t3a.medium
+- Update: aws/t3a.micro
+- Update: aws/t3a.nano
+- Update: aws/t3a.small
+
 ## v0.2.1+20240610043036 (Jun 10, 2024)
 
 This is an automated release with 8 new/updated/deleted resources.
