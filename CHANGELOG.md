@@ -1,3 +1,21 @@
+## v0.2.1+20240610063302 (Jun 10, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9443477302
+
+
+### server
+
+- Update: aws/c7i-flex.2xlarge
+- Update: aws/t3a.xlarge
+- Update: aws/z1d.12xlarge
+- Update: aws/z1d.2xlarge
+- Update: aws/z1d.3xlarge
+- Update: aws/z1d.6xlarge
+- Update: aws/z1d.large
+- Update: aws/z1d.metal
+- Update: aws/z1d.xlarge
+
 ## v0.2.1+20240610052503 (Jun 10, 2024)
 
 This is an automated release with 9 new/updated/deleted resources.
