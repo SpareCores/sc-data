@@ -1,3 +1,122 @@
+## v0.2.1+20240613222525 (Jun 13, 2024)
+
+This is an automated release with 110 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9507485399
+
+
+### server
+
+- Update: aws/a1.metal
+- Update: aws/c5.18xlarge
+- Update: aws/c5.24xlarge
+- Update: aws/c5d.18xlarge
+- Update: aws/c5d.24xlarge
+- Update: aws/c5d.metal
+- Update: aws/c5.metal
+- Update: aws/c5n.18xlarge
+- Update: aws/c5n.metal
+- Update: aws/c6a.32xlarge
+- Update: aws/c6a.48xlarge
+- Update: aws/c6a.metal
+- Update: aws/c6i.24xlarge
+- Update: aws/c6i.32xlarge
+- Update: aws/c6id.24xlarge
+- Update: aws/c6id.32xlarge
+- Update: aws/c6id.metal
+- Update: aws/c6i.metal
+- Update: aws/c6in.24xlarge
+- Update: aws/c6in.32xlarge
+- Update: aws/c6in.metal
+- Update: aws/c7a.32xlarge
+- Update: aws/c7a.48xlarge
+- Update: aws/c7a.metal-48xl
+- Update: aws/c7i.48xlarge
+- Update: aws/c7i.metal-48xl
+- Update: aws/dl2q.24xlarge
+- Update: aws/i3en.24xlarge
+- Update: aws/i3en.metal
+- Update: aws/i3.metal
+- Update: aws/i4i.24xlarge
+- Update: aws/i4i.32xlarge
+- Update: aws/i4i.metal
+- Update: aws/m5.16xlarge
+- Update: aws/m5.24xlarge
+- Update: aws/m5a.24xlarge
+- Update: aws/m5ad.24xlarge
+- Update: aws/m5d.16xlarge
+- Update: aws/m5d.24xlarge
+- Update: aws/m5d.metal
+- Update: aws/m5dn.16xlarge
+- Update: aws/m5dn.24xlarge
+- Update: aws/m5dn.metal
+- Update: aws/m5.metal
+- Update: aws/m5n.16xlarge
+- Update: aws/m5n.24xlarge
+- Update: aws/m5n.metal
+- Update: aws/m5zn.12xlarge
+- Update: aws/m5zn.metal
+- Update: aws/m6a.32xlarge
+- Update: aws/m6a.48xlarge
+- Update: aws/m6a.metal
+- Update: aws/m6i.24xlarge
+- Update: aws/m6i.32xlarge
+- Update: aws/m6id.24xlarge
+- Update: aws/m6id.32xlarge
+- Update: aws/m6id.metal
+- Update: aws/m6idn.24xlarge
+- Update: aws/m6idn.32xlarge
+- Update: aws/m6idn.metal
+- Update: aws/m6i.metal
+- Update: aws/m6in.24xlarge
+- Update: aws/m6in.32xlarge
+- Update: aws/m6in.metal
+- Update: aws/m7a.32xlarge
+- Update: aws/m7a.48xlarge
+- Update: aws/m7a.metal-48xl
+- Update: aws/m7i.48xlarge
+- Update: aws/m7i.metal-48xl
+- Update: aws/r5.16xlarge
+- Update: aws/r5.24xlarge
+- Update: aws/r5a.24xlarge
+- Update: aws/r5ad.24xlarge
+- Update: aws/r5b.16xlarge
+- Update: aws/r5b.24xlarge
+- Update: aws/r5b.metal
+- Update: aws/r5d.16xlarge
+- Update: aws/r5d.24xlarge
+- Update: aws/r5d.metal
+- Update: aws/r5dn.16xlarge
+- Update: aws/r5dn.24xlarge
+- Update: aws/r5dn.metal
+- Update: aws/r5.metal
+- Update: aws/r5n.16xlarge
+- Update: aws/r5n.24xlarge
+- Update: aws/r5n.metal
+- Update: aws/r6a.32xlarge
+- Update: aws/r6a.48xlarge
+- Update: aws/r6a.metal
+- Update: aws/r6i.24xlarge
+- Update: aws/r6i.32xlarge
+- Update: aws/r6id.24xlarge
+- Update: aws/r6id.32xlarge
+- Update: aws/r6id.metal
+- Update: aws/r6idn.24xlarge
+- Update: aws/r6idn.32xlarge
+- Update: aws/r6idn.metal
+- Update: aws/r6i.metal
+- Update: aws/r6in.24xlarge
+- Update: aws/r6in.32xlarge
+- Update: aws/r6in.metal
+- Update: aws/r7a.32xlarge
+- Update: aws/r7a.48xlarge
+- Update: aws/r7a.metal-48xl
+- Update: aws/r7i.48xlarge
+- Update: aws/r7i.metal-48xl
+- Update: aws/r7iz.32xlarge
+- Update: aws/r7iz.metal-32xl
+- Update: aws/z1d.12xlarge
+- Update: aws/z1d.metal
+
 ## v0.2.1+20240612102656 (Jun 12, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
