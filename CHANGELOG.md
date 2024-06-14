@@ -1,3 +1,13 @@
+## v0.2.1+20240614012223 (Jun 14, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9509053008
+
+
+### server
+
+- New: aws/mac2-m1ultra.metal
+
 ## v0.2.1+20240613222525 (Jun 13, 2024)
 
 This is an automated release with 110 new/updated/deleted resources.
