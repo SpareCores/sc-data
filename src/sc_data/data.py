@@ -97,6 +97,7 @@ class Data(threading.Thread):
     def run(self):
         """Start the update thread if no_update is not set."""
         if get_parameter("no_update"):
+            logging.warn("Automated database refresh is disabled.")
             self.updated.set()
             return
         while True:
