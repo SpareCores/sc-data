@@ -1,3 +1,2298 @@
+## v0.2.1+20240617124140 (Jun 17, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9547727728
+
+
+### server
+
+- Update: aws/g5.xlarge
+
+## v0.2.1+20240617102825 (Jun 17, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9545987838
+
+
+### server
+
+- Update: aws/g5.xlarge
+
+## v0.2.1+20240617092846 (Jun 17, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9545157992
+
+
+### server
+
+- Update: aws/g5.xlarge
+
+## v0.2.1+20240614012223 (Jun 14, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9509053008
+
+
+### server
+
+- New: aws/mac2-m1ultra.metal
+
+## v0.2.1+20240613222525 (Jun 13, 2024)
+
+This is an automated release with 110 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9507485399
+
+
+### server
+
+- Update: aws/a1.metal
+- Update: aws/c5.18xlarge
+- Update: aws/c5.24xlarge
+- Update: aws/c5d.18xlarge
+- Update: aws/c5d.24xlarge
+- Update: aws/c5d.metal
+- Update: aws/c5.metal
+- Update: aws/c5n.18xlarge
+- Update: aws/c5n.metal
+- Update: aws/c6a.32xlarge
+- Update: aws/c6a.48xlarge
+- Update: aws/c6a.metal
+- Update: aws/c6i.24xlarge
+- Update: aws/c6i.32xlarge
+- Update: aws/c6id.24xlarge
+- Update: aws/c6id.32xlarge
+- Update: aws/c6id.metal
+- Update: aws/c6i.metal
+- Update: aws/c6in.24xlarge
+- Update: aws/c6in.32xlarge
+- Update: aws/c6in.metal
+- Update: aws/c7a.32xlarge
+- Update: aws/c7a.48xlarge
+- Update: aws/c7a.metal-48xl
+- Update: aws/c7i.48xlarge
+- Update: aws/c7i.metal-48xl
+- Update: aws/dl2q.24xlarge
+- Update: aws/i3en.24xlarge
+- Update: aws/i3en.metal
+- Update: aws/i3.metal
+- Update: aws/i4i.24xlarge
+- Update: aws/i4i.32xlarge
+- Update: aws/i4i.metal
+- Update: aws/m5.16xlarge
+- Update: aws/m5.24xlarge
+- Update: aws/m5a.24xlarge
+- Update: aws/m5ad.24xlarge
+- Update: aws/m5d.16xlarge
+- Update: aws/m5d.24xlarge
+- Update: aws/m5d.metal
+- Update: aws/m5dn.16xlarge
+- Update: aws/m5dn.24xlarge
+- Update: aws/m5dn.metal
+- Update: aws/m5.metal
+- Update: aws/m5n.16xlarge
+- Update: aws/m5n.24xlarge
+- Update: aws/m5n.metal
+- Update: aws/m5zn.12xlarge
+- Update: aws/m5zn.metal
+- Update: aws/m6a.32xlarge
+- Update: aws/m6a.48xlarge
+- Update: aws/m6a.metal
+- Update: aws/m6i.24xlarge
+- Update: aws/m6i.32xlarge
+- Update: aws/m6id.24xlarge
+- Update: aws/m6id.32xlarge
+- Update: aws/m6id.metal
+- Update: aws/m6idn.24xlarge
+- Update: aws/m6idn.32xlarge
+- Update: aws/m6idn.metal
+- Update: aws/m6i.metal
+- Update: aws/m6in.24xlarge
+- Update: aws/m6in.32xlarge
+- Update: aws/m6in.metal
+- Update: aws/m7a.32xlarge
+- Update: aws/m7a.48xlarge
+- Update: aws/m7a.metal-48xl
+- Update: aws/m7i.48xlarge
+- Update: aws/m7i.metal-48xl
+- Update: aws/r5.16xlarge
+- Update: aws/r5.24xlarge
+- Update: aws/r5a.24xlarge
+- Update: aws/r5ad.24xlarge
+- Update: aws/r5b.16xlarge
+- Update: aws/r5b.24xlarge
+- Update: aws/r5b.metal
+- Update: aws/r5d.16xlarge
+- Update: aws/r5d.24xlarge
+- Update: aws/r5d.metal
+- Update: aws/r5dn.16xlarge
+- Update: aws/r5dn.24xlarge
+- Update: aws/r5dn.metal
+- Update: aws/r5.metal
+- Update: aws/r5n.16xlarge
+- Update: aws/r5n.24xlarge
+- Update: aws/r5n.metal
+- Update: aws/r6a.32xlarge
+- Update: aws/r6a.48xlarge
+- Update: aws/r6a.metal
+- Update: aws/r6i.24xlarge
+- Update: aws/r6i.32xlarge
+- Update: aws/r6id.24xlarge
+- Update: aws/r6id.32xlarge
+- Update: aws/r6id.metal
+- Update: aws/r6idn.24xlarge
+- Update: aws/r6idn.32xlarge
+- Update: aws/r6idn.metal
+- Update: aws/r6i.metal
+- Update: aws/r6in.24xlarge
+- Update: aws/r6in.32xlarge
+- Update: aws/r6in.metal
+- Update: aws/r7a.32xlarge
+- Update: aws/r7a.48xlarge
+- Update: aws/r7a.metal-48xl
+- Update: aws/r7i.48xlarge
+- Update: aws/r7i.metal-48xl
+- Update: aws/r7iz.32xlarge
+- Update: aws/r7iz.metal-32xl
+- Update: aws/z1d.12xlarge
+- Update: aws/z1d.metal
+
+## v0.2.1+20240612102656 (Jun 12, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9480823117
+
+
+### server
+
+- Update: hcloud/106
+
+## v0.2.1+20240611102836 (Jun 11, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9463786865
+
+
+### server
+
+- New: gcp/1743001
+- Update: hcloud/101
+- Update: hcloud/106
+- Update: aws/g5g.2xlarge
+- Update: aws/m7a.48xlarge
+- Update: aws/r6a.48xlarge
+
+## v0.2.1+20240610222524 (Jun 10, 2024)
+
+This is an automated release with 26 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9456313929
+
+
+### server
+
+- New: gcp/1743000
+- New: gcp/1740000
+- Update: gcp/1760002
+- Update: gcp/1760004
+- Update: gcp/1760008
+- Update: gcp/1760016
+- Update: gcp/1760032
+- Update: gcp/1760048
+- Update: gcp/1760096
+- Update: gcp/1760192
+- Update: gcp/1761002
+- Update: gcp/1761004
+- Update: gcp/1761008
+- Update: gcp/1761016
+- Update: gcp/1761032
+- Update: gcp/1761048
+- Update: gcp/1761096
+- Update: gcp/1761192
+- Update: gcp/1762002
+- Update: gcp/1762004
+- Update: gcp/1762008
+- Update: gcp/1762016
+- Update: gcp/1762032
+- Update: gcp/1762048
+- Update: gcp/1762096
+- Update: gcp/1762192
+
+## v0.2.1+20240610172442 (Jun 10, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9452684447
+
+
+### server
+
+- Update: aws/g5g.2xlarge
+
+## v0.2.1+20240610124106 (Jun 10, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9448382523
+
+
+### server
+
+- Update: hcloud/101
+- Update: aws/m7a.48xlarge
+- Update: aws/r6a.48xlarge
+
+## v0.2.1+20240610102732 (Jun 10, 2024)
+
+This is an automated release with 178 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9446606735
+
+
+### server
+
+- Update: hcloud/100
+- Update: hcloud/99
+- Update: aws/c7i-flex.2xlarge
+- Update: aws/c7i-flex.4xlarge
+- Update: aws/c7i-flex.xlarge
+- Update: aws/m7i.12xlarge
+- Update: aws/m7i.16xlarge
+- Update: aws/m7i.24xlarge
+- Update: aws/m7i.2xlarge
+- Update: aws/m7i.48xlarge
+- Update: aws/m7i.4xlarge
+- Update: aws/m7i.8xlarge
+- Update: aws/m7i-flex.4xlarge
+- Update: aws/m7i-flex.8xlarge
+- Update: aws/m7i-flex.large
+- Update: aws/m7i-flex.xlarge
+- Update: aws/m7i.large
+- Update: aws/m7i.metal-24xl
+- Update: aws/m7i.metal-48xl
+- Update: aws/m7i.xlarge
+- Update: aws/p2.xlarge
+- Update: aws/r3.2xlarge
+- Update: aws/r3.4xlarge
+- Update: aws/r3.8xlarge
+- Update: aws/r3.large
+- Update: aws/r3.xlarge
+- Update: aws/r4.16xlarge
+- Update: aws/r4.2xlarge
+- Update: aws/r4.4xlarge
+- Update: aws/r4.large
+- Update: aws/r4.xlarge
+- Update: aws/r5a.12xlarge
+- Update: aws/r5a.16xlarge
+- Update: aws/r5a.24xlarge
+- Update: aws/r5a.2xlarge
+- Update: aws/r5a.4xlarge
+- Update: aws/r5a.8xlarge
+- Update: aws/r5ad.12xlarge
+- Update: aws/r5ad.16xlarge
+- Update: aws/r5ad.24xlarge
+- Update: aws/r5ad.2xlarge
+- Update: aws/r5ad.4xlarge
+- Update: aws/r5ad.8xlarge
+- Update: aws/r5ad.large
+- Update: aws/r5ad.xlarge
+- Update: aws/r5a.large
+- Update: aws/r5a.xlarge
+- Update: aws/r5b.12xlarge
+- Update: aws/r5b.16xlarge
+- Update: aws/r5b.24xlarge
+- Update: aws/r5b.2xlarge
+- Update: aws/r5b.4xlarge
+- Update: aws/r5b.8xlarge
+- Update: aws/r5b.large
+- Update: aws/r5b.metal
+- Update: aws/r5b.xlarge
+- Update: aws/r6a.12xlarge
+- Update: aws/r6a.16xlarge
+- Update: aws/r6a.24xlarge
+- Update: aws/r6a.2xlarge
+- Update: aws/r6a.32xlarge
+- Update: aws/r6a.4xlarge
+- Update: aws/r6a.8xlarge
+- Update: aws/r6a.large
+- Update: aws/r6a.metal
+- Update: aws/r6a.xlarge
+- Update: aws/r6gd.12xlarge
+- Update: aws/r6gd.16xlarge
+- Update: aws/r6gd.2xlarge
+- Update: aws/r6gd.4xlarge
+- Update: aws/r6gd.8xlarge
+- Update: aws/r6gd.large
+- Update: aws/r6gd.medium
+- Update: aws/r6gd.metal
+- Update: aws/r6gd.xlarge
+- Update: aws/r6id.12xlarge
+- Update: aws/r6id.16xlarge
+- Update: aws/r6id.24xlarge
+- Update: aws/r6id.2xlarge
+- Update: aws/r6id.32xlarge
+- Update: aws/r6id.4xlarge
+- Update: aws/r6id.8xlarge
+- Update: aws/r6id.large
+- Update: aws/r6id.metal
+- Update: aws/r6idn.12xlarge
+- Update: aws/r6idn.16xlarge
+- Update: aws/r6idn.24xlarge
+- Update: aws/r6idn.2xlarge
+- Update: aws/r6idn.32xlarge
+- Update: aws/r6idn.4xlarge
+- Update: aws/r6idn.8xlarge
+- Update: aws/r6idn.large
+- Update: aws/r6idn.metal
+- Update: aws/r6idn.xlarge
+- Update: aws/r6id.xlarge
+- Update: aws/r6in.12xlarge
+- Update: aws/r6in.16xlarge
+- Update: aws/r6in.24xlarge
+- Update: aws/r6in.2xlarge
+- Update: aws/r6in.32xlarge
+- Update: aws/r6in.4xlarge
+- Update: aws/r6in.8xlarge
+- Update: aws/r6in.large
+- Update: aws/r6in.metal
+- Update: aws/r6in.xlarge
+- Update: aws/r7a.12xlarge
+- Update: aws/r7a.16xlarge
+- Update: aws/r7a.24xlarge
+- Update: aws/r7a.2xlarge
+- Update: aws/r7a.32xlarge
+- Update: aws/r7a.48xlarge
+- Update: aws/r7a.4xlarge
+- Update: aws/r7a.8xlarge
+- Update: aws/r7a.large
+- Update: aws/r7a.medium
+- Update: aws/r7a.metal-48xl
+- Update: aws/r7a.xlarge
+- Update: aws/r7g.12xlarge
+- Update: aws/r7g.16xlarge
+- Update: aws/r7g.2xlarge
+- Update: aws/r7g.4xlarge
+- Update: aws/r7g.8xlarge
+- Update: aws/r7gd.12xlarge
+- Update: aws/r7gd.16xlarge
+- Update: aws/r7gd.2xlarge
+- Update: aws/r7gd.4xlarge
+- Update: aws/r7gd.8xlarge
+- Update: aws/r7gd.large
+- Update: aws/r7gd.medium
+- Update: aws/r7gd.metal
+- Update: aws/r7gd.xlarge
+- Update: aws/r7g.large
+- Update: aws/r7g.medium
+- Update: aws/r7g.metal
+- Update: aws/r7g.xlarge
+- Update: aws/r7i.12xlarge
+- Update: aws/r7i.16xlarge
+- Update: aws/r7i.24xlarge
+- Update: aws/r7i.2xlarge
+- Update: aws/r7i.48xlarge
+- Update: aws/r7i.4xlarge
+- Update: aws/r7i.8xlarge
+- Update: aws/r7i.large
+- Update: aws/r7i.metal-24xl
+- Update: aws/r7i.metal-48xl
+- Update: aws/r7i.xlarge
+- Update: aws/r7iz.12xlarge
+- Update: aws/r7iz.16xlarge
+- Update: aws/r7iz.2xlarge
+- Update: aws/r7iz.32xlarge
+- Update: aws/r7iz.4xlarge
+- Update: aws/r7iz.8xlarge
+- Update: aws/r7iz.large
+- Update: aws/r7iz.metal-16xl
+- Update: aws/r7iz.metal-32xl
+- Update: aws/r7iz.xlarge
+- Update: aws/t1.micro
+- Update: aws/t2.2xlarge
+- Update: aws/t2.large
+- Update: aws/t2.medium
+- Update: aws/t2.micro
+- Update: aws/t2.nano
+- Update: aws/t2.small
+- Update: aws/t2.xlarge
+- Update: aws/t3a.2xlarge
+- Update: aws/t3a.large
+- Update: aws/t3a.medium
+- Update: aws/t3a.micro
+- Update: aws/t3a.nano
+- Update: aws/t3a.small
+- Update: aws/t3a.xlarge
+- Update: aws/z1d.12xlarge
+- Update: aws/z1d.2xlarge
+- Update: aws/z1d.3xlarge
+- Update: aws/z1d.6xlarge
+- Update: aws/z1d.large
+- Update: aws/z1d.metal
+- Update: aws/z1d.xlarge
+
+## v0.2.1+20240610092802 (Jun 10, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9445772390
+
+
+### server
+
+- Update: hcloud/100
+
+## v0.2.1+20240610083115 (Jun 10, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9444940191
+
+
+### server
+
+- Update: hcloud/99
+
+## v0.2.1+20240610072431 (Jun 10, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9444056005
+
+
+### server
+
+- Update: aws/c7i-flex.4xlarge
+- Update: aws/c7i-flex.xlarge
+
+## v0.2.1+20240610063302 (Jun 10, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9443477302
+
+
+### server
+
+- Update: aws/c7i-flex.2xlarge
+- Update: aws/t3a.xlarge
+- Update: aws/z1d.12xlarge
+- Update: aws/z1d.2xlarge
+- Update: aws/z1d.3xlarge
+- Update: aws/z1d.6xlarge
+- Update: aws/z1d.large
+- Update: aws/z1d.metal
+- Update: aws/z1d.xlarge
+
+## v0.2.1+20240610052503 (Jun 10, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9442864988
+
+
+### server
+
+- Update: aws/t2.nano
+- Update: aws/t2.small
+- Update: aws/t2.xlarge
+- Update: aws/t3a.2xlarge
+- Update: aws/t3a.large
+- Update: aws/t3a.medium
+- Update: aws/t3a.micro
+- Update: aws/t3a.nano
+- Update: aws/t3a.small
+
+## v0.2.1+20240610043036 (Jun 10, 2024)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9442440350
+
+
+### server
+
+- Update: aws/r7iz.metal-16xl
+- Update: aws/r7iz.metal-32xl
+- Update: aws/r7iz.xlarge
+- Update: aws/t1.micro
+- Update: aws/t2.2xlarge
+- Update: aws/t2.large
+- Update: aws/t2.medium
+- Update: aws/t2.micro
+
+## v0.2.1+20240610032702 (Jun 10, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9441967987
+
+
+### server
+
+- Update: aws/r7iz.32xlarge
+- Update: aws/r7iz.4xlarge
+- Update: aws/r7iz.8xlarge
+- Update: aws/r7iz.large
+
+## v0.2.1+20240610024218 (Jun 10, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9441631626
+
+
+### server
+
+- Update: aws/r7i.metal-24xl
+- Update: aws/r7i.metal-48xl
+- Update: aws/r7i.xlarge
+- Update: aws/r7iz.12xlarge
+- Update: aws/r7iz.16xlarge
+- Update: aws/r7iz.2xlarge
+
+## v0.2.1+20240610012340 (Jun 10, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9440996340
+
+
+### server
+
+- Update: aws/r7i.24xlarge
+- Update: aws/r7i.2xlarge
+- Update: aws/r7i.48xlarge
+- Update: aws/r7i.4xlarge
+- Update: aws/r7i.8xlarge
+- Update: aws/r7i.large
+
+## v0.2.1+20240609232813 (Jun 09, 2024)
+
+This is an automated release with 11 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9440187253
+
+
+### server
+
+- Update: aws/r7gd.12xlarge
+- Update: aws/r7gd.16xlarge
+- Update: aws/r7gd.2xlarge
+- Update: aws/r7gd.4xlarge
+- Update: aws/r7gd.8xlarge
+- Update: aws/r7gd.large
+- Update: aws/r7gd.medium
+- Update: aws/r7gd.metal
+- Update: aws/r7gd.xlarge
+- Update: aws/r7i.12xlarge
+- Update: aws/r7i.16xlarge
+
+## v0.2.1+20240609222510 (Jun 09, 2024)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9439858142
+
+
+### server
+
+- Update: aws/r7g.2xlarge
+- Update: aws/r7g.4xlarge
+- Update: aws/r7g.8xlarge
+- Update: aws/r7g.large
+- Update: aws/r7g.medium
+- Update: aws/r7g.metal
+- Update: aws/r7g.xlarge
+
+## v0.2.1+20240609212451 (Jun 09, 2024)
+
+This is an automated release with 12 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9439543135
+
+
+### server
+
+- Update: aws/r7a.24xlarge
+- Update: aws/r7a.2xlarge
+- Update: aws/r7a.32xlarge
+- Update: aws/r7a.48xlarge
+- Update: aws/r7a.4xlarge
+- Update: aws/r7a.8xlarge
+- Update: aws/r7a.large
+- Update: aws/r7a.medium
+- Update: aws/r7a.metal-48xl
+- Update: aws/r7a.xlarge
+- Update: aws/r7g.12xlarge
+- Update: aws/r7g.16xlarge
+
+## v0.2.1+20240609202700 (Jun 09, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9439232328
+
+
+### server
+
+- Update: aws/r6in.2xlarge
+- Update: aws/r6in.32xlarge
+- Update: aws/r6in.4xlarge
+- Update: aws/r6in.8xlarge
+- Update: aws/r6in.large
+- Update: aws/r6in.metal
+- Update: aws/r6in.xlarge
+- Update: aws/r7a.12xlarge
+- Update: aws/r7a.16xlarge
+
+## v0.2.1+20240609192331 (Jun 09, 2024)
+
+This is an automated release with 12 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9438897385
+
+
+### server
+
+- Update: aws/r6idn.16xlarge
+- Update: aws/r6idn.24xlarge
+- Update: aws/r6idn.2xlarge
+- Update: aws/r6idn.32xlarge
+- Update: aws/r6idn.4xlarge
+- Update: aws/r6idn.8xlarge
+- Update: aws/r6idn.large
+- Update: aws/r6idn.metal
+- Update: aws/r6idn.xlarge
+- Update: aws/r6in.12xlarge
+- Update: aws/r6in.16xlarge
+- Update: aws/r6in.24xlarge
+
+## v0.2.1+20240609182832 (Jun 09, 2024)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9438602514
+
+
+### server
+
+- Update: aws/r6id.2xlarge
+- Update: aws/r6id.32xlarge
+- Update: aws/r6id.4xlarge
+- Update: aws/r6id.8xlarge
+- Update: aws/r6id.large
+- Update: aws/r6id.metal
+- Update: aws/r6idn.12xlarge
+- Update: aws/r6id.xlarge
+
+## v0.2.1+20240609172310 (Jun 09, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9438226051
+
+
+### server
+
+- Update: aws/r6gd.2xlarge
+- Update: aws/r6gd.4xlarge
+- Update: aws/r6gd.8xlarge
+- Update: aws/r6gd.large
+- Update: aws/r6gd.medium
+- Update: aws/r6gd.metal
+- Update: aws/r6gd.xlarge
+- Update: aws/r6id.12xlarge
+- Update: aws/r6id.16xlarge
+- Update: aws/r6id.24xlarge
+
+## v0.2.1+20240609162729 (Jun 09, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9437922248
+
+
+### server
+
+- Update: aws/r6a.8xlarge
+- Update: aws/r6a.large
+- Update: aws/r6a.metal
+- Update: aws/r6a.xlarge
+- Update: aws/r6gd.12xlarge
+- Update: aws/r6gd.16xlarge
+
+## v0.2.1+20240609152813 (Jun 09, 2024)
+
+This is an automated release with 14 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9437577578
+
+
+### server
+
+- Update: aws/r5b.16xlarge
+- Update: aws/r5b.24xlarge
+- Update: aws/r5b.2xlarge
+- Update: aws/r5b.4xlarge
+- Update: aws/r5b.8xlarge
+- Update: aws/r5b.large
+- Update: aws/r5b.metal
+- Update: aws/r5b.xlarge
+- Update: aws/r6a.12xlarge
+- Update: aws/r6a.16xlarge
+- Update: aws/r6a.24xlarge
+- Update: aws/r6a.2xlarge
+- Update: aws/r6a.32xlarge
+- Update: aws/r6a.4xlarge
+
+## v0.2.1+20240609142311 (Jun 09, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9437202873
+
+
+### server
+
+- Update: aws/r5ad.12xlarge
+- Update: aws/r5ad.16xlarge
+- Update: aws/r5ad.24xlarge
+- Update: aws/r5ad.2xlarge
+- Update: aws/r5ad.4xlarge
+- Update: aws/r5ad.8xlarge
+- Update: aws/r5ad.large
+- Update: aws/r5ad.xlarge
+- Update: aws/r5a.xlarge
+- Update: aws/r5b.12xlarge
+
+## v0.2.1+20240609132730 (Jun 09, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9436884250
+
+
+### server
+
+- Update: aws/r5a.16xlarge
+- Update: aws/r5a.24xlarge
+- Update: aws/r5a.2xlarge
+- Update: aws/r5a.4xlarge
+- Update: aws/r5a.8xlarge
+- Update: aws/r5a.large
+
+## v0.2.1+20240609123834 (Jun 09, 2024)
+
+This is an automated release with 12 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9436553100
+
+
+### server
+
+- Update: aws/p2.xlarge
+- Update: aws/r3.2xlarge
+- Update: aws/r3.4xlarge
+- Update: aws/r3.8xlarge
+- Update: aws/r3.large
+- Update: aws/r3.xlarge
+- Update: aws/r4.16xlarge
+- Update: aws/r4.2xlarge
+- Update: aws/r4.4xlarge
+- Update: aws/r4.large
+- Update: aws/r4.xlarge
+- Update: aws/r5a.12xlarge
+
+## v0.2.1+20240609112053 (Jun 09, 2024)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9436119129
+
+
+### server
+
+- Update: aws/m7i.48xlarge
+- Update: aws/m7i.4xlarge
+- Update: aws/m7i.8xlarge
+- Update: aws/m7i.large
+- Update: aws/m7i.metal-24xl
+- Update: aws/m7i.metal-48xl
+- Update: aws/m7i.xlarge
+
+## v0.2.1+20240609102529 (Jun 09, 2024)
+
+This is an automated release with 133 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9435803424
+
+
+### server
+
+- Update: hcloud/96
+- Update: hcloud/97
+- Update: hcloud/98
+- Update: aws/c7a.48xlarge
+- Update: aws/i2.8xlarge
+- Update: aws/i2.xlarge
+- Update: aws/i4i.metal
+- Update: aws/m4.16xlarge
+- Update: aws/m4.2xlarge
+- Update: aws/m4.4xlarge
+- Update: aws/m4.large
+- Update: aws/m4.xlarge
+- Update: aws/m5a.12xlarge
+- Update: aws/m5a.16xlarge
+- Update: aws/m5a.24xlarge
+- Update: aws/m5a.2xlarge
+- Update: aws/m5a.4xlarge
+- Update: aws/m5a.8xlarge
+- Update: aws/m5ad.12xlarge
+- Update: aws/m5ad.16xlarge
+- Update: aws/m5ad.24xlarge
+- Update: aws/m5ad.2xlarge
+- Update: aws/m5ad.4xlarge
+- Update: aws/m5ad.8xlarge
+- Update: aws/m5ad.large
+- Update: aws/m5ad.xlarge
+- Update: aws/m5a.large
+- Update: aws/m5a.xlarge
+- Update: aws/m5dn.12xlarge
+- Update: aws/m5dn.16xlarge
+- Update: aws/m5dn.24xlarge
+- Update: aws/m5dn.2xlarge
+- Update: aws/m5dn.4xlarge
+- Update: aws/m5dn.8xlarge
+- Update: aws/m5dn.large
+- Update: aws/m5dn.metal
+- Update: aws/m5dn.xlarge
+- Update: aws/m5n.12xlarge
+- Update: aws/m5n.16xlarge
+- Update: aws/m5n.24xlarge
+- Update: aws/m5n.2xlarge
+- Update: aws/m5n.4xlarge
+- Update: aws/m5n.8xlarge
+- Update: aws/m5n.large
+- Update: aws/m5n.metal
+- Update: aws/m5n.xlarge
+- Update: aws/m5zn.12xlarge
+- Update: aws/m5zn.2xlarge
+- Update: aws/m5zn.3xlarge
+- Update: aws/m5zn.6xlarge
+- Update: aws/m5zn.large
+- Update: aws/m5zn.metal
+- Update: aws/m5zn.xlarge
+- Update: aws/m6a.12xlarge
+- Update: aws/m6a.16xlarge
+- Update: aws/m6a.24xlarge
+- Update: aws/m6a.2xlarge
+- Update: aws/m6a.32xlarge
+- Update: aws/m6a.48xlarge
+- Update: aws/m6a.4xlarge
+- Update: aws/m6a.8xlarge
+- Update: aws/m6a.large
+- Update: aws/m6a.metal
+- Update: aws/m6a.xlarge
+- Update: aws/m6id.12xlarge
+- Update: aws/m6id.16xlarge
+- Update: aws/m6id.24xlarge
+- Update: aws/m6id.2xlarge
+- Update: aws/m6id.32xlarge
+- Update: aws/m6id.4xlarge
+- Update: aws/m6id.8xlarge
+- Update: aws/m6id.large
+- Update: aws/m6id.metal
+- Update: aws/m6idn.12xlarge
+- Update: aws/m6idn.16xlarge
+- Update: aws/m6idn.24xlarge
+- Update: aws/m6idn.2xlarge
+- Update: aws/m6idn.32xlarge
+- Update: aws/m6idn.4xlarge
+- Update: aws/m6idn.8xlarge
+- Update: aws/m6idn.large
+- Update: aws/m6idn.metal
+- Update: aws/m6idn.xlarge
+- Update: aws/m6id.xlarge
+- Update: aws/m6in.12xlarge
+- Update: aws/m6in.16xlarge
+- Update: aws/m6in.24xlarge
+- Update: aws/m6in.2xlarge
+- Update: aws/m6in.32xlarge
+- Update: aws/m6in.4xlarge
+- Update: aws/m6in.8xlarge
+- Update: aws/m6in.large
+- Update: aws/m6in.metal
+- Update: aws/m6in.xlarge
+- Update: aws/m7a.12xlarge
+- Update: aws/m7a.16xlarge
+- Update: aws/m7a.24xlarge
+- Update: aws/m7a.2xlarge
+- Update: aws/m7a.32xlarge
+- Update: aws/m7a.4xlarge
+- Update: aws/m7a.8xlarge
+- Update: aws/m7a.large
+- Update: aws/m7a.medium
+- Update: aws/m7a.metal-48xl
+- Update: aws/m7a.xlarge
+- Update: aws/m7g.12xlarge
+- Update: aws/m7g.16xlarge
+- Update: aws/m7g.2xlarge
+- Update: aws/m7g.4xlarge
+- Update: aws/m7g.8xlarge
+- Update: aws/m7gd.12xlarge
+- Update: aws/m7gd.16xlarge
+- Update: aws/m7gd.2xlarge
+- Update: aws/m7gd.4xlarge
+- Update: aws/m7gd.8xlarge
+- Update: aws/m7gd.large
+- Update: aws/m7gd.medium
+- Update: aws/m7gd.metal
+- Update: aws/m7gd.xlarge
+- Update: aws/m7g.large
+- Update: aws/m7g.medium
+- Update: aws/m7g.metal
+- Update: aws/m7g.xlarge
+- Update: aws/m7i.12xlarge
+- Update: aws/m7i.16xlarge
+- Update: aws/m7i.24xlarge
+- Update: aws/m7i.2xlarge
+- Update: aws/m7i-flex.2xlarge
+- Update: aws/m7i-flex.4xlarge
+- Update: aws/m7i-flex.8xlarge
+- Update: aws/m7i-flex.large
+- Update: aws/m7i-flex.xlarge
+- Update: aws/t4g.nano
+
+## v0.2.1+20240609092452 (Jun 09, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9435483805
+
+
+### server
+
+- Update: aws/i2.8xlarge
+- Update: aws/i2.xlarge
+- Update: aws/t4g.nano
+
+## v0.2.1+20240609082650 (Jun 09, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9435155952
+
+
+### server
+
+- Update: aws/i4i.metal
+
+## v0.2.1+20240608222709 (Jun 08, 2024)
+
+This is an automated release with 12 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9431892249
+
+
+### server
+
+- Update: aws/m7gd.12xlarge
+- Update: aws/m7gd.16xlarge
+- Update: aws/m7gd.2xlarge
+- Update: aws/m7gd.4xlarge
+- Update: aws/m7gd.8xlarge
+- Update: aws/m7gd.large
+- Update: aws/m7gd.medium
+- Update: aws/m7gd.metal
+- Update: aws/m7gd.xlarge
+- Update: aws/m7g.metal
+- Update: aws/m7g.xlarge
+- Update: aws/m7i-flex.2xlarge
+
+## v0.2.1+20240608212305 (Jun 08, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9431595576
+
+
+### server
+
+- Update: aws/m7a.metal-48xl
+- Update: aws/m7a.xlarge
+- Update: aws/m7g.12xlarge
+- Update: aws/m7g.16xlarge
+- Update: aws/m7g.2xlarge
+- Update: aws/m7g.4xlarge
+- Update: aws/m7g.8xlarge
+- Update: aws/m7g.large
+- Update: aws/m7g.medium
+
+## v0.2.1+20240608202311 (Jun 08, 2024)
+
+This is an automated release with 11 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9431286987
+
+
+### server
+
+- Update: aws/m6in.metal
+- Update: aws/m6in.xlarge
+- Update: aws/m7a.12xlarge
+- Update: aws/m7a.16xlarge
+- Update: aws/m7a.24xlarge
+- Update: aws/m7a.2xlarge
+- Update: aws/m7a.32xlarge
+- Update: aws/m7a.4xlarge
+- Update: aws/m7a.8xlarge
+- Update: aws/m7a.large
+- Update: aws/m7a.medium
+
+## v0.2.1+20240608192125 (Jun 08, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9430974691
+
+
+### server
+
+- Update: aws/m6idn.metal
+- Update: aws/m6idn.xlarge
+- Update: aws/m6in.12xlarge
+- Update: aws/m6in.16xlarge
+- Update: aws/m6in.24xlarge
+- Update: aws/m6in.2xlarge
+- Update: aws/m6in.32xlarge
+- Update: aws/m6in.4xlarge
+- Update: aws/m6in.8xlarge
+- Update: aws/m6in.large
+
+## v0.2.1+20240608182759 (Jun 08, 2024)
+
+This is an automated release with 11 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9430690841
+
+
+### server
+
+- Update: aws/m6id.large
+- Update: aws/m6id.metal
+- Update: aws/m6idn.12xlarge
+- Update: aws/m6idn.16xlarge
+- Update: aws/m6idn.24xlarge
+- Update: aws/m6idn.2xlarge
+- Update: aws/m6idn.32xlarge
+- Update: aws/m6idn.4xlarge
+- Update: aws/m6idn.8xlarge
+- Update: aws/m6idn.large
+- Update: aws/m6id.xlarge
+
+## v0.2.1+20240608172245 (Jun 08, 2024)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9430331937
+
+
+### server
+
+- Update: aws/m6a.xlarge
+- Update: aws/m6id.12xlarge
+- Update: aws/m6id.16xlarge
+- Update: aws/m6id.24xlarge
+- Update: aws/m6id.2xlarge
+- Update: aws/m6id.4xlarge
+- Update: aws/m6id.8xlarge
+
+## v0.2.1+20240608163004 (Jun 08, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9430043929
+
+
+### server
+
+- Update: aws/m6a.12xlarge
+- Update: aws/m6a.16xlarge
+- Update: aws/m6a.24xlarge
+- Update: aws/m6a.2xlarge
+- Update: aws/m6a.32xlarge
+- Update: aws/m6a.4xlarge
+- Update: aws/m6a.8xlarge
+- Update: aws/m6a.large
+- Update: aws/m6a.metal
+
+## v0.2.1+20240608152629 (Jun 08, 2024)
+
+This is an automated release with 12 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9429704610
+
+
+### server
+
+- Update: aws/m5n.4xlarge
+- Update: aws/m5n.8xlarge
+- Update: aws/m5n.large
+- Update: aws/m5n.metal
+- Update: aws/m5n.xlarge
+- Update: aws/m5zn.12xlarge
+- Update: aws/m5zn.2xlarge
+- Update: aws/m5zn.3xlarge
+- Update: aws/m5zn.6xlarge
+- Update: aws/m5zn.large
+- Update: aws/m5zn.metal
+- Update: aws/m5zn.xlarge
+
+## v0.2.1+20240608142216 (Jun 08, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9429356200
+
+
+### server
+
+- Update: hcloud/98
+- Update: aws/m5dn.4xlarge
+- Update: aws/m5dn.8xlarge
+- Update: aws/m5dn.large
+- Update: aws/m5dn.metal
+- Update: aws/m5dn.xlarge
+- Update: aws/m5n.12xlarge
+- Update: aws/m5n.16xlarge
+- Update: aws/m5n.24xlarge
+- Update: aws/m5n.2xlarge
+
+## v0.2.1+20240608132441 (Jun 08, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9429046624
+
+
+### server
+
+- Update: aws/m5ad.large
+- Update: aws/m5ad.xlarge
+- Update: aws/m5dn.12xlarge
+- Update: aws/m5dn.16xlarge
+- Update: aws/m5dn.24xlarge
+- Update: aws/m5dn.2xlarge
+
+## v0.2.1+20240608123615 (Jun 08, 2024)
+
+This is an automated release with 14 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9428726948
+
+
+### server
+
+- Update: hcloud/96
+- Update: hcloud/97
+- Update: aws/m5a.24xlarge
+- Update: aws/m5a.2xlarge
+- Update: aws/m5a.4xlarge
+- Update: aws/m5a.8xlarge
+- Update: aws/m5ad.12xlarge
+- Update: aws/m5ad.16xlarge
+- Update: aws/m5ad.24xlarge
+- Update: aws/m5ad.2xlarge
+- Update: aws/m5ad.4xlarge
+- Update: aws/m5ad.8xlarge
+- Update: aws/m5a.large
+- Update: aws/m5a.xlarge
+
+## v0.2.1+20240608112156 (Jun 08, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9428321829
+
+
+### server
+
+- Update: aws/m4.2xlarge
+- Update: aws/m4.4xlarge
+- Update: aws/m4.large
+- Update: aws/m4.xlarge
+- Update: aws/m5a.12xlarge
+- Update: aws/m5a.16xlarge
+
+## v0.2.1+20240608102727 (Jun 08, 2024)
+
+This is an automated release with 118 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9428017106
+
+
+### server
+
+- Update: hcloud/105
+- Update: hcloud/107
+- Update: hcloud/22
+- Update: hcloud/23
+- Update: hcloud/24
+- Update: hcloud/25
+- Update: hcloud/26
+- Update: hcloud/45
+- Update: hcloud/5
+- Update: hcloud/7
+- Update: hcloud/9
+- Update: hcloud/93
+- Update: hcloud/94
+- Update: hcloud/95
+- Update: aws/c6in.32xlarge
+- Update: aws/c7a.48xlarge
+- Update: aws/m4.16xlarge
+- Update: aws/m5d.2xlarge
+- Update: aws/m5d.4xlarge
+- Update: aws/m5d.8xlarge
+- Update: aws/m5d.large
+- Update: aws/m5d.metal
+- Update: aws/m5d.xlarge
+- Update: aws/m6g.12xlarge
+- Update: aws/m6g.16xlarge
+- Update: aws/m6g.2xlarge
+- Update: aws/m6g.4xlarge
+- Update: aws/m6g.8xlarge
+- Update: aws/m6gd.12xlarge
+- Update: aws/m6gd.16xlarge
+- Update: aws/m6gd.2xlarge
+- Update: aws/m6gd.4xlarge
+- Update: aws/m6gd.8xlarge
+- Update: aws/m6gd.large
+- Update: aws/m6gd.medium
+- Update: aws/m6gd.metal
+- Update: aws/m6gd.xlarge
+- Update: aws/m6g.large
+- Update: aws/m6g.medium
+- Update: aws/m6g.metal
+- Update: aws/m6g.xlarge
+- Update: aws/m6i.12xlarge
+- Update: aws/m6i.16xlarge
+- Update: aws/m6i.24xlarge
+- Update: aws/m6i.2xlarge
+- Update: aws/m6i.32xlarge
+- Update: aws/m6i.4xlarge
+- Update: aws/m6i.8xlarge
+- Update: aws/m6i.large
+- Update: aws/m6i.metal
+- Update: aws/m6i.xlarge
+- Update: aws/r5.12xlarge
+- Update: aws/r5.16xlarge
+- Update: aws/r5.24xlarge
+- Update: aws/r5.2xlarge
+- Update: aws/r5.4xlarge
+- Update: aws/r5.8xlarge
+- Update: aws/r5d.12xlarge
+- Update: aws/r5d.16xlarge
+- Update: aws/r5d.24xlarge
+- Update: aws/r5d.2xlarge
+- Update: aws/r5d.4xlarge
+- Update: aws/r5d.8xlarge
+- Update: aws/r5d.large
+- Update: aws/r5d.metal
+- Update: aws/r5dn.12xlarge
+- Update: aws/r5dn.16xlarge
+- Update: aws/r5dn.24xlarge
+- Update: aws/r5dn.2xlarge
+- Update: aws/r5dn.4xlarge
+- Update: aws/r5dn.8xlarge
+- Update: aws/r5dn.large
+- Update: aws/r5dn.metal
+- Update: aws/r5dn.xlarge
+- Update: aws/r5d.xlarge
+- Update: aws/r5.large
+- Update: aws/r5.metal
+- Update: aws/r5n.12xlarge
+- Update: aws/r5n.16xlarge
+- Update: aws/r5n.24xlarge
+- Update: aws/r5n.2xlarge
+- Update: aws/r5n.4xlarge
+- Update: aws/r5n.8xlarge
+- Update: aws/r5n.large
+- Update: aws/r5n.metal
+- Update: aws/r5n.xlarge
+- Update: aws/r5.xlarge
+- Update: aws/r6g.12xlarge
+- Update: aws/r6g.16xlarge
+- Update: aws/r6g.2xlarge
+- Update: aws/r6g.4xlarge
+- Update: aws/r6g.8xlarge
+- Update: aws/r6g.large
+- Update: aws/r6g.medium
+- Update: aws/r6g.metal
+- Update: aws/r6g.xlarge
+- Update: aws/r6i.12xlarge
+- Update: aws/r6i.16xlarge
+- Update: aws/r6i.24xlarge
+- Update: aws/r6i.2xlarge
+- Update: aws/r6i.32xlarge
+- Update: aws/r6i.4xlarge
+- Update: aws/r6i.8xlarge
+- Update: aws/r6i.large
+- Update: aws/r6i.metal
+- Update: aws/r6i.xlarge
+- Update: aws/t3.2xlarge
+- Update: aws/t3.large
+- Update: aws/t3.medium
+- Update: aws/t3.nano
+- Update: aws/t3.small
+- Update: aws/t3.xlarge
+- Update: aws/t4g.2xlarge
+- Update: aws/t4g.large
+- Update: aws/t4g.medium
+- Update: aws/t4g.micro
+- Update: aws/t4g.small
+- Update: aws/t4g.xlarge
+
+## v0.2.1+20240608092606 (Jun 08, 2024)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9427715490
+
+
+### server
+
+- Update: aws/t3.medium
+- Update: aws/t3.small
+- Update: aws/t3.xlarge
+- Update: aws/t4g.2xlarge
+- Update: aws/t4g.large
+- Update: aws/t4g.medium
+- Update: aws/t4g.micro
+- Update: aws/t4g.small
+
+## v0.2.1+20240608082640 (Jun 08, 2024)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9427391294
+
+
+### server
+
+- Update: aws/r6i.32xlarge
+- Update: aws/r6i.4xlarge
+- Update: aws/r6i.8xlarge
+- Update: aws/r6i.large
+- Update: aws/r6i.metal
+- Update: aws/r6i.xlarge
+- Update: aws/t3.2xlarge
+- Update: aws/t3.large
+
+## v0.2.1+20240608072343 (Jun 08, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9427069655
+
+
+### server
+
+- Update: aws/r6g.4xlarge
+- Update: aws/r6g.8xlarge
+- Update: aws/r6g.large
+- Update: aws/r6g.medium
+- Update: aws/r6g.metal
+- Update: aws/r6g.xlarge
+- Update: aws/r6i.12xlarge
+- Update: aws/r6i.16xlarge
+- Update: aws/r6i.24xlarge
+- Update: aws/r6i.2xlarge
+
+## v0.2.1+20240608062836 (Jun 08, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9426785999
+
+
+### server
+
+- Update: aws/r5n.large
+- Update: aws/r5n.metal
+- Update: aws/r5n.xlarge
+- Update: aws/r6g.12xlarge
+- Update: aws/r6g.16xlarge
+- Update: aws/r6g.2xlarge
+
+## v0.2.1+20240608052718 (Jun 08, 2024)
+
+This is an automated release with 12 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9426421410
+
+
+### server
+
+- Update: aws/r5dn.2xlarge
+- Update: aws/r5dn.4xlarge
+- Update: aws/r5dn.8xlarge
+- Update: aws/r5dn.large
+- Update: aws/r5dn.metal
+- Update: aws/r5dn.xlarge
+- Update: aws/r5n.12xlarge
+- Update: aws/r5n.16xlarge
+- Update: aws/r5n.24xlarge
+- Update: aws/r5n.2xlarge
+- Update: aws/r5n.4xlarge
+- Update: aws/r5n.8xlarge
+
+## v0.2.1+20240608042737 (Jun 08, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9426128457
+
+
+### server
+
+- Update: aws/r5d.2xlarge
+- Update: aws/r5d.4xlarge
+- Update: aws/r5d.8xlarge
+- Update: aws/r5d.large
+- Update: aws/r5d.metal
+- Update: aws/r5dn.12xlarge
+- Update: aws/r5dn.16xlarge
+- Update: aws/r5dn.24xlarge
+- Update: aws/r5d.xlarge
+
+## v0.2.1+20240608032452 (Jun 08, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9425789441
+
+
+### server
+
+- Update: aws/r5d.12xlarge
+- Update: aws/r5d.16xlarge
+- Update: aws/r5d.24xlarge
+- Update: aws/r5.large
+- Update: aws/r5.metal
+- Update: aws/r5.xlarge
+
+## v0.2.1+20240608023817 (Jun 08, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9425523225
+
+
+### server
+
+- Update: aws/r5.12xlarge
+- Update: aws/r5.16xlarge
+- Update: aws/r5.24xlarge
+- Update: aws/r5.2xlarge
+- Update: aws/r5.4xlarge
+- Update: aws/r5.8xlarge
+
+## v0.2.1+20240608011936 (Jun 08, 2024)
+
+This is an automated release with 13 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9425010520
+
+
+### server
+
+- Update: hcloud/26
+- Update: hcloud/93
+- Update: hcloud/94
+- Update: hcloud/95
+- Update: aws/m6i.16xlarge
+- Update: aws/m6i.24xlarge
+- Update: aws/m6i.2xlarge
+- Update: aws/m6i.32xlarge
+- Update: aws/m6i.4xlarge
+- Update: aws/m6i.8xlarge
+- Update: aws/m6i.large
+- Update: aws/m6i.metal
+- Update: aws/m6i.xlarge
+
+## v0.2.1+20240607232508 (Jun 07, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9424198352
+
+
+### server
+
+- Update: aws/m6gd.8xlarge
+- Update: aws/m6gd.large
+- Update: aws/m6gd.medium
+- Update: aws/m6gd.metal
+- Update: aws/m6gd.xlarge
+- Update: aws/m6i.12xlarge
+
+## v0.2.1+20240607222628 (Jun 07, 2024)
+
+This is an automated release with 14 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9423741655
+
+
+### server
+
+- Update: hcloud/107
+- Update: hcloud/22
+- Update: hcloud/23
+- Update: hcloud/24
+- Update: hcloud/25
+- Update: aws/m6g.8xlarge
+- Update: aws/m6gd.12xlarge
+- Update: aws/m6gd.16xlarge
+- Update: aws/m6gd.2xlarge
+- Update: aws/m6gd.4xlarge
+- Update: aws/m6g.large
+- Update: aws/m6g.medium
+- Update: aws/m6g.metal
+- Update: aws/m6g.xlarge
+
+## v0.2.1+20240607212715 (Jun 07, 2024)
+
+This is an automated release with 16 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9423235664
+
+
+### server
+
+- Update: hcloud/105
+- Update: hcloud/45
+- Update: hcloud/5
+- Update: hcloud/7
+- Update: hcloud/9
+- Update: aws/c6in.32xlarge
+- Update: aws/m5d.2xlarge
+- Update: aws/m5d.4xlarge
+- Update: aws/m5d.8xlarge
+- Update: aws/m5d.large
+- Update: aws/m5d.metal
+- Update: aws/m5d.xlarge
+- Update: aws/m6g.12xlarge
+- Update: aws/m6g.16xlarge
+- Update: aws/m6g.2xlarge
+- Update: aws/m6g.4xlarge
+
+## v0.2.1+20240607202703 (Jun 07, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9422646358
+
+
+### server
+
+- Update: hcloud/1
+- Update: hcloud/104
+- Update: hcloud/3
+- Update: aws/m5d.12xlarge
+- Update: aws/m5d.16xlarge
+- Update: aws/m5d.24xlarge
+
+## v0.2.1+20240607192205 (Jun 07, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9422028065
+
+
+### server
+
+- Update: aws/m5.2xlarge
+- Update: aws/m5.4xlarge
+- Update: aws/m5.8xlarge
+- Update: aws/m5.large
+- Update: aws/m5.metal
+- Update: aws/m5.xlarge
+
+## v0.2.1+20240607183015 (Jun 07, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9421468159
+
+
+### server
+
+- Update: aws/m3.medium
+- Update: aws/m3.xlarge
+- Update: aws/m4.10xlarge
+- Update: aws/m5.12xlarge
+- Update: aws/m5.16xlarge
+- Update: aws/m5.24xlarge
+
+## v0.2.1+20240607172229 (Jun 07, 2024)
+
+This is an automated release with 56 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9420719824
+
+
+### server
+
+- Update: aws/h1.2xlarge
+- Update: aws/i2.2xlarge
+- Update: aws/i2.4xlarge
+- Update: aws/i3.16xlarge
+- Update: aws/i3.2xlarge
+- Update: aws/i3.4xlarge
+- Update: aws/i3.8xlarge
+- Update: aws/i3en.12xlarge
+- Update: aws/i3en.24xlarge
+- Update: aws/i3en.2xlarge
+- Update: aws/i3en.3xlarge
+- Update: aws/i3en.6xlarge
+- Update: aws/i3en.large
+- Update: aws/i3en.metal
+- Update: aws/i3en.xlarge
+- Update: aws/i3.large
+- Update: aws/i3.metal
+- Update: aws/i3.xlarge
+- Update: aws/i4g.16xlarge
+- Update: aws/i4g.2xlarge
+- Update: aws/i4g.4xlarge
+- Update: aws/i4g.8xlarge
+- Update: aws/i4g.large
+- Update: aws/i4g.xlarge
+- Update: aws/i4i.12xlarge
+- Update: aws/i4i.16xlarge
+- Update: aws/i4i.24xlarge
+- Update: aws/i4i.2xlarge
+- Update: aws/i4i.32xlarge
+- Update: aws/i4i.4xlarge
+- Update: aws/i4i.8xlarge
+- Update: aws/i4i.large
+- Update: aws/i4i.xlarge
+- Update: aws/im4gn.16xlarge
+- Update: aws/im4gn.2xlarge
+- Update: aws/im4gn.4xlarge
+- Update: aws/im4gn.8xlarge
+- Update: aws/im4gn.large
+- Update: aws/im4gn.xlarge
+- Update: aws/is4gen.2xlarge
+- Update: aws/is4gen.4xlarge
+- Update: aws/is4gen.8xlarge
+- Update: aws/is4gen.large
+- Update: aws/is4gen.medium
+- Update: aws/is4gen.xlarge
+- Update: aws/m1.large
+- Update: aws/m1.medium
+- Update: aws/m1.small
+- Update: aws/m1.xlarge
+- Update: aws/m2.2xlarge
+- Update: aws/m2.4xlarge
+- Update: aws/m2.xlarge
+- Update: aws/m3.2xlarge
+- Update: aws/m3.large
+- Update: aws/p3.2xlarge
+- Update: aws/r4.8xlarge
+
+## v0.2.1+20240607162712 (Jun 07, 2024)
+
+This is an automated release with 11 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9420091810
+
+
+### server
+
+- Update: aws/im4gn.8xlarge
+- Update: aws/im4gn.large
+- Update: aws/im4gn.xlarge
+- Update: aws/is4gen.2xlarge
+- Update: aws/is4gen.4xlarge
+- Update: aws/is4gen.8xlarge
+- Update: aws/is4gen.large
+- Update: aws/is4gen.medium
+- Update: aws/is4gen.xlarge
+- Update: aws/p3.2xlarge
+- Update: aws/r4.8xlarge
+
+## v0.2.1+20240607152635 (Jun 07, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9419326895
+
+
+### server
+
+- Update: aws/i4i.2xlarge
+- Update: aws/i4i.32xlarge
+- Update: aws/i4i.4xlarge
+- Update: aws/i4i.8xlarge
+- Update: aws/i4i.large
+- Update: aws/i4i.xlarge
+- Update: aws/im4gn.16xlarge
+- Update: aws/im4gn.2xlarge
+- Update: aws/im4gn.4xlarge
+
+## v0.2.1+20240607142305 (Jun 07, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9418472262
+
+
+### server
+
+- Update: aws/i4g.16xlarge
+- Update: aws/i4g.2xlarge
+- Update: aws/i4g.4xlarge
+- Update: aws/i4g.8xlarge
+- Update: aws/i4g.large
+- Update: aws/i4g.xlarge
+- Update: aws/i4i.12xlarge
+- Update: aws/i4i.16xlarge
+- Update: aws/i4i.24xlarge
+
+## v0.2.1+20240607132724 (Jun 07, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9417704434
+
+
+### server
+
+- Update: aws/i3en.large
+- Update: aws/i3en.metal
+- Update: aws/i3en.xlarge
+- Update: aws/i3.large
+- Update: aws/i3.metal
+- Update: aws/i3.xlarge
+
+## v0.2.1+20240607123939 (Jun 07, 2024)
+
+This is an automated release with 12 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9417045424
+
+
+### server
+
+- Update: aws/h1.2xlarge
+- Update: aws/i2.2xlarge
+- Update: aws/i2.4xlarge
+- Update: aws/i3.16xlarge
+- Update: aws/i3.2xlarge
+- Update: aws/i3.4xlarge
+- Update: aws/i3.8xlarge
+- Update: aws/i3en.12xlarge
+- Update: aws/i3en.24xlarge
+- Update: aws/i3en.2xlarge
+- Update: aws/i3en.3xlarge
+- Update: aws/i3en.6xlarge
+
+## v0.2.1+20240607102652 (Jun 07, 2024)
+
+This is an automated release with 96 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9415432877
+
+
+### server
+
+- Update: aws/c6gn.medium
+- Update: aws/c6i.12xlarge
+- Update: aws/c6i.16xlarge
+- Update: aws/c6i.24xlarge
+- Update: aws/c6i.2xlarge
+- Update: aws/c6i.32xlarge
+- Update: aws/c6i.4xlarge
+- Update: aws/c6i.8xlarge
+- Update: aws/c6id.12xlarge
+- Update: aws/c6id.16xlarge
+- Update: aws/c6id.24xlarge
+- Update: aws/c6id.2xlarge
+- Update: aws/c6id.32xlarge
+- Update: aws/c6id.4xlarge
+- Update: aws/c6id.8xlarge
+- Update: aws/c6id.large
+- Update: aws/c6id.metal
+- Update: aws/c6id.xlarge
+- Update: aws/c6i.large
+- Update: aws/c6i.metal
+- Update: aws/c6in.12xlarge
+- Update: aws/c6in.16xlarge
+- Update: aws/c6in.24xlarge
+- Update: aws/c6in.2xlarge
+- Update: aws/c6in.4xlarge
+- Update: aws/c6in.8xlarge
+- Update: aws/c6in.large
+- Update: aws/c6in.metal
+- Update: aws/c6in.xlarge
+- Update: aws/c6i.xlarge
+- Update: aws/c7a.12xlarge
+- Update: aws/c7a.16xlarge
+- Update: aws/c7a.24xlarge
+- Update: aws/c7a.2xlarge
+- Update: aws/c7a.32xlarge
+- Update: aws/c7a.8xlarge
+- Update: aws/c7a.large
+- Update: aws/c7a.medium
+- Update: aws/c7a.metal-48xl
+- Update: aws/c7a.xlarge
+- Update: aws/c7g.12xlarge
+- Update: aws/c7g.16xlarge
+- Update: aws/c7g.4xlarge
+- Update: aws/c7g.8xlarge
+- Update: aws/c7gd.12xlarge
+- Update: aws/c7gd.16xlarge
+- Update: aws/c7gd.2xlarge
+- Update: aws/c7gd.4xlarge
+- Update: aws/c7gd.8xlarge
+- Update: aws/c7gd.large
+- Update: aws/c7gd.medium
+- Update: aws/c7gd.metal
+- Update: aws/c7gd.xlarge
+- Update: aws/c7g.large
+- Update: aws/c7g.medium
+- Update: aws/c7g.metal
+- Update: aws/c7gn.12xlarge
+- Update: aws/c7gn.16xlarge
+- Update: aws/c7gn.2xlarge
+- Update: aws/c7gn.4xlarge
+- Update: aws/c7gn.8xlarge
+- Update: aws/c7gn.large
+- Update: aws/c7gn.medium
+- Update: aws/c7gn.metal
+- Update: aws/c7gn.xlarge
+- Update: aws/c7g.xlarge
+- Update: aws/c7i.12xlarge
+- Update: aws/c7i.16xlarge
+- Update: aws/c7i.24xlarge
+- Update: aws/c7i.2xlarge
+- Update: aws/c7i.4xlarge
+- Update: aws/c7i.8xlarge
+- Update: aws/c7i-flex.large
+- Update: aws/c7i.large
+- Update: aws/c7i.metal-24xl
+- Update: aws/c7i.xlarge
+- Update: aws/d2.2xlarge
+- Update: aws/d2.4xlarge
+- Update: aws/d2.8xlarge
+- Update: aws/d2.xlarge
+- Update: aws/d3.2xlarge
+- Update: aws/d3.4xlarge
+- Update: aws/d3.8xlarge
+- Update: aws/d3en.12xlarge
+- Update: aws/d3en.2xlarge
+- Update: aws/d3en.4xlarge
+- Update: aws/d3en.6xlarge
+- Update: aws/d3en.8xlarge
+- Update: aws/d3en.xlarge
+- Update: aws/d3.xlarge
+- Update: aws/dl2q.24xlarge
+- Update: aws/f1.2xlarge
+- Update: aws/g3s.xlarge
+- Update: aws/g4ad.xlarge
+- Update: aws/g4dn.xlarge
+- Update: aws/g5g.xlarge
+
+## v0.2.1+20240607092526 (Jun 07, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9414670525
+
+
+### server
+
+- Update: aws/g5g.xlarge
+
+## v0.2.1+20240607052512 (Jun 07, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9412021984
+
+
+### server
+
+- Update: aws/g4dn.xlarge
+
+## v0.2.1+20240607024012 (Jun 07, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9410761471
+
+
+### server
+
+- Update: aws/g4ad.xlarge
+
+## v0.2.1+20240606232635 (Jun 06, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9409095405
+
+
+### server
+
+- Update: aws/f1.2xlarge
+
+## v0.2.1+20240606222136 (Jun 06, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9408533078
+
+
+### server
+
+- Update: aws/c7i-flex.large
+- Update: aws/d3en.8xlarge
+- Update: aws/d3en.xlarge
+- Update: aws/d3.xlarge
+- Update: aws/dl2q.24xlarge
+
+## v0.2.1+20240606212356 (Jun 06, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9407951461
+
+
+### server
+
+- Update: aws/d2.8xlarge
+- Update: aws/d2.xlarge
+- Update: aws/d3.2xlarge
+- Update: aws/d3.4xlarge
+- Update: aws/d3.8xlarge
+- Update: aws/d3en.12xlarge
+- Update: aws/d3en.2xlarge
+- Update: aws/d3en.4xlarge
+- Update: aws/d3en.6xlarge
+
+## v0.2.1+20240606202611 (Jun 06, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9407289149
+
+
+### server
+
+- Update: aws/c7i.large
+- Update: aws/c7i.metal-24xl
+- Update: aws/c7i.xlarge
+- Update: aws/d2.2xlarge
+- Update: aws/d2.4xlarge
+
+## v0.2.1+20240606182803 (Jun 06, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9405918482
+
+
+### server
+
+- Update: aws/c7i.2xlarge
+- Update: aws/c7i.4xlarge
+- Update: aws/c7i.8xlarge
+
+## v0.2.1+20240606172625 (Jun 06, 2024)
+
+This is an automated release with 18 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9405114642
+
+
+### server
+
+- Update: gcp/9904363
+- Update: gcp/9904364
+- Update: gcp/9904365
+- Update: aws/c7g.medium
+- Update: aws/c7g.metal
+- Update: aws/c7gn.12xlarge
+- Update: aws/c7gn.16xlarge
+- Update: aws/c7gn.2xlarge
+- Update: aws/c7gn.4xlarge
+- Update: aws/c7gn.8xlarge
+- Update: aws/c7gn.large
+- Update: aws/c7gn.medium
+- Update: aws/c7gn.metal
+- Update: aws/c7gn.xlarge
+- Update: aws/c7g.xlarge
+- Update: aws/c7i.12xlarge
+- Update: aws/c7i.16xlarge
+- Update: aws/c7i.24xlarge
+
+## v0.2.1+20240606162755 (Jun 06, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9404413054
+
+
+### server
+
+- Update: aws/c7gd.16xlarge
+- Update: aws/c7gd.2xlarge
+- Update: aws/c7gd.4xlarge
+- Update: aws/c7gd.8xlarge
+- Update: aws/c7gd.large
+- Update: aws/c7gd.medium
+- Update: aws/c7gd.metal
+- Update: aws/c7gd.xlarge
+- Update: aws/c7g.large
+
+## v0.2.1+20240606152531 (Jun 06, 2024)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9403509976
+
+
+### server
+
+- Update: aws/c7a.medium
+- Update: aws/c7a.metal-48xl
+- Update: aws/c7a.xlarge
+- Update: aws/c7g.12xlarge
+- Update: aws/c7g.16xlarge
+- Update: aws/c7g.4xlarge
+- Update: aws/c7g.8xlarge
+- Update: aws/c7gd.12xlarge
+
+## v0.2.1+20240606142244 (Jun 06, 2024)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9402515770
+
+
+### server
+
+- Update: aws/c7a.12xlarge
+- Update: aws/c7a.16xlarge
+- Update: aws/c7a.24xlarge
+- Update: aws/c7a.2xlarge
+- Update: aws/c7a.32xlarge
+- Update: aws/c7a.8xlarge
+- Update: aws/c7a.large
+
+## v0.2.1+20240606132624 (Jun 06, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9401625961
+
+
+### server
+
+- Update: aws/c6in.4xlarge
+- Update: aws/c6in.8xlarge
+- Update: aws/c6in.large
+- Update: aws/c6in.metal
+- Update: aws/c6in.xlarge
+- Update: aws/c6i.xlarge
+
+## v0.2.1+20240606123812 (Jun 06, 2024)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9400903369
+
+
+### server
+
+- Update: aws/c6id.metal
+- Update: aws/c6id.xlarge
+- Update: aws/c6i.large
+- Update: aws/c6i.metal
+- Update: aws/c6in.12xlarge
+- Update: aws/c6in.16xlarge
+- Update: aws/c6in.24xlarge
+- Update: aws/c6in.2xlarge
+
+## v0.2.1+20240606112144 (Jun 06, 2024)
+
+This is an automated release with 109 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9399889705
+
+
+### server
+
+- New: hcloud/104
+- New: hcloud/105
+- New: hcloud/106
+- New: hcloud/107
+- Update: hcloud/1
+- Update: hcloud/3
+- Update: hcloud/5
+- Update: hcloud/7
+- Update: hcloud/9
+- Update: aws/c1.medium
+- Update: aws/c3.large
+- Update: aws/c4.2xlarge
+- Update: aws/c4.4xlarge
+- Update: aws/c4.8xlarge
+- Update: aws/c4.large
+- Update: aws/c4.xlarge
+- Update: aws/c5.12xlarge
+- Update: aws/c5.18xlarge
+- Update: aws/c5.24xlarge
+- Update: aws/c5.2xlarge
+- Update: aws/c5.4xlarge
+- Update: aws/c5.9xlarge
+- Update: aws/c5a.12xlarge
+- Update: aws/c5a.16xlarge
+- Update: aws/c5a.24xlarge
+- Update: aws/c5a.2xlarge
+- Update: aws/c5a.4xlarge
+- Update: aws/c5a.8xlarge
+- Update: aws/c5ad.12xlarge
+- Update: aws/c5ad.16xlarge
+- Update: aws/c5ad.24xlarge
+- Update: aws/c5ad.2xlarge
+- Update: aws/c5ad.4xlarge
+- Update: aws/c5ad.8xlarge
+- Update: aws/c5ad.large
+- Update: aws/c5ad.xlarge
+- Update: aws/c5a.large
+- Update: aws/c5a.xlarge
+- Update: aws/c5d.12xlarge
+- Update: aws/c5d.18xlarge
+- Update: aws/c5d.24xlarge
+- Update: aws/c5d.2xlarge
+- Update: aws/c5d.4xlarge
+- Update: aws/c5d.9xlarge
+- Update: aws/c5d.large
+- Update: aws/c5d.metal
+- Update: aws/c5d.xlarge
+- Update: aws/c5.large
+- Update: aws/c5.metal
+- Update: aws/c5n.18xlarge
+- Update: aws/c5n.2xlarge
+- Update: aws/c5n.4xlarge
+- Update: aws/c5n.9xlarge
+- Update: aws/c5n.large
+- Update: aws/c5n.metal
+- Update: aws/c5n.xlarge
+- Update: aws/c5.xlarge
+- Update: aws/c6a.12xlarge
+- Update: aws/c6a.16xlarge
+- Update: aws/c6a.24xlarge
+- Update: aws/c6a.2xlarge
+- Update: aws/c6a.32xlarge
+- Update: aws/c6a.48xlarge
+- Update: aws/c6a.4xlarge
+- Update: aws/c6a.8xlarge
+- Update: aws/c6a.large
+- Update: aws/c6a.metal
+- Update: aws/c6a.xlarge
+- Update: aws/c6g.12xlarge
+- Update: aws/c6g.16xlarge
+- Update: aws/c6g.2xlarge
+- Update: aws/c6g.4xlarge
+- Update: aws/c6g.8xlarge
+- Update: aws/c6gd.12xlarge
+- Update: aws/c6gd.16xlarge
+- Update: aws/c6gd.2xlarge
+- Update: aws/c6gd.4xlarge
+- Update: aws/c6gd.8xlarge
+- Update: aws/c6gd.large
+- Update: aws/c6gd.medium
+- Update: aws/c6gd.metal
+- Update: aws/c6gd.xlarge
+- Update: aws/c6g.large
+- Update: aws/c6g.medium
+- Update: aws/c6g.metal
+- Update: aws/c6gn.12xlarge
+- Update: aws/c6gn.16xlarge
+- Update: aws/c6gn.2xlarge
+- Update: aws/c6gn.4xlarge
+- Update: aws/c6gn.8xlarge
+- Update: aws/c6gn.large
+- Update: aws/c6gn.medium
+- Update: aws/c6gn.xlarge
+- Update: aws/c6g.xlarge
+- Update: aws/c6i.12xlarge
+- Update: aws/c6i.16xlarge
+- Update: aws/c6i.24xlarge
+- Update: aws/c6i.2xlarge
+- Update: aws/c6i.32xlarge
+- Update: aws/c6i.4xlarge
+- Update: aws/c6i.8xlarge
+- Update: aws/c6id.12xlarge
+- Update: aws/c6id.16xlarge
+- Update: aws/c6id.24xlarge
+- Update: aws/c6id.2xlarge
+- Update: aws/c6id.32xlarge
+- Update: aws/c6id.4xlarge
+- Update: aws/c6id.8xlarge
+- Update: aws/c6id.large
+
+## v0.2.1+20240606072322 (Jun 06, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9396693740
+
+
+### server
+
+- Update: aws/c6gd.12xlarge
+- Update: aws/c6gd.16xlarge
+- Update: aws/c6gd.2xlarge
+
+## v0.2.1+20240606062947 (Jun 06, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9396108293
+
+
+### server
+
+- Update: aws/c6g.16xlarge
+- Update: aws/c6g.2xlarge
+- Update: aws/c6g.4xlarge
+- Update: aws/c6g.8xlarge
+
+## v0.2.1+20240606052404 (Jun 06, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9395501307
+
+
+### server
+
+- Update: aws/c6a.large
+- Update: aws/c6a.metal
+- Update: aws/c6a.xlarge
+- Update: aws/c6g.12xlarge
+
+## v0.2.1+20240606042641 (Jun 06, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9395052280
+
+
+### server
+
+- Update: aws/c6a.32xlarge
+- Update: aws/c6a.48xlarge
+- Update: aws/c6a.4xlarge
+- Update: aws/c6a.8xlarge
+
+## v0.2.1+20240606032520 (Jun 06, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9394585722
+
+
+### server
+
+- Update: aws/c6a.24xlarge
+- Update: aws/c6a.2xlarge
+
+## v0.2.1+20240606023729 (Jun 06, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9394202561
+
+
+### server
+
+- Update: aws/c6a.12xlarge
+- Update: aws/c6a.16xlarge
+
+## v0.2.1+20240606011926 (Jun 06, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9393513019
+
+
+### server
+
+- Update: aws/c5n.large
+- Update: aws/c5n.metal
+- Update: aws/c5n.xlarge
+- Update: aws/c5.xlarge
+
+## v0.2.1+20240605232321 (Jun 05, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9392504523
+
+
+### server
+
+- Update: aws/c5n.18xlarge
+- Update: aws/c5n.2xlarge
+- Update: aws/c5n.4xlarge
+- Update: aws/c5n.9xlarge
+
+## v0.2.1+20240605222306 (Jun 05, 2024)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9391949917
+
+
+### server
+
+- Update: aws/c5a.xlarge
+- Update: aws/c5d.9xlarge
+- Update: aws/c5d.large
+- Update: aws/c5d.metal
+- Update: aws/c5d.xlarge
+- Update: aws/c5.large
+- Update: aws/c5.metal
+
+## v0.2.1+20240605212409 (Jun 05, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9391354181
+
+
+### server
+
+- Update: aws/c5d.18xlarge
+- Update: aws/c5d.24xlarge
+- Update: aws/c5d.2xlarge
+- Update: aws/c5d.4xlarge
+
 ## v0.2.1+20240605202459 (Jun 05, 2024)
 
 This is an automated release with 3 new/updated/deleted resources.
