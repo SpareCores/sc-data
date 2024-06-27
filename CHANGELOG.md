@@ -1,4 +1,4 @@
-## v0.2.1+20240627100000 (Jun 27, 2024)
+## v0.2.1.post1 (Jun 27, 2024)
 
 Maintenance release:
 
