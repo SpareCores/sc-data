@@ -1,3 +1,10 @@
+## v0.2.1+20240627100000 (Jun 27, 2024)
+
+Maintenance release:
+
+- increase HTTP timeout,
+- fix coercing HTTP timeout when passed on the command-line.
+
 ## v0.2.1+20240626222723 (Jun 26, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
