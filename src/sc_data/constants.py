@@ -10,5 +10,5 @@ DB_HASH = (
 )
 # FIXME: replace with the final URL of the database
 DB_URL = "https://sc-data-public-40e9d310.s3.amazonaws.com/sc-data-all.db.bz2"
-HTTP_TIMEOUT = 5
+HTTP_TIMEOUT = 10
 DB_REFRESH_SECONDS = 600
