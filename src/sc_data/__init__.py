@@ -25,4 +25,4 @@ db = Data(name="remote_update")
 db.start()
 if not get_parameter("no_update"):
     safe_exit.register(close_tmpfiles, db.tmpfiles)
-db.updated.wait(get_parameter("http_timeout") + 1)
+db.updated.wait(float(get_parameter("http_timeout")) + 1)
