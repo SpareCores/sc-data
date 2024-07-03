@@ -1,3 +1,92 @@
+## v0.2.1.post1+20240703103201 (Jul 03, 2024)
+
+This is an automated release with 80 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9776063387
+
+
+### server
+
+- Update: gcp/1000024
+- Update: gcp/1000048
+- Update: gcp/1100056
+- Update: gcp/1100112
+- Update: gcp/1110056
+- Update: gcp/1110112
+- Update: gcp/1120032
+- Update: gcp/1120056
+- Update: gcp/1120112
+- Update: gcp/1210048
+- Update: gcp/1210060
+- Update: gcp/1220006
+- Update: gcp/1220007
+- Update: gcp/1300022
+- Update: gcp/1300044
+- Update: gcp/1301022
+- Update: gcp/1301044
+- Update: gcp/1320044
+- Update: gcp/1320088
+- Update: gcp/1330022
+- Update: gcp/1330044
+- Update: gcp/1600048
+- Update: gcp/1600096
+- Update: gcp/1700030
+- Update: gcp/1700060
+- Update: gcp/1700090
+- Update: gcp/1710030
+- Update: gcp/1710060
+- Update: gcp/1720030
+- Update: gcp/1720060
+- Update: gcp/1720090
+- Update: gcp/1730030
+- Update: gcp/1730060
+- Update: gcp/1730090
+- Update: gcp/1750005
+- Update: gcp/1750006
+- Update: gcp/1750007
+- Update: gcp/1750008
+- Update: gcp/1750013
+- Update: gcp/1750014
+- Update: gcp/1750015
+- Update: gcp/1750021
+- Update: gcp/1750022
+- Update: gcp/1750023
+- Update: gcp/1750024
+- Update: gcp/3032
+- Update: gcp/3064
+- Update: gcp/4032
+- Update: gcp/4064
+- Update: gcp/4096
+- Update: gcp/5032
+- Update: gcp/5064
+- Update: gcp/801030
+- Update: gcp/801060
+- Update: gcp/901032
+- Update: gcp/901048
+- Update: gcp/901064
+- Update: gcp/901080
+- Update: gcp/902032
+- Update: gcp/902048
+- Update: gcp/902064
+- Update: gcp/903032
+- Update: gcp/903048
+- Update: gcp/903064
+- Update: gcp/903080
+- Update: gcp/903096
+- Update: gcp/910064
+- Update: gcp/910080
+- Update: gcp/910096
+- Update: gcp/910128
+- Update: gcp/911048
+- Update: gcp/911064
+- Update: gcp/911080
+- Update: gcp/911096
+- Update: gcp/911128
+- Update: gcp/912032
+- Update: gcp/912048
+- Update: gcp/912064
+- Update: gcp/912080
+- Update: gcp/912096
+
 ## v0.2.1.post1+20240703093002 (Jul 03, 2024)
 
 This is an automated release with 3 new/updated/deleted resources.
