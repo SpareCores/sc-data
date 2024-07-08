@@ -1,3 +1,36 @@
+## v0.2.1.post1+20240708223049 (Jul 08, 2024)
+
+This is an automated release with 24 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9847682374
+
+
+### server
+
+- Update: hcloud/1
+- Update: hcloud/100
+- Update: hcloud/101
+- Update: hcloud/104
+- Update: hcloud/105
+- Update: hcloud/106
+- Update: hcloud/107
+- Update: hcloud/22
+- Update: hcloud/23
+- Update: hcloud/24
+- Update: hcloud/25
+- Update: hcloud/26
+- Update: hcloud/3
+- Update: hcloud/45
+- Update: hcloud/5
+- Update: hcloud/7
+- Update: hcloud/9
+- Update: hcloud/93
+- Update: hcloud/94
+- Update: hcloud/95
+- Update: hcloud/96
+- Update: hcloud/97
+- Update: hcloud/98
+- Update: hcloud/99
+
 ## v0.2.1.post1+20240708164000 (Jul 08, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
