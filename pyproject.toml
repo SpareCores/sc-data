@@ -20,7 +20,7 @@ keywords = ["cloud", "compute", "etl", "sqlite", "spot-instances", "cost-optimiz
 classifiers = [
   "Programming Language :: Python :: 3",
   "Operating System :: OS Independent",
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 4 - Beta",
 ]
 
 [project.urls]
