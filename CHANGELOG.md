@@ -1,3 +1,13 @@
+## v0.2.1.post1+20240708164000 (Jul 08, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9843288136
+
+
+### benchmark
+
+- Update: geekbench:photo_filter
+
 ## v0.2.1.post1+20240704102814 (Jul 04, 2024)
 
 This is an automated release with 22 new/updated/deleted resources.
