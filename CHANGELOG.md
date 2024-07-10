@@ -1,3 +1,41 @@
+## v0.2.1.post1+20240710103214 (Jul 10, 2024)
+
+This is an automated release with 29 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9872406804
+
+
+### server
+
+- Update: gcp/10040
+- Update: gcp/10080
+- Update: gcp/10160
+- Update: gcp/11040
+- Update: gcp/11080
+- Update: gcp/1110032
+- Update: gcp/11160
+- Update: gcp/1360088
+- Update: gcp/1400064
+- Update: gcp/1400128
+- Update: gcp/1410032
+- Update: gcp/1410064
+- Update: gcp/1410128
+- Update: gcp/1740000
+- Update: gcp/804208
+- Update: gcp/9096
+- Update: gcp/9196
+- Update: aws/r8g.12xlarge
+- Update: aws/r8g.16xlarge
+- Update: aws/r8g.24xlarge
+- Update: aws/r8g.2xlarge
+- Update: aws/r8g.48xlarge
+- Update: aws/r8g.4xlarge
+- Update: aws/r8g.8xlarge
+- Update: aws/r8g.large
+- Update: aws/r8g.medium
+- Update: aws/r8g.metal-24xl
+- Update: aws/r8g.metal-48xl
+- Update: aws/r8g.xlarge
+
 ## v0.2.1.post1+20240710024720 (Jul 10, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
