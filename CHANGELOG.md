@@ -1,3 +1,54 @@
+## v0.2.1.post1+20240712102943 (Jul 12, 2024)
+
+This is an automated release with 42 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9906293549
+
+
+### server
+
+- Update: aws/g3.16xlarge
+- Update: aws/g3.4xlarge
+- Update: aws/g3.8xlarge
+- Update: aws/g4ad.16xlarge
+- Update: aws/g4ad.2xlarge
+- Update: aws/g4ad.4xlarge
+- Update: aws/g4ad.8xlarge
+- Update: aws/g4dn.12xlarge
+- Update: aws/g4dn.16xlarge
+- Update: aws/g4dn.2xlarge
+- Update: aws/g4dn.4xlarge
+- Update: aws/g4dn.8xlarge
+- Update: aws/g5.16xlarge
+- Update: aws/g5.2xlarge
+- Update: aws/g5.4xlarge
+- Update: aws/g5.8xlarge
+- Update: aws/g5g.16xlarge
+- Update: aws/g5g.4xlarge
+- Update: aws/g5g.8xlarge
+- Update: aws/g5g.metal
+- Update: aws/g6.12xlarge
+- Update: aws/g6.16xlarge
+- Update: aws/g6.2xlarge
+- Update: aws/g6.4xlarge
+- Update: aws/g6.8xlarge
+- Update: aws/g6.xlarge
+- Update: aws/gr6.4xlarge
+- Update: aws/gr6.8xlarge
+- Update: aws/inf1.2xlarge
+- Update: aws/inf1.xlarge
+- Update: aws/inf2.xlarge
+- Update: aws/trn1.2xlarge
+- Update: aws/vt1.3xlarge
+- Update: aws/vt1.6xlarge
+- Update: aws/x1e.2xlarge
+- Update: aws/x1e.xlarge
+- Update: aws/x2gd.2xlarge
+- Update: aws/x2gd.large
+- Update: aws/x2gd.medium
+- Update: aws/x2gd.xlarge
+- Update: aws/x2iedn.2xlarge
+- Update: aws/x2iedn.xlarge
+
 ## v0.2.1.post1+20240712093140 (Jul 12, 2024)
 
 This is an automated release with 3 new/updated/deleted resources.
