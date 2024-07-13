@@ -1,3 +1,22 @@
+## v0.2.1.post1+20240713102836 (Jul 13, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9919191343
+
+
+### server
+
+- Update: aws/g4dn.metal
+- Update: aws/g5.12xlarge
+- Update: aws/g5.24xlarge
+- Update: aws/g5.48xlarge
+- Update: aws/g6.12xlarge
+- Update: aws/g6.24xlarge
+- Update: aws/g6.48xlarge
+- Update: aws/p2.8xlarge
+- Update: aws/p3.8xlarge
+- Update: aws/vt1.24xlarge
+
 ## v0.2.1.post1+20240712163343 (Jul 12, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
