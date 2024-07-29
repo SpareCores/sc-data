@@ -1,3 +1,13 @@
+## v0.2.1.post1+20240729112808 (Jul 29, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10143209743
+
+
+### server
+
+- Update: gcp/9905016
+
 ## v0.2.1.post1+20240729103344 (Jul 29, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
