@@ -1,3 +1,13 @@
+## v0.2.1.post1+20240731211239 (Jul 31, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10187652185
+
+
+### benchmark
+
+- Update: geekbench:background_blur
+
 ## v0.2.1.post1+20240730103211 (Jul 30, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
