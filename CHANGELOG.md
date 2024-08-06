@@ -1,3 +1,17 @@
+## v0.2.1.post1+20240806121458 (Aug 06, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10266137467
+
+
+### region
+
+- New: hcloud/7
+
+### zone
+
+- New: hcloud/7/7
+
 ## v0.2.1.post1+20240805163331 (Aug 05, 2024)
 
 This is an automated release with 845 new/updated/deleted resources.
