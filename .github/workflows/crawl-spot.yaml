@@ -201,7 +201,7 @@ jobs:
           tag_name: ${{ steps.generate-commit-message.outputs.tag }}
           name: ${{env.NEWVERSIONDATE}}
           body: ${{ steps.generate-commit-message.outputs.message }}
-      - name: Archive pricess
+      - name: Archive priceless
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -210,6 +210,8 @@ jobs:
           path: |
             changes.log
             sc-data-priceless.db.bz2
+      - name: Notify monitoring that the job run
+        run: curl -s https://uptime.betterstack.com/api/v1/heartbeat/NTnwVC261MyrLnevn4WJc5Jh
 
   workflow-keepalive:
     if: github.event.schedule == '0 * * * *'
