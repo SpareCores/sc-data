@@ -1,3 +1,2539 @@
+## v0.2.1.post1+20240806121458 (Aug 06, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10266137467
+
+
+### region
+
+- New: hcloud/7
+
+### zone
+
+- New: hcloud/7/7
+
+## v0.2.1.post1+20240805163331 (Aug 05, 2024)
+
+This is an automated release with 845 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10252429733
+
+
+### server
+
+- Update: hcloud/1
+- Update: hcloud/100
+- Update: gcp/1000
+- Update: gcp/1000012
+- Update: gcp/1000024
+- Update: gcp/1000048
+- Update: gcp/1000096
+- Update: gcp/1001096
+- Update: gcp/10040
+- Update: gcp/10080
+- Update: hcloud/101
+- Update: gcp/10160
+- Update: gcp/1020012
+- Update: gcp/1020024
+- Update: gcp/1020048
+- Update: gcp/1020096
+- Update: hcloud/104
+- Update: hcloud/105
+- Update: hcloud/106
+- Update: hcloud/107
+- Update: gcp/1100002
+- Update: gcp/1100004
+- Update: gcp/1100008
+- Update: gcp/1100016
+- Update: gcp/1100032
+- Update: gcp/1100056
+- Update: gcp/1100112
+- Update: gcp/11040
+- Update: gcp/11080
+- Update: gcp/1110002
+- Update: gcp/1110004
+- Update: gcp/1110008
+- Update: gcp/1110016
+- Update: gcp/1110032
+- Update: gcp/1110056
+- Update: gcp/1110112
+- Update: gcp/11160
+- Update: gcp/1120002
+- Update: gcp/1120004
+- Update: gcp/1120008
+- Update: gcp/1120016
+- Update: gcp/1120032
+- Update: gcp/1120056
+- Update: gcp/1120112
+- Update: gcp/1210001
+- Update: gcp/1210002
+- Update: gcp/1210004
+- Update: gcp/1210008
+- Update: gcp/1210016
+- Update: gcp/1210032
+- Update: gcp/1210048
+- Update: gcp/1210060
+- Update: gcp/1220001
+- Update: gcp/1220002
+- Update: gcp/1220003
+- Update: gcp/1220004
+- Update: gcp/1220005
+- Update: gcp/1220006
+- Update: gcp/1220007
+- Update: gcp/1300004
+- Update: gcp/1300008
+- Update: gcp/1300022
+- Update: gcp/1300044
+- Update: gcp/1300088
+- Update: gcp/1300176
+- Update: gcp/1301004
+- Update: gcp/1301008
+- Update: gcp/1301022
+- Update: gcp/1301044
+- Update: gcp/1301088
+- Update: gcp/1301176
+- Update: gcp/1310004
+- Update: gcp/1310008
+- Update: gcp/1320022
+- Update: gcp/1320044
+- Update: gcp/1320088
+- Update: gcp/1320176
+- Update: gcp/1330004
+- Update: gcp/1330008
+- Update: gcp/1330022
+- Update: gcp/1330044
+- Update: gcp/1330088
+- Update: gcp/1330176
+- Update: gcp/1360088
+- Update: gcp/1400064
+- Update: gcp/1400128
+- Update: gcp/1410032
+- Update: gcp/1410064
+- Update: gcp/1410128
+- Update: gcp/1600004
+- Update: gcp/1600008
+- Update: gcp/1600012
+- Update: gcp/1600016
+- Update: gcp/1600024
+- Update: gcp/1600032
+- Update: gcp/1600048
+- Update: gcp/1600096
+- Update: gcp/1700004
+- Update: gcp/1700008
+- Update: gcp/1700016
+- Update: gcp/1700030
+- Update: gcp/1700060
+- Update: gcp/1700090
+- Update: gcp/1700180
+- Update: gcp/1700360
+- Update: gcp/1710004
+- Update: gcp/1710008
+- Update: gcp/1710016
+- Update: gcp/1710030
+- Update: gcp/1710060
+- Update: gcp/1710090
+- Update: gcp/1710180
+- Update: gcp/1710360
+- Update: gcp/1720004
+- Update: gcp/1720008
+- Update: gcp/1720016
+- Update: gcp/1720030
+- Update: gcp/1720060
+- Update: gcp/1720090
+- Update: gcp/1720180
+- Update: gcp/1720360
+- Update: gcp/1720364
+- Update: gcp/1720366
+- Update: gcp/1730008
+- Update: gcp/1730016
+- Update: gcp/1730030
+- Update: gcp/1730060
+- Update: gcp/1730090
+- Update: gcp/1730180
+- Update: gcp/1730360
+- Update: gcp/1742000
+- Update: gcp/1742001
+- Update: gcp/1750001
+- Update: gcp/1750002
+- Update: gcp/1750003
+- Update: gcp/1750004
+- Update: gcp/1750005
+- Update: gcp/1750006
+- Update: gcp/1750007
+- Update: gcp/1750008
+- Update: gcp/1750009
+- Update: gcp/1750010
+- Update: gcp/1750011
+- Update: gcp/1750012
+- Update: gcp/1750013
+- Update: gcp/1750014
+- Update: gcp/1750015
+- Update: gcp/1750016
+- Update: gcp/1750017
+- Update: gcp/1750018
+- Update: gcp/1750019
+- Update: gcp/1750020
+- Update: gcp/1750021
+- Update: gcp/1750022
+- Update: gcp/1750023
+- Update: gcp/1750024
+- Update: gcp/2000
+- Update: hcloud/22
+- Update: hcloud/23
+- Update: hcloud/24
+- Update: hcloud/25
+- Update: hcloud/26
+- Update: hcloud/3
+- Update: gcp/3001
+- Update: gcp/3002
+- Update: gcp/3004
+- Update: gcp/3008
+- Update: gcp/3016
+- Update: gcp/3032
+- Update: gcp/3064
+- Update: gcp/3096
+- Update: gcp/334002
+- Update: gcp/334003
+- Update: gcp/334004
+- Update: gcp/335002
+- Update: gcp/335004
+- Update: gcp/335008
+- Update: gcp/335016
+- Update: gcp/335032
+- Update: gcp/336002
+- Update: gcp/336004
+- Update: gcp/336008
+- Update: gcp/336016
+- Update: gcp/337002
+- Update: gcp/337004
+- Update: gcp/337008
+- Update: gcp/337016
+- Update: gcp/337032
+- Update: gcp/4002
+- Update: gcp/4004
+- Update: gcp/4008
+- Update: gcp/4016
+- Update: gcp/4032
+- Update: gcp/4064
+- Update: gcp/4096
+- Update: hcloud/45
+- Update: hcloud/5
+- Update: gcp/5002
+- Update: gcp/5004
+- Update: gcp/5008
+- Update: gcp/5016
+- Update: gcp/5032
+- Update: gcp/5064
+- Update: gcp/5096
+- Update: hcloud/7
+- Update: gcp/801004
+- Update: gcp/801008
+- Update: gcp/801016
+- Update: gcp/801030
+- Update: gcp/801060
+- Update: gcp/804208
+- Update: gcp/804416
+- Update: gcp/804417
+- Update: gcp/805416
+- Update: hcloud/9
+- Update: gcp/901002
+- Update: gcp/901004
+- Update: gcp/901008
+- Update: gcp/901016
+- Update: gcp/901032
+- Update: gcp/901048
+- Update: gcp/901064
+- Update: gcp/901080
+- Update: gcp/901096
+- Update: gcp/901128
+- Update: gcp/902002
+- Update: gcp/902004
+- Update: gcp/902008
+- Update: gcp/902016
+- Update: gcp/902032
+- Update: gcp/902048
+- Update: gcp/902064
+- Update: gcp/902080
+- Update: gcp/902096
+- Update: gcp/902128
+- Update: gcp/903002
+- Update: gcp/903004
+- Update: gcp/903008
+- Update: gcp/903016
+- Update: gcp/903032
+- Update: gcp/903048
+- Update: gcp/903064
+- Update: gcp/903080
+- Update: gcp/903096
+- Update: gcp/9096
+- Update: gcp/910002
+- Update: gcp/910004
+- Update: gcp/910008
+- Update: gcp/910016
+- Update: gcp/910032
+- Update: gcp/910048
+- Update: gcp/910064
+- Update: gcp/910080
+- Update: gcp/910096
+- Update: gcp/910128
+- Update: gcp/910224
+- Update: gcp/911002
+- Update: gcp/911004
+- Update: gcp/911008
+- Update: gcp/911016
+- Update: gcp/911032
+- Update: gcp/911048
+- Update: gcp/911064
+- Update: gcp/911080
+- Update: gcp/911096
+- Update: gcp/911128
+- Update: gcp/911224
+- Update: gcp/912002
+- Update: gcp/912004
+- Update: gcp/912008
+- Update: gcp/912016
+- Update: gcp/912032
+- Update: gcp/912048
+- Update: gcp/912064
+- Update: gcp/912080
+- Update: gcp/912096
+- Update: gcp/9196
+- Update: hcloud/93
+- Update: hcloud/94
+- Update: hcloud/95
+- Update: hcloud/96
+- Update: hcloud/97
+- Update: hcloud/98
+- Update: hcloud/99
+- Update: gcp/9905008
+- Update: gcp/9905016
+- Update: gcp/9905030
+- Update: gcp/9905060
+- Update: gcp/9905090
+- Update: gcp/9905180
+- Update: gcp/9905360
+- Update: aws/a1.metal
+- Update: aws/c1.medium
+- Update: aws/c1.xlarge
+- Update: aws/c3.2xlarge
+- Update: aws/c3.4xlarge
+- Update: aws/c3.8xlarge
+- Update: aws/c3.large
+- Update: aws/c3.xlarge
+- Update: aws/c4.2xlarge
+- Update: aws/c4.4xlarge
+- Update: aws/c4.8xlarge
+- Update: aws/c4.large
+- Update: aws/c4.xlarge
+- Update: aws/c5.12xlarge
+- Update: aws/c5.18xlarge
+- Update: aws/c5.24xlarge
+- Update: aws/c5.2xlarge
+- Update: aws/c5.4xlarge
+- Update: aws/c5.9xlarge
+- Update: aws/c5a.12xlarge
+- Update: aws/c5a.16xlarge
+- Update: aws/c5a.24xlarge
+- Update: aws/c5a.2xlarge
+- Update: aws/c5a.4xlarge
+- Update: aws/c5a.8xlarge
+- Update: aws/c5ad.12xlarge
+- Update: aws/c5ad.16xlarge
+- Update: aws/c5ad.24xlarge
+- Update: aws/c5ad.2xlarge
+- Update: aws/c5ad.4xlarge
+- Update: aws/c5ad.8xlarge
+- Update: aws/c5ad.large
+- Update: aws/c5ad.xlarge
+- Update: aws/c5a.large
+- Update: aws/c5a.xlarge
+- Update: aws/c5d.12xlarge
+- Update: aws/c5d.18xlarge
+- Update: aws/c5d.24xlarge
+- Update: aws/c5d.2xlarge
+- Update: aws/c5d.4xlarge
+- Update: aws/c5d.9xlarge
+- Update: aws/c5d.large
+- Update: aws/c5d.metal
+- Update: aws/c5d.xlarge
+- Update: aws/c5.large
+- Update: aws/c5.metal
+- Update: aws/c5n.18xlarge
+- Update: aws/c5n.2xlarge
+- Update: aws/c5n.4xlarge
+- Update: aws/c5n.9xlarge
+- Update: aws/c5n.large
+- Update: aws/c5n.metal
+- Update: aws/c5n.xlarge
+- Update: aws/c5.xlarge
+- Update: aws/c6a.12xlarge
+- Update: aws/c6a.16xlarge
+- Update: aws/c6a.24xlarge
+- Update: aws/c6a.2xlarge
+- Update: aws/c6a.32xlarge
+- Update: aws/c6a.48xlarge
+- Update: aws/c6a.4xlarge
+- Update: aws/c6a.8xlarge
+- Update: aws/c6a.large
+- Update: aws/c6a.metal
+- Update: aws/c6a.xlarge
+- Update: aws/c6gd.metal
+- Update: aws/c6g.metal
+- Update: aws/c6i.12xlarge
+- Update: aws/c6i.16xlarge
+- Update: aws/c6i.24xlarge
+- Update: aws/c6i.2xlarge
+- Update: aws/c6i.32xlarge
+- Update: aws/c6i.4xlarge
+- Update: aws/c6i.8xlarge
+- Update: aws/c6id.12xlarge
+- Update: aws/c6id.16xlarge
+- Update: aws/c6id.24xlarge
+- Update: aws/c6id.2xlarge
+- Update: aws/c6id.32xlarge
+- Update: aws/c6id.4xlarge
+- Update: aws/c6id.8xlarge
+- Update: aws/c6id.large
+- Update: aws/c6id.metal
+- Update: aws/c6id.xlarge
+- Update: aws/c6i.large
+- Update: aws/c6i.metal
+- Update: aws/c6in.12xlarge
+- Update: aws/c6in.16xlarge
+- Update: aws/c6in.24xlarge
+- Update: aws/c6in.2xlarge
+- Update: aws/c6in.32xlarge
+- Update: aws/c6in.4xlarge
+- Update: aws/c6in.8xlarge
+- Update: aws/c6in.large
+- Update: aws/c6in.metal
+- Update: aws/c6in.xlarge
+- Update: aws/c6i.xlarge
+- Update: aws/c7a.12xlarge
+- Update: aws/c7a.16xlarge
+- Update: aws/c7a.24xlarge
+- Update: aws/c7a.2xlarge
+- Update: aws/c7a.32xlarge
+- Update: aws/c7a.48xlarge
+- Update: aws/c7a.4xlarge
+- Update: aws/c7a.8xlarge
+- Update: aws/c7a.large
+- Update: aws/c7a.medium
+- Update: aws/c7a.metal-48xl
+- Update: aws/c7a.xlarge
+- Update: aws/c7gd.metal
+- Update: aws/c7g.metal
+- Update: aws/c7gn.metal
+- Update: aws/c7i.16xlarge
+- Update: aws/c7i.24xlarge
+- Update: aws/c7i.4xlarge
+- Update: aws/c7i.8xlarge
+- Update: aws/c7i-flex.2xlarge
+- Update: aws/c7i-flex.xlarge
+- Update: aws/c7i.large
+- Update: aws/c7i.metal-24xl
+- Update: aws/d2.2xlarge
+- Update: aws/d2.4xlarge
+- Update: aws/d2.8xlarge
+- Update: aws/d2.xlarge
+- Update: aws/d3.2xlarge
+- Update: aws/d3.4xlarge
+- Update: aws/d3.8xlarge
+- Update: aws/d3en.12xlarge
+- Update: aws/d3en.2xlarge
+- Update: aws/d3en.4xlarge
+- Update: aws/d3en.6xlarge
+- Update: aws/d3en.8xlarge
+- Update: aws/d3en.xlarge
+- Update: aws/d3.xlarge
+- Update: aws/dl2q.24xlarge
+- Update: aws/f1.2xlarge
+- Update: aws/g3.16xlarge
+- Update: aws/g3.4xlarge
+- Update: aws/g3.8xlarge
+- Update: aws/g3s.xlarge
+- Update: aws/g4ad.16xlarge
+- Update: aws/g4ad.2xlarge
+- Update: aws/g4ad.4xlarge
+- Update: aws/g4ad.8xlarge
+- Update: aws/g4ad.xlarge
+- Update: aws/g4dn.12xlarge
+- Update: aws/g4dn.16xlarge
+- Update: aws/g4dn.2xlarge
+- Update: aws/g4dn.4xlarge
+- Update: aws/g4dn.8xlarge
+- Update: aws/g4dn.metal
+- Update: aws/g4dn.xlarge
+- Update: aws/g5.12xlarge
+- Update: aws/g5.16xlarge
+- Update: aws/g5.24xlarge
+- Update: aws/g5.2xlarge
+- Update: aws/g5.48xlarge
+- Update: aws/g5.4xlarge
+- Update: aws/g5.8xlarge
+- Update: aws/g5g.metal
+- Update: aws/g5.xlarge
+- Update: aws/g6.12xlarge
+- Update: aws/g6.16xlarge
+- Update: aws/g6.24xlarge
+- Update: aws/g6.2xlarge
+- Update: aws/g6.48xlarge
+- Update: aws/g6.4xlarge
+- Update: aws/g6.8xlarge
+- Update: aws/g6.xlarge
+- Update: aws/gr6.4xlarge
+- Update: aws/gr6.8xlarge
+- Update: aws/h1.16xlarge
+- Update: aws/h1.2xlarge
+- Update: aws/h1.4xlarge
+- Update: aws/h1.8xlarge
+- Update: aws/i2.2xlarge
+- Update: aws/i2.4xlarge
+- Update: aws/i2.8xlarge
+- Update: aws/i2.xlarge
+- Update: aws/i3.16xlarge
+- Update: aws/i3.2xlarge
+- Update: aws/i3.4xlarge
+- Update: aws/i3.8xlarge
+- Update: aws/i3en.12xlarge
+- Update: aws/i3en.24xlarge
+- Update: aws/i3en.2xlarge
+- Update: aws/i3en.3xlarge
+- Update: aws/i3en.6xlarge
+- Update: aws/i3en.large
+- Update: aws/i3en.metal
+- Update: aws/i3en.xlarge
+- Update: aws/i3.large
+- Update: aws/i3.metal
+- Update: aws/i3.xlarge
+- Update: aws/i4i.12xlarge
+- Update: aws/i4i.16xlarge
+- Update: aws/i4i.24xlarge
+- Update: aws/i4i.2xlarge
+- Update: aws/i4i.32xlarge
+- Update: aws/i4i.4xlarge
+- Update: aws/i4i.8xlarge
+- Update: aws/i4i.large
+- Update: aws/i4i.metal
+- Update: aws/i4i.xlarge
+- Update: aws/inf1.2xlarge
+- Update: aws/inf1.xlarge
+- Update: aws/inf2.xlarge
+- Update: aws/m1.large
+- Update: aws/m1.medium
+- Update: aws/m1.small
+- Update: aws/m1.xlarge
+- Update: aws/m2.2xlarge
+- Update: aws/m2.4xlarge
+- Update: aws/m2.xlarge
+- Update: aws/m3.2xlarge
+- Update: aws/m3.large
+- Update: aws/m3.medium
+- Update: aws/m3.xlarge
+- Update: aws/m4.10xlarge
+- Update: aws/m4.16xlarge
+- Update: aws/m4.2xlarge
+- Update: aws/m4.4xlarge
+- Update: aws/m4.large
+- Update: aws/m4.xlarge
+- Update: aws/m5.12xlarge
+- Update: aws/m5.16xlarge
+- Update: aws/m5.24xlarge
+- Update: aws/m5.2xlarge
+- Update: aws/m5.4xlarge
+- Update: aws/m5.8xlarge
+- Update: aws/m5a.12xlarge
+- Update: aws/m5a.16xlarge
+- Update: aws/m5a.24xlarge
+- Update: aws/m5a.2xlarge
+- Update: aws/m5a.4xlarge
+- Update: aws/m5a.8xlarge
+- Update: aws/m5ad.12xlarge
+- Update: aws/m5ad.16xlarge
+- Update: aws/m5ad.24xlarge
+- Update: aws/m5ad.2xlarge
+- Update: aws/m5ad.4xlarge
+- Update: aws/m5ad.8xlarge
+- Update: aws/m5ad.large
+- Update: aws/m5ad.xlarge
+- Update: aws/m5a.large
+- Update: aws/m5a.xlarge
+- Update: aws/m5d.12xlarge
+- Update: aws/m5d.16xlarge
+- Update: aws/m5d.24xlarge
+- Update: aws/m5d.2xlarge
+- Update: aws/m5d.4xlarge
+- Update: aws/m5d.8xlarge
+- Update: aws/m5d.large
+- Update: aws/m5d.metal
+- Update: aws/m5dn.12xlarge
+- Update: aws/m5dn.16xlarge
+- Update: aws/m5dn.24xlarge
+- Update: aws/m5dn.2xlarge
+- Update: aws/m5dn.4xlarge
+- Update: aws/m5dn.8xlarge
+- Update: aws/m5dn.large
+- Update: aws/m5dn.metal
+- Update: aws/m5dn.xlarge
+- Update: aws/m5d.xlarge
+- Update: aws/m5.large
+- Update: aws/m5.metal
+- Update: aws/m5n.12xlarge
+- Update: aws/m5n.16xlarge
+- Update: aws/m5n.24xlarge
+- Update: aws/m5n.2xlarge
+- Update: aws/m5n.4xlarge
+- Update: aws/m5n.8xlarge
+- Update: aws/m5n.large
+- Update: aws/m5n.metal
+- Update: aws/m5n.xlarge
+- Update: aws/m5.xlarge
+- Update: aws/m5zn.12xlarge
+- Update: aws/m5zn.2xlarge
+- Update: aws/m5zn.3xlarge
+- Update: aws/m5zn.6xlarge
+- Update: aws/m5zn.large
+- Update: aws/m5zn.metal
+- Update: aws/m5zn.xlarge
+- Update: aws/m6a.12xlarge
+- Update: aws/m6a.16xlarge
+- Update: aws/m6a.24xlarge
+- Update: aws/m6a.2xlarge
+- Update: aws/m6a.32xlarge
+- Update: aws/m6a.48xlarge
+- Update: aws/m6a.4xlarge
+- Update: aws/m6a.8xlarge
+- Update: aws/m6a.large
+- Update: aws/m6a.metal
+- Update: aws/m6a.xlarge
+- Update: aws/m6gd.metal
+- Update: aws/m6g.metal
+- Update: aws/m6i.12xlarge
+- Update: aws/m6i.16xlarge
+- Update: aws/m6i.24xlarge
+- Update: aws/m6i.2xlarge
+- Update: aws/m6i.32xlarge
+- Update: aws/m6i.4xlarge
+- Update: aws/m6i.8xlarge
+- Update: aws/m6id.12xlarge
+- Update: aws/m6id.16xlarge
+- Update: aws/m6id.24xlarge
+- Update: aws/m6id.2xlarge
+- Update: aws/m6id.32xlarge
+- Update: aws/m6id.4xlarge
+- Update: aws/m6id.8xlarge
+- Update: aws/m6id.large
+- Update: aws/m6id.metal
+- Update: aws/m6idn.12xlarge
+- Update: aws/m6idn.16xlarge
+- Update: aws/m6idn.24xlarge
+- Update: aws/m6idn.2xlarge
+- Update: aws/m6idn.32xlarge
+- Update: aws/m6idn.4xlarge
+- Update: aws/m6idn.8xlarge
+- Update: aws/m6idn.large
+- Update: aws/m6idn.metal
+- Update: aws/m6idn.xlarge
+- Update: aws/m6id.xlarge
+- Update: aws/m6i.large
+- Update: aws/m6i.metal
+- Update: aws/m6in.12xlarge
+- Update: aws/m6in.16xlarge
+- Update: aws/m6in.24xlarge
+- Update: aws/m6in.2xlarge
+- Update: aws/m6in.32xlarge
+- Update: aws/m6in.4xlarge
+- Update: aws/m6in.8xlarge
+- Update: aws/m6in.large
+- Update: aws/m6in.metal
+- Update: aws/m6in.xlarge
+- Update: aws/m6i.xlarge
+- Update: aws/m7a.12xlarge
+- Update: aws/m7a.16xlarge
+- Update: aws/m7a.24xlarge
+- Update: aws/m7a.2xlarge
+- Update: aws/m7a.32xlarge
+- Update: aws/m7a.48xlarge
+- Update: aws/m7a.4xlarge
+- Update: aws/m7a.8xlarge
+- Update: aws/m7a.large
+- Update: aws/m7a.medium
+- Update: aws/m7a.metal-48xl
+- Update: aws/m7a.xlarge
+- Update: aws/m7gd.metal
+- Update: aws/m7g.metal
+- Update: aws/m7i.24xlarge
+- Update: aws/m7i.2xlarge
+- Update: aws/m7i.8xlarge
+- Update: aws/m7i-flex.4xlarge
+- Update: aws/p2.8xlarge
+- Update: aws/p2.xlarge
+- Update: aws/p3.16xlarge
+- Update: aws/p3.2xlarge
+- Update: aws/p3.8xlarge
+- Update: aws/r3.2xlarge
+- Update: aws/r3.4xlarge
+- Update: aws/r3.8xlarge
+- Update: aws/r3.large
+- Update: aws/r3.xlarge
+- Update: aws/r4.16xlarge
+- Update: aws/r4.2xlarge
+- Update: aws/r4.4xlarge
+- Update: aws/r4.8xlarge
+- Update: aws/r4.large
+- Update: aws/r4.xlarge
+- Update: aws/r5.12xlarge
+- Update: aws/r5.16xlarge
+- Update: aws/r5.24xlarge
+- Update: aws/r5.2xlarge
+- Update: aws/r5.4xlarge
+- Update: aws/r5.8xlarge
+- Update: aws/r5a.12xlarge
+- Update: aws/r5a.16xlarge
+- Update: aws/r5a.24xlarge
+- Update: aws/r5a.2xlarge
+- Update: aws/r5a.4xlarge
+- Update: aws/r5a.8xlarge
+- Update: aws/r5ad.12xlarge
+- Update: aws/r5ad.16xlarge
+- Update: aws/r5ad.24xlarge
+- Update: aws/r5ad.2xlarge
+- Update: aws/r5ad.4xlarge
+- Update: aws/r5ad.8xlarge
+- Update: aws/r5ad.large
+- Update: aws/r5ad.xlarge
+- Update: aws/r5a.large
+- Update: aws/r5a.xlarge
+- Update: aws/r5b.12xlarge
+- Update: aws/r5b.16xlarge
+- Update: aws/r5b.24xlarge
+- Update: aws/r5b.2xlarge
+- Update: aws/r5b.4xlarge
+- Update: aws/r5b.8xlarge
+- Update: aws/r5b.large
+- Update: aws/r5b.metal
+- Update: aws/r5b.xlarge
+- Update: aws/r5d.12xlarge
+- Update: aws/r5d.16xlarge
+- Update: aws/r5d.24xlarge
+- Update: aws/r5d.2xlarge
+- Update: aws/r5d.4xlarge
+- Update: aws/r5d.8xlarge
+- Update: aws/r5d.large
+- Update: aws/r5d.metal
+- Update: aws/r5dn.12xlarge
+- Update: aws/r5dn.16xlarge
+- Update: aws/r5dn.24xlarge
+- Update: aws/r5dn.2xlarge
+- Update: aws/r5dn.4xlarge
+- Update: aws/r5dn.8xlarge
+- Update: aws/r5dn.large
+- Update: aws/r5dn.metal
+- Update: aws/r5dn.xlarge
+- Update: aws/r5d.xlarge
+- Update: aws/r5.large
+- Update: aws/r5.metal
+- Update: aws/r5n.12xlarge
+- Update: aws/r5n.16xlarge
+- Update: aws/r5n.24xlarge
+- Update: aws/r5n.2xlarge
+- Update: aws/r5n.4xlarge
+- Update: aws/r5n.8xlarge
+- Update: aws/r5n.large
+- Update: aws/r5n.metal
+- Update: aws/r5n.xlarge
+- Update: aws/r5.xlarge
+- Update: aws/r6a.12xlarge
+- Update: aws/r6a.16xlarge
+- Update: aws/r6a.24xlarge
+- Update: aws/r6a.2xlarge
+- Update: aws/r6a.32xlarge
+- Update: aws/r6a.48xlarge
+- Update: aws/r6a.4xlarge
+- Update: aws/r6a.8xlarge
+- Update: aws/r6a.large
+- Update: aws/r6a.metal
+- Update: aws/r6a.xlarge
+- Update: aws/r6gd.metal
+- Update: aws/r6g.metal
+- Update: aws/r6i.12xlarge
+- Update: aws/r6i.16xlarge
+- Update: aws/r6i.24xlarge
+- Update: aws/r6i.2xlarge
+- Update: aws/r6i.32xlarge
+- Update: aws/r6i.4xlarge
+- Update: aws/r6i.8xlarge
+- Update: aws/r6id.12xlarge
+- Update: aws/r6id.16xlarge
+- Update: aws/r6id.24xlarge
+- Update: aws/r6id.2xlarge
+- Update: aws/r6id.32xlarge
+- Update: aws/r6id.4xlarge
+- Update: aws/r6id.8xlarge
+- Update: aws/r6id.large
+- Update: aws/r6id.metal
+- Update: aws/r6idn.12xlarge
+- Update: aws/r6idn.16xlarge
+- Update: aws/r6idn.24xlarge
+- Update: aws/r6idn.2xlarge
+- Update: aws/r6idn.32xlarge
+- Update: aws/r6idn.4xlarge
+- Update: aws/r6idn.8xlarge
+- Update: aws/r6idn.large
+- Update: aws/r6idn.metal
+- Update: aws/r6idn.xlarge
+- Update: aws/r6id.xlarge
+- Update: aws/r6i.large
+- Update: aws/r6i.metal
+- Update: aws/r6in.12xlarge
+- Update: aws/r6in.16xlarge
+- Update: aws/r6in.24xlarge
+- Update: aws/r6in.2xlarge
+- Update: aws/r6in.32xlarge
+- Update: aws/r6in.4xlarge
+- Update: aws/r6in.8xlarge
+- Update: aws/r6in.large
+- Update: aws/r6in.metal
+- Update: aws/r6in.xlarge
+- Update: aws/r6i.xlarge
+- Update: aws/r7a.12xlarge
+- Update: aws/r7a.16xlarge
+- Update: aws/r7a.24xlarge
+- Update: aws/r7a.2xlarge
+- Update: aws/r7a.32xlarge
+- Update: aws/r7a.48xlarge
+- Update: aws/r7a.4xlarge
+- Update: aws/r7a.8xlarge
+- Update: aws/r7a.large
+- Update: aws/r7a.medium
+- Update: aws/r7a.metal-48xl
+- Update: aws/r7a.xlarge
+- Update: aws/r7gd.metal
+- Update: aws/r7g.metal
+- Update: aws/r7i.12xlarge
+- Update: aws/r7i.2xlarge
+- Update: aws/r7i.4xlarge
+- Update: aws/r7i.large
+- Update: aws/r7iz.16xlarge
+- Update: aws/r7iz.8xlarge
+- Update: aws/r8g.12xlarge
+- Update: aws/r8g.16xlarge
+- Update: aws/r8g.24xlarge
+- Update: aws/r8g.2xlarge
+- Update: aws/r8g.48xlarge
+- Update: aws/r8g.4xlarge
+- Update: aws/r8g.8xlarge
+- Update: aws/r8g.large
+- Update: aws/r8g.medium
+- Update: aws/r8g.metal-24xl
+- Update: aws/r8g.metal-48xl
+- Update: aws/r8g.xlarge
+- Update: aws/t1.micro
+- Update: aws/t2.2xlarge
+- Update: aws/t2.large
+- Update: aws/t2.medium
+- Update: aws/t2.micro
+- Update: aws/t2.nano
+- Update: aws/t2.small
+- Update: aws/t2.xlarge
+- Update: aws/t3.2xlarge
+- Update: aws/t3a.2xlarge
+- Update: aws/t3a.large
+- Update: aws/t3a.medium
+- Update: aws/t3a.micro
+- Update: aws/t3a.nano
+- Update: aws/t3a.small
+- Update: aws/t3a.xlarge
+- Update: aws/t3.large
+- Update: aws/t3.medium
+- Update: aws/t3.micro
+- Update: aws/t3.nano
+- Update: aws/t3.small
+- Update: aws/t3.xlarge
+- Update: aws/trn1.2xlarge
+- Update: aws/vt1.24xlarge
+- Update: aws/vt1.3xlarge
+- Update: aws/vt1.6xlarge
+- Update: aws/x1e.2xlarge
+- Update: aws/x1e.xlarge
+- Update: aws/x2iedn.2xlarge
+- Update: aws/x2iedn.xlarge
+- Update: aws/x2iezn.2xlarge
+- Update: aws/z1d.12xlarge
+- Update: aws/z1d.2xlarge
+- Update: aws/z1d.3xlarge
+- Update: aws/z1d.6xlarge
+- Update: aws/z1d.large
+- Update: aws/z1d.metal
+- Update: aws/z1d.xlarge
+
+## v0.2.1.post1+20240801223022 (Aug 01, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10206563639
+
+
+### server
+
+- Update: gcp/1720364
+- Update: aws/g5g.16xlarge
+- Update: aws/g5g.4xlarge
+- Update: aws/g5g.8xlarge
+
+## v0.2.1.post1+20240801213140 (Aug 01, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10205916189
+
+
+### server
+
+- Update: aws/g5g.2xlarge
+- Update: aws/g5g.xlarge
+
+## v0.2.1.post1+20240731213127 (Jul 31, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10187787183
+
+
+### region
+
+- Update: gcp/1220
+- Update: gcp/1370
+- Update: gcp/1610
+
+### benchmark
+
+- Update: geekbench:photo_filter
+- Update: geekbench:background_blur
+
+## v0.2.1.post1+20240731211239 (Jul 31, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10187652185
+
+
+### benchmark
+
+- Update: geekbench:background_blur
+
+## v0.2.1.post1+20240730103211 (Jul 30, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10160530752
+
+
+### server
+
+- Update: gcp/804416
+- Update: gcp/804417
+
+## v0.2.1.post1+20240730093732 (Jul 30, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10159633590
+
+
+### server
+
+- Update: gcp/804416
+- Update: gcp/804417
+- Update: gcp/805416
+- Update: gcp/9905008
+- Update: gcp/9905016
+- Update: gcp/9905030
+- Update: gcp/9905060
+- Update: gcp/9905090
+- Update: gcp/9905360
+
+## v0.2.1.post1+20240730083316 (Jul 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10158768408
+
+
+### server
+
+- Update: gcp/805416
+
+## v0.2.1.post1+20240729183627 (Jul 29, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10149702294
+
+
+### server
+
+- Update: gcp/9905360
+
+## v0.2.1.post1+20240729163533 (Jul 29, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10148049584
+
+
+### server
+
+- Update: gcp/1720366
+
+## v0.2.1.post1+20240729153026 (Jul 29, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10147082084
+
+
+### server
+
+- Update: gcp/1020048
+- Update: gcp/9905090
+
+## v0.2.1.post1+20240729143102 (Jul 29, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10146038515
+
+
+### server
+
+- Update: gcp/9905060
+
+## v0.2.1.post1+20240729133418 (Jul 29, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10145125731
+
+
+### server
+
+- Update: gcp/1020024
+
+## v0.2.1.post1+20240729124800 (Jul 29, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10144357683
+
+
+### server
+
+- Update: gcp/1020012
+- Update: gcp/9905030
+
+## v0.2.1.post1+20240729112808 (Jul 29, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10143209743
+
+
+### server
+
+- Update: gcp/9905016
+
+## v0.2.1.post1+20240729103344 (Jul 29, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10142449468
+
+
+### server
+
+- Update: gcp/9905008
+
+## v0.2.1.post1+20240727103140 (Jul 27, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10122783158
+
+
+### server
+
+- Update: gcp/9905180
+- Update: aws/h1.16xlarge
+- Update: aws/h1.4xlarge
+- Update: aws/h1.8xlarge
+- Update: aws/x2iezn.2xlarge
+
+## v0.2.1.post1+20240726212733 (Jul 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10117724715
+
+
+### server
+
+- Update: aws/h1.16xlarge
+
+## v0.2.1.post1+20240726183548 (Jul 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10115855757
+
+
+### server
+
+- Update: aws/h1.8xlarge
+
+## v0.2.1.post1+20240726172654 (Jul 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10115071049
+
+
+### server
+
+- Update: aws/x2iezn.2xlarge
+
+## v0.2.1.post1+20240726163528 (Jul 26, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10114427694
+
+
+### server
+
+- Update: gcp/9905180
+- Update: aws/h1.4xlarge
+
+## v0.2.1.post1+20240726103226 (Jul 26, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10109671169
+
+
+### server
+
+- Update: gcp/1720364
+- Update: gcp/1720366
+
+## v0.2.1.post1+20240726093539 (Jul 26, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10108878156
+
+
+### server
+
+- Update: gcp/1020012
+- Update: gcp/1020024
+- Update: gcp/1020048
+- Update: gcp/1020096
+- Update: gcp/1720364
+- Update: gcp/1720366
+
+## v0.2.1.post1+20240726083310 (Jul 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10108110012
+
+
+### server
+
+- Update: gcp/1020048
+
+## v0.2.1.post1+20240726063723 (Jul 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10106761433
+
+
+### server
+
+- Update: gcp/1020024
+
+## v0.2.1.post1+20240726043227 (Jul 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10105647499
+
+
+### server
+
+- Update: gcp/1020012
+
+## v0.2.1.post1+20240713102836 (Jul 13, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9919191343
+
+
+### server
+
+- Update: aws/g4dn.metal
+- Update: aws/g5.12xlarge
+- Update: aws/g5.24xlarge
+- Update: aws/g5.48xlarge
+- Update: aws/g6.12xlarge
+- Update: aws/g6.24xlarge
+- Update: aws/g6.48xlarge
+- Update: aws/p2.8xlarge
+- Update: aws/p3.8xlarge
+- Update: aws/vt1.24xlarge
+
+## v0.2.1.post1+20240712163343 (Jul 12, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9911000191
+
+
+### server
+
+- Update: aws/g5.48xlarge
+- Update: aws/p3.16xlarge
+
+## v0.2.1.post1+20240712152928 (Jul 12, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9910192592
+
+
+### server
+
+- Update: aws/g6.48xlarge
+
+## v0.2.1.post1+20240712143205 (Jul 12, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9909326190
+
+
+### server
+
+- Update: aws/p3.8xlarge
+
+## v0.2.1.post1+20240712133240 (Jul 12, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9908556854
+
+
+### server
+
+- Update: aws/g5.24xlarge
+
+## v0.2.1.post1+20240712125120 (Jul 12, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9907918202
+
+
+### server
+
+- Update: aws/g4dn.metal
+- Update: aws/p2.8xlarge
+
+## v0.2.1.post1+20240712113110 (Jul 12, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9906978652
+
+
+### server
+
+- Update: aws/g5.12xlarge
+- Update: aws/g6.24xlarge
+- Update: aws/vt1.24xlarge
+
+## v0.2.1.post1+20240712102943 (Jul 12, 2024)
+
+This is an automated release with 42 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9906293549
+
+
+### server
+
+- Update: aws/g3.16xlarge
+- Update: aws/g3.4xlarge
+- Update: aws/g3.8xlarge
+- Update: aws/g4ad.16xlarge
+- Update: aws/g4ad.2xlarge
+- Update: aws/g4ad.4xlarge
+- Update: aws/g4ad.8xlarge
+- Update: aws/g4dn.12xlarge
+- Update: aws/g4dn.16xlarge
+- Update: aws/g4dn.2xlarge
+- Update: aws/g4dn.4xlarge
+- Update: aws/g4dn.8xlarge
+- Update: aws/g5.16xlarge
+- Update: aws/g5.2xlarge
+- Update: aws/g5.4xlarge
+- Update: aws/g5.8xlarge
+- Update: aws/g5g.16xlarge
+- Update: aws/g5g.4xlarge
+- Update: aws/g5g.8xlarge
+- Update: aws/g5g.metal
+- Update: aws/g6.12xlarge
+- Update: aws/g6.16xlarge
+- Update: aws/g6.2xlarge
+- Update: aws/g6.4xlarge
+- Update: aws/g6.8xlarge
+- Update: aws/g6.xlarge
+- Update: aws/gr6.4xlarge
+- Update: aws/gr6.8xlarge
+- Update: aws/inf1.2xlarge
+- Update: aws/inf1.xlarge
+- Update: aws/inf2.xlarge
+- Update: aws/trn1.2xlarge
+- Update: aws/vt1.3xlarge
+- Update: aws/vt1.6xlarge
+- Update: aws/x1e.2xlarge
+- Update: aws/x1e.xlarge
+- Update: aws/x2gd.2xlarge
+- Update: aws/x2gd.large
+- Update: aws/x2gd.medium
+- Update: aws/x2gd.xlarge
+- Update: aws/x2iedn.2xlarge
+- Update: aws/x2iedn.xlarge
+
+## v0.2.1.post1+20240712093140 (Jul 12, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9905518266
+
+
+### server
+
+- Update: aws/g4dn.12xlarge
+- Update: aws/g4dn.16xlarge
+- Update: aws/g5.16xlarge
+
+## v0.2.1.post1+20240712083423 (Jul 12, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9904774779
+
+
+### server
+
+- Update: aws/g4ad.16xlarge
+- Update: aws/g6.16xlarge
+
+## v0.2.1.post1+20240712072812 (Jul 12, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9904001368
+
+
+### server
+
+- Update: aws/g5g.16xlarge
+- Update: aws/g5g.metal
+- Update: aws/g6.48xlarge
+- Update: aws/p3.2xlarge
+
+## v0.2.1.post1+20240712063547 (Jul 12, 2024)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9903436996
+
+
+### server
+
+- Update: aws/g3.8xlarge
+- Update: aws/g4dn.8xlarge
+- Update: aws/g5.8xlarge
+- Update: aws/g6.12xlarge
+- Update: aws/g6.16xlarge
+- Update: aws/g6.24xlarge
+- Update: aws/gr6.8xlarge
+
+## v0.2.1.post1+20240712052806 (Jul 12, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9902816289
+
+
+### server
+
+- Update: aws/g4ad.8xlarge
+- Update: aws/g6.8xlarge
+
+## v0.2.1.post1+20240712043521 (Jul 12, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9902351302
+
+
+### server
+
+- Update: aws/g5.4xlarge
+- Update: aws/x1e.2xlarge
+- Update: aws/x2iedn.2xlarge
+
+## v0.2.1.post1+20240712033034 (Jul 12, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9901878877
+
+
+### server
+
+- Update: aws/g5g.8xlarge
+- Update: aws/gr6.4xlarge
+
+## v0.2.1.post1+20240712024640 (Jul 12, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9901511541
+
+
+### server
+
+- Update: aws/g6.24xlarge
+- Update: aws/trn1.2xlarge
+
+## v0.2.1.post1+20240712012712 (Jul 12, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9900817388
+
+
+### server
+
+- Update: aws/g5.2xlarge
+- Update: aws/g6.24xlarge
+- Update: aws/g6.48xlarge
+- Update: aws/g6.4xlarge
+- Update: aws/vt1.6xlarge
+
+## v0.2.1.post1+20240711233126 (Jul 11, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9899778719
+
+
+### server
+
+- Update: aws/g3.4xlarge
+- Update: aws/g4dn.4xlarge
+- Update: aws/g6.48xlarge
+
+## v0.2.1.post1+20240711213506 (Jul 11, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9898625040
+
+
+### server
+
+- Update: aws/g6.24xlarge
+
+## v0.2.1.post1+20240711203234 (Jul 11, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9897922475
+
+
+### server
+
+- Update: aws/g6.24xlarge
+- Update: aws/g6.2xlarge
+
+## v0.2.1.post1+20240711192624 (Jul 11, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9897188218
+
+
+### server
+
+- Update: aws/g4ad.4xlarge
+- Update: aws/g6.24xlarge
+- Update: aws/x1e.xlarge
+
+## v0.2.1.post1+20240711183355 (Jul 11, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9896563010
+
+
+### server
+
+- Update: aws/g5g.4xlarge
+- Update: aws/g6.24xlarge
+- Update: aws/g6.xlarge
+- Update: aws/inf2.xlarge
+- Update: aws/x2iedn.xlarge
+
+## v0.2.1.post1+20240711172827 (Jul 11, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9895737689
+
+
+### server
+
+- Update: aws/g3s.xlarge
+- Update: aws/g4dn.2xlarge
+
+## v0.2.1.post1+20240711163210 (Jul 11, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9895013123
+
+
+### server
+
+- Update: aws/g4ad.2xlarge
+- Update: aws/g4dn.xlarge
+- Update: aws/g6.12xlarge
+- Update: aws/g6.16xlarge
+- Update: aws/vt1.3xlarge
+- Update: aws/x2gd.2xlarge
+
+## v0.2.1.post1+20240711153427 (Jul 11, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9894084813
+
+
+### server
+
+- Update: aws/g6.12xlarge
+- Update: aws/g6.16xlarge
+- Update: aws/g6.24xlarge
+- Update: aws/g6.48xlarge
+- Update: aws/inf1.2xlarge
+
+## v0.2.1.post1+20240711142839 (Jul 11, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9893089745
+
+
+### server
+
+- Update: aws/g6.24xlarge
+- Update: aws/inf1.xlarge
+- Update: aws/x2gd.xlarge
+
+## v0.2.1.post1+20240711133130 (Jul 11, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9892212467
+
+
+### server
+
+- Update: aws/g6.48xlarge
+- Update: aws/x2gd.large
+- Update: aws/x2gd.medium
+
+## v0.2.1.post1+20240711124616 (Jul 11, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9891481622
+
+
+### server
+
+- Update: aws/g6.12xlarge
+- Update: aws/g6.16xlarge
+
+## v0.2.1.post1+20240711112649 (Jul 11, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9890412310
+
+
+### server
+
+- Update: aws/g6.12xlarge
+- Update: aws/g6.16xlarge
+
+## v0.2.1.post1+20240710103214 (Jul 10, 2024)
+
+This is an automated release with 29 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9872406804
+
+
+### server
+
+- Update: gcp/10040
+- Update: gcp/10080
+- Update: gcp/10160
+- Update: gcp/11040
+- Update: gcp/11080
+- Update: gcp/1110032
+- Update: gcp/11160
+- Update: gcp/1360088
+- Update: gcp/1400064
+- Update: gcp/1400128
+- Update: gcp/1410032
+- Update: gcp/1410064
+- Update: gcp/1410128
+- Update: gcp/1740000
+- Update: gcp/804208
+- Update: gcp/9096
+- Update: gcp/9196
+- Update: aws/r8g.12xlarge
+- Update: aws/r8g.16xlarge
+- Update: aws/r8g.24xlarge
+- Update: aws/r8g.2xlarge
+- Update: aws/r8g.48xlarge
+- Update: aws/r8g.4xlarge
+- Update: aws/r8g.8xlarge
+- Update: aws/r8g.large
+- Update: aws/r8g.medium
+- Update: aws/r8g.metal-24xl
+- Update: aws/r8g.metal-48xl
+- Update: aws/r8g.xlarge
+
+## v0.2.1.post1+20240710024720 (Jul 10, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9867252759
+
+
+### server
+
+- Update: gcp/804208
+
+## v0.2.1.post1+20240710012729 (Jul 10, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9866558173
+
+
+### server
+
+- Update: gcp/10160
+- Update: gcp/11160
+- Update: gcp/1410128
+
+## v0.2.1.post1+20240709233027 (Jul 09, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9865509367
+
+
+### server
+
+- Update: gcp/11080
+- Update: gcp/1400128
+
+## v0.2.1.post1+20240709223009 (Jul 09, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9864945115
+
+
+### server
+
+- Update: gcp/10080
+- Update: gcp/1410064
+- Update: aws/r8g.48xlarge
+- Update: aws/r8g.metal-48xl
+
+## v0.2.1.post1+20240709212854 (Jul 09, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9864296289
+
+
+### server
+
+- Update: gcp/9096
+- Update: gcp/9196
+
+## v0.2.1.post1+20240709203339 (Jul 09, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9863612454
+
+
+### server
+
+- Update: gcp/1740000
+
+## v0.2.1.post1+20240709192531 (Jul 09, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9862872476
+
+
+### server
+
+- Update: aws/r8g.16xlarge
+- Update: aws/r8g.24xlarge
+- Update: aws/r8g.metal-24xl
+
+## v0.2.1.post1+20240709183447 (Jul 09, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9862233270
+
+
+### server
+
+- Update: aws/r8g.12xlarge
+- Update: aws/r8g.2xlarge
+- Update: aws/r8g.4xlarge
+- Update: aws/r8g.8xlarge
+
+## v0.2.1.post1+20240709173330 (Jul 09, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9861389544
+
+
+### server
+
+- Update: aws/r8g.large
+- Update: aws/r8g.medium
+- Update: aws/r8g.xlarge
+
+## v0.2.1.post1+20240709163251 (Jul 09, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9860666331
+
+
+### server
+
+- Update: gcp/10040
+- Update: gcp/11040
+- Update: gcp/1400064
+
+## v0.2.1.post1+20240709153323 (Jul 09, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9859740495
+
+
+### server
+
+- Update: gcp/1360088
+- Update: gcp/1410032
+
+## v0.2.1.post1+20240709142641 (Jul 09, 2024)
+
+This is an automated release with 13 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9858734388
+
+
+### server
+
+- New: aws/r8g.metal-24xl
+- New: aws/r8g.16xlarge
+- New: aws/r8g.4xlarge
+- New: aws/r8g.12xlarge
+- New: aws/r8g.medium
+- New: aws/r8g.large
+- New: aws/r8g.48xlarge
+- New: aws/r8g.24xlarge
+- New: aws/r8g.metal-48xl
+- New: aws/r8g.xlarge
+- New: aws/r8g.2xlarge
+- New: aws/r8g.8xlarge
+- Update: gcp/1110032
+
+## v0.2.1.post1+20240709102904 (Jul 09, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9855226707
+
+
+### server
+
+- New: gcp/1741003
+- New: gcp/1741004
+
+## v0.2.1.post1+20240708223049 (Jul 08, 2024)
+
+This is an automated release with 24 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9847682374
+
+
+### server
+
+- Update: hcloud/1
+- Update: hcloud/100
+- Update: hcloud/101
+- Update: hcloud/104
+- Update: hcloud/105
+- Update: hcloud/106
+- Update: hcloud/107
+- Update: hcloud/22
+- Update: hcloud/23
+- Update: hcloud/24
+- Update: hcloud/25
+- Update: hcloud/26
+- Update: hcloud/3
+- Update: hcloud/45
+- Update: hcloud/5
+- Update: hcloud/7
+- Update: hcloud/9
+- Update: hcloud/93
+- Update: hcloud/94
+- Update: hcloud/95
+- Update: hcloud/96
+- Update: hcloud/97
+- Update: hcloud/98
+- Update: hcloud/99
+
+## v0.2.1.post1+20240708164000 (Jul 08, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9843288136
+
+
+### benchmark
+
+- Update: geekbench:photo_filter
+
+## v0.2.1.post1+20240704102814 (Jul 04, 2024)
+
+This is an automated release with 22 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9792591525
+
+
+### server
+
+- Update: gcp/1000096
+- Update: gcp/1001096
+- Update: gcp/1120112
+- Update: gcp/1300088
+- Update: gcp/1301088
+- Update: gcp/1320176
+- Update: gcp/1330088
+- Update: gcp/1700180
+- Update: gcp/1710090
+- Update: gcp/1720180
+- Update: gcp/1730180
+- Update: gcp/1743000
+- Update: gcp/1750016
+- Update: gcp/3096
+- Update: gcp/5096
+- Update: gcp/901096
+- Update: gcp/901128
+- Update: gcp/902080
+- Update: gcp/902096
+- Update: gcp/902128
+- Update: gcp/910224
+- Update: gcp/911224
+
+## v0.2.1.post1+20240703192818 (Jul 03, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9783572057
+
+
+### server
+
+- Update: gcp/1743000
+
+## v0.2.1.post1+20240703183219 (Jul 03, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9782961017
+
+
+### server
+
+- Update: gcp/1001096
+- Update: gcp/1720180
+- Update: gcp/1730180
+
+## v0.2.1.post1+20240703172607 (Jul 03, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9782145792
+
+
+### server
+
+- Update: gcp/1320176
+- Update: gcp/902128
+
+## v0.2.1.post1+20240703163216 (Jul 03, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9781454759
+
+
+### server
+
+- Update: gcp/1700180
+
+## v0.2.1.post1+20240703152940 (Jul 03, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9780544181
+
+
+### server
+
+- Update: gcp/1330088
+- Update: gcp/901128
+- Update: gcp/902096
+- Update: gcp/911224
+
+## v0.2.1.post1+20240703142809 (Jul 03, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9779560413
+
+
+### server
+
+- Update: gcp/1000096
+- Update: gcp/5096
+
+## v0.2.1.post1+20240703133224 (Jul 03, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9778648205
+
+
+### server
+
+- Update: gcp/1710090
+- Update: gcp/902080
+
+## v0.2.1.post1+20240703124350 (Jul 03, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9777907487
+
+
+### server
+
+- Update: gcp/1750016
+- Update: gcp/901096
+
+## v0.2.1.post1+20240703113108 (Jul 03, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9776810218
+
+
+### server
+
+- Update: gcp/1300088
+- Update: gcp/1301088
+- Update: gcp/3096
+- Update: gcp/910224
+
+## v0.2.1.post1+20240703103201 (Jul 03, 2024)
+
+This is an automated release with 80 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9776063387
+
+
+### server
+
+- Update: gcp/1000024
+- Update: gcp/1000048
+- Update: gcp/1100056
+- Update: gcp/1100112
+- Update: gcp/1110056
+- Update: gcp/1110112
+- Update: gcp/1120032
+- Update: gcp/1120056
+- Update: gcp/1120112
+- Update: gcp/1210048
+- Update: gcp/1210060
+- Update: gcp/1220006
+- Update: gcp/1220007
+- Update: gcp/1300022
+- Update: gcp/1300044
+- Update: gcp/1301022
+- Update: gcp/1301044
+- Update: gcp/1320044
+- Update: gcp/1320088
+- Update: gcp/1330022
+- Update: gcp/1330044
+- Update: gcp/1600048
+- Update: gcp/1600096
+- Update: gcp/1700030
+- Update: gcp/1700060
+- Update: gcp/1700090
+- Update: gcp/1710030
+- Update: gcp/1710060
+- Update: gcp/1720030
+- Update: gcp/1720060
+- Update: gcp/1720090
+- Update: gcp/1730030
+- Update: gcp/1730060
+- Update: gcp/1730090
+- Update: gcp/1750005
+- Update: gcp/1750006
+- Update: gcp/1750007
+- Update: gcp/1750008
+- Update: gcp/1750013
+- Update: gcp/1750014
+- Update: gcp/1750015
+- Update: gcp/1750021
+- Update: gcp/1750022
+- Update: gcp/1750023
+- Update: gcp/1750024
+- Update: gcp/3032
+- Update: gcp/3064
+- Update: gcp/4032
+- Update: gcp/4064
+- Update: gcp/4096
+- Update: gcp/5032
+- Update: gcp/5064
+- Update: gcp/801030
+- Update: gcp/801060
+- Update: gcp/901032
+- Update: gcp/901048
+- Update: gcp/901064
+- Update: gcp/901080
+- Update: gcp/902032
+- Update: gcp/902048
+- Update: gcp/902064
+- Update: gcp/903032
+- Update: gcp/903048
+- Update: gcp/903064
+- Update: gcp/903080
+- Update: gcp/903096
+- Update: gcp/910064
+- Update: gcp/910080
+- Update: gcp/910096
+- Update: gcp/910128
+- Update: gcp/911048
+- Update: gcp/911064
+- Update: gcp/911080
+- Update: gcp/911096
+- Update: gcp/911128
+- Update: gcp/912032
+- Update: gcp/912048
+- Update: gcp/912064
+- Update: gcp/912080
+- Update: gcp/912096
+
+## v0.2.1.post1+20240703093002 (Jul 03, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9775195302
+
+
+### server
+
+- Update: gcp/1720090
+- Update: gcp/1750015
+- Update: gcp/901080
+
+## v0.2.1.post1+20240703083210 (Jul 03, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9774365086
+
+
+### server
+
+- Update: gcp/1320088
+- Update: gcp/1750008
+- Update: gcp/5064
+
+## v0.2.1.post1+20240703072617 (Jul 03, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9773498614
+
+
+### server
+
+- Update: gcp/1710060
+- Update: gcp/911128
+- Update: gcp/912096
+
+## v0.2.1.post1+20240703063555 (Jul 03, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9772912326
+
+
+### server
+
+- Update: gcp/1600096
+- Update: gcp/4096
+- Update: gcp/801060
+- Update: gcp/903096
+
+## v0.2.1.post1+20240703053242 (Jul 03, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9772275062
+
+
+### server
+
+- Update: gcp/1100112
+- Update: gcp/1700090
+- Update: gcp/1750024
+- Update: gcp/902048
+
+## v0.2.1.post1+20240703043227 (Jul 03, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9771808956
+
+
+### server
+
+- Update: gcp/1330044
+- Update: gcp/1750007
+- Update: gcp/3064
+- Update: gcp/901064
+
+## v0.2.1.post1+20240703033314 (Jul 03, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9771322457
+
+
+### server
+
+- Update: gcp/1750014
+- Update: gcp/912080
+
+## v0.2.1.post1+20240703024300 (Jul 03, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9770946481
+
+
+### server
+
+- Update: gcp/1000048
+- Update: gcp/903080
+
+## v0.2.1.post1+20240703012600 (Jul 03, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9770255318
+
+
+### server
+
+- Update: gcp/1110112
+- Update: gcp/1720060
+- Update: gcp/1730060
+- Update: gcp/911096
+
+## v0.2.1.post1+20240702232656 (Jul 02, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9769231331
+
+
+### server
+
+- Update: gcp/1750023
+- Update: gcp/901048
+- Update: gcp/910128
+- Update: gcp/912064
+
+## v0.2.1.post1+20240702222746 (Jul 02, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9768685607
+
+
+### server
+
+- Update: gcp/1300044
+- Update: gcp/1301044
+- Update: gcp/1750006
+- Update: gcp/903064
+
+## v0.2.1.post1+20240702212854 (Jul 02, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9768089562
+
+
+### server
+
+- Update: gcp/1120056
+- Update: gcp/1700060
+- Update: gcp/4064
+- Update: gcp/911080
+
+## v0.2.1.post1+20240702203055 (Jul 02, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9767432664
+
+
+### server
+
+- Update: gcp/1750013
+- Update: gcp/902032
+- Update: gcp/910096
+
+## v0.2.1.post1+20240702192554 (Jul 02, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9766706732
+
+
+### server
+
+- Update: gcp/1320044
+- Update: gcp/1750022
+- Update: gcp/5032
+
+## v0.2.1.post1+20240702183620 (Jul 02, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9766076897
+
+
+### server
+
+- Update: gcp/1220007
+- Update: gcp/1710030
+- Update: gcp/912048
+
+## v0.2.1.post1+20240702172900 (Jul 02, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9765249100
+
+
+### server
+
+- Update: gcp/1600048
+- Update: gcp/801030
+- Update: gcp/911064
+
+## v0.2.1.post1+20240702163628 (Jul 02, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9764581087
+
+
+### server
+
+- Update: gcp/1100056
+- Update: gcp/1210060
+- Update: gcp/903048
+- Update: gcp/910080
+
+## v0.2.1.post1+20240702153100 (Jul 02, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9763650683
+
+
+### server
+
+- Update: gcp/1330022
+- Update: gcp/1750005
+- Update: gcp/3032
+- Update: gcp/901032
+
+## v0.2.1.post1+20240702142752 (Jul 02, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9762631116
+
+
+### server
+
+- Update: gcp/1000024
+- Update: gcp/1110056
+- Update: gcp/1720030
+- Update: gcp/1730030
+
+## v0.2.1.post1+20240702132946 (Jul 02, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9761748300
+
+
+### server
+
+- Update: gcp/1210048
+- Update: gcp/911048
+
+## v0.2.1.post1+20240702124322 (Jul 02, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9760983598
+
+
+### server
+
+- Update: gcp/1120032
+- Update: gcp/1220006
+- Update: gcp/1750021
+- Update: gcp/910064
+
+## v0.2.1.post1+20240702112450 (Jul 02, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9759922184
+
+
+### server
+
+- Update: gcp/1300022
+- Update: gcp/1301022
+- Update: gcp/903032
+- Update: gcp/912032
+
+## v0.2.1.post1+20240702102842 (Jul 02, 2024)
+
+This is an automated release with 20 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9759161365
+
+
+### server
+
+- Update: gcp/1700030
+- Update: gcp/1720016
+- Update: gcp/1730016
+- Update: gcp/1750004
+- Update: gcp/1750010
+- Update: gcp/1750012
+- Update: gcp/1750020
+- Update: gcp/335032
+- Update: gcp/337032
+- Update: gcp/4032
+- Update: gcp/801016
+- Update: gcp/901016
+- Update: gcp/902016
+- Update: gcp/903016
+- Update: gcp/910016
+- Update: gcp/910032
+- Update: gcp/910048
+- Update: gcp/911016
+- Update: gcp/911032
+- Update: gcp/912016
+
+## v0.2.1.post1+20240702093419 (Jul 02, 2024)
+
+This is an automated release with 15 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9758298015
+
+
+### server
+
+- Update: gcp/1000012
+- Update: gcp/1100016
+- Update: gcp/1100032
+- Update: gcp/1110016
+- Update: gcp/1120016
+- Update: gcp/1210016
+- Update: gcp/1210032
+- Update: gcp/1220005
+- Update: gcp/1320022
+- Update: gcp/1600024
+- Update: gcp/1700016
+- Update: gcp/1710016
+- Update: gcp/1750012
+- Update: gcp/902016
+- Update: gcp/910048
+
+## v0.2.1.post1+20240702083142 (Jul 02, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9757460059
+
+
+### server
+
+- Update: gcp/1100032
+- Update: gcp/1320022
+- Update: gcp/1710016
+- Update: gcp/801016
+
+## v0.2.1.post1+20240702072755 (Jul 02, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9756619838
+
+
+### server
+
+- Update: gcp/1210032
+- Update: gcp/1600024
+- Update: gcp/911032
+
+## v0.2.1.post1+20240702063607 (Jul 02, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9756024571
+
+
+### server
+
+- Update: gcp/1750004
+- Update: gcp/337032
+- Update: gcp/901016
+
+## v0.2.1.post1+20240702053204 (Jul 02, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9755384279
+
+
+### server
+
+- Update: gcp/1000012
+- Update: gcp/1720016
+- Update: gcp/1730016
+
+## v0.2.1.post1+20240702043513 (Jul 02, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9754929386
+
+
+### server
+
+- Update: gcp/1120016
+- Update: gcp/1220005
+- Update: gcp/1750020
+- Update: gcp/910032
+
+## v0.2.1.post1+20240702033534 (Jul 02, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9754432525
+
+
+### server
+
+- Update: gcp/1700016
+- Update: gcp/912016
+
+## v0.2.1.post1+20240702024412 (Jul 02, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9754063224
+
+
+### server
+
+- Update: gcp/903016
+
+## v0.2.1.post1+20240702012634 (Jul 02, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9753371848
+
+
+### server
+
+- Update: gcp/1100016
+- Update: gcp/1210016
+- Update: gcp/911016
+
+## v0.2.1.post1+20240701233039 (Jul 01, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9752332995
+
+
+### server
+
+- Update: gcp/1110016
+- Update: gcp/910016
+
+## v0.2.1.post1+20240629102731 (Jun 29, 2024)
+
+This is an automated release with 11 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9723413673
+
+
+### server
+
+- Update: gcp/1300176
+- Update: gcp/1301176
+- Update: gcp/1330176
+- Update: gcp/1700360
+- Update: gcp/1710180
+- Update: gcp/1710360
+- Update: gcp/1720360
+- Update: gcp/1730360
+- Update: gcp/1742000
+- Update: gcp/1742001
+- Update: gcp/1743001
+
+## v0.2.1.post1+20240628212925 (Jun 28, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9718585592
+
+
+### server
+
+- Update: gcp/1710360
+- Update: gcp/1720360
+- Update: gcp/1730360
+- Update: gcp/1742001
+
+## v0.2.1.post1+20240628202847 (Jun 28, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9717978310
+
+
+### server
+
+- Update: gcp/1700360
+- Update: gcp/1743001
+
+## v0.2.1.post1+20240628192304 (Jun 28, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9717367765
+
+
+### server
+
+- Update: gcp/1330176
+
+## v0.2.1.post1+20240628183750 (Jun 28, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9716981634
+
+
+### server
+
+- Update: gcp/1710180
+
+## v0.2.1.post1+20240628163508 (Jun 28, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9715831570
+
+
+### server
+
+- Update: gcp/1300176
+- Update: gcp/1301176
+- Update: gcp/1742000
+
+## v0.2.1.post1+20240628063415 (Jun 28, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9708422367
+
+
+### server
+
+- Update: gcp/1720364
+- Update: gcp/1720366
+
+## v0.2.1.post1+20240627172717 (Jun 27, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/9700834495
+
+
+### server
+
+- Update: gcp/1020012
+- Update: gcp/1020024
+- Update: gcp/1020048
+- Update: gcp/1020096
+
 ## v0.2.1.post1 (Jun 27, 2024)
 
 Maintenance release:
