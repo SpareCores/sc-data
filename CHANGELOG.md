@@ -1,3 +1,13 @@
+## v0.2.1.post1+20240817192712 (Aug 17, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10434626645
+
+
+### server
+
+- Update: aws/p3dn.24xlarge
+
 ## v0.2.1.post1+20240817183615 (Aug 17, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
