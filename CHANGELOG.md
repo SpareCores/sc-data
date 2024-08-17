@@ -1,3 +1,14 @@
+## v0.2.1.post1+20240817203058 (Aug 17, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10434958971
+
+
+### server
+
+- Update: aws/g6e.48xlarge
+- Update: aws/p4d.24xlarge
+
 ## v0.2.1.post1+20240817192712 (Aug 17, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
