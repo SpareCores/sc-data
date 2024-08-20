@@ -31,9 +31,10 @@ pip install "sparecores-data @ git+https://git@github.com/SpareCores/sc-data.git
 
 ## Usage
 
-For easy access to the SQLite database file, import the `db` object
-of the `sc_data` Python package, which runs an updater thread in the
-background to keep the SQLite file up-to-date:
+For easy access to the most recent version of the SQLite database
+file, import the `db` object of the `sc_data` Python package, which
+runs an updater thread in the background to keep the SQLite file
+up-to-date:
 
 ```py
 from sc_data import db
@@ -43,6 +44,13 @@ print(db.path)
 By default, the SQLite file will be updated every 600 seconds, which
 can be overwritten by the `sc_data_db_refresh_seconds` builtins
 attribute or the `SC_DATA_DB_REFRESH_SECONDS` environment variable.
+
+Similarly, you van set the following environment variables:
+
+- `SC_DATA_NO_UPDATE`
+- `SC_DATA_DB_PATH`
+- `SC_DATA_DB_URL`
+- `SC_DATA_HTTP_TIMEOUT`
 
 ## References
 
