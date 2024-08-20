@@ -1,6 +1,6 @@
 [project]
 name = "sparecores-data"
-version = "0.2.1.post1"
+version = "0.3.0"
 description = "Structured data collected by sparecores-crawler."
 readme = "README.md"
 requires-python = ">=3.8"

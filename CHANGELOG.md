@@ -1,3 +1,8 @@
+## v0.3.0 (Aug 20, 2024)
+
+Bump version to sync with the new `sparecores-crawler` v0.3.0 release.
+No schema changes expected.
+
 ## v0.2.1.post1+20240820163408 (Aug 20, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
