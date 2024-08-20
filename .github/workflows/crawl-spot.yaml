@@ -23,6 +23,9 @@ jobs:
       DB_NAME: ${{ secrets.DB_NAME }}
       DB_REGION: ${{ secrets.DB_REGION }}
       HCLOUD_TOKEN: ${{ secrets.HCLOUD_TOKEN }}
+      AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+      AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
+      AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
       COLUMNS: 160
     steps:
       - name: Checkout
