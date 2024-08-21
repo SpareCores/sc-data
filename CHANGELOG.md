@@ -1,3 +1,14 @@
+## v0.3.0+20240821112600 (Aug 21, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10488670151
+
+
+### server
+
+- Update: azure/Standard_DS11_v2
+- Update: azure/Standard_DS1_v2
+
 ## v0.3.0+20240821102114 (Aug 21, 2024)
 
 This is an automated release with 115 new/updated/deleted resources.
