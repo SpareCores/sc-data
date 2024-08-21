@@ -1,3 +1,127 @@
+## v0.3.0+20240821102114 (Aug 21, 2024)
+
+This is an automated release with 115 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10487840022
+
+
+### zone
+
+- Update: azure/australiacentral/0
+- Update: azure/australiacentral2/0
+- Update: azure/australiasoutheast/0
+- Update: azure/brazilsoutheast/0
+- Update: azure/brazilus/0
+- Update: azure/canadaeast/0
+- Update: azure/centraluseuap/0
+- Update: azure/eastus2euap/0
+- Update: azure/eastusstg/0
+- Update: azure/francesouth/0
+- Update: azure/germanynorth/0
+- Update: azure/japanwest/0
+- Update: azure/jioindiacentral/0
+- Update: azure/jioindiawest/0
+- Update: azure/koreasouth/0
+- Update: azure/northcentralus/0
+- Update: azure/norwaywest/0
+- Update: azure/southafricawest/0
+- Update: azure/southindia/0
+- Update: azure/switzerlandwest/0
+- Update: azure/uaecentral/0
+- Update: azure/ukwest/0
+- Update: azure/westcentralus/0
+- Update: azure/westindia/0
+- Update: azure/westus/0
+- Update: azure/australiaeast/1
+- Update: azure/brazilsouth/1
+- Update: azure/canadacentral/1
+- Update: azure/centralindia/1
+- Update: azure/centralus/1
+- Update: azure/eastasia/1
+- Update: azure/eastus/1
+- Update: azure/eastus2/1
+- Update: azure/francecentral/1
+- Update: azure/germanywestcentral/1
+- Update: azure/israelcentral/1
+- Update: azure/italynorth/1
+- Update: azure/japaneast/1
+- Update: azure/koreacentral/1
+- Update: azure/mexicocentral/1
+- Update: azure/northeurope/1
+- Update: azure/norwayeast/1
+- Update: azure/polandcentral/1
+- Update: azure/qatarcentral/1
+- Update: azure/southafricanorth/1
+- Update: azure/southcentralus/1
+- Update: azure/southeastasia/1
+- Update: azure/spaincentral/1
+- Update: azure/swedencentral/1
+- Update: azure/switzerlandnorth/1
+- Update: azure/uaenorth/1
+- Update: azure/uksouth/1
+- Update: azure/westeurope/1
+- Update: azure/westus2/1
+- Update: azure/westus3/1
+- Update: azure/australiaeast/2
+- Update: azure/brazilsouth/2
+- Update: azure/canadacentral/2
+- Update: azure/centralindia/2
+- Update: azure/centralus/2
+- Update: azure/eastasia/2
+- Update: azure/eastus/2
+- Update: azure/eastus2/2
+- Update: azure/francecentral/2
+- Update: azure/germanywestcentral/2
+- Update: azure/israelcentral/2
+- Update: azure/italynorth/2
+- Update: azure/japaneast/2
+- Update: azure/koreacentral/2
+- Update: azure/mexicocentral/2
+- Update: azure/northeurope/2
+- Update: azure/norwayeast/2
+- Update: azure/polandcentral/2
+- Update: azure/qatarcentral/2
+- Update: azure/southafricanorth/2
+- Update: azure/southcentralus/2
+- Update: azure/southeastasia/2
+- Update: azure/spaincentral/2
+- Update: azure/swedencentral/2
+- Update: azure/switzerlandnorth/2
+- Update: azure/uaenorth/2
+- Update: azure/uksouth/2
+- Update: azure/westeurope/2
+- Update: azure/westus2/2
+- Update: azure/westus3/2
+- Update: azure/australiaeast/3
+- Update: azure/brazilsouth/3
+- Update: azure/canadacentral/3
+- Update: azure/centralindia/3
+- Update: azure/centralus/3
+- Update: azure/eastasia/3
+- Update: azure/eastus/3
+- Update: azure/eastus2/3
+- Update: azure/francecentral/3
+- Update: azure/germanywestcentral/3
+- Update: azure/israelcentral/3
+- Update: azure/italynorth/3
+- Update: azure/japaneast/3
+- Update: azure/koreacentral/3
+- Update: azure/mexicocentral/3
+- Update: azure/northeurope/3
+- Update: azure/norwayeast/3
+- Update: azure/polandcentral/3
+- Update: azure/qatarcentral/3
+- Update: azure/southafricanorth/3
+- Update: azure/southcentralus/3
+- Update: azure/southeastasia/3
+- Update: azure/spaincentral/3
+- Update: azure/swedencentral/3
+- Update: azure/switzerlandnorth/3
+- Update: azure/uaenorth/3
+- Update: azure/uksouth/3
+- Update: azure/westeurope/3
+- Update: azure/westus2/3
+- Update: azure/westus3/3
+
 ## v0.3.0+20240820235608 (Aug 20, 2024)
 
 This is an automated release with 1000 new/updated/deleted resources.
