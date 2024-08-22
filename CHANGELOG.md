@@ -1,3 +1,13 @@
+## v0.3.0+20240822224005 (Aug 22, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10516635518
+
+
+### benchmark
+
+- New: app:static_web
+
 ## v0.3.0+20240821112600 (Aug 21, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
