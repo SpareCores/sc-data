@@ -1,3 +1,13 @@
+## v0.3.0+20240823112304 (Aug 23, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10524642647
+
+
+### server
+
+- Update: azure/Standard_B1ms
+
 ## v0.3.0+20240823092336 (Aug 23, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
