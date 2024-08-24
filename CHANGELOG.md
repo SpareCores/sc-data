@@ -1,3 +1,42 @@
+## v0.3.0+20240824062700 (Aug 24, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10536310998
+
+
+### server
+
+- New: azure/Standard_A8
+- New: azure/Standard_A9
+- New: azure/Standard_A10
+- New: azure/Standard_A11
+- New: azure/Standard_H8
+- New: azure/Standard_H16
+- New: azure/Standard_H8m
+- New: azure/Standard_H16m
+- New: azure/Standard_H16r
+- New: azure/Standard_H16mr
+- New: azure/Standard_ND6s
+- New: azure/Standard_ND12s
+- New: azure/Standard_ND24s
+- New: azure/Standard_ND24rs
+- New: azure/Standard_NC6s_v2
+- New: azure/Standard_NC12s_v2
+- New: azure/Standard_NC24s_v2
+- New: azure/Standard_NC24rs_v2
+- New: azure/Standard_DC2s
+- New: azure/Standard_DC4s
+- New: azure/Standard_DC8s
+- New: azure/Standard_NV4ads_A10_v5
+- New: azure/Standard_NV10ads_A10_v5
+- New: azure/Standard_NV20ads_A10_v5
+- New: azure/Standard_NV20adms_A10_v5
+- New: azure/Standard_NV30ads_A10_v5
+- New: azure/Standard_NV30adms_A10_v5
+- New: azure/Standard_NV40ads_A10_v5
+- New: azure/Standard_ND96isr_MI300X_v5
+- New: azure/Standard_ND96is_MI300X_v5
+
 ## v0.3.0+20240823112304 (Aug 23, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
