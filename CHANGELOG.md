@@ -1,3 +1,18 @@
+## v0.3.0+20240828195655 (Aug 28, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10603347599
+
+
+### benchmark
+
+- New: static_web:rps
+- New: static_web:rps-extrapolated
+- New: static_web:latency
+- New: redis:rps
+- New: redis:rps-extrapolated
+- New: redis:latency
+
 ## v0.3.0+20240827192820 (Aug 27, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
