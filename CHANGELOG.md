@@ -1,3 +1,22 @@
+## v0.3.0+20240829022047 (Aug 29, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10607403888
+
+
+### server
+
+- New: azure/Standard_M416ds_6_v3
+- New: azure/Standard_M416ds_8_v3
+- New: azure/Standard_M416s_6_v3
+- New: azure/Standard_M416s_8_v3
+- New: azure/Standard_M624ds_12_v3
+- New: azure/Standard_M832ds_12_v3
+- New: azure/Standard_M624s_12_v3
+- New: azure/Standard_M832s_12_v3
+- New: azure/Standard_M832ids_16_v3
+- New: azure/Standard_M832is_16_v3
+
 ## v0.3.0+20240828212911 (Aug 28, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
