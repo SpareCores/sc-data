@@ -1,3 +1,13 @@
+## v0.3.0+20240830022300 (Aug 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10625559885
+
+
+### server
+
+- Update: azure/Standard_HB176s_v4
+
 ## v0.3.0+20240829233231 (Aug 29, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
