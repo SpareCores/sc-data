@@ -1,3 +1,13 @@
+## v0.3.0+20240830103008 (Aug 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10630833515
+
+
+### server
+
+- Update: azure/Standard_B4as_v2
+
 ## v0.3.0+20240830082740 (Aug 30, 2024)
 
 This is an automated release with 3 new/updated/deleted resources.
