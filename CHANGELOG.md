@@ -1,3 +1,63 @@
+## v0.3.0+20240903152748 (Sep 03, 2024)
+
+This is an automated release with 51 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10685643804
+
+
+### server
+
+- Update: azure/Standard_B12ms
+- Update: azure/Standard_B16als_v2
+- Update: azure/Standard_B16as_v2
+- Update: azure/Standard_B16pls_v2
+- Update: azure/Standard_B1s
+- Update: azure/Standard_B4als_v2
+- Update: azure/Standard_B4pls_v2
+- Update: azure/Standard_B8ls_v2
+- Update: azure/Standard_B8ms
+- Update: azure/Standard_D16ads_v5
+- Update: azure/Standard_D16as_v4
+- Update: azure/Standard_D16a_v4
+- Update: azure/Standard_D2ds_v5
+- Update: azure/Standard_D2lds_v5
+- Update: azure/Standard_D2s_v3
+- Update: azure/Standard_D2s_v4
+- Update: azure/Standard_D2s_v5
+- Update: azure/Standard_D2_v5
+- Update: azure/Standard_D4as_v5
+- Update: azure/Standard_D4s_v3
+- Update: azure/Standard_D4s_v4
+- Update: azure/Standard_D4_v4
+- Update: azure/Standard_D8ds_v4
+- Update: azure/Standard_D8ds_v5
+- Update: azure/Standard_D8d_v4
+- Update: azure/Standard_D8lds_v5
+- Update: azure/Standard_D8ls_v5
+- Update: azure/Standard_D8s_v3
+- Update: azure/Standard_D8s_v4
+- Update: azure/Standard_D8s_v5
+- Update: azure/Standard_D8_v4
+- Update: azure/Standard_D8_v5
+- Update: azure/Standard_DC2s_v2
+- Update: azure/Standard_DC4s_v2
+- Update: azure/Standard_DS11
+- Update: azure/Standard_DS12
+- Update: azure/Standard_DS12-1_v2
+- Update: azure/Standard_DS12-2_v2
+- Update: azure/Standard_DS12_v2
+- Update: azure/Standard_DS3
+- Update: azure/Standard_DS4
+- Update: azure/Standard_E2bds_v5
+- Update: azure/Standard_E4-2ds_v4
+- Update: azure/Standard_E4bds_v5
+- Update: azure/Standard_E4bs_v5
+- Update: azure/Standard_E4_v4
+- Update: azure/Standard_E8-4as_v4
+- Update: azure/Standard_E8-4s_v3
+- Update: azure/Standard_E8s_v3
+- Update: azure/Standard_E8_v3
+- Update: azure/Standard_E8_v4
+
 ## v0.3.0+20240903142719 (Sep 03, 2024)
 
 This is an automated release with 7 new/updated/deleted resources.
