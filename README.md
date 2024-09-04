@@ -50,6 +50,7 @@ Similarly, you van set the following environment variables:
 - `SC_DATA_NO_UPDATE`
 - `SC_DATA_DB_PATH`
 - `SC_DATA_DB_URL`
+- `SC_DATA_DB_REFRESH_SECONDS`
 - `SC_DATA_HTTP_TIMEOUT`
 
 ## References
