@@ -1,3 +1,2791 @@
+## v0.3.0+20240904163042 (Sep 04, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10705463323
+
+
+### server
+
+- Update: azure/Standard_D16ads_v5
+- Update: azure/Standard_D16as_v5
+- Update: azure/Standard_D8d_v5
+- Update: azure/Standard_DC8_v2
+- Update: azure/Standard_DS13
+- Update: azure/Standard_DS13-2_v2
+- Update: azure/Standard_DS13-4_v2
+- Update: azure/Standard_DS13_v2
+- Update: azure/Standard_DS4_v2
+
+## v0.3.0+20240904123326 (Sep 04, 2024)
+
+This is an automated release with 36 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10701421073
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_H100_v5
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV12ads_V710_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV24ads_V710_v5
+- Update: azure/Standard_NV28adms_V710_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+- Update: azure/Standard_NV4ads_V710_v5
+- Update: azure/Standard_NV8ads_V710_v5
+
+## v0.3.0+20240903213037 (Sep 03, 2024)
+
+This is an automated release with 0 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10690629398
+
+
+## v0.3.0+20240903192749 (Sep 03, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10689068830
+
+
+### server
+
+- Update: azure/Standard_D13
+- Update: azure/Standard_DS13
+- Update: azure/Standard_E8bds_v5
+- Update: azure/Standard_L8as_v3
+- Update: azure/Standard_L8s
+- Update: azure/Standard_L8s_v2
+
+## v0.3.0+20240903183035 (Sep 03, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10688299287
+
+
+### server
+
+- Update: azure/Standard_D13_v2
+- Update: azure/Standard_DS13-2_v2
+- Update: azure/Standard_DS13-4_v2
+- Update: azure/Standard_DS13_v2
+- Update: azure/Standard_E8bs_v5
+
+## v0.3.0+20240903172812 (Sep 03, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10687454947
+
+
+### server
+
+- Update: azure/Standard_D4
+- Update: azure/Standard_D8d_v5
+- Update: azure/Standard_E8-2ds_v4
+- Update: azure/Standard_E8-4ds_v4
+- Update: azure/Standard_E8ds_v4
+
+## v0.3.0+20240903163024 (Sep 03, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10686637055
+
+
+### server
+
+- Update: azure/Standard_DS4_v2
+- Update: azure/Standard_E8-2as_v4
+- Update: azure/Standard_E8-2s_v3
+- Update: azure/Standard_E8-4as_v4
+- Update: azure/Standard_E8-4s_v3
+- Update: azure/Standard_E8as_v4
+- Update: azure/Standard_E8s_v3
+- Update: azure/Standard_E8_v4
+- Update: azure/Standard_G2
+- Update: azure/Standard_GS2
+
+## v0.3.0+20240903152748 (Sep 03, 2024)
+
+This is an automated release with 51 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10685643804
+
+
+### server
+
+- Update: azure/Standard_B12ms
+- Update: azure/Standard_B16als_v2
+- Update: azure/Standard_B16as_v2
+- Update: azure/Standard_B16pls_v2
+- Update: azure/Standard_B1s
+- Update: azure/Standard_B4als_v2
+- Update: azure/Standard_B4pls_v2
+- Update: azure/Standard_B8ls_v2
+- Update: azure/Standard_B8ms
+- Update: azure/Standard_D16ads_v5
+- Update: azure/Standard_D16as_v4
+- Update: azure/Standard_D16a_v4
+- Update: azure/Standard_D2ds_v5
+- Update: azure/Standard_D2lds_v5
+- Update: azure/Standard_D2s_v3
+- Update: azure/Standard_D2s_v4
+- Update: azure/Standard_D2s_v5
+- Update: azure/Standard_D2_v5
+- Update: azure/Standard_D4as_v5
+- Update: azure/Standard_D4s_v3
+- Update: azure/Standard_D4s_v4
+- Update: azure/Standard_D4_v4
+- Update: azure/Standard_D8ds_v4
+- Update: azure/Standard_D8ds_v5
+- Update: azure/Standard_D8d_v4
+- Update: azure/Standard_D8lds_v5
+- Update: azure/Standard_D8ls_v5
+- Update: azure/Standard_D8s_v3
+- Update: azure/Standard_D8s_v4
+- Update: azure/Standard_D8s_v5
+- Update: azure/Standard_D8_v4
+- Update: azure/Standard_D8_v5
+- Update: azure/Standard_DC2s_v2
+- Update: azure/Standard_DC4s_v2
+- Update: azure/Standard_DS11
+- Update: azure/Standard_DS12
+- Update: azure/Standard_DS12-1_v2
+- Update: azure/Standard_DS12-2_v2
+- Update: azure/Standard_DS12_v2
+- Update: azure/Standard_DS3
+- Update: azure/Standard_DS4
+- Update: azure/Standard_E2bds_v5
+- Update: azure/Standard_E4-2ds_v4
+- Update: azure/Standard_E4bds_v5
+- Update: azure/Standard_E4bs_v5
+- Update: azure/Standard_E4_v4
+- Update: azure/Standard_E8-4as_v4
+- Update: azure/Standard_E8-4s_v3
+- Update: azure/Standard_E8s_v3
+- Update: azure/Standard_E8_v3
+- Update: azure/Standard_E8_v4
+
+## v0.3.0+20240903142719 (Sep 03, 2024)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10684592418
+
+
+### server
+
+- Update: azure/Standard_B12ms
+- Update: azure/Standard_D16as_v4
+- Update: azure/Standard_D16a_v4
+- Update: azure/Standard_D4_v2
+- Update: azure/Standard_D8d_v4
+- Update: azure/Standard_E8-2as_v4
+- Update: azure/Standard_E8-2s_v3
+
+## v0.3.0+20240903133440 (Sep 03, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10683687176
+
+
+### server
+
+- Update: azure/Standard_D8ds_v4
+- Update: azure/Standard_D8ds_v5
+- Update: azure/Standard_G1
+- Update: azure/Standard_GS1
+
+## v0.3.0+20240903102743 (Sep 03, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10680882126
+
+
+### server
+
+- Update: azure/Standard_A8m_v2
+- Update: azure/Standard_B16as_v2
+- Update: azure/Standard_B16pls_v2
+- Update: azure/Standard_DC4s_v2
+- Update: azure/Standard_F8
+- Update: azure/Standard_F8s
+
+## v0.3.0+20240903092812 (Sep 03, 2024)
+
+This is an automated release with 15 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10679958076
+
+
+### server
+
+- Update: azure/Standard_A8_v2
+- Update: azure/Standard_B16als_v2
+- Update: azure/Standard_B8ms
+- Update: azure/Standard_D12
+- Update: azure/Standard_D8lds_v5
+- Update: azure/Standard_D8ls_v5
+- Update: azure/Standard_D8s_v3
+- Update: azure/Standard_D8s_v4
+- Update: azure/Standard_D8s_v5
+- Update: azure/Standard_D8_v3
+- Update: azure/Standard_D8_v4
+- Update: azure/Standard_D8_v5
+- Update: azure/Standard_DS12
+- Update: azure/Standard_E4bds_v5
+- Update: azure/Standard_F8s_v2
+
+## v0.3.0+20240903063651 (Sep 03, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10677502520
+
+
+### server
+
+- Update: azure/Standard_B8ls_v2
+- Update: azure/Standard_D3
+- Update: azure/Standard_DS3
+- Update: azure/Standard_E4-2ds_v4
+- Update: azure/Standard_E4bs_v5
+
+## v0.3.0+20240903052809 (Sep 03, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10676889316
+
+
+### server
+
+- Update: azure/Standard_E4_v3
+- Update: azure/Standard_E4_v4
+
+## v0.3.0+20240903032757 (Sep 03, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10675906597
+
+
+### server
+
+- Update: azure/Standard_D4s_v3
+- Update: azure/Standard_D4s_v4
+- Update: azure/Standard_D4_v3
+- Update: azure/Standard_D4_v4
+- Update: azure/Standard_DC2s_v2
+
+## v0.3.0+20240903022357 (Sep 03, 2024)
+
+This is an automated release with 35 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10675344082
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV12ads_V710_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV24ads_V710_v5
+- Update: azure/Standard_NV28adms_V710_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+- Update: azure/Standard_NV4ads_V710_v5
+- Update: azure/Standard_NV8ads_V710_v5
+
+## v0.3.0+20240903005813 (Sep 03, 2024)
+
+This is an automated release with 39 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10674615029
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_D11
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_DS11
+- Update: azure/Standard_E2bds_v5
+- Update: azure/Standard_F4s_v2
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV12ads_V710_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV24ads_V710_v5
+- Update: azure/Standard_NV28adms_V710_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+- Update: azure/Standard_NV4ads_V710_v5
+- Update: azure/Standard_NV8ads_V710_v5
+
+## v0.3.0+20240902232850 (Sep 02, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10673932593
+
+
+### server
+
+- Update: azure/Standard_D2ds_v5
+
+## v0.3.0+20240902222442 (Sep 02, 2024)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10673474992
+
+
+### server
+
+- Update: azure/Standard_B4pls_v2
+- Update: azure/Standard_D2lds_v5
+- Update: azure/Standard_D2s_v3
+- Update: azure/Standard_D2s_v4
+- Update: azure/Standard_D2s_v5
+- Update: azure/Standard_D2_v5
+- Update: azure/Standard_D4as_v5
+
+## v0.3.0+20240902193229 (Sep 02, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10672000068
+
+
+### server
+
+- Update: azure/Standard_B4als_v2
+
+## v0.3.0+20240902172825 (Sep 02, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10670903493
+
+
+### server
+
+- Update: azure/Standard_D1
+- Update: azure/Standard_F2s_v2
+
+## v0.3.0+20240902163500 (Sep 02, 2024)
+
+This is an automated release with 39 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10670316206
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A1_v2
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_B1s
+- Update: azure/Standard_D1_v2
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_H100_v5
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV12ads_V710_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV24ads_V710_v5
+- Update: azure/Standard_NV28adms_V710_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+- Update: azure/Standard_NV4ads_V710_v5
+- Update: azure/Standard_NV8ads_V710_v5
+
+## v0.3.0+20240902153000 (Sep 02, 2024)
+
+This is an automated release with 36 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10669553214
+
+
+### server
+
+- New: azure/Standard_NV4ads_V710_v5
+- New: azure/Standard_NV8ads_V710_v5
+- New: azure/Standard_NV12ads_V710_v5
+- New: azure/Standard_NV24ads_V710_v5
+- New: azure/Standard_NV28adms_V710_v5
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_H100_v5
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240901224059 (Sep 01, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10657837138
+
+
+### benchmark
+
+- New: static_web:throughput
+- New: static_web:throughput-extrapolated
+- Update: static_web:rps-extrapolated
+- Update: static_web:rps
+- Update: static_web:latency
+- Update: redis:latency
+
+## v0.3.0+20240831152849 (Aug 31, 2024)
+
+This is an automated release with 22 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10646230203
+
+
+### server
+
+- Update: azure/Standard_B4ls_v2
+- Update: azure/Standard_B4ms
+- Update: azure/Standard_B4s_v2
+- Update: azure/Standard_B8pls_v2
+- Update: azure/Standard_B8ps_v2
+- Update: azure/Standard_D4ds_v4
+- Update: azure/Standard_D4ds_v5
+- Update: azure/Standard_D4d_v4
+- Update: azure/Standard_D4d_v5
+- Update: azure/Standard_D8as_v4
+- Update: azure/Standard_D8as_v5
+- Update: azure/Standard_DS11-1_v2
+- Update: azure/Standard_DS2
+- Update: azure/Standard_DS3_v2
+- Update: azure/Standard_E2bs_v5
+- Update: azure/Standard_E2ds_v4
+- Update: azure/Standard_E2_v4
+- Update: azure/Standard_E4-2as_v4
+- Update: azure/Standard_E4-2s_v3
+- Update: azure/Standard_E4as_v4
+- Update: azure/Standard_E4ds_v4
+- Update: azure/Standard_E4s_v3
+
+## v0.3.0+20240831102823 (Aug 31, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10644405610
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240831092538 (Aug 31, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10644061665
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240831022348 (Aug 31, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10641509280
+
+
+### server
+
+- Update: azure/Standard_HX176-24s
+
+## v0.3.0+20240830233158 (Aug 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10640230807
+
+
+### server
+
+- Update: azure/Standard_HX176-48s
+
+## v0.3.0+20240830212752 (Aug 30, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10639173007
+
+
+### server
+
+- Update: azure/Standard_E4-2s_v3
+- Update: azure/Standard_E4s_v3
+- Update: azure/Standard_HX176-144s
+- Update: azure/Standard_HX176s
+
+## v0.3.0+20240830202619 (Aug 30, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10638561524
+
+
+### server
+
+- Update: azure/Standard_D3_v2
+- Update: azure/Standard_D4ds_v4
+- Update: azure/Standard_D4ds_v5
+- Update: azure/Standard_D4d_v4
+- Update: azure/Standard_D4d_v5
+- Update: azure/Standard_D8as_v4
+- Update: azure/Standard_DS3_v2
+- Update: azure/Standard_E4-2as_v4
+- Update: azure/Standard_HB176-24s_v4
+- Update: azure/Standard_HB176-48s_v4
+
+## v0.3.0+20240830192630 (Aug 30, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10637894115
+
+
+### server
+
+- Update: azure/Standard_B8ps_v2
+- Update: azure/Standard_D8as_v5
+- Update: azure/Standard_HB176-96s_v4
+
+## v0.3.0+20240830182944 (Aug 30, 2024)
+
+This is an automated release with 33 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10637243943
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_B4ms
+- Update: azure/Standard_B4s_v2
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_HB176-144s_v4
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240830172656 (Aug 30, 2024)
+
+This is an automated release with 35 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10636500880
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A4_v2
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_B8pls_v2
+- Update: azure/Standard_D11_v2
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_DS11-1_v2
+- Update: azure/Standard_E4as_v4
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240830153609 (Aug 30, 2024)
+
+This is an automated release with 13 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10634976495
+
+
+### server
+
+- Update: azure/Standard_D2
+- Update: azure/Standard_D2d_v4
+- Update: azure/Standard_D2d_v5
+- Update: azure/Standard_D2_v4
+- Update: azure/Standard_D4as_v4
+- Update: azure/Standard_D4a_v4
+- Update: azure/Standard_DC1s_v2
+- Update: azure/Standard_DS2
+- Update: azure/Standard_DS2_v2
+- Update: azure/Standard_E2s_v3
+- Update: azure/Standard_E2_v3
+- Update: azure/Standard_E2_v4
+- Update: azure/Standard_F2s
+
+## v0.3.0+20240830142441 (Aug 30, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10634107632
+
+
+### server
+
+- Update: azure/Standard_B4as_v2
+- Update: azure/Standard_B4ps_v2
+- Update: azure/Standard_D2ds_v4
+- Update: azure/Standard_D2d_v4
+- Update: azure/Standard_D2d_v5
+- Update: azure/Standard_D2_v2
+- Update: azure/Standard_D4as_v4
+- Update: azure/Standard_D4a_v4
+- Update: azure/Standard_DS2_v2
+- Update: azure/Standard_E2s_v3
+
+## v0.3.0+20240830123529 (Aug 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10632460749
+
+
+### server
+
+- Update: azure/Standard_B4ps_v2
+
+## v0.3.0+20240830112714 (Aug 30, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10631620376
+
+
+### server
+
+- Update: azure/Standard_A2m_v2
+- Update: azure/Standard_F2
+- Update: azure/Standard_F2s
+
+## v0.3.0+20240830103008 (Aug 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10630833515
+
+
+### server
+
+- Update: azure/Standard_B4as_v2
+
+## v0.3.0+20240830082740 (Aug 30, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10629191005
+
+
+### server
+
+- Update: azure/Standard_D2_v3
+- Update: azure/Standard_D2_v4
+- Update: azure/Standard_DC1s_v2
+
+## v0.3.0+20240830022300 (Aug 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10625559885
+
+
+### server
+
+- Update: azure/Standard_HB176s_v4
+
+## v0.3.0+20240829233231 (Aug 29, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10623919464
+
+
+### server
+
+- Update: azure/Standard_A2_v2
+
+## v0.3.0+20240829222745 (Aug 29, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10623315862
+
+
+### server
+
+- Update: azure/Standard_F1
+
+## v0.3.0+20240829203014 (Aug 29, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10621907596
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240829192824 (Aug 29, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10621130944
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240829162848 (Aug 29, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10618695919
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240829152554 (Aug 29, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10617746587
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240829073157 (Aug 29, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10610490942
+
+
+### benchmark
+
+- Update: static_web:latency
+- Update: redis:latency
+
+## v0.3.0+20240829053150 (Aug 29, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10609054085
+
+
+### server
+
+- New: gcp/700094
+- New: gcp/700095
+
+## v0.3.0+20240829022047 (Aug 29, 2024)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10607403888
+
+
+### server
+
+- New: azure/Standard_M416ds_6_v3
+- New: azure/Standard_M416ds_8_v3
+- New: azure/Standard_M416s_6_v3
+- New: azure/Standard_M416s_8_v3
+- New: azure/Standard_M624ds_12_v3
+- New: azure/Standard_M832ds_12_v3
+- New: azure/Standard_M624s_12_v3
+- New: azure/Standard_M832s_12_v3
+- New: azure/Standard_M832ids_16_v3
+- New: azure/Standard_M832is_16_v3
+
+## v0.3.0+20240828212911 (Aug 28, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10604432490
+
+
+### server
+
+- Update: gcp/334002
+
+## v0.3.0+20240828195655 (Aug 28, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10603347599
+
+
+### benchmark
+
+- New: static_web:rps
+- New: static_web:rps-extrapolated
+- New: static_web:latency
+- New: redis:rps
+- New: redis:rps-extrapolated
+- New: redis:latency
+
+## v0.3.0+20240827192820 (Aug 27, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10584292965
+
+
+### region
+
+- Update: azure/eastusstg
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240827162903 (Aug 27, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10581820271
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240827142659 (Aug 27, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10579794672
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240827082644 (Aug 27, 2024)
+
+This is an automated release with 31 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10574243157
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_H100_v5
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240827073122 (Aug 27, 2024)
+
+This is an automated release with 31 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10573363428
+
+
+### server
+
+- New: azure/Standard_ND96is_H100_v5
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240827052530 (Aug 27, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10572043605
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240827042657 (Aug 27, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10571539044
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240827005736 (Aug 27, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10569541770
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826232420 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10568657155
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826212750 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10567277974
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826152824 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10562284655
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826142638 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10561321138
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826122959 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10559517066
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826112516 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10558607035
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826102509 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10557830823
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826092527 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10556962191
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826082749 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10556123971
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826062838 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10554553326
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826042547 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10553394209
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826032817 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10552862858
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240826005557 (Aug 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10551455961
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240825232439 (Aug 25, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10550812540
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240825222243 (Aug 25, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10550447272
+
+
+### region
+
+- Update: azure/southcentralusstg
+
+## v0.3.0+20240825212926 (Aug 25, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10550099985
+
+
+### region
+
+- New: azure/southcentralusstg
+
+### zone
+
+- New: azure/southcentralusstg/0
+
+## v0.3.0+20240824222658 (Aug 24, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10541831781
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240824212333 (Aug 24, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10541509023
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240824072236 (Aug 24, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10536641215
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240824062700 (Aug 24, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10536310998
+
+
+### server
+
+- New: azure/Standard_A8
+- New: azure/Standard_A9
+- New: azure/Standard_A10
+- New: azure/Standard_A11
+- New: azure/Standard_H8
+- New: azure/Standard_H16
+- New: azure/Standard_H8m
+- New: azure/Standard_H16m
+- New: azure/Standard_H16r
+- New: azure/Standard_H16mr
+- New: azure/Standard_ND6s
+- New: azure/Standard_ND12s
+- New: azure/Standard_ND24s
+- New: azure/Standard_ND24rs
+- New: azure/Standard_NC6s_v2
+- New: azure/Standard_NC12s_v2
+- New: azure/Standard_NC24s_v2
+- New: azure/Standard_NC24rs_v2
+- New: azure/Standard_DC2s
+- New: azure/Standard_DC4s
+- New: azure/Standard_DC8s
+- New: azure/Standard_NV4ads_A10_v5
+- New: azure/Standard_NV10ads_A10_v5
+- New: azure/Standard_NV20ads_A10_v5
+- New: azure/Standard_NV20adms_A10_v5
+- New: azure/Standard_NV30ads_A10_v5
+- New: azure/Standard_NV30adms_A10_v5
+- New: azure/Standard_NV40ads_A10_v5
+- New: azure/Standard_ND96isr_MI300X_v5
+- New: azure/Standard_ND96is_MI300X_v5
+
+## v0.3.0+20240823112304 (Aug 23, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10524642647
+
+
+### server
+
+- Update: azure/Standard_B1ms
+
+## v0.3.0+20240823092336 (Aug 23, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10523068220
+
+
+### server
+
+- Update: azure/Standard_B1ms
+
+## v0.3.0+20240822224005 (Aug 22, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10516635518
+
+
+### benchmark
+
+- New: app:static_web
+
+## v0.3.0+20240821112600 (Aug 21, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10488670151
+
+
+### server
+
+- Update: azure/Standard_DS11_v2
+- Update: azure/Standard_DS1_v2
+
+## v0.3.0+20240821102114 (Aug 21, 2024)
+
+This is an automated release with 115 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10487840022
+
+
+### zone
+
+- Update: azure/australiacentral/0
+- Update: azure/australiacentral2/0
+- Update: azure/australiasoutheast/0
+- Update: azure/brazilsoutheast/0
+- Update: azure/brazilus/0
+- Update: azure/canadaeast/0
+- Update: azure/centraluseuap/0
+- Update: azure/eastus2euap/0
+- Update: azure/eastusstg/0
+- Update: azure/francesouth/0
+- Update: azure/germanynorth/0
+- Update: azure/japanwest/0
+- Update: azure/jioindiacentral/0
+- Update: azure/jioindiawest/0
+- Update: azure/koreasouth/0
+- Update: azure/northcentralus/0
+- Update: azure/norwaywest/0
+- Update: azure/southafricawest/0
+- Update: azure/southindia/0
+- Update: azure/switzerlandwest/0
+- Update: azure/uaecentral/0
+- Update: azure/ukwest/0
+- Update: azure/westcentralus/0
+- Update: azure/westindia/0
+- Update: azure/westus/0
+- Update: azure/australiaeast/1
+- Update: azure/brazilsouth/1
+- Update: azure/canadacentral/1
+- Update: azure/centralindia/1
+- Update: azure/centralus/1
+- Update: azure/eastasia/1
+- Update: azure/eastus/1
+- Update: azure/eastus2/1
+- Update: azure/francecentral/1
+- Update: azure/germanywestcentral/1
+- Update: azure/israelcentral/1
+- Update: azure/italynorth/1
+- Update: azure/japaneast/1
+- Update: azure/koreacentral/1
+- Update: azure/mexicocentral/1
+- Update: azure/northeurope/1
+- Update: azure/norwayeast/1
+- Update: azure/polandcentral/1
+- Update: azure/qatarcentral/1
+- Update: azure/southafricanorth/1
+- Update: azure/southcentralus/1
+- Update: azure/southeastasia/1
+- Update: azure/spaincentral/1
+- Update: azure/swedencentral/1
+- Update: azure/switzerlandnorth/1
+- Update: azure/uaenorth/1
+- Update: azure/uksouth/1
+- Update: azure/westeurope/1
+- Update: azure/westus2/1
+- Update: azure/westus3/1
+- Update: azure/australiaeast/2
+- Update: azure/brazilsouth/2
+- Update: azure/canadacentral/2
+- Update: azure/centralindia/2
+- Update: azure/centralus/2
+- Update: azure/eastasia/2
+- Update: azure/eastus/2
+- Update: azure/eastus2/2
+- Update: azure/francecentral/2
+- Update: azure/germanywestcentral/2
+- Update: azure/israelcentral/2
+- Update: azure/italynorth/2
+- Update: azure/japaneast/2
+- Update: azure/koreacentral/2
+- Update: azure/mexicocentral/2
+- Update: azure/northeurope/2
+- Update: azure/norwayeast/2
+- Update: azure/polandcentral/2
+- Update: azure/qatarcentral/2
+- Update: azure/southafricanorth/2
+- Update: azure/southcentralus/2
+- Update: azure/southeastasia/2
+- Update: azure/spaincentral/2
+- Update: azure/swedencentral/2
+- Update: azure/switzerlandnorth/2
+- Update: azure/uaenorth/2
+- Update: azure/uksouth/2
+- Update: azure/westeurope/2
+- Update: azure/westus2/2
+- Update: azure/westus3/2
+- Update: azure/australiaeast/3
+- Update: azure/brazilsouth/3
+- Update: azure/canadacentral/3
+- Update: azure/centralindia/3
+- Update: azure/centralus/3
+- Update: azure/eastasia/3
+- Update: azure/eastus/3
+- Update: azure/eastus2/3
+- Update: azure/francecentral/3
+- Update: azure/germanywestcentral/3
+- Update: azure/israelcentral/3
+- Update: azure/italynorth/3
+- Update: azure/japaneast/3
+- Update: azure/koreacentral/3
+- Update: azure/mexicocentral/3
+- Update: azure/northeurope/3
+- Update: azure/norwayeast/3
+- Update: azure/polandcentral/3
+- Update: azure/qatarcentral/3
+- Update: azure/southafricanorth/3
+- Update: azure/southcentralus/3
+- Update: azure/southeastasia/3
+- Update: azure/spaincentral/3
+- Update: azure/swedencentral/3
+- Update: azure/switzerlandnorth/3
+- Update: azure/uaenorth/3
+- Update: azure/uksouth/3
+- Update: azure/westeurope/3
+- Update: azure/westus2/3
+- Update: azure/westus3/3
+
+## v0.3.0+20240820235608 (Aug 20, 2024)
+
+This is an automated release with 1000 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10480823038
+
+
+### vendor_compliance_link
+
+- New: azure/hipaa
+- New: azure/soc2t2
+- New: azure/iso27001
+
+### region
+
+- New: azure/eastus
+- New: azure/southcentralus
+- New: azure/westus2
+- New: azure/westus3
+- New: azure/australiaeast
+- New: azure/southeastasia
+- New: azure/northeurope
+- New: azure/swedencentral
+- New: azure/uksouth
+- New: azure/westeurope
+- New: azure/centralus
+- New: azure/southafricanorth
+- New: azure/centralindia
+- New: azure/eastasia
+- New: azure/japaneast
+- New: azure/koreacentral
+- New: azure/canadacentral
+- New: azure/francecentral
+- New: azure/germanywestcentral
+- New: azure/italynorth
+- New: azure/norwayeast
+- New: azure/polandcentral
+- New: azure/spaincentral
+- New: azure/switzerlandnorth
+- New: azure/mexicocentral
+- New: azure/uaenorth
+- New: azure/brazilsouth
+- New: azure/israelcentral
+- New: azure/qatarcentral
+- New: azure/brazilus
+- New: azure/eastus2
+- New: azure/eastusstg
+- New: azure/northcentralus
+- New: azure/westus
+- New: azure/japanwest
+- New: azure/jioindiawest
+- New: azure/centraluseuap
+- New: azure/eastus2euap
+- New: azure/westcentralus
+- New: azure/southafricawest
+- New: azure/australiacentral
+- New: azure/australiacentral2
+- New: azure/australiasoutheast
+- New: azure/jioindiacentral
+- New: azure/koreasouth
+- New: azure/southindia
+- New: azure/westindia
+- New: azure/canadaeast
+- New: azure/francesouth
+- New: azure/germanynorth
+- New: azure/norwaywest
+- New: azure/switzerlandwest
+- New: azure/ukwest
+- New: azure/uaecentral
+- New: azure/brazilsoutheast
+
+### zone
+
+- New: azure/australiacentral/0
+- New: azure/australiacentral2/0
+- New: azure/australiaeast/3
+- New: azure/australiaeast/1
+- New: azure/australiaeast/2
+- New: azure/australiasoutheast/0
+- New: azure/brazilsouth/3
+- New: azure/brazilsouth/1
+- New: azure/brazilsouth/2
+- New: azure/brazilsoutheast/0
+- New: azure/brazilus/0
+- New: azure/canadacentral/3
+- New: azure/canadacentral/1
+- New: azure/canadacentral/2
+- New: azure/canadaeast/0
+- New: azure/centralindia/3
+- New: azure/centralindia/1
+- New: azure/centralindia/2
+- New: azure/centralus/3
+- New: azure/centralus/1
+- New: azure/centralus/2
+- New: azure/centraluseuap/0
+- New: azure/eastasia/3
+- New: azure/eastasia/1
+- New: azure/eastasia/2
+- New: azure/eastus/3
+- New: azure/eastus/1
+- New: azure/eastus/2
+- New: azure/eastus2/3
+- New: azure/eastus2/1
+- New: azure/eastus2/2
+- New: azure/eastus2euap/0
+- New: azure/eastusstg/0
+- New: azure/francecentral/3
+- New: azure/francecentral/1
+- New: azure/francecentral/2
+- New: azure/francesouth/0
+- New: azure/germanynorth/0
+- New: azure/germanywestcentral/3
+- New: azure/germanywestcentral/1
+- New: azure/germanywestcentral/2
+- New: azure/israelcentral/3
+- New: azure/israelcentral/1
+- New: azure/israelcentral/2
+- New: azure/italynorth/3
+- New: azure/italynorth/1
+- New: azure/italynorth/2
+- New: azure/japaneast/3
+- New: azure/japaneast/1
+- New: azure/japaneast/2
+- New: azure/japanwest/0
+- New: azure/jioindiacentral/0
+- New: azure/jioindiawest/0
+- New: azure/koreacentral/3
+- New: azure/koreacentral/1
+- New: azure/koreacentral/2
+- New: azure/koreasouth/0
+- New: azure/mexicocentral/3
+- New: azure/mexicocentral/1
+- New: azure/mexicocentral/2
+- New: azure/northcentralus/0
+- New: azure/northeurope/3
+- New: azure/northeurope/1
+- New: azure/northeurope/2
+- New: azure/norwayeast/3
+- New: azure/norwayeast/1
+- New: azure/norwayeast/2
+- New: azure/norwaywest/0
+- New: azure/polandcentral/3
+- New: azure/polandcentral/1
+- New: azure/polandcentral/2
+- New: azure/qatarcentral/3
+- New: azure/qatarcentral/1
+- New: azure/qatarcentral/2
+- New: azure/southafricanorth/3
+- New: azure/southafricanorth/1
+- New: azure/southafricanorth/2
+- New: azure/southafricawest/0
+- New: azure/southcentralus/3
+- New: azure/southcentralus/1
+- New: azure/southcentralus/2
+- New: azure/southeastasia/3
+- New: azure/southeastasia/1
+- New: azure/southeastasia/2
+- New: azure/southindia/0
+- New: azure/spaincentral/3
+- New: azure/spaincentral/1
+- New: azure/spaincentral/2
+- New: azure/swedencentral/3
+- New: azure/swedencentral/1
+- New: azure/swedencentral/2
+- New: azure/switzerlandnorth/3
+- New: azure/switzerlandnorth/1
+- New: azure/switzerlandnorth/2
+- New: azure/switzerlandwest/0
+- New: azure/uaecentral/0
+- New: azure/uaenorth/3
+- New: azure/uaenorth/1
+- New: azure/uaenorth/2
+- New: azure/uksouth/3
+- New: azure/uksouth/1
+- New: azure/uksouth/2
+- New: azure/ukwest/0
+- New: azure/westcentralus/0
+- New: azure/westeurope/3
+- New: azure/westeurope/1
+- New: azure/westeurope/2
+- New: azure/westindia/0
+- New: azure/westus/0
+- New: azure/westus2/3
+- New: azure/westus2/1
+- New: azure/westus2/2
+- New: azure/westus3/3
+- New: azure/westus3/1
+- New: azure/westus3/2
+
+### storage
+
+- New: azure/PremiumV2_LRS
+- New: azure/Premium_LRS
+- New: azure/Premium_ZRS
+- New: azure/StandardSSD_LRS
+- New: azure/StandardSSD_ZRS
+- New: azure/Standard_LRS
+- New: azure/UltraSSD_LRS
+
+### server
+
+- New: azure/Standard_D2a_v4
+- New: azure/Standard_D4a_v4
+- New: azure/Standard_D8a_v4
+- New: azure/Standard_D16a_v4
+- New: azure/Standard_D32a_v4
+- New: azure/Standard_D48a_v4
+- New: azure/Standard_D64a_v4
+- New: azure/Standard_D96a_v4
+- New: azure/Standard_D2as_v4
+- New: azure/Standard_D4as_v4
+- New: azure/Standard_D8as_v4
+- New: azure/Standard_D16as_v4
+- New: azure/Standard_D32as_v4
+- New: azure/Standard_D48as_v4
+- New: azure/Standard_D64as_v4
+- New: azure/Standard_D96as_v4
+- New: azure/Standard_E2a_v4
+- New: azure/Standard_E4a_v4
+- New: azure/Standard_E8a_v4
+- New: azure/Standard_E16a_v4
+- New: azure/Standard_E20a_v4
+- New: azure/Standard_E32a_v4
+- New: azure/Standard_E48a_v4
+- New: azure/Standard_E64a_v4
+- New: azure/Standard_E96a_v4
+- New: azure/Standard_E2as_v4
+- New: azure/Standard_E4-2as_v4
+- New: azure/Standard_E4as_v4
+- New: azure/Standard_E8-2as_v4
+- New: azure/Standard_E8-4as_v4
+- New: azure/Standard_E8as_v4
+- New: azure/Standard_E16-4as_v4
+- New: azure/Standard_E16-8as_v4
+- New: azure/Standard_E16as_v4
+- New: azure/Standard_E20as_v4
+- New: azure/Standard_E32-8as_v4
+- New: azure/Standard_E32-16as_v4
+- New: azure/Standard_E32as_v4
+- New: azure/Standard_E48as_v4
+- New: azure/Standard_E64-16as_v4
+- New: azure/Standard_E64-32as_v4
+- New: azure/Standard_E64as_v4
+- New: azure/Standard_E96-24as_v4
+- New: azure/Standard_E96-48as_v4
+- New: azure/Standard_E96as_v4
+- New: azure/Standard_D2as_v5
+- New: azure/Standard_D4as_v5
+- New: azure/Standard_D8as_v5
+- New: azure/Standard_D16as_v5
+- New: azure/Standard_D32as_v5
+- New: azure/Standard_D48as_v5
+- New: azure/Standard_D64as_v5
+- New: azure/Standard_D96as_v5
+- New: azure/Standard_E2as_v5
+- New: azure/Standard_E4-2as_v5
+- New: azure/Standard_E4as_v5
+- New: azure/Standard_E8-2as_v5
+- New: azure/Standard_E8-4as_v5
+- New: azure/Standard_E8as_v5
+- New: azure/Standard_E16-4as_v5
+- New: azure/Standard_E16-8as_v5
+- New: azure/Standard_E16as_v5
+- New: azure/Standard_E20as_v5
+- New: azure/Standard_E32-8as_v5
+- New: azure/Standard_E32-16as_v5
+- New: azure/Standard_E32as_v5
+- New: azure/Standard_E48as_v5
+- New: azure/Standard_E64-16as_v5
+- New: azure/Standard_E64-32as_v5
+- New: azure/Standard_E64as_v5
+- New: azure/Standard_E96-24as_v5
+- New: azure/Standard_E96-48as_v5
+- New: azure/Standard_E96as_v5
+- New: azure/Standard_E112ias_v5
+- New: azure/Standard_D2ads_v5
+- New: azure/Standard_D4ads_v5
+- New: azure/Standard_D8ads_v5
+- New: azure/Standard_D16ads_v5
+- New: azure/Standard_D32ads_v5
+- New: azure/Standard_D48ads_v5
+- New: azure/Standard_D64ads_v5
+- New: azure/Standard_D96ads_v5
+- New: azure/Standard_E2ads_v5
+- New: azure/Standard_E4-2ads_v5
+- New: azure/Standard_E4ads_v5
+- New: azure/Standard_E8-2ads_v5
+- New: azure/Standard_E8-4ads_v5
+- New: azure/Standard_E8ads_v5
+- New: azure/Standard_E16-4ads_v5
+- New: azure/Standard_E16-8ads_v5
+- New: azure/Standard_E16ads_v5
+- New: azure/Standard_E20ads_v5
+- New: azure/Standard_E32-8ads_v5
+- New: azure/Standard_E32-16ads_v5
+- New: azure/Standard_E32ads_v5
+- New: azure/Standard_E48ads_v5
+- New: azure/Standard_E64-16ads_v5
+- New: azure/Standard_E64-32ads_v5
+- New: azure/Standard_E64ads_v5
+- New: azure/Standard_E96-24ads_v5
+- New: azure/Standard_E96-48ads_v5
+- New: azure/Standard_E96ads_v5
+- New: azure/Standard_E112iads_v5
+- New: azure/Standard_B2als_v2
+- New: azure/Standard_B2as_v2
+- New: azure/Standard_B2ats_v2
+- New: azure/Standard_B4als_v2
+- New: azure/Standard_B4as_v2
+- New: azure/Standard_B8als_v2
+- New: azure/Standard_B8as_v2
+- New: azure/Standard_B16als_v2
+- New: azure/Standard_B16as_v2
+- New: azure/Standard_B32als_v2
+- New: azure/Standard_B32as_v2
+- New: azure/Standard_M208ms_v2
+- New: azure/Standard_M208s_v2
+- New: azure/Standard_M416-208s_v2
+- New: azure/Standard_M416s_v2
+- New: azure/Standard_M416-208ms_v2
+- New: azure/Standard_M416ms_v2
+- New: azure/Standard_M416s_8_v2
+- New: azure/Standard_D1_v2
+- New: azure/Standard_D2_v2
+- New: azure/Standard_D3_v2
+- New: azure/Standard_D4_v2
+- New: azure/Standard_D5_v2
+- New: azure/Standard_D11_v2
+- New: azure/Standard_D12_v2
+- New: azure/Standard_D13_v2
+- New: azure/Standard_D14_v2
+- New: azure/Standard_D15_v2
+- New: azure/Standard_F1
+- New: azure/Standard_F2
+- New: azure/Standard_F4
+- New: azure/Standard_F8
+- New: azure/Standard_F16
+- New: azure/Standard_A1_v2
+- New: azure/Standard_A2m_v2
+- New: azure/Standard_A2_v2
+- New: azure/Standard_A4m_v2
+- New: azure/Standard_A4_v2
+- New: azure/Standard_A8m_v2
+- New: azure/Standard_A8_v2
+- New: azure/Standard_B1ls
+- New: azure/Standard_B1ms
+- New: azure/Standard_B1s
+- New: azure/Standard_B2ms
+- New: azure/Standard_B2s
+- New: azure/Standard_B4ms
+- New: azure/Standard_B8ms
+- New: azure/Standard_B12ms
+- New: azure/Standard_B16ms
+- New: azure/Standard_B20ms
+- New: azure/Standard_DS1_v2
+- New: azure/Standard_DS2_v2
+- New: azure/Standard_DS3_v2
+- New: azure/Standard_DS4_v2
+- New: azure/Standard_DS5_v2
+- New: azure/Standard_DS11-1_v2
+- New: azure/Standard_DS11_v2
+- New: azure/Standard_DS12-1_v2
+- New: azure/Standard_DS12-2_v2
+- New: azure/Standard_DS12_v2
+- New: azure/Standard_DS13-2_v2
+- New: azure/Standard_DS13-4_v2
+- New: azure/Standard_DS13_v2
+- New: azure/Standard_DS14-4_v2
+- New: azure/Standard_DS14-8_v2
+- New: azure/Standard_DS14_v2
+- New: azure/Standard_DS15_v2
+- New: azure/Standard_F1s
+- New: azure/Standard_F2s
+- New: azure/Standard_F4s
+- New: azure/Standard_F8s
+- New: azure/Standard_F16s
+- New: azure/Standard_D2_v3
+- New: azure/Standard_D4_v3
+- New: azure/Standard_D8_v3
+- New: azure/Standard_D16_v3
+- New: azure/Standard_D32_v3
+- New: azure/Standard_D48_v3
+- New: azure/Standard_D64_v3
+- New: azure/Standard_D2s_v3
+- New: azure/Standard_D4s_v3
+- New: azure/Standard_D8s_v3
+- New: azure/Standard_D16s_v3
+- New: azure/Standard_D32s_v3
+- New: azure/Standard_D48s_v3
+- New: azure/Standard_D64s_v3
+- New: azure/Standard_E2_v3
+- New: azure/Standard_E4_v3
+- New: azure/Standard_E8_v3
+- New: azure/Standard_E16_v3
+- New: azure/Standard_E20_v3
+- New: azure/Standard_E32_v3
+- New: azure/Standard_E48_v3
+- New: azure/Standard_E64_v3
+- New: azure/Standard_E2s_v3
+- New: azure/Standard_E4-2s_v3
+- New: azure/Standard_E4s_v3
+- New: azure/Standard_E8-2s_v3
+- New: azure/Standard_E8-4s_v3
+- New: azure/Standard_E8s_v3
+- New: azure/Standard_E16-4s_v3
+- New: azure/Standard_E16-8s_v3
+- New: azure/Standard_E16s_v3
+- New: azure/Standard_E20s_v3
+- New: azure/Standard_E32-8s_v3
+- New: azure/Standard_E32-16s_v3
+- New: azure/Standard_E32s_v3
+- New: azure/Standard_E48s_v3
+- New: azure/Standard_E64-16s_v3
+- New: azure/Standard_E64-32s_v3
+- New: azure/Standard_E64s_v3
+- New: azure/Standard_D2ds_v4
+- New: azure/Standard_D4ds_v4
+- New: azure/Standard_D8ds_v4
+- New: azure/Standard_D16ds_v4
+- New: azure/Standard_D32ds_v4
+- New: azure/Standard_D48ds_v4
+- New: azure/Standard_D64ds_v4
+- New: azure/Standard_D2ds_v5
+- New: azure/Standard_D4ds_v5
+- New: azure/Standard_D8ds_v5
+- New: azure/Standard_D16ds_v5
+- New: azure/Standard_D32ds_v5
+- New: azure/Standard_D48ds_v5
+- New: azure/Standard_D64ds_v5
+- New: azure/Standard_D96ds_v5
+- New: azure/Standard_D2d_v4
+- New: azure/Standard_D4d_v4
+- New: azure/Standard_D8d_v4
+- New: azure/Standard_D16d_v4
+- New: azure/Standard_D32d_v4
+- New: azure/Standard_D48d_v4
+- New: azure/Standard_D64d_v4
+- New: azure/Standard_D2d_v5
+- New: azure/Standard_D4d_v5
+- New: azure/Standard_D8d_v5
+- New: azure/Standard_D16d_v5
+- New: azure/Standard_D32d_v5
+- New: azure/Standard_D48d_v5
+- New: azure/Standard_D64d_v5
+- New: azure/Standard_D96d_v5
+- New: azure/Standard_D2s_v4
+- New: azure/Standard_D4s_v4
+- New: azure/Standard_D8s_v4
+- New: azure/Standard_D16s_v4
+- New: azure/Standard_D32s_v4
+- New: azure/Standard_D48s_v4
+- New: azure/Standard_D64s_v4
+- New: azure/Standard_D2s_v5
+- New: azure/Standard_D4s_v5
+- New: azure/Standard_D8s_v5
+- New: azure/Standard_D16s_v5
+- New: azure/Standard_D32s_v5
+- New: azure/Standard_D48s_v5
+- New: azure/Standard_D64s_v5
+- New: azure/Standard_D96s_v5
+- New: azure/Standard_D2_v4
+- New: azure/Standard_D4_v4
+- New: azure/Standard_D8_v4
+- New: azure/Standard_D16_v4
+- New: azure/Standard_D32_v4
+- New: azure/Standard_D48_v4
+- New: azure/Standard_D64_v4
+- New: azure/Standard_D2_v5
+- New: azure/Standard_D4_v5
+- New: azure/Standard_D8_v5
+- New: azure/Standard_D16_v5
+- New: azure/Standard_D32_v5
+- New: azure/Standard_D48_v5
+- New: azure/Standard_D64_v5
+- New: azure/Standard_D96_v5
+- New: azure/Standard_E2ds_v4
+- New: azure/Standard_E4-2ds_v4
+- New: azure/Standard_E4ds_v4
+- New: azure/Standard_E8-2ds_v4
+- New: azure/Standard_E8-4ds_v4
+- New: azure/Standard_E8ds_v4
+- New: azure/Standard_E16-4ds_v4
+- New: azure/Standard_E16-8ds_v4
+- New: azure/Standard_E16ds_v4
+- New: azure/Standard_E20ds_v4
+- New: azure/Standard_E32-8ds_v4
+- New: azure/Standard_E32-16ds_v4
+- New: azure/Standard_E32ds_v4
+- New: azure/Standard_E48ds_v4
+- New: azure/Standard_E64-16ds_v4
+- New: azure/Standard_E64-32ds_v4
+- New: azure/Standard_E64ds_v4
+- New: azure/Standard_E2ds_v5
+- New: azure/Standard_E4-2ds_v5
+- New: azure/Standard_E4ds_v5
+- New: azure/Standard_E8-2ds_v5
+- New: azure/Standard_E8-4ds_v5
+- New: azure/Standard_E8ds_v5
+- New: azure/Standard_E16-4ds_v5
+- New: azure/Standard_E16-8ds_v5
+- New: azure/Standard_E16ds_v5
+- New: azure/Standard_E20ds_v5
+- New: azure/Standard_E32-8ds_v5
+- New: azure/Standard_E32-16ds_v5
+- New: azure/Standard_E32ds_v5
+- New: azure/Standard_E48ds_v5
+- New: azure/Standard_E64-16ds_v5
+- New: azure/Standard_E64-32ds_v5
+- New: azure/Standard_E64ds_v5
+- New: azure/Standard_E96-24ds_v5
+- New: azure/Standard_E96-48ds_v5
+- New: azure/Standard_E96ds_v5
+- New: azure/Standard_E104ids_v5
+- New: azure/Standard_E2d_v4
+- New: azure/Standard_E4d_v4
+- New: azure/Standard_E8d_v4
+- New: azure/Standard_E16d_v4
+- New: azure/Standard_E20d_v4
+- New: azure/Standard_E32d_v4
+- New: azure/Standard_E48d_v4
+- New: azure/Standard_E64d_v4
+- New: azure/Standard_E2d_v5
+- New: azure/Standard_E4d_v5
+- New: azure/Standard_E8d_v5
+- New: azure/Standard_E16d_v5
+- New: azure/Standard_E20d_v5
+- New: azure/Standard_E32d_v5
+- New: azure/Standard_E48d_v5
+- New: azure/Standard_E64d_v5
+- New: azure/Standard_E96d_v5
+- New: azure/Standard_E104id_v5
+- New: azure/Standard_E2s_v4
+- New: azure/Standard_E4-2s_v4
+- New: azure/Standard_E4s_v4
+- New: azure/Standard_E8-2s_v4
+- New: azure/Standard_E8-4s_v4
+- New: azure/Standard_E8s_v4
+- New: azure/Standard_E16-4s_v4
+- New: azure/Standard_E16-8s_v4
+- New: azure/Standard_E16s_v4
+- New: azure/Standard_E20s_v4
+- New: azure/Standard_E32-8s_v4
+- New: azure/Standard_E32-16s_v4
+- New: azure/Standard_E32s_v4
+- New: azure/Standard_E48s_v4
+- New: azure/Standard_E64-16s_v4
+- New: azure/Standard_E64-32s_v4
+- New: azure/Standard_E64s_v4
+- New: azure/Standard_E2s_v5
+- New: azure/Standard_E4-2s_v5
+- New: azure/Standard_E4s_v5
+- New: azure/Standard_E8-2s_v5
+- New: azure/Standard_E8-4s_v5
+- New: azure/Standard_E8s_v5
+- New: azure/Standard_E16-4s_v5
+- New: azure/Standard_E16-8s_v5
+- New: azure/Standard_E16s_v5
+- New: azure/Standard_E20s_v5
+- New: azure/Standard_E32-8s_v5
+- New: azure/Standard_E32-16s_v5
+- New: azure/Standard_E32s_v5
+- New: azure/Standard_E48s_v5
+- New: azure/Standard_E64-16s_v5
+- New: azure/Standard_E64-32s_v5
+- New: azure/Standard_E64s_v5
+- New: azure/Standard_E96-24s_v5
+- New: azure/Standard_E96-48s_v5
+- New: azure/Standard_E96s_v5
+- New: azure/Standard_E104is_v5
+- New: azure/Standard_E2_v4
+- New: azure/Standard_E4_v4
+- New: azure/Standard_E8_v4
+- New: azure/Standard_E16_v4
+- New: azure/Standard_E20_v4
+- New: azure/Standard_E32_v4
+- New: azure/Standard_E48_v4
+- New: azure/Standard_E64_v4
+- New: azure/Standard_E2_v5
+- New: azure/Standard_E4_v5
+- New: azure/Standard_E8_v5
+- New: azure/Standard_E16_v5
+- New: azure/Standard_E20_v5
+- New: azure/Standard_E32_v5
+- New: azure/Standard_E48_v5
+- New: azure/Standard_E64_v5
+- New: azure/Standard_E96_v5
+- New: azure/Standard_E104i_v5
+- New: azure/Standard_F2s_v2
+- New: azure/Standard_F4s_v2
+- New: azure/Standard_F8s_v2
+- New: azure/Standard_F16s_v2
+- New: azure/Standard_F32s_v2
+- New: azure/Standard_F48s_v2
+- New: azure/Standard_F64s_v2
+- New: azure/Standard_F72s_v2
+- New: azure/Standard_E2bs_v5
+- New: azure/Standard_E4bs_v5
+- New: azure/Standard_E8bs_v5
+- New: azure/Standard_E16bs_v5
+- New: azure/Standard_E32bs_v5
+- New: azure/Standard_E48bs_v5
+- New: azure/Standard_E64bs_v5
+- New: azure/Standard_E112ibs_v5
+- New: azure/Standard_E2bds_v5
+- New: azure/Standard_E4bds_v5
+- New: azure/Standard_E8bds_v5
+- New: azure/Standard_E16bds_v5
+- New: azure/Standard_E32bds_v5
+- New: azure/Standard_E48bds_v5
+- New: azure/Standard_E64bds_v5
+- New: azure/Standard_E112ibds_v5
+- New: azure/Standard_D2ls_v5
+- New: azure/Standard_D4ls_v5
+- New: azure/Standard_D8ls_v5
+- New: azure/Standard_D16ls_v5
+- New: azure/Standard_D32ls_v5
+- New: azure/Standard_D48ls_v5
+- New: azure/Standard_D64ls_v5
+- New: azure/Standard_D96ls_v5
+- New: azure/Standard_D2lds_v5
+- New: azure/Standard_D4lds_v5
+- New: azure/Standard_D8lds_v5
+- New: azure/Standard_D16lds_v5
+- New: azure/Standard_D32lds_v5
+- New: azure/Standard_D48lds_v5
+- New: azure/Standard_D64lds_v5
+- New: azure/Standard_D96lds_v5
+- New: azure/Standard_B2ls_v2
+- New: azure/Standard_B2s_v2
+- New: azure/Standard_B2ts_v2
+- New: azure/Standard_B4ls_v2
+- New: azure/Standard_B4s_v2
+- New: azure/Standard_B8ls_v2
+- New: azure/Standard_B8s_v2
+- New: azure/Standard_B16ls_v2
+- New: azure/Standard_B16s_v2
+- New: azure/Standard_B32ls_v2
+- New: azure/Standard_B32s_v2
+- New: azure/Standard_M64
+- New: azure/Standard_M64m
+- New: azure/Standard_M128
+- New: azure/Standard_M128m
+- New: azure/Standard_M8-2ms
+- New: azure/Standard_M8-4ms
+- New: azure/Standard_M8ms
+- New: azure/Standard_M16-4ms
+- New: azure/Standard_M16-8ms
+- New: azure/Standard_M16ms
+- New: azure/Standard_M32-8ms
+- New: azure/Standard_M32-16ms
+- New: azure/Standard_M32ls
+- New: azure/Standard_M32ms
+- New: azure/Standard_M32ts
+- New: azure/Standard_M64-16ms
+- New: azure/Standard_M64-32ms
+- New: azure/Standard_M64ls
+- New: azure/Standard_M64ms
+- New: azure/Standard_M64s
+- New: azure/Standard_M128-32ms
+- New: azure/Standard_M128-64ms
+- New: azure/Standard_M128ms
+- New: azure/Standard_M128s
+- New: azure/Standard_M32ms_v2
+- New: azure/Standard_M64ms_v2
+- New: azure/Standard_M64s_v2
+- New: azure/Standard_M128ms_v2
+- New: azure/Standard_M128s_v2
+- New: azure/Standard_M192ims_v2
+- New: azure/Standard_M192is_v2
+- New: azure/Standard_M32dms_v2
+- New: azure/Standard_M64dms_v2
+- New: azure/Standard_M64ds_v2
+- New: azure/Standard_M128dms_v2
+- New: azure/Standard_M128ds_v2
+- New: azure/Standard_M192idms_v2
+- New: azure/Standard_M192ids_v2
+- New: azure/Standard_E64i_v3
+- New: azure/Standard_E64is_v3
+- New: azure/Standard_NC4as_T4_v3
+- New: azure/Standard_NC8as_T4_v3
+- New: azure/Standard_NC16as_T4_v3
+- New: azure/Standard_NC64as_T4_v3
+- New: azure/Standard_E80is_v4
+- New: azure/Standard_E80ids_v4
+- New: azure/Standard_L8as_v3
+- New: azure/Standard_L16as_v3
+- New: azure/Standard_L32as_v3
+- New: azure/Standard_L48as_v3
+- New: azure/Standard_L64as_v3
+- New: azure/Standard_L80as_v3
+- New: azure/Standard_L8s_v3
+- New: azure/Standard_L16s_v3
+- New: azure/Standard_L32s_v3
+- New: azure/Standard_L48s_v3
+- New: azure/Standard_L64s_v3
+- New: azure/Standard_L80s_v3
+- New: azure/Standard_E96bs_v5
+- New: azure/Standard_E96bds_v5
+- New: azure/Standard_G1
+- New: azure/Standard_G2
+- New: azure/Standard_G3
+- New: azure/Standard_G4
+- New: azure/Standard_G5
+- New: azure/Standard_GS1
+- New: azure/Standard_GS2
+- New: azure/Standard_GS3
+- New: azure/Standard_GS4
+- New: azure/Standard_GS4-4
+- New: azure/Standard_GS4-8
+- New: azure/Standard_GS5
+- New: azure/Standard_GS5-8
+- New: azure/Standard_GS5-16
+- New: azure/Standard_L4s
+- New: azure/Standard_L8s
+- New: azure/Standard_L16s
+- New: azure/Standard_L32s
+- New: azure/Standard_NV4as_v4
+- New: azure/Standard_NV8as_v4
+- New: azure/Standard_NV16as_v4
+- New: azure/Standard_NV32as_v4
+- New: azure/Standard_A0
+- New: azure/Standard_A1
+- New: azure/Standard_A2
+- New: azure/Standard_A3
+- New: azure/Standard_A5
+- New: azure/Standard_A4
+- New: azure/Standard_A6
+- New: azure/Standard_A7
+- New: azure/Standard_D1
+- New: azure/Standard_D2
+- New: azure/Standard_D3
+- New: azure/Standard_D4
+- New: azure/Standard_D11
+- New: azure/Standard_D12
+- New: azure/Standard_D13
+- New: azure/Standard_D14
+- New: azure/Standard_DS1
+- New: azure/Standard_DS2
+- New: azure/Standard_DS3
+- New: azure/Standard_DS4
+- New: azure/Standard_DS11
+- New: azure/Standard_DS12
+- New: azure/Standard_DS13
+- New: azure/Standard_DS14
+- New: azure/Standard_DC8_v2
+- New: azure/Standard_DC1s_v2
+- New: azure/Standard_DC2s_v2
+- New: azure/Standard_DC4s_v2
+- New: azure/Standard_L8s_v2
+- New: azure/Standard_L16s_v2
+- New: azure/Standard_L32s_v2
+- New: azure/Standard_L48s_v2
+- New: azure/Standard_L64s_v2
+- New: azure/Standard_L80s_v2
+- New: azure/Standard_E96ias_v4
+- New: azure/Standard_NC6s_v3
+- New: azure/Standard_NC12s_v3
+- New: azure/Standard_NC24rs_v3
+- New: azure/Standard_NC24s_v3
+- New: azure/Standard_DC1s_v3
+- New: azure/Standard_DC2s_v3
+- New: azure/Standard_DC4s_v3
+- New: azure/Standard_DC8s_v3
+- New: azure/Standard_DC16s_v3
+- New: azure/Standard_DC24s_v3
+- New: azure/Standard_DC32s_v3
+- New: azure/Standard_DC48s_v3
+- New: azure/Standard_DC1ds_v3
+- New: azure/Standard_DC2ds_v3
+- New: azure/Standard_DC4ds_v3
+- New: azure/Standard_DC8ds_v3
+- New: azure/Standard_DC16ds_v3
+- New: azure/Standard_DC24ds_v3
+- New: azure/Standard_DC32ds_v3
+- New: azure/Standard_DC48ds_v3
+- New: azure/Standard_D2plds_v5
+- New: azure/Standard_D4plds_v5
+- New: azure/Standard_D8plds_v5
+- New: azure/Standard_D16plds_v5
+- New: azure/Standard_D32plds_v5
+- New: azure/Standard_D48plds_v5
+- New: azure/Standard_D64plds_v5
+- New: azure/Standard_D2pls_v5
+- New: azure/Standard_D4pls_v5
+- New: azure/Standard_D8pls_v5
+- New: azure/Standard_D16pls_v5
+- New: azure/Standard_D32pls_v5
+- New: azure/Standard_D48pls_v5
+- New: azure/Standard_D64pls_v5
+- New: azure/Standard_D2pds_v5
+- New: azure/Standard_D4pds_v5
+- New: azure/Standard_D8pds_v5
+- New: azure/Standard_D16pds_v5
+- New: azure/Standard_D32pds_v5
+- New: azure/Standard_D48pds_v5
+- New: azure/Standard_D64pds_v5
+- New: azure/Standard_D2ps_v5
+- New: azure/Standard_D4ps_v5
+- New: azure/Standard_D8ps_v5
+- New: azure/Standard_D16ps_v5
+- New: azure/Standard_D32ps_v5
+- New: azure/Standard_D48ps_v5
+- New: azure/Standard_D64ps_v5
+- New: azure/Standard_E2pds_v5
+- New: azure/Standard_E4pds_v5
+- New: azure/Standard_E8pds_v5
+- New: azure/Standard_E16pds_v5
+- New: azure/Standard_E20pds_v5
+- New: azure/Standard_E32pds_v5
+- New: azure/Standard_E2ps_v5
+- New: azure/Standard_E4ps_v5
+- New: azure/Standard_E8ps_v5
+- New: azure/Standard_E16ps_v5
+- New: azure/Standard_E20ps_v5
+- New: azure/Standard_E32ps_v5
+- New: azure/Standard_B2pls_v2
+- New: azure/Standard_B2ps_v2
+- New: azure/Standard_B2pts_v2
+- New: azure/Standard_B4pls_v2
+- New: azure/Standard_B4ps_v2
+- New: azure/Standard_B8pls_v2
+- New: azure/Standard_B8ps_v2
+- New: azure/Standard_B16pls_v2
+- New: azure/Standard_B16ps_v2
+- New: azure/Standard_NC24ads_A100_v4
+- New: azure/Standard_NC48ads_A100_v4
+- New: azure/Standard_NC96ads_A100_v4
+- New: azure/Standard_HB120-16rs_v2
+- New: azure/Standard_HB120-32rs_v2
+- New: azure/Standard_HB120-64rs_v2
+- New: azure/Standard_HB120-96rs_v2
+- New: azure/Standard_HB120rs_v2
+- New: azure/Standard_NV6s_v2
+- New: azure/Standard_NV12s_v2
+- New: azure/Standard_NV24s_v2
+- New: azure/Standard_NV12s_v3
+- New: azure/Standard_NV24s_v3
+- New: azure/Standard_NV48s_v3
+- New: azure/Standard_HC44-16rs
+- New: azure/Standard_HC44-32rs
+- New: azure/Standard_HC44rs
+- New: azure/Standard_NV6ads_A10_v5
+- New: azure/Standard_NV12ads_A10_v5
+- New: azure/Standard_NV18ads_A10_v5
+- New: azure/Standard_NV36adms_A10_v5
+- New: azure/Standard_NV36ads_A10_v5
+- New: azure/Standard_NV72ads_A10_v5
+- New: azure/Standard_M12s_v3
+- New: azure/Standard_M24s_v3
+- New: azure/Standard_M48s_1_v3
+- New: azure/Standard_M96s_1_v3
+- New: azure/Standard_M96s_2_v3
+- New: azure/Standard_M176s_3_v3
+- New: azure/Standard_M176s_4_v3
+- New: azure/Standard_M12ds_v3
+- New: azure/Standard_M24ds_v3
+- New: azure/Standard_M48ds_1_v3
+- New: azure/Standard_M96ds_1_v3
+- New: azure/Standard_M96ds_2_v3
+- New: azure/Standard_M176ds_3_v3
+- New: azure/Standard_M176ds_4_v3
+- New: azure/Standard_NP10s
+- New: azure/Standard_NP20s
+- New: azure/Standard_NP40s
+- New: azure/Standard_DC2as_v5
+- New: azure/Standard_DC4as_v5
+- New: azure/Standard_DC8as_v5
+- New: azure/Standard_DC16as_v5
+- New: azure/Standard_DC32as_v5
+- New: azure/Standard_DC48as_v5
+- New: azure/Standard_DC64as_v5
+- New: azure/Standard_DC96as_v5
+- New: azure/Standard_DC2ads_v5
+- New: azure/Standard_DC4ads_v5
+- New: azure/Standard_DC8ads_v5
+- New: azure/Standard_DC16ads_v5
+- New: azure/Standard_DC32ads_v5
+- New: azure/Standard_DC48ads_v5
+- New: azure/Standard_DC64ads_v5
+- New: azure/Standard_DC96ads_v5
+- New: azure/Standard_EC2as_v5
+- New: azure/Standard_EC4as_v5
+- New: azure/Standard_EC8as_v5
+- New: azure/Standard_EC16as_v5
+- New: azure/Standard_EC20as_v5
+- New: azure/Standard_EC32as_v5
+- New: azure/Standard_EC48as_v5
+- New: azure/Standard_EC64as_v5
+- New: azure/Standard_EC96as_v5
+- New: azure/Standard_EC96ias_v5
+- New: azure/Standard_EC2ads_v5
+- New: azure/Standard_EC4ads_v5
+- New: azure/Standard_EC8ads_v5
+- New: azure/Standard_EC16ads_v5
+- New: azure/Standard_EC20ads_v5
+- New: azure/Standard_EC32ads_v5
+- New: azure/Standard_EC48ads_v5
+- New: azure/Standard_EC64ads_v5
+- New: azure/Standard_EC96ads_v5
+- New: azure/Standard_EC96iads_v5
+- New: azure/Standard_DC4as_cc_v5
+- New: azure/Standard_DC8as_cc_v5
+- New: azure/Standard_DC16as_cc_v5
+- New: azure/Standard_DC32as_cc_v5
+- New: azure/Standard_DC48as_cc_v5
+- New: azure/Standard_DC64as_cc_v5
+- New: azure/Standard_DC96as_cc_v5
+- New: azure/Standard_HB120-16rs_v3
+- New: azure/Standard_HB120-32rs_v3
+- New: azure/Standard_HB120-64rs_v3
+- New: azure/Standard_HB120-96rs_v3
+- New: azure/Standard_HB120rs_v3
+- New: azure/Standard_DC2es_v5
+- New: azure/Standard_DC4es_v5
+- New: azure/Standard_DC8es_v5
+- New: azure/Standard_DC16es_v5
+- New: azure/Standard_DC32es_v5
+- New: azure/Standard_DC48es_v5
+- New: azure/Standard_DC64es_v5
+- New: azure/Standard_DC96es_v5
+- New: azure/Standard_DC2eds_v5
+- New: azure/Standard_DC4eds_v5
+- New: azure/Standard_DC8eds_v5
+- New: azure/Standard_DC16eds_v5
+- New: azure/Standard_DC32eds_v5
+- New: azure/Standard_DC48eds_v5
+- New: azure/Standard_DC64eds_v5
+- New: azure/Standard_DC96eds_v5
+- New: azure/Standard_EC2es_v5
+- New: azure/Standard_EC4es_v5
+- New: azure/Standard_EC8es_v5
+- New: azure/Standard_EC16es_v5
+- New: azure/Standard_EC32es_v5
+- New: azure/Standard_EC48es_v5
+- New: azure/Standard_EC64es_v5
+- New: azure/Standard_EC128es_v5
+- New: azure/Standard_EC128ies_v5
+- New: azure/Standard_EC2eds_v5
+- New: azure/Standard_EC4eds_v5
+- New: azure/Standard_EC8eds_v5
+- New: azure/Standard_EC16eds_v5
+- New: azure/Standard_EC32eds_v5
+- New: azure/Standard_EC48eds_v5
+- New: azure/Standard_EC64eds_v5
+- New: azure/Standard_EC128eds_v5
+- New: azure/Standard_EC128ieds_v5
+- New: azure/Standard_DC4ads_cc_v5
+- New: azure/Standard_DC8ads_cc_v5
+- New: azure/Standard_DC16ads_cc_v5
+- New: azure/Standard_DC32ads_cc_v5
+- New: azure/Standard_DC48ads_cc_v5
+- New: azure/Standard_DC64ads_cc_v5
+- New: azure/Standard_DC96ads_cc_v5
+- New: azure/Standard_EC4as_cc_v5
+- New: azure/Standard_EC8as_cc_v5
+- New: azure/Standard_EC16as_cc_v5
+- New: azure/Standard_EC20as_cc_v5
+- New: azure/Standard_EC32as_cc_v5
+- New: azure/Standard_EC48as_cc_v5
+- New: azure/Standard_EC64as_cc_v5
+- New: azure/Standard_EC96as_cc_v5
+- New: azure/Standard_EC4ads_cc_v5
+- New: azure/Standard_EC8ads_cc_v5
+- New: azure/Standard_EC16ads_cc_v5
+- New: azure/Standard_EC20ads_cc_v5
+- New: azure/Standard_EC32ads_cc_v5
+- New: azure/Standard_EC48ads_cc_v5
+- New: azure/Standard_EC64ads_cc_v5
+- New: azure/Standard_EC96ads_cc_v5
+- New: azure/Standard_ND40rs_v2
+- New: azure/Standard_HX176-24rs
+- New: azure/Standard_HX176-48rs
+- New: azure/Standard_HX176-96rs
+- New: azure/Standard_HX176-144rs
+- New: azure/Standard_HX176rs
+- New: azure/Standard_HB176-24rs_v4
+- New: azure/Standard_HB176-48rs_v4
+- New: azure/Standard_HB176-96rs_v4
+- New: azure/Standard_HB176-144rs_v4
+- New: azure/Standard_HB176rs_v4
+- New: azure/Standard_FX4mds
+- New: azure/Standard_FX12mds
+- New: azure/Standard_FX24mds
+- New: azure/Standard_FX36mds
+- New: azure/Standard_FX48mds
+- New: azure/Standard_ND96amsr_A100_v4
+- New: azure/Standard_ND96isr_H100_v5
+- New: azure/Standard_PB6s
+- New: azure/Standard_HB60-15rs
+- New: azure/Standard_HB60-30rs
+- New: azure/Standard_HB60-45rs
+- New: azure/Standard_HB60rs
+- New: azure/Standard_ND96asr_v4
+- New: azure/Standard_ND40s_v3
+- New: azure/Standard_NC40ads_H100_v5
+- New: azure/Standard_NC80adis_H100_v5
+- New: azure/Standard_NC8ads_A10_v4
+- New: azure/Standard_NC16ads_A10_v4
+- New: azure/Standard_NC32ads_A10_v4
+- New: azure/Standard_NG8ads_V620_v1
+- New: azure/Standard_NG16ads_V620_v1
+- New: azure/Standard_NG32adms_V620_v1
+- New: azure/Standard_NG32ads_V620_v1
+- New: azure/Standard_NCC40ads_H100_v5
+- New: azure/Standard_NV6
+- New: azure/Standard_NV12
+- New: azure/Standard_NV24
+- New: azure/Standard_NC6
+- New: azure/Standard_NC12
+- New: azure/Standard_NC24
+- New: azure/Standard_NC24r
+- New: azure/Standard_HX176-24s
+- New: azure/Standard_HX176-48s
+- New: azure/Standard_HX176-96s
+- New: azure/Standard_HX176-144s
+- New: azure/Standard_HX176s
+- New: azure/Standard_HB176-24s_v4
+- New: azure/Standard_HB176-48s_v4
+- New: azure/Standard_HB176-96s_v4
+- New: azure/Standard_HB176-144s_v4
+- New: azure/Standard_HB176s_v4
+
 ## v0.3.0 (Aug 20, 2024)
 
 Bump version to sync with the new `sparecores-crawler` v0.3.0 release.
