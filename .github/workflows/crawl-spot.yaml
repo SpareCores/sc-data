@@ -87,6 +87,15 @@ jobs:
         if: github.event.schedule == '5-55/5 * * * *'
         # Azure Retail Pricing API is super slow, let's check on spot prices only in the hourly run
         run: sc-crawler pull --connection-string sqlite:///${FILE} --include-records server_prices_spot --exclude-vendor azure
+      - name: Get connection string for remote database again (crawling might take 15+ mins)
+        run: |
+          PGPASSWORD="$( aws --region ${DB_REGION} rds generate-db-auth-token --hostname ${DB_HOST} --port ${DB_PORT} --username ${DB_USER} )"
+          # URL-encode the IAM RDS token
+          DB_PASS_ENCODED="$( jq -rn --arg x ${PGPASSWORD} '$x|@uri' )"
+          REMOTE_DB="postgresql://${DB_USER}:${DB_PASS_ENCODED}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
+          echo "::add-mask::$PGPASSWORD"
+          echo "PGPASSWORD=${PGPASSWORD}" >> "$GITHUB_ENV"
+          echo "REMOTE_DB=${REMOTE_DB}" >> "$GITHUB_ENV"
       - name: Sync back
         id: sync-back
         run: |
