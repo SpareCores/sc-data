@@ -1,3 +1,14 @@
+## v0.3.0+20240905203440 (Sep 05, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10727425694
+
+
+### server
+
+- Update: azure/Standard_F16
+- Update: azure/Standard_F16s
+
 ## v0.3.0+20240905193109 (Sep 05, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
