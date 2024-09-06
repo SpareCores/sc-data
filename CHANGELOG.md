@@ -1,3 +1,14 @@
+## v0.3.0+20240906053043 (Sep 06, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10732781136
+
+
+### server
+
+- Update: azure/Standard_D16d_v4
+- Update: azure/Standard_D16d_v5
+
 ## v0.3.0+20240906043035 (Sep 06, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
