@@ -1,3 +1,13 @@
+## v0.3.0+20240906172749 (Sep 06, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10742345384
+
+
+### server
+
+- Update: aws/inf1.6xlarge
+
 ## v0.3.0+20240906153014 (Sep 06, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
