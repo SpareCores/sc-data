@@ -1,3 +1,14 @@
+## v0.3.0+20240908153019 (Sep 08, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10760947134
+
+
+### server
+
+- Update: aws/u-3tb1.56xlarge
+- Update: aws/x2gd.8xlarge
+
 ## v0.3.0+20240908142802 (Sep 08, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
