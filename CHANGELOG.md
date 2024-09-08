@@ -1,3 +1,14 @@
+## v0.3.0+20240908142802 (Sep 08, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10760560939
+
+
+### server
+
+- Update: aws/g5g.metal
+- Update: aws/inf2.8xlarge
+
 ## v0.3.0+20240908113047 (Sep 08, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
