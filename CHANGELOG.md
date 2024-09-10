@@ -1,3 +1,13 @@
+## v0.3.0+20240910072645 (Sep 10, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10787520966
+
+
+### region
+
+- Update: azure/brazilus
+
 ## v0.3.0+20240909212535 (Sep 09, 2024)
 
 This is an automated release with 32 new/updated/deleted resources.
