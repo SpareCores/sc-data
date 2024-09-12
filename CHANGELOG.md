@@ -1,3 +1,13 @@
+## v0.3.0+20240912143431 (Sep 12, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10832548990
+
+
+### server
+
+- Update: aws/x2iedn.24xlarge
+
 ## v0.3.0+20240912133717 (Sep 12, 2024)
 
 This is an automated release with 3 new/updated/deleted resources.
