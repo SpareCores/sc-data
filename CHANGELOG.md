@@ -1,3 +1,21 @@
+## v0.3.0+20240913113153 (Sep 13, 2024)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10848007321
+
+
+### server
+
+- Update: aws/trn1n.32xlarge
+- Update: aws/u-12tb1.112xlarge
+- Update: aws/u-18tb1.112xlarge
+- Update: aws/u-3tb1.56xlarge
+- Update: aws/u-6tb1.112xlarge
+- Update: aws/u-6tb1.56xlarge
+- Update: aws/x2iedn.24xlarge
+- Update: aws/x2iedn.32xlarge
+- Update: aws/x2iezn.12xlarge
+
 ## v0.3.0+20240913103000 (Sep 13, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
