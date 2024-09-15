@@ -1,3 +1,13 @@
+## v0.3.0+20240915183139 (Sep 15, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10873218402
+
+
+### server
+
+- Update: azure/Standard_B2pts_v2
+
 ## v0.3.0+20240915173539 (Sep 15, 2024)
 
 This is an automated release with 30 new/updated/deleted resources.
