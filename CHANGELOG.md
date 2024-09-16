@@ -1,3 +1,13 @@
+## v0.3.0+20240916134838 (Sep 16, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10884645009
+
+
+### server
+
+- Update: azure/Standard_DC8s_v3
+
 ## v0.3.0+20240916124611 (Sep 16, 2024)
 
 This is an automated release with 5 new/updated/deleted resources.
