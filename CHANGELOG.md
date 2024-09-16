@@ -1,3 +1,24 @@
+## v0.3.0+20240916212839 (Sep 16, 2024)
+
+This is an automated release with 12 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10892066267
+
+
+### server
+
+- Update: azure/Standard_D5_v2
+- Update: azure/Standard_E16-4s_v3
+- Update: azure/Standard_E16-4s_v4
+- Update: azure/Standard_E16-4s_v5
+- Update: azure/Standard_E16-8s_v3
+- Update: azure/Standard_E16-8s_v4
+- Update: azure/Standard_E16-8s_v5
+- Update: azure/Standard_E16s_v3
+- Update: azure/Standard_E16s_v4
+- Update: azure/Standard_E16s_v5
+- Update: azure/Standard_E16_v4
+- Update: azure/Standard_E16_v5
+
 ## v0.3.0+20240916203135 (Sep 16, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
