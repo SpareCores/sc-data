@@ -1,3 +1,67 @@
+## v0.3.0+20240916113551 (Sep 16, 2024)
+
+This is an automated release with 55 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10882552916
+
+
+### server
+
+- Update: azure/Standard_B2ls_v2
+- Update: azure/Standard_B2ms
+- Update: azure/Standard_B2pls_v2
+- Update: azure/Standard_B2ps_v2
+- Update: azure/Standard_B2pts_v2
+- Update: azure/Standard_B2s
+- Update: azure/Standard_B2s_v2
+- Update: azure/Standard_B2ts_v2
+- Update: azure/Standard_B8s_v2
+- Update: azure/Standard_D2ls_v5
+- Update: azure/Standard_D2pds_v5
+- Update: azure/Standard_D2plds_v5
+- Update: azure/Standard_D2pls_v5
+- Update: azure/Standard_D2ps_v5
+- Update: azure/Standard_D4lds_v5
+- Update: azure/Standard_D4ls_v5
+- Update: azure/Standard_D4plds_v5
+- Update: azure/Standard_D4pls_v5
+- Update: azure/Standard_D4ps_v5
+- Update: azure/Standard_D4s_v5
+- Update: azure/Standard_D4_v5
+- Update: azure/Standard_D8ads_v5
+- Update: azure/Standard_D8pds_v5
+- Update: azure/Standard_D8plds_v5
+- Update: azure/Standard_D8pls_v5
+- Update: azure/Standard_D8ps_v5
+- Update: azure/Standard_DC1ds_v3
+- Update: azure/Standard_DC1s_v3
+- Update: azure/Standard_DC2ds_v3
+- Update: azure/Standard_DC2s_v3
+- Update: azure/Standard_DC4ds_v3
+- Update: azure/Standard_DC4s_v3
+- Update: azure/Standard_DS1
+- Update: azure/Standard_E2ds_v5
+- Update: azure/Standard_E2d_v4
+- Update: azure/Standard_E2d_v5
+- Update: azure/Standard_E2pds_v5
+- Update: azure/Standard_E2ps_v5
+- Update: azure/Standard_E2s_v4
+- Update: azure/Standard_E2s_v5
+- Update: azure/Standard_E2_v5
+- Update: azure/Standard_E4-2ds_v5
+- Update: azure/Standard_E4-2s_v4
+- Update: azure/Standard_E4-2s_v5
+- Update: azure/Standard_E4ds_v5
+- Update: azure/Standard_E4d_v4
+- Update: azure/Standard_E4d_v5
+- Update: azure/Standard_E4pds_v5
+- Update: azure/Standard_E4s_v4
+- Update: azure/Standard_E4s_v5
+- Update: azure/Standard_E4_v5
+- Update: azure/Standard_E8-2as_v5
+- Update: azure/Standard_E8pds_v5
+- Update: azure/Standard_E8ps_v5
+- Update: azure/Standard_F1s
+
 ## v0.3.0+20240916103025 (Sep 16, 2024)
 
 This is an automated release with 4 new/updated/deleted resources.
