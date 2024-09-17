@@ -1,3 +1,16 @@
+## v0.3.0+20240917233913 (Sep 17, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10912500191
+
+
+### server
+
+- Update: azure/Standard_G5
+- Update: azure/Standard_GS5
+- Update: azure/Standard_GS5-8
+- Update: azure/Standard_NC48ads_A100_v4
+
 ## v0.3.0+20240917172858 (Sep 17, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
