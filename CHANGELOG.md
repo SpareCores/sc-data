@@ -1,3 +1,131 @@
+## v0.3.0+20240917112943 (Sep 17, 2024)
+
+This is an automated release with 119 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10901793755
+
+
+### server
+
+- Update: azure/Standard_B16ps_v2
+- Update: azure/Standard_B32ls_v2
+- Update: azure/Standard_B32s_v2
+- Update: azure/Standard_B8s_v2
+- Update: azure/Standard_D13
+- Update: azure/Standard_D13_v2
+- Update: azure/Standard_D16pds_v5
+- Update: azure/Standard_D16plds_v5
+- Update: azure/Standard_D16pls_v5
+- Update: azure/Standard_D16ps_v5
+- Update: azure/Standard_D16_v3
+- Update: azure/Standard_D32ls_v5
+- Update: azure/Standard_D32pds_v5
+- Update: azure/Standard_D32plds_v5
+- Update: azure/Standard_D32pls_v5
+- Update: azure/Standard_D32ps_v5
+- Update: azure/Standard_D48ds_v4
+- Update: azure/Standard_D48ds_v5
+- Update: azure/Standard_D48d_v4
+- Update: azure/Standard_D48d_v5
+- Update: azure/Standard_D48pls_v5
+- Update: azure/Standard_D48s_v3
+- Update: azure/Standard_D48s_v4
+- Update: azure/Standard_D48s_v5
+- Update: azure/Standard_D48_v4
+- Update: azure/Standard_D48_v5
+- Update: azure/Standard_D5_v2
+- Update: azure/Standard_D64lds_v5
+- Update: azure/Standard_D64ls_v5
+- Update: azure/Standard_D64ps_v5
+- Update: azure/Standard_D64s_v3
+- Update: azure/Standard_D64s_v4
+- Update: azure/Standard_D64s_v5
+- Update: azure/Standard_D64_v4
+- Update: azure/Standard_D64_v5
+- Update: azure/Standard_DC16s_v3
+- Update: azure/Standard_DC24ds_v3
+- Update: azure/Standard_DC24s_v3
+- Update: azure/Standard_DC32ds_v3
+- Update: azure/Standard_DC48ds_v3
+- Update: azure/Standard_DC48s_v3
+- Update: azure/Standard_DC8ds_v3
+- Update: azure/Standard_DC8s_v3
+- Update: azure/Standard_DS13_v2
+- Update: azure/Standard_DS14
+- Update: azure/Standard_DS14-4_v2
+- Update: azure/Standard_DS14-8_v2
+- Update: azure/Standard_DS14_v2
+- Update: azure/Standard_DS4_v2
+- Update: azure/Standard_E16-4ds_v4
+- Update: azure/Standard_E16-4ds_v5
+- Update: azure/Standard_E16-4s_v3
+- Update: azure/Standard_E16-4s_v4
+- Update: azure/Standard_E16-4s_v5
+- Update: azure/Standard_E16-8ds_v4
+- Update: azure/Standard_E16-8ds_v5
+- Update: azure/Standard_E16-8s_v3
+- Update: azure/Standard_E16-8s_v4
+- Update: azure/Standard_E16-8s_v5
+- Update: azure/Standard_E16bds_v5
+- Update: azure/Standard_E16bs_v5
+- Update: azure/Standard_E16ds_v4
+- Update: azure/Standard_E16ds_v5
+- Update: azure/Standard_E16d_v4
+- Update: azure/Standard_E16d_v5
+- Update: azure/Standard_E16pds_v5
+- Update: azure/Standard_E16ps_v5
+- Update: azure/Standard_E16s_v3
+- Update: azure/Standard_E16s_v4
+- Update: azure/Standard_E16s_v5
+- Update: azure/Standard_E16_v4
+- Update: azure/Standard_E16_v5
+- Update: azure/Standard_E20d_v5
+- Update: azure/Standard_E20pds_v5
+- Update: azure/Standard_E20ps_v5
+- Update: azure/Standard_E32-16ds_v4
+- Update: azure/Standard_E32-16ds_v5
+- Update: azure/Standard_E32-16s_v3
+- Update: azure/Standard_E32-8ds_v4
+- Update: azure/Standard_E32-8s_v4
+- Update: azure/Standard_E32-8s_v5
+- Update: azure/Standard_E32bds_v5
+- Update: azure/Standard_E32bs_v5
+- Update: azure/Standard_E32ds_v5
+- Update: azure/Standard_E32d_v4
+- Update: azure/Standard_E32d_v5
+- Update: azure/Standard_E32s_v3
+- Update: azure/Standard_E32s_v4
+- Update: azure/Standard_E32_v5
+- Update: azure/Standard_E48bs_v5
+- Update: azure/Standard_E48ds_v4
+- Update: azure/Standard_E48ds_v5
+- Update: azure/Standard_E48d_v4
+- Update: azure/Standard_E48d_v5
+- Update: azure/Standard_E48s_v4
+- Update: azure/Standard_E48s_v5
+- Update: azure/Standard_E48_v5
+- Update: azure/Standard_E8-2ds_v5
+- Update: azure/Standard_E8-2s_v4
+- Update: azure/Standard_E8-2s_v5
+- Update: azure/Standard_E8-4ds_v5
+- Update: azure/Standard_E8-4s_v3
+- Update: azure/Standard_E8-4s_v4
+- Update: azure/Standard_E8-4s_v5
+- Update: azure/Standard_E8ds_v5
+- Update: azure/Standard_E8d_v4
+- Update: azure/Standard_E8d_v5
+- Update: azure/Standard_E8s_v3
+- Update: azure/Standard_E8s_v4
+- Update: azure/Standard_E8s_v5
+- Update: azure/Standard_E8_v5
+- Update: azure/Standard_F16
+- Update: azure/Standard_F32s_v2
+- Update: azure/Standard_F48s_v2
+- Update: azure/Standard_F64s_v2
+- Update: azure/Standard_F72s_v2
+- Update: azure/Standard_G1
+- Update: azure/Standard_L32as_v3
+- Update: azure/Standard_L32s_v2
+
 ## v0.3.0+20240917103850 (Sep 17, 2024)
 
 This is an automated release with 4 new/updated/deleted resources.
