@@ -1,3 +1,25 @@
+## v0.3.0+20240918143226 (Sep 18, 2024)
+
+This is an automated release with 13 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10923883160
+
+
+### server
+
+- New: aws/x8g.2xlarge
+- New: aws/x8g.24xlarge
+- New: aws/x8g.48xlarge
+- New: aws/x8g.large
+- New: aws/x8g.metal-48xl
+- New: aws/x8g.metal-24xl
+- New: aws/x8g.12xlarge
+- New: aws/x8g.4xlarge
+- New: aws/x8g.medium
+- New: aws/x8g.8xlarge
+- New: aws/x8g.16xlarge
+- New: aws/x8g.xlarge
+- Update: azure/Standard_D4pds_v5
+
 ## v0.3.0+20240918113216 (Sep 18, 2024)
 
 This is an automated release with 17 new/updated/deleted resources.
