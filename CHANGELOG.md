@@ -1,3 +1,13 @@
+## v0.3.0+20240918153049 (Sep 18, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10924975899
+
+
+### server
+
+- Update: azure/Standard_E4ps_v5
+
 ## v0.3.0+20240918143226 (Sep 18, 2024)
 
 This is an automated release with 13 new/updated/deleted resources.
