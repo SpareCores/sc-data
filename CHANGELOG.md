@@ -1,3 +1,33 @@
+## v0.3.0+20240919112940 (Sep 19, 2024)
+
+This is an automated release with 21 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10939734735
+
+
+### server
+
+- Update: azure/Standard_D48plds_v5
+- Update: azure/Standard_D48ps_v5
+- Update: azure/Standard_D4pds_v5
+- Update: azure/Standard_D64pls_v5
+- Update: azure/Standard_DC16ds_v3
+- Update: azure/Standard_E20s_v3
+- Update: azure/Standard_E20s_v4
+- Update: azure/Standard_E20s_v5
+- Update: azure/Standard_E20_v4
+- Update: azure/Standard_E20_v5
+- Update: azure/Standard_E32pds_v5
+- Update: azure/Standard_E32ps_v5
+- Update: azure/Standard_E4ps_v5
+- Update: azure/Standard_E8-2s_v3
+- Update: azure/Standard_L16as_v3
+- Update: azure/Standard_L16s_v2
+- Update: azure/Standard_L8s_v3
+- Update: aws/x8g.2xlarge
+- Update: aws/x8g.large
+- Update: aws/x8g.medium
+- Update: aws/x8g.xlarge
+
 ## v0.3.0+20240919083348 (Sep 19, 2024)
 
 This is an automated release with 11 new/updated/deleted resources.
