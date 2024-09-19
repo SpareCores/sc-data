@@ -1,3 +1,14 @@
+## v0.3.0+20240919143931 (Sep 19, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10942693855
+
+
+### server
+
+- Update: azure/Standard_D64plds_v5
+- Update: aws/x8g.4xlarge
+
 ## v0.3.0+20240919134715 (Sep 19, 2024)
 
 This is an automated release with 5 new/updated/deleted resources.
