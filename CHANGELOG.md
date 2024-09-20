@@ -1,3 +1,43 @@
+## v0.3.0+20240920113400 (Sep 20, 2024)
+
+This is an automated release with 31 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10958132792
+
+
+### server
+
+- Update: azure/Standard_B2als_v2
+- Update: azure/Standard_B2as_v2
+- Update: azure/Standard_B2ats_v2
+- Update: azure/Standard_D2ads_v5
+- Update: azure/Standard_D2as_v4
+- Update: azure/Standard_D2as_v5
+- Update: azure/Standard_D2a_v4
+- Update: azure/Standard_D32lds_v5
+- Update: azure/Standard_D32s_v3
+- Update: azure/Standard_D32s_v4
+- Update: azure/Standard_D32s_v5
+- Update: azure/Standard_D32_v4
+- Update: azure/Standard_D48pds_v5
+- Update: azure/Standard_D4ads_v5
+- Update: azure/Standard_D64plds_v5
+- Update: azure/Standard_D64pls_v5
+- Update: azure/Standard_DC4ads_cc_v5
+- Update: azure/Standard_DC4as_cc_v5
+- Update: azure/Standard_E20ds_v4
+- Update: azure/Standard_E20ds_v5
+- Update: azure/Standard_E20d_v4
+- Update: azure/Standard_E2ads_v5
+- Update: azure/Standard_E2as_v4
+- Update: azure/Standard_E2as_v5
+- Update: azure/Standard_E2a_v4
+- Update: azure/Standard_E4-2as_v5
+- Update: azure/Standard_E4as_v5
+- Update: azure/Standard_E4a_v4
+- Update: azure/Standard_EC48ads_cc_v5
+- Update: azure/Standard_EC4as_cc_v5
+- Update: aws/x8g.4xlarge
+
 ## v0.3.0+20240920093349 (Sep 20, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
