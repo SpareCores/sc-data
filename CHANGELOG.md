@@ -1,3 +1,15 @@
+## v0.3.0+20240920143938 (Sep 20, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10960784592
+
+
+### server
+
+- Update: azure/Standard_B8als_v2
+- Update: aws/x8g.12xlarge
+- Update: aws/x8g.16xlarge
+
 ## v0.3.0+20240920134718 (Sep 20, 2024)
 
 This is an automated release with 3 new/updated/deleted resources.
