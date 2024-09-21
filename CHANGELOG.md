@@ -1,3 +1,30 @@
+## v0.3.0+20240921113110 (Sep 21, 2024)
+
+This is an automated release with 18 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10972061022
+
+
+### server
+
+- Update: azure/Standard_B8als_v2
+- Update: azure/Standard_B8as_v2
+- Update: azure/Standard_D8a_v4
+- Update: azure/Standard_DC8ads_cc_v5
+- Update: azure/Standard_DC8as_cc_v5
+- Update: azure/Standard_E4-2ads_v5
+- Update: azure/Standard_E4ads_v5
+- Update: azure/Standard_E4a_v4
+- Update: azure/Standard_E8-2ads_v5
+- Update: azure/Standard_E8-4ads_v5
+- Update: azure/Standard_E8-4as_v5
+- Update: azure/Standard_E8as_v5
+- Update: azure/Standard_E8a_v4
+- Update: azure/Standard_EC4ads_cc_v5
+- Update: azure/Standard_EC8as_cc_v5
+- Update: aws/x8g.12xlarge
+- Update: aws/x8g.16xlarge
+- Update: aws/x8g.8xlarge
+
 ## v0.3.0+20240921103223 (Sep 21, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
