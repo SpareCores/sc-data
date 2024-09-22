@@ -1,3 +1,13 @@
+## v0.3.0+20240922103014 (Sep 22, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10980256269
+
+
+### server
+
+- Update: azure/Standard_EC20as_cc_v5
+
 ## v0.3.0+20240922093834 (Sep 22, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
