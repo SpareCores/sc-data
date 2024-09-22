@@ -1,3 +1,13 @@
+## v0.3.0+20240922174110 (Sep 22, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10982928470
+
+
+### server
+
+- Update: azure/Standard_DC32as_cc_v5
+
 ## v0.3.0+20240922143557 (Sep 22, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
