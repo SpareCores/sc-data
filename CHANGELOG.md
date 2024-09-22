@@ -1,3 +1,13 @@
+## v0.3.0+20240922193014 (Sep 22, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10983666914
+
+
+### server
+
+- Update: azure/Standard_D32a_v4
+
 ## v0.3.0+20240922183222 (Sep 22, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
