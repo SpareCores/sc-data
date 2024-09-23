@@ -1,3 +1,61 @@
+## v0.3.0+20240923204200 (Sep 23, 2024)
+
+This is an automated release with 49 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11001617697
+
+
+### server
+
+- Update: azure/Standard_B16pls_v2
+- Update: azure/Standard_B16ps_v2
+- Update: azure/Standard_B2pls_v2
+- Update: azure/Standard_B2ps_v2
+- Update: azure/Standard_B2pts_v2
+- Update: azure/Standard_B4pls_v2
+- Update: azure/Standard_B4ps_v2
+- Update: azure/Standard_B8pls_v2
+- Update: azure/Standard_B8ps_v2
+- Update: azure/Standard_D16pds_v5
+- Update: azure/Standard_D16plds_v5
+- Update: azure/Standard_D16pls_v5
+- Update: azure/Standard_D16ps_v5
+- Update: azure/Standard_D2pds_v5
+- Update: azure/Standard_D2plds_v5
+- Update: azure/Standard_D2pls_v5
+- Update: azure/Standard_D2ps_v5
+- Update: azure/Standard_D32pds_v5
+- Update: azure/Standard_D32plds_v5
+- Update: azure/Standard_D32pls_v5
+- Update: azure/Standard_D32ps_v5
+- Update: azure/Standard_D48pds_v5
+- Update: azure/Standard_D48plds_v5
+- Update: azure/Standard_D48pls_v5
+- Update: azure/Standard_D48ps_v5
+- Update: azure/Standard_D4pds_v5
+- Update: azure/Standard_D4plds_v5
+- Update: azure/Standard_D4pls_v5
+- Update: azure/Standard_D4ps_v5
+- Update: azure/Standard_D64plds_v5
+- Update: azure/Standard_D64pls_v5
+- Update: azure/Standard_D64ps_v5
+- Update: azure/Standard_D8pds_v5
+- Update: azure/Standard_D8plds_v5
+- Update: azure/Standard_D8pls_v5
+- Update: azure/Standard_D8ps_v5
+- Update: azure/Standard_DC48ads_cc_v5
+- Update: azure/Standard_E16pds_v5
+- Update: azure/Standard_E16ps_v5
+- Update: azure/Standard_E20pds_v5
+- Update: azure/Standard_E20ps_v5
+- Update: azure/Standard_E2pds_v5
+- Update: azure/Standard_E2ps_v5
+- Update: azure/Standard_E32pds_v5
+- Update: azure/Standard_E32ps_v5
+- Update: azure/Standard_E4pds_v5
+- Update: azure/Standard_E4ps_v5
+- Update: azure/Standard_E8pds_v5
+- Update: azure/Standard_E8ps_v5
+
 ## v0.3.0+20240923194043 (Sep 23, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
