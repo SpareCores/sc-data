@@ -1,3 +1,13 @@
+## v0.3.0+20240923123944 (Sep 23, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/10994033763
+
+
+### server
+
+- Update: azure/Standard_D48as_v5
+
 ## v0.3.0+20240923113504 (Sep 23, 2024)
 
 This is an automated release with 22 new/updated/deleted resources.
