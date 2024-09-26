@@ -1,3 +1,16 @@
+## v0.3.0+20240926145720 (Sep 26, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11054660117
+
+
+### benchmark
+
+- New: stress_ng:div16
+- New: stress_ng:best1
+- New: stress_ng:bestn
+- Update: stress_ng:cpu_all
+
 ## v0.3.0+20240926143901 (Sep 26, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
