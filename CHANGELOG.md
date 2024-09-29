@@ -1,3 +1,43 @@
+## v0.3.0+20240929123842 (Sep 29, 2024)
+
+This is an automated release with 31 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11092543821
+
+
+### server
+
+- Update: azure/Standard_D48lds_v5
+- Update: azure/Standard_D64as_v5
+- Update: azure/Standard_D64d_v5
+- Update: azure/Standard_E32-8ds_v5
+- Update: azure/Standard_E32ds_v4
+- Update: azure/Standard_E48s_v3
+- Update: azure/Standard_E48_v4
+- Update: azure/Standard_E64-16ads_v5
+- Update: azure/Standard_E64-16as_v5
+- Update: azure/Standard_E64-32ads_v5
+- Update: azure/Standard_E64-32as_v5
+- Update: azure/Standard_E64-32s_v3
+- Update: azure/Standard_E64ads_v5
+- Update: azure/Standard_E64as_v4
+- Update: azure/Standard_E64as_v5
+- Update: azure/Standard_E64a_v4
+- Update: azure/Standard_E64is_v3
+- Update: azure/Standard_E96-24as_v5
+- Update: azure/Standard_EC64ads_cc_v5
+- Update: azure/Standard_EC64as_cc_v5
+- Update: azure/Standard_GS4-8
+- Update: azure/Standard_HC44-16rs
+- Update: azure/Standard_HC44-32rs
+- Update: azure/Standard_HC44rs
+- Update: azure/Standard_L32s
+- Update: azure/Standard_L32s_v3
+- Update: azure/Standard_M16-4ms
+- Update: azure/Standard_M16-8ms
+- Update: azure/Standard_M16ms
+- Update: azure/Standard_M32ls
+- Update: azure/Standard_M32ts
+
 ## v0.3.0+20240929104146 (Sep 29, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
