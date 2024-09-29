@@ -98,13 +98,11 @@ jobs:
           echo "REMOTE_DB=${REMOTE_DB}" >> "$GITHUB_ENV"
       - name: Sync back (full)
         if: github.event.schedule == '0 * * * *' || github.event_name == 'workflow_dispatch'
-        id: sync-back
         run: |
           sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd --log-changes-path changes.log --log-changes-tables country --log-changes-tables compliance_framework --log-changes-tables vendor --log-changes-tables vendor_compliance_link --log-changes-tables region --log-changes-tables zone --log-changes-tables storage --log-changes-tables server --log-changes-tables benchmark
           psql "host=${DB_HOST} port=${DB_PORT} dbname=${DB_NAME} user=${DB_USER} sslmode=require" -c "VACUUM ANALYZE"
       - name: Sync back (server prices)
         if: github.event.schedule == '5-55/5 * * * *'
-        id: sync-back
         run: |
           sc-crawler sync --source sqlite:///${FILE} --target ${REMOTE_DB} --scd --sync-tables server_price
 
