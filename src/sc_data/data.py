@@ -12,6 +12,8 @@ import requests
 
 from . import constants
 
+logger = logging.getLogger(__name__)
+
 
 def get_parameter(name):
     """Get a parameter either from builtins, envvars or the constants module."""
@@ -80,6 +82,7 @@ class Data(threading.Thread):
         ):
             # delete=False due to Windows support
             # https://stackoverflow.com/questions/15588314/cant-access-temporary-files-created-with-tempfile/15590253#15590253
+            logger.debug("Downloading new SQLite database")
             tmpfile = tempfile.NamedTemporaryFile(delete=False)
             # use the original, or a decompressor-wrapped file handle
             fh = handle(r.raw, url=get_parameter("db_url"))
@@ -90,20 +93,20 @@ class Data(threading.Thread):
                 self.actual_db_hash = db_hash
             close_tmpfiles(self.tmpfiles)
             self.tmpfiles.append(tmpfile)
-            logging.debug("Updated database to hash %s", db_hash)
+            logger.debug("Updated database to hash %s", db_hash)
         else:
-            logging.debug("No need to update database")
+            logger.debug("No need to update database")
 
     def run(self):
         """Start the update thread if no_update is not set."""
         if get_parameter("no_update"):
-            logging.warn("Automated database refresh is disabled.")
+            logger.warn("Automated database refresh is disabled.")
             self.updated.set()
             return
         while True:
             try:
                 self.update()
             except Exception:
-                logging.exception("Failed to update the database")
+                logger.exception("Failed to update the database")
             self.updated.set()
             time.sleep(int(get_parameter("db_refresh_seconds")))
