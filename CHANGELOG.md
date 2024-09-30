@@ -1,3 +1,392 @@
+## v0.3.0+20240930203705 (Sep 30, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11113370365
+
+
+### server
+
+- Update: azure/Standard_M64m
+- Update: azure/Standard_M64ms
+
+## v0.3.0+20240930184251 (Sep 30, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11111738008
+
+
+### server
+
+- Update: azure/Standard_E112ibds_v5
+- Update: azure/Standard_E112ibs_v5
+- Update: azure/Standard_M64-16ms
+- Update: azure/Standard_M64-32ms
+
+## v0.3.0+20240930163816 (Sep 30, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11109984462
+
+
+### server
+
+- Update: azure/Standard_E104ids_v5
+- Update: azure/Standard_E104id_v5
+
+## v0.3.0+20240930154203 (Sep 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11108948728
+
+
+### server
+
+- Update: azure/Standard_E96bds_v5
+
+## v0.3.0+20240930143440 (Sep 30, 2024)
+
+This is an automated release with 29 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11107859615
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_E104is_v5
+- Update: azure/Standard_E104i_v5
+- Update: azure/Standard_E96bs_v5
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240930134343 (Sep 30, 2024)
+
+This is an automated release with 27 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11106961609
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_GS5-16
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.0+20240930124237 (Sep 30, 2024)
+
+This is an automated release with 12 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11105892649
+
+
+### server
+
+- Update: azure/Standard_E96-48ds_v5
+- Update: azure/Standard_E96d_v5
+- Update: azure/Standard_L48as_v3
+- Update: azure/Standard_L64as_v3
+- Update: azure/Standard_L64s_v3
+- Update: azure/Standard_M32-16ms
+- Update: azure/Standard_M32-8ms
+- Update: azure/Standard_M32ms
+- Update: azure/Standard_M64
+- Update: azure/Standard_M64ls
+- Update: azure/Standard_M64s
+- Update: azure/Standard_NC24ads_A100_v4
+
+## v0.3.0+20240930113215 (Sep 30, 2024)
+
+This is an automated release with 43 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11104851191
+
+
+### server
+
+- Update: azure/Standard_D96ds_v5
+- Update: azure/Standard_D96d_v5
+- Update: azure/Standard_D96lds_v5
+- Update: azure/Standard_D96ls_v5
+- Update: azure/Standard_D96s_v5
+- Update: azure/Standard_D96_v5
+- Update: azure/Standard_E112iads_v5
+- Update: azure/Standard_E112ias_v5
+- Update: azure/Standard_E48bds_v5
+- Update: azure/Standard_E64-16as_v4
+- Update: azure/Standard_E64-16ds_v4
+- Update: azure/Standard_E64-16ds_v5
+- Update: azure/Standard_E64-16s_v4
+- Update: azure/Standard_E64-16s_v5
+- Update: azure/Standard_E64-32as_v4
+- Update: azure/Standard_E64-32ds_v4
+- Update: azure/Standard_E64-32s_v3
+- Update: azure/Standard_E64-32s_v5
+- Update: azure/Standard_E64bds_v5
+- Update: azure/Standard_E64ds_v4
+- Update: azure/Standard_E64ds_v5
+- Update: azure/Standard_E64d_v4
+- Update: azure/Standard_E64d_v5
+- Update: azure/Standard_E64is_v3
+- Update: azure/Standard_E64s_v3
+- Update: azure/Standard_E64s_v4
+- Update: azure/Standard_E64s_v5
+- Update: azure/Standard_E64_v4
+- Update: azure/Standard_E64_v5
+- Update: azure/Standard_E80ids_v4
+- Update: azure/Standard_E80is_v4
+- Update: azure/Standard_E96-24ads_v5
+- Update: azure/Standard_E96-24as_v4
+- Update: azure/Standard_E96-24ds_v5
+- Update: azure/Standard_E96-24s_v5
+- Update: azure/Standard_E96-48s_v5
+- Update: azure/Standard_E96ads_v5
+- Update: azure/Standard_E96as_v4
+- Update: azure/Standard_E96a_v4
+- Update: azure/Standard_E96ias_v4
+- Update: azure/Standard_E96_v5
+- Update: azure/Standard_M64
+- Update: azure/Standard_M64s
+
+## v0.3.0+20240930093519 (Sep 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11102997429
+
+
+### server
+
+- Update: azure/Standard_M32ms
+
+## v0.3.0+20240930083927 (Sep 30, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11102079294
+
+
+### server
+
+- Update: azure/Standard_M32-16ms
+- Update: azure/Standard_M32-8ms
+
+## v0.3.0+20240930073526 (Sep 30, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11101145610
+
+
+### server
+
+- Update: azure/Standard_E96-48s_v5
+- Update: azure/Standard_E96ias_v4
+- Update: azure/Standard_E96_v5
+
+## v0.3.0+20240930063919 (Sep 30, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11100431024
+
+
+### server
+
+- Update: azure/Standard_E96-24as_v4
+- Update: azure/Standard_E96-24s_v5
+
+## v0.3.0+20240930053400 (Sep 30, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11099770636
+
+
+### server
+
+- Update: azure/Standard_D96d_v5
+- Update: azure/Standard_E80ids_v4
+- Update: azure/Standard_L64s_v3
+
+## v0.3.0+20240930034938 (Sep 30, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11098770174
+
+
+### server
+
+- Update: azure/Standard_D96ds_v5
+- Update: azure/Standard_E112iads_v5
+- Update: azure/Standard_E64bds_v5
+- Update: azure/Standard_M64ls
+
+## v0.3.0+20240930024425 (Sep 30, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11098177603
+
+
+### server
+
+- Update: azure/Standard_E64d_v4
+- Update: azure/Standard_E64d_v5
+- Update: azure/Standard_E80is_v4
+- Update: azure/Standard_L64as_v3
+
+## v0.3.0+20240930011231 (Sep 30, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11097331565
+
+
+### server
+
+- Update: azure/Standard_E64-32ds_v4
+- Update: azure/Standard_E64ds_v4
+- Update: azure/Standard_E64ds_v5
+
+## v0.3.0+20240929233438 (Sep 29, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11096650015
+
+
+### server
+
+- Update: azure/Standard_D96s_v5
+- Update: azure/Standard_D96_v5
+- Update: azure/Standard_E64-16ds_v4
+- Update: azure/Standard_E64-16ds_v5
+
+## v0.3.0+20240929223211 (Sep 29, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11096283125
+
+
+### server
+
+- Update: azure/Standard_D96lds_v5
+
+## v0.3.0+20240929213626 (Sep 29, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11095922058
+
+
+### server
+
+- Update: azure/Standard_E112ias_v5
+
+## v0.3.0+20240929193829 (Sep 29, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11095203009
+
+
+### server
+
+- Update: azure/Standard_D96ls_v5
+- Update: azure/Standard_E64_v4
+- Update: azure/Standard_E64_v5
+
+## v0.3.0+20240929183519 (Sep 29, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11094844614
+
+
+### server
+
+- Update: azure/Standard_E64-32s_v5
+- Update: azure/Standard_E64s_v4
+- Update: azure/Standard_E64s_v5
+
+## v0.3.0+20240929173618 (Sep 29, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11094443310
+
+
+### server
+
+- Update: azure/Standard_E64-16as_v4
+- Update: azure/Standard_E64-16s_v4
+- Update: azure/Standard_E64-16s_v5
+- Update: azure/Standard_E64-32as_v4
+
+## v0.3.0+20240929164043 (Sep 29, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11094091552
+
+
+### server
+
+- Update: azure/Standard_E48bds_v5
+- Update: azure/Standard_E96ads_v5
+
+## v0.3.0+20240929153530 (Sep 29, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11093706360
+
+
+### server
+
+- Update: azure/Standard_E96-24ads_v5
+- Update: azure/Standard_E96a_v4
+
+## v0.3.0+20240929143748 (Sep 29, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11093316155
+
+
+### server
+
+- Update: azure/Standard_E96as_v4
+- Update: azure/Standard_L48as_v3
+
 ## v0.3.0+20240929133705 (Sep 29, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
