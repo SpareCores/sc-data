@@ -1,3 +1,13 @@
+## v0.3.0+20241002113224 (Oct 02, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11142664453
+
+
+### server
+
+- Update: azure/Standard_NV28adms_V710_v5
+
 ## v0.3.0+20241002093506 (Oct 02, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
