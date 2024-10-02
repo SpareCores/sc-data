@@ -1,3 +1,13 @@
+## v0.3.0+20241002093506 (Oct 02, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11141013325
+
+
+### server
+
+- New: azure/Standard_M16bs_v3
+
 ## v0.3.0+20241002083741 (Oct 02, 2024)
 
 This is an automated release with 3 new/updated/deleted resources.
