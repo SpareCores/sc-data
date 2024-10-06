@@ -1,3 +1,14 @@
+## v0.3.0+20241006083638 (Oct 06, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11200219986
+
+
+### server
+
+- Update: aws/hpc6id.32xlarge
+- Update: aws/hpc7a.12xlarge
+
 ## v0.3.0+20241005223448 (Oct 05, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
