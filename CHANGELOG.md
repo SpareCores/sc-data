@@ -1,3 +1,60 @@
+## v0.3.0+20241016010839 (Oct 16, 2024)
+
+This is an automated release with 48 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11356703907
+
+
+### server
+
+- New: azure/Standard_D2pls_v6
+- New: azure/Standard_D4pls_v6
+- New: azure/Standard_D8pls_v6
+- New: azure/Standard_D16pls_v6
+- New: azure/Standard_D32pls_v6
+- New: azure/Standard_D48pls_v6
+- New: azure/Standard_D64pls_v6
+- New: azure/Standard_D96pls_v6
+- New: azure/Standard_D2pds_v6
+- New: azure/Standard_D4pds_v6
+- New: azure/Standard_D8pds_v6
+- New: azure/Standard_D16pds_v6
+- New: azure/Standard_D32pds_v6
+- New: azure/Standard_D48pds_v6
+- New: azure/Standard_D64pds_v6
+- New: azure/Standard_D96pds_v6
+- New: azure/Standard_D2plds_v6
+- New: azure/Standard_D4plds_v6
+- New: azure/Standard_D8plds_v6
+- New: azure/Standard_D16plds_v6
+- New: azure/Standard_D32plds_v6
+- New: azure/Standard_D48plds_v6
+- New: azure/Standard_D64plds_v6
+- New: azure/Standard_D96plds_v6
+- New: azure/Standard_D2ps_v6
+- New: azure/Standard_D4ps_v6
+- New: azure/Standard_D8ps_v6
+- New: azure/Standard_D16ps_v6
+- New: azure/Standard_D32ps_v6
+- New: azure/Standard_D48ps_v6
+- New: azure/Standard_D64ps_v6
+- New: azure/Standard_D96ps_v6
+- New: azure/Standard_E2ps_v6
+- New: azure/Standard_E4ps_v6
+- New: azure/Standard_E8ps_v6
+- New: azure/Standard_E16ps_v6
+- New: azure/Standard_E32ps_v6
+- New: azure/Standard_E48ps_v6
+- New: azure/Standard_E64ps_v6
+- New: azure/Standard_E96ps_v6
+- New: azure/Standard_E2pds_v6
+- New: azure/Standard_E4pds_v6
+- New: azure/Standard_E8pds_v6
+- New: azure/Standard_E16pds_v6
+- New: azure/Standard_E32pds_v6
+- New: azure/Standard_E48pds_v6
+- New: azure/Standard_E64pds_v6
+- New: azure/Standard_E96pds_v6
+
 ## v0.3.0+20241015103636 (Oct 15, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
