@@ -1,3 +1,13 @@
+## v0.3.0+20241016024028 (Oct 16, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11357616507
+
+
+### server
+
+- Update: azure/Standard_D2pls_v6
+
 ## v0.3.0+20241016010839 (Oct 16, 2024)
 
 This is an automated release with 48 new/updated/deleted resources.
