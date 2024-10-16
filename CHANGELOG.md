@@ -1,3 +1,13 @@
+## v0.3.0+20241016143825 (Oct 16, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11367397133
+
+
+### server
+
+- Update: azure/Standard_D64plds_v6
+
 ## v0.3.0+20241016135333 (Oct 16, 2024)
 
 This is an automated release with 3 new/updated/deleted resources.
