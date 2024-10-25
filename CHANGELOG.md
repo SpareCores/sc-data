@@ -1,3 +1,9 @@
+## v0.3.0+20241025110223 (Oct 25, 2024)
+
+This is an automated release with 0 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11516809246
+
+
 ## v0.3.0+20241024193808 (Oct 24, 2024)
 
 This is an automated release with 811 new/updated/deleted resources.
