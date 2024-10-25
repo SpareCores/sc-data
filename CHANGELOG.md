@@ -1,3 +1,9 @@
+## v0.3.1 (Oct 25, 2024)
+
+Bump version to sync with the new `sparecores-crawler` v0.3.1 release.
+
+Minor schema change: `server.storages` array items can include `description`.
+
 ## v0.3.0+20241025113704 (Oct 25, 2024)
 
 This is an automated release with 1247 new/updated/deleted resources.
