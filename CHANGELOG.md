@@ -1,3 +1,19 @@
+## v0.3.1+20241025135043 (Oct 25, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11518981591
+
+
+### region
+
+- New: azure/newzealandnorth
+
+### zone
+
+- New: azure/newzealandnorth/3
+- New: azure/newzealandnorth/1
+- New: azure/newzealandnorth/2
+
 ## v0.3.1 (Oct 25, 2024)
 
 Bump version to sync with the new `sparecores-crawler` v0.3.1 release.
