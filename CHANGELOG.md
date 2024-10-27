@@ -1,3 +1,23 @@
+## v0.3.1+20241027113242 (Oct 27, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11539949020
+
+
+### region
+
+- Update: azure/newzealandnorth
+
+### zone
+
+- Update: azure/newzealandnorth/1
+- Update: azure/newzealandnorth/2
+- Update: azure/newzealandnorth/3
+
+### server
+
+- Update: azure/Standard_ND96isr_H200_v5
+
 ## v0.3.1+20241027103855 (Oct 27, 2024)
 
 This is an automated release with 4 new/updated/deleted resources.
