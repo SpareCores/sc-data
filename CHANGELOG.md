@@ -1,3 +1,19 @@
+## v0.3.1+20241029183830 (Oct 29, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11579942520
+
+
+### zone
+
+- Update: azure/newzealandnorth/1
+- Update: azure/newzealandnorth/2
+- Update: azure/newzealandnorth/3
+
+### server
+
+- Update: azure/Standard_M896ixds_32_v3
+
 ## v0.3.1+20241029174118 (Oct 29, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
