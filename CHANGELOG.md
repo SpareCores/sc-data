@@ -1,3 +1,14 @@
+## v0.3.1+20241030193427 (Oct 30, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11599989280
+
+
+### server
+
+- Update: azure/Standard_M896ixds_32_v3
+- Update: azure/Standard_ND96isr_H200_v5
+
 ## v0.3.1+20241030174300 (Oct 30, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
