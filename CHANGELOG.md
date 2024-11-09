@@ -1,3 +1,34 @@
+## v0.3.1+20241109124415 (Nov 09, 2024)
+
+This is an automated release with 19 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11756118806
+
+
+### server
+
+- Update: azure/Standard_D48plds_v6
+- Update: azure/Standard_D96pds_v6
+- Update: azure/Standard_E96ps_v6
+
+### benchmark
+
+- New: passmark:cpu_mark
+- New: passmark:cpu_integer_maths_test
+- New: passmark:cpu_floating_point_maths_test
+- New: passmark:cpu_prime_numbers_test
+- New: passmark:cpu_string_sorting_test
+- New: passmark:cpu_encryption_test
+- New: passmark:cpu_compression_test
+- New: passmark:cpu_single_threaded_test
+- New: passmark:cpu_physics_test
+- New: passmark:cpu_extended_instructions_test
+- New: passmark:memory_mark
+- New: passmark:database_operations
+- New: passmark:memory_read_cached
+- New: passmark:memory_read_uncached
+- New: passmark:memory_write
+- New: passmark:memory_latency
+
 ## v0.3.1+20241109111356 (Nov 09, 2024)
 
 This is an automated release with 0 new/updated/deleted resources.
