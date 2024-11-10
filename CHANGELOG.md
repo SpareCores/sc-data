@@ -1,3 +1,40 @@
+## v0.3.1+20241110213930 (Nov 10, 2024)
+
+This is an automated release with 16 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11768492002
+
+
+### country
+
+- New: MX
+
+### region
+
+- New: gcp/1640
+
+### zone
+
+- New: gcp/1640/2641
+- New: gcp/1640/2640
+- New: gcp/1640/2642
+
+### server
+
+- Update: azure/Standard_D64pds_v6
+- Update: azure/Standard_D64ps_v6
+- Update: azure/Standard_D96pds_v6
+- Update: azure/Standard_D96plds_v6
+- Update: azure/Standard_D96ps_v6
+- Update: azure/Standard_E96ps_v6
+- Update: azure/Standard_M128bds_v3
+- Update: azure/Standard_M128bs_v3
+
+### benchmark
+
+- Update: static_web:throughput-extrapolated
+- Update: redis:latency
+- Update: geekbench:photo_filter
+
 ## v0.3.1+20241110205156 (Nov 10, 2024)
 
 This is an automated release with 0 new/updated/deleted resources.
