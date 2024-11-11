@@ -1,3 +1,21 @@
+## v0.3.1+20241111024254 (Nov 11, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11770820218
+
+
+### server
+
+- Update: azure/Standard_M176bds_v3
+- Update: azure/Standard_M176bs_v3
+
+### benchmark
+
+- Update: stress_ng:cpu_all
+- Update: static_web:rps-extrapolated
+- Update: static_web:rps
+- Update: compression_text:compress
+
 ## v0.3.1+20241110213930 (Nov 10, 2024)
 
 This is an automated release with 16 new/updated/deleted resources.
