@@ -1,3 +1,19 @@
+## v0.3.1+20241111064029 (Nov 11, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11773167916
+
+
+### server
+
+- Update: azure/Standard_M96bds_2_v3
+
+### benchmark
+
+- Update: static_web:rps
+- Update: redis:latency
+- Update: bw_mem
+
 ## v0.3.1+20241111024254 (Nov 11, 2024)
 
 This is an automated release with 6 new/updated/deleted resources.
