@@ -1,3 +1,20 @@
+## v0.3.1+20241112094323 (Nov 12, 2024)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11794266743
+
+
+### vendor
+
+- Update: aws
+- Update: azure
+- Update: gcp
+- Update: hcloud
+
+### server
+
+- Update: azure/Standard_M64-32bds_1_v3
+
 ## v0.3.1+20241112083955 (Nov 12, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
