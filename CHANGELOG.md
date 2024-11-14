@@ -1,3 +1,13 @@
+## v0.3.1+20241114114401 (Nov 14, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11835962498
+
+
+### server
+
+- Update: aws/t3.nano
+
 ## v0.3.1+20241114103922 (Nov 14, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
