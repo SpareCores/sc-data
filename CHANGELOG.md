@@ -1,3 +1,13 @@
+## v0.3.1+20241119024723 (Nov 19, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11904930995
+
+
+### server
+
+- Update: azure/Standard_M64-32bds_1_v3
+
 ## v0.3.1+20241118093949 (Nov 18, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
