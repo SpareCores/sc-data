@@ -1,3 +1,83 @@
+## v0.3.1+20241121094149 (Nov 21, 2024)
+
+This is an automated release with 71 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11950019565
+
+
+### server
+
+- New: azure/Standard_D16ads_v6
+- New: azure/Standard_D16alds_v6
+- New: azure/Standard_D16als_v6
+- New: azure/Standard_D16as_v6
+- New: azure/Standard_D2ads_v6
+- New: azure/Standard_D2alds_v6
+- New: azure/Standard_D2als_v6
+- New: azure/Standard_D2as_v6
+- New: azure/Standard_D32ads_v6
+- New: azure/Standard_D32alds_v6
+- New: azure/Standard_D32als_v6
+- New: azure/Standard_D32as_v6
+- New: azure/Standard_D48ads_v6
+- New: azure/Standard_D48alds_v6
+- New: azure/Standard_D48als_v6
+- New: azure/Standard_D48as_v6
+- New: azure/Standard_D4ads_v6
+- New: azure/Standard_D4alds_v6
+- New: azure/Standard_D4als_v6
+- New: azure/Standard_D4as_v6
+- New: azure/Standard_D64ads_v6
+- New: azure/Standard_D64alds_v6
+- New: azure/Standard_D64als_v6
+- New: azure/Standard_D64as_v6
+- New: azure/Standard_D8ads_v6
+- New: azure/Standard_D8alds_v6
+- New: azure/Standard_D8als_v6
+- New: azure/Standard_D8as_v6
+- New: azure/Standard_D96ads_v6
+- New: azure/Standard_D96alds_v6
+- New: azure/Standard_D96als_v6
+- New: azure/Standard_D96as_v6
+- New: azure/Standard_E16ads_v6
+- New: azure/Standard_E16as_v6
+- New: azure/Standard_E20ads_v6
+- New: azure/Standard_E20as_v6
+- New: azure/Standard_E2ads_v6
+- New: azure/Standard_E2as_v6
+- New: azure/Standard_E32ads_v6
+- New: azure/Standard_E32as_v6
+- New: azure/Standard_E48ads_v6
+- New: azure/Standard_E48as_v6
+- New: azure/Standard_E4ads_v6
+- New: azure/Standard_E4as_v6
+- New: azure/Standard_E64ads_v6
+- New: azure/Standard_E64as_v6
+- New: azure/Standard_E8ads_v6
+- New: azure/Standard_E8as_v6
+- New: azure/Standard_E96ads_v6
+- New: azure/Standard_E96as_v6
+- New: azure/Standard_F16als_v6
+- New: azure/Standard_F16ams_v6
+- New: azure/Standard_F16as_v6
+- New: azure/Standard_F2als_v6
+- New: azure/Standard_F2ams_v6
+- New: azure/Standard_F2as_v6
+- New: azure/Standard_F32als_v6
+- New: azure/Standard_F32ams_v6
+- New: azure/Standard_F32as_v6
+- New: azure/Standard_F48als_v6
+- New: azure/Standard_F48ams_v6
+- New: azure/Standard_F48as_v6
+- New: azure/Standard_F4als_v6
+- New: azure/Standard_F4ams_v6
+- New: azure/Standard_F4as_v6
+- New: azure/Standard_F64als_v6
+- New: azure/Standard_F64ams_v6
+- New: azure/Standard_F64as_v6
+- New: azure/Standard_F8als_v6
+- New: azure/Standard_F8ams_v6
+- New: azure/Standard_F8as_v6
+
 ## v0.3.1+20241120094525 (Nov 20, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
