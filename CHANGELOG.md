@@ -1,3 +1,38 @@
+## v0.3.1+20241122113858 (Nov 22, 2024)
+
+This is an automated release with 26 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11971434143
+
+
+### server
+
+- Update: azure/Standard_D16alds_v6
+- Update: azure/Standard_D16als_v6
+- Update: azure/Standard_D16as_v6
+- Update: azure/Standard_D2ads_v6
+- Update: azure/Standard_D2alds_v6
+- Update: azure/Standard_D2als_v6
+- Update: azure/Standard_D2as_v6
+- Update: azure/Standard_D4alds_v6
+- Update: azure/Standard_D4als_v6
+- Update: azure/Standard_D4as_v6
+- Update: azure/Standard_D8ads_v6
+- Update: azure/Standard_D8alds_v6
+- Update: azure/Standard_D8als_v6
+- Update: azure/Standard_E2as_v6
+- Update: azure/Standard_E4ads_v6
+- Update: azure/Standard_E4as_v6
+- Update: azure/Standard_E8ads_v6
+- Update: azure/Standard_F16as_v6
+- Update: azure/Standard_F2als_v6
+- Update: azure/Standard_F2ams_v6
+- Update: azure/Standard_F32ams_v6
+- Update: azure/Standard_F48als_v6
+- Update: azure/Standard_F4als_v6
+- Update: azure/Standard_F4as_v6
+- Update: azure/Standard_F8als_v6
+- Update: azure/Standard_F8ams_v6
+
 ## v0.3.1+20241122094429 (Nov 22, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
