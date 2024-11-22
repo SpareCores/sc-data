@@ -1,3 +1,13 @@
+## v0.3.1+20241122094429 (Nov 22, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11969665773
+
+
+### server
+
+- Update: azure/Standard_F32ams_v6
+
 ## v0.3.1+20241122084427 (Nov 22, 2024)
 
 This is an automated release with 7 new/updated/deleted resources.
