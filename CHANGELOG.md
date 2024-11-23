@@ -1,3 +1,13 @@
+## v0.3.1+20241123113914 (Nov 23, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/11986635444
+
+
+### server
+
+- Update: azure/Standard_F4ams_v6
+
 ## v0.3.1+20241123011704 (Nov 23, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
