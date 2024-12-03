@@ -1,3 +1,13 @@
+## v0.3.1+20241203164200 (Dec 03, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12143667117
+
+
+### server
+
+- New: aws/trn2.48xlarge
+
 ## v0.3.1+20241203135553 (Dec 03, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
