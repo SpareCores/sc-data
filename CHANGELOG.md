@@ -1,3 +1,13 @@
+## v0.3.1+20241205204316 (Dec 05, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12187282214
+
+
+### server
+
+- Update: azure/Standard_NCC40ads_H100_v5
+
 ## v0.3.1+20241205044534 (Dec 05, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
