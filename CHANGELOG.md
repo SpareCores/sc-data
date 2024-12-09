@@ -1,3 +1,13 @@
+## v0.3.1+20241209143933 (Dec 09, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12237354578
+
+
+### server
+
+- New: aws/u7i-6tb.112xlarge
+
 ## v0.3.1+20241205214511 (Dec 05, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
