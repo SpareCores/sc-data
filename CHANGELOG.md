@@ -1,3 +1,14 @@
+## v0.3.1+20241209214117 (Dec 09, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12244322118
+
+
+### server
+
+- Update: azure/Standard_ND96is_MI300X_v5
+- Update: azure/Standard_ND96isr_MI300X_v5
+
 ## v0.3.1+20241209204056 (Dec 09, 2024)
 
 This is an automated release with 2 new/updated/deleted resources.
