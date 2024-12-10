@@ -1,3 +1,97 @@
+## v0.3.1+20241210233930 (Dec 10, 2024)
+
+This is an automated release with 70 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12266429838
+
+
+### vendor
+
+- New: upcloud
+
+### vendor_compliance_link
+
+- New: upcloud/iso27001
+
+### region
+
+- New: upcloud/au-syd1
+- New: upcloud/de-fra1
+- New: upcloud/es-mad1
+- New: upcloud/fi-hel1
+- New: upcloud/fi-hel2
+- New: upcloud/nl-ams1
+- New: upcloud/pl-waw1
+- New: upcloud/se-sto1
+- New: upcloud/sg-sin1
+- New: upcloud/uk-lon1
+- New: upcloud/us-chi1
+- New: upcloud/us-nyc1
+- New: upcloud/us-sjo1
+
+### zone
+
+- New: upcloud/au-syd1/au-syd1
+- New: upcloud/de-fra1/de-fra1
+- New: upcloud/es-mad1/es-mad1
+- New: upcloud/fi-hel1/fi-hel1
+- New: upcloud/fi-hel2/fi-hel2
+- New: upcloud/nl-ams1/nl-ams1
+- New: upcloud/pl-waw1/pl-waw1
+- New: upcloud/se-sto1/se-sto1
+- New: upcloud/sg-sin1/sg-sin1
+- New: upcloud/uk-lon1/uk-lon1
+- New: upcloud/us-chi1/us-chi1
+- New: upcloud/us-nyc1/us-nyc1
+- New: upcloud/us-sjo1/us-sjo1
+
+### storage
+
+- New: upcloud/hdd
+- New: upcloud/standard
+- New: upcloud/maxiops
+
+### server
+
+- New: upcloud/1xCPU-1GB
+- New: upcloud/DEV-1xCPU-1GB
+- New: upcloud/1xCPU-2GB
+- New: upcloud/DEV-1xCPU-1GB-10GB
+- New: upcloud/DEV-1xCPU-2GB
+- New: upcloud/DEV-1xCPU-4GB
+- New: upcloud/DEV-2xCPU-4GB
+- New: upcloud/DEV-2xCPU-16GB
+- New: upcloud/2xCPU-2GB
+- New: upcloud/DEV-2xCPU-8GB
+- New: upcloud/2xCPU-4GB
+- New: upcloud/HIMEM-2xCPU-8GB
+- New: upcloud/HIMEM-2xCPU-16GB
+- New: upcloud/HIMEM-4xCPU-32GB
+- New: upcloud/HIMEM-4xCPU-64GB
+- New: upcloud/4xCPU-8GB
+- New: upcloud/6xCPU-16GB
+- New: upcloud/HIMEM-6xCPU-128GB
+- New: upcloud/HIMEM-8xCPU-192GB
+- New: upcloud/HICPU-8xCPU-16GB
+- New: upcloud/8xCPU-32GB
+- New: upcloud/HICPU-8xCPU-12GB
+- New: upcloud/HIMEM-12xCPU-256GB
+- New: upcloud/12xCPU-48GB
+- New: upcloud/HIMEM-16xCPU-384GB
+- New: upcloud/HICPU-16xCPU-32GB
+- New: upcloud/HICPU-16xCPU-24GB
+- New: upcloud/16xCPU-64GB
+- New: upcloud/HIMEM-24xCPU-512GB
+- New: upcloud/24xCPU-96GB
+- New: upcloud/HICPU-32xCPU-64GB
+- New: upcloud/32xCPU-128GB
+- New: upcloud/HICPU-32xCPU-48GB
+- New: upcloud/38xCPU-192GB
+- New: upcloud/48xCPU-256GB
+- New: upcloud/64xCPU-384GB
+- New: upcloud/HICPU-64xCPU-128GB
+- New: upcloud/HICPU-64xCPU-96GB
+- New: upcloud/80xCPU-512GB
+
 ## v0.3.1+20241210124810 (Dec 10, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
