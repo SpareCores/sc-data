@@ -1,3 +1,40 @@
+## v0.3.1+20241211094410 (Dec 11, 2024)
+
+This is an automated release with 28 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12273099849
+
+
+### server
+
+- New: upcloud/CLOUDNATIVE-1xCPU-4GB
+- New: upcloud/CLOUDNATIVE-1xCPU-8GB
+- New: upcloud/CLOUDNATIVE-2xCPU-16GB
+- New: upcloud/CLOUDNATIVE-2xCPU-8GB
+- New: upcloud/CLOUDNATIVE-2xCPU-4GB
+- New: upcloud/CLOUDNATIVE-4xCPU-16GB
+- New: upcloud/CLOUDNATIVE-4xCPU-32GB
+- New: upcloud/CLOUDNATIVE-4xCPU-64GB
+- New: upcloud/CLOUDNATIVE-8xCPU-16GB
+- New: upcloud/CLOUDNATIVE-8xCPU-128GB
+- New: upcloud/CLOUDNATIVE-8xCPU-32GB
+- New: upcloud/CLOUDNATIVE-16xCPU-192GB
+- New: upcloud/CLOUDNATIVE-16xCPU-128GB
+- New: upcloud/CLOUDNATIVE-16xCPU-32GB
+- New: upcloud/CLOUDNATIVE-16xCPU-64GB
+- New: upcloud/CLOUDNATIVE-24xCPU-256GB
+- New: upcloud/CLOUDNATIVE-32xCPU-384GB
+- New: upcloud/CLOUDNATIVE-32xCPU-128GB
+- New: upcloud/CLOUDNATIVE-32xCPU-192GB
+- New: upcloud/CLOUDNATIVE-32xCPU-64GB
+- New: upcloud/CLOUDNATIVE-32xCPU-256GB
+- New: upcloud/CLOUDNATIVE-48xCPU-512GB
+- New: upcloud/CLOUDNATIVE-48xCPU-384GB
+- New: upcloud/CLOUDNATIVE-64xCPU-384GB
+- New: upcloud/CLOUDNATIVE-64xCPU-192GB
+- New: upcloud/CLOUDNATIVE-64xCPU-512GB
+- New: upcloud/CLOUDNATIVE-64xCPU-256GB
+- New: upcloud/CLOUDNATIVE-80xCPU-512GB
+
 ## v0.3.1+20241210233930 (Dec 10, 2024)
 
 This is an automated release with 70 new/updated/deleted resources.
