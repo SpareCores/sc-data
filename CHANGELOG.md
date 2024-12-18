@@ -1,3 +1,20 @@
+## v0.3.1+20241218234108 (Dec 18, 2024)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12402870892
+
+
+### server
+
+- Update: upcloud/1xCPU-1GB
+- Update: upcloud/1xCPU-2GB
+- Update: upcloud/CLOUDNATIVE-1xCPU-4GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-4GB
+- Update: upcloud/DEV-1xCPU-1GB
+- Update: upcloud/DEV-1xCPU-1GB-10GB
+- Update: upcloud/DEV-1xCPU-2GB
+- Update: upcloud/DEV-1xCPU-4GB
+
 ## v0.3.1+20241212104357 (Dec 12, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
