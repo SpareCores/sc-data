@@ -1,3 +1,42 @@
+## v0.3.1+20241219012722 (Dec 19, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12403953992
+
+
+### server
+
+- Update: upcloud/12xCPU-48GB
+- Update: upcloud/16xCPU-64GB
+- Update: upcloud/2xCPU-2GB
+- Update: upcloud/2xCPU-4GB
+- Update: upcloud/4xCPU-8GB
+- Update: upcloud/6xCPU-16GB
+- Update: upcloud/8xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-1xCPU-8GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-8GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-32GB
+- Update: upcloud/DEV-2xCPU-16GB
+- Update: upcloud/DEV-2xCPU-4GB
+- Update: upcloud/DEV-2xCPU-8GB
+- Update: upcloud/HICPU-16xCPU-24GB
+- Update: upcloud/HICPU-16xCPU-32GB
+- Update: upcloud/HICPU-8xCPU-16GB
+- Update: upcloud/HIMEM-2xCPU-16GB
+- Update: upcloud/HIMEM-2xCPU-8GB
+- Update: upcloud/HIMEM-4xCPU-32GB
+- Update: upcloud/HIMEM-4xCPU-64GB
+
 ## v0.3.1+20241218234108 (Dec 18, 2024)
 
 This is an automated release with 8 new/updated/deleted resources.
