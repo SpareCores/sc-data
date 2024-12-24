@@ -1,3 +1,13 @@
+## v0.3.1+20241224134908 (Dec 24, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12482190353
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
 ## v0.3.1+20241224114200 (Dec 24, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
