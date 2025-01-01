@@ -1,3 +1,13 @@
+## v0.3.1+20250101055046 (Jan 01, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12567444567
+
+
+### server
+
+- Update: aws/x1.16xlarge
+
 ## v0.3.1+20250101040308 (Jan 01, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
