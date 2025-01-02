@@ -1,3 +1,22 @@
+## v0.3.1+20250102184410 (Jan 02, 2025)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12586780375
+
+
+### server
+
+- Update: gcp/10040
+- Update: gcp/10080
+- Update: gcp/10160
+- Update: gcp/1720367
+- Update: gcp/1720368
+- Update: gcp/806096
+- Update: gcp/806097
+- Update: gcp/9096
+- Update: azure/Standard_DC8_v2
+- Update: aws/x1e.16xlarge
+
 ## v0.3.1+20250101234941 (Jan 01, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
