@@ -1,3 +1,14 @@
+## v0.3.1+20250107114821 (Jan 07, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12650350250
+
+
+### server
+
+- Update: azure/Standard_M128-64bds_3_v3
+- Update: azure/Standard_M176-88bds_4_v3
+
 ## v0.3.1+20250107024639 (Jan 07, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
