@@ -1,3 +1,13 @@
+## v0.3.1+20250114054458 (Jan 14, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12761493360
+
+
+### server
+
+- Update: azure/Standard_ND96isr_H200_v5
+
 ## v0.3.1+20250110113949 (Jan 10, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
