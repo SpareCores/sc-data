@@ -1,3 +1,15 @@
+## v0.3.1+20250116174845 (Jan 16, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12813961169
+
+
+### server
+
+- New: aws/m7i-flex.16xlarge
+- New: aws/m7i-flex.12xlarge
+- New: aws/c7i-flex.16xlarge
+
 ## v0.3.1+20250116165328 (Jan 16, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
