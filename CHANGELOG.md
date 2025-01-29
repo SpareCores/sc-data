@@ -1,3 +1,81 @@
+## v0.3.1+20250129215119 (Jan 29, 2025)
+
+This is an automated release with 69 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13040445811
+
+
+### server
+
+- Update: gcp/1000012
+- Update: gcp/1000024
+- Update: gcp/1000048
+- Update: gcp/1000096
+- Update: gcp/1001096
+- Update: gcp/1020012
+- Update: gcp/1020024
+- Update: gcp/1020048
+- Update: gcp/1020096
+- Update: gcp/1600004
+- Update: gcp/1600008
+- Update: gcp/1600012
+- Update: gcp/1600016
+- Update: gcp/1600024
+- Update: gcp/1600032
+- Update: gcp/1600048
+- Update: gcp/1600096
+- Update: gcp/1720361
+- Update: gcp/1720362
+- Update: gcp/1720363
+- Update: gcp/1720364
+- Update: gcp/1720366
+- Update: gcp/1720367
+- Update: gcp/1720368
+- Update: aws/g3.16xlarge
+- Update: aws/g3.4xlarge
+- Update: aws/g3.8xlarge
+- Update: aws/g3s.xlarge
+- Update: aws/g4dn.12xlarge
+- Update: aws/g4dn.16xlarge
+- Update: aws/g4dn.2xlarge
+- Update: aws/g4dn.4xlarge
+- Update: aws/g4dn.8xlarge
+- Update: aws/g4dn.metal
+- Update: aws/g4dn.xlarge
+- Update: aws/g5.12xlarge
+- Update: aws/g5.16xlarge
+- Update: aws/g5.24xlarge
+- Update: aws/g5.2xlarge
+- Update: aws/g5.48xlarge
+- Update: aws/g5.4xlarge
+- Update: aws/g5.8xlarge
+- Update: aws/g5g.16xlarge
+- Update: aws/g5g.2xlarge
+- Update: aws/g5g.4xlarge
+- Update: aws/g5g.8xlarge
+- Update: aws/g5g.xlarge
+- Update: aws/g5.xlarge
+- Update: aws/g6.12xlarge
+- Update: aws/g6.16xlarge
+- Update: aws/g6.24xlarge
+- Update: aws/g6.2xlarge
+- Update: aws/g6.48xlarge
+- Update: aws/g6.4xlarge
+- Update: aws/g6.8xlarge
+- Update: aws/g6e.12xlarge
+- Update: aws/g6e.16xlarge
+- Update: aws/g6e.24xlarge
+- Update: aws/g6e.2xlarge
+- Update: aws/g6e.48xlarge
+- Update: aws/g6e.4xlarge
+- Update: aws/g6e.8xlarge
+- Update: aws/g6e.xlarge
+- Update: aws/g6.xlarge
+- Update: aws/gr6.4xlarge
+- Update: aws/gr6.8xlarge
+- Update: azure/Standard_NC24ads_A100_v4
+- Update: azure/Standard_NC48ads_A100_v4
+- Update: azure/Standard_NC96ads_A100_v4
+
 ## v0.3.1+20250117115143 (Jan 17, 2025)
 
 This is an automated release with 2 new/updated/deleted resources.
