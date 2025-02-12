@@ -1,3 +1,14 @@
+## v0.3.1+20250212105347 (Feb 12, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13282897758
+
+
+### server
+
+- Update: azure/Standard_E8-2s_v6
+- Update: azure/Standard_E8-4s_v6
+
 ## v0.3.1+20250212095419 (Feb 12, 2025)
 
 This is an automated release with 9 new/updated/deleted resources.
