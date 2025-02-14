@@ -1,3 +1,16 @@
+## v0.3.1+20250214024643 (Feb 14, 2025)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13321025498
+
+
+### server
+
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+
 ## v0.3.1+20250213235058 (Feb 13, 2025)
 
 This is an automated release with 3 new/updated/deleted resources.
