@@ -1,3 +1,13 @@
+## v0.3.1+20250228125911 (Feb 28, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13587925487
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-4xCPU-8GB
+
 ## v0.3.1+20250228114600 (Feb 28, 2025)
 
 This is an automated release with 15 new/updated/deleted resources.
