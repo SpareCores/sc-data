@@ -1,3 +1,3050 @@
+## v0.3.1+20250301125909 (Mar 01, 2025)
+
+This is an automated release with 15 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13604643953
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-12xCPU-24GB
+- Update: upcloud/CLOUDNATIVE-12xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-48GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-96GB
+- Update: upcloud/CLOUDNATIVE-20xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-20xCPU-96GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-24GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-48GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-8GB
+- Update: upcloud/CLOUDNATIVE-6xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-6xCPU-24GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-24GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-48GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-96GB
+
+## v0.3.1+20250228184720 (Feb 28, 2025)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13593960849
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-16xCPU-96GB
+- Update: upcloud/CLOUDNATIVE-20xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-20xCPU-96GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-96GB
+
+## v0.3.1+20250228165722 (Feb 28, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13592006747
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-16xCPU-48GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-48GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-64GB
+
+## v0.3.1+20250228154244 (Feb 28, 2025)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13590898020
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-12xCPU-24GB
+- Update: upcloud/CLOUDNATIVE-12xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-48GB
+- Update: upcloud/CLOUDNATIVE-6xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-6xCPU-24GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-24GB
+
+## v0.3.1+20250228135004 (Feb 28, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13588953091
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-4xCPU-24GB
+
+## v0.3.1+20250228125911 (Feb 28, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13587925487
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-4xCPU-8GB
+
+## v0.3.1+20250228114600 (Feb 28, 2025)
+
+This is an automated release with 15 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13586863433
+
+
+### server
+
+- New: upcloud/CLOUDNATIVE-4xCPU-24GB
+- New: upcloud/CLOUDNATIVE-4xCPU-48GB
+- New: upcloud/CLOUDNATIVE-4xCPU-8GB
+- New: upcloud/CLOUDNATIVE-6xCPU-24GB
+- New: upcloud/CLOUDNATIVE-6xCPU-16GB
+- New: upcloud/CLOUDNATIVE-8xCPU-64GB
+- New: upcloud/CLOUDNATIVE-8xCPU-48GB
+- New: upcloud/CLOUDNATIVE-8xCPU-96GB
+- New: upcloud/CLOUDNATIVE-8xCPU-24GB
+- New: upcloud/CLOUDNATIVE-12xCPU-24GB
+- New: upcloud/CLOUDNATIVE-12xCPU-32GB
+- New: upcloud/CLOUDNATIVE-16xCPU-48GB
+- New: upcloud/CLOUDNATIVE-16xCPU-96GB
+- New: upcloud/CLOUDNATIVE-20xCPU-96GB
+- New: upcloud/CLOUDNATIVE-20xCPU-64GB
+
+## v0.3.1+20250221130331 (Feb 21, 2025)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13456580123
+
+
+### region
+
+- New: gcp/1650
+
+### zone
+
+- New: gcp/1650/2651
+- New: gcp/1650/2652
+- New: gcp/1650/2650
+
+### server
+
+- Update: aws/p5en.48xlarge
+
+## v0.3.1+20250220012017 (Feb 20, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13425295747
+
+
+### server
+
+- Update: aws/p5en.48xlarge
+
+## v0.3.1+20250219234921 (Feb 19, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13424112619
+
+
+### server
+
+- Update: aws/p5en.48xlarge
+
+## v0.3.1+20250214024643 (Feb 14, 2025)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13321025498
+
+
+### server
+
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6s_v2
+
+## v0.3.1+20250213235058 (Feb 13, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13318827723
+
+
+### server
+
+- Update: azure/Standard_NV12
+- Update: azure/Standard_NV24
+- Update: azure/Standard_NV6
+
+## v0.3.1+20250213214919 (Feb 13, 2025)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13317087145
+
+
+### server
+
+- Update: azure/Standard_NC12
+- Update: azure/Standard_NC24
+- Update: azure/Standard_NC24r
+- Update: azure/Standard_NC6
+
+## v0.3.1+20250213035250 (Feb 13, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13299636616
+
+
+### server
+
+- New: azure/Standard_D96ds_v6
+
+## v0.3.1+20250212125348 (Feb 12, 2025)
+
+This is an automated release with 17 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13285122622
+
+
+### server
+
+- Update: azure/Standard_D2ds_v6
+- Update: azure/Standard_D2lds_v6
+- Update: azure/Standard_D2s_v6
+- Update: azure/Standard_D4ds_v6
+- Update: azure/Standard_D4lds_v6
+- Update: azure/Standard_D4s_v6
+- Update: azure/Standard_D8ds_v6
+- Update: azure/Standard_D8lds_v6
+- Update: azure/Standard_D8s_v6
+- Update: azure/Standard_E2s_v6
+- Update: azure/Standard_E4-2s_v6
+- Update: azure/Standard_E4s_v6
+- Update: azure/Standard_E8-2s_v6
+- Update: azure/Standard_E8-4ds_v6
+- Update: azure/Standard_E8-4s_v6
+- Update: azure/Standard_E8ds_v6
+- Update: azure/Standard_E8s_v6
+
+## v0.3.1+20250212105347 (Feb 12, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13282897758
+
+
+### server
+
+- Update: azure/Standard_E8-2s_v6
+- Update: azure/Standard_E8-4s_v6
+
+## v0.3.1+20250212095419 (Feb 12, 2025)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13281797107
+
+
+### server
+
+- New: azure/Standard_E32-16s_v6
+- New: azure/Standard_E32s_v6
+- New: azure/Standard_E48s_v6
+- New: azure/Standard_E64-16s_v6
+- New: azure/Standard_E64-32s_v6
+- New: azure/Standard_E64s_v6
+- New: azure/Standard_E96-24s_v6
+- New: azure/Standard_E96-48s_v6
+- Update: azure/Standard_E8s_v6
+
+## v0.3.1+20250212085144 (Feb 12, 2025)
+
+This is an automated release with 12 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13280836915
+
+
+### server
+
+- New: azure/Standard_E16-4s_v6
+- New: azure/Standard_E16-8s_v6
+- New: azure/Standard_E16s_v6
+- New: azure/Standard_E20s_v6
+- New: azure/Standard_E32-8s_v6
+- New: azure/Standard_E8-2s_v6
+- New: azure/Standard_E8-4s_v6
+- New: azure/Standard_E8s_v6
+- Update: azure/Standard_D2ds_v6
+- Update: azure/Standard_E2s_v6
+- Update: azure/Standard_E4-2s_v6
+- Update: azure/Standard_E4s_v6
+
+## v0.3.1+20250212065442 (Feb 12, 2025)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13279234545
+
+
+### server
+
+- New: azure/Standard_D2ds_v6
+- New: azure/Standard_E2s_v6
+- New: azure/Standard_E4-2s_v6
+- New: azure/Standard_E4s_v6
+
+## v0.3.1+20250212055303 (Feb 12, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13278508695
+
+
+### server
+
+- Update: azure/Standard_D4ds_v6
+
+## v0.3.1+20250212045538 (Feb 12, 2025)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13277889110
+
+
+### server
+
+- New: azure/Standard_D32ds_v6
+- New: azure/Standard_D48ds_v6
+- New: azure/Standard_D4ds_v6
+- Update: azure/Standard_D8ds_v6
+
+## v0.3.1+20250212035845 (Feb 12, 2025)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13277260725
+
+
+### server
+
+- New: azure/Standard_D128ds_v6
+- New: azure/Standard_D16ds_v6
+- New: azure/Standard_D192ds_v6
+- New: azure/Standard_D64ds_v6
+- New: azure/Standard_D8ds_v6
+- Update: azure/Standard_D8s_v6
+
+## v0.3.1+20250212025451 (Feb 12, 2025)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13276512819
+
+
+### server
+
+- New: azure/Standard_D128s_v6
+- New: azure/Standard_D48s_v6
+- New: azure/Standard_D64s_v6
+- New: azure/Standard_D96s_v6
+
+## v0.3.1+20250212012538 (Feb 12, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13275437950
+
+
+### server
+
+- New: azure/Standard_D128lds_v6
+- New: azure/Standard_D16lds_v6
+- New: azure/Standard_D32lds_v6
+- New: azure/Standard_D64lds_v6
+- New: azure/Standard_D8s_v6
+- Update: azure/Standard_D4lds_v6
+- Update: azure/Standard_D8lds_v6
+
+## v0.3.1+20250211234244 (Feb 11, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13274284213
+
+
+### server
+
+- Update: azure/Standard_D2lds_v6
+
+## v0.3.1+20250211224621 (Feb 11, 2025)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13273448082
+
+
+### server
+
+- New: azure/Standard_D2lds_v6
+- New: azure/Standard_D4lds_v6
+- New: azure/Standard_D8lds_v6
+- New: azure/Standard_E64ds_v6
+- New: azure/Standard_E96s_v6
+
+## v0.3.1+20250211214921 (Feb 11, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13272518906
+
+
+### server
+
+- New: azure/Standard_E32ds_v6
+- New: azure/Standard_E48ds_v6
+- New: azure/Standard_E64-32ds_v6
+
+## v0.3.1+20250211205014 (Feb 11, 2025)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13271601147
+
+
+### server
+
+- New: azure/Standard_E16-4ds_v6
+- New: azure/Standard_E16-8ds_v6
+- New: azure/Standard_E20ds_v6
+- New: azure/Standard_E32-16ds_v6
+
+## v0.3.1+20250211184946 (Feb 11, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13269579411
+
+
+### server
+
+- New: azure/Standard_D32s_v6
+
+## v0.3.1+20250211140047 (Feb 11, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13263809889
+
+
+### server
+
+- Update: azure/Standard_D2s_v6
+- Update: azure/Standard_D4s_v6
+
+## v0.3.1+20250211130043 (Feb 11, 2025)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13262676383
+
+
+### server
+
+- New: azure/Standard_D16s_v6
+- New: azure/Standard_D2s_v6
+- New: azure/Standard_D48lds_v6
+- New: azure/Standard_D4s_v6
+- New: azure/Standard_D96lds_v6
+
+## v0.3.1+20250211114440 (Feb 11, 2025)
+
+This is an automated release with 14 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13261500103
+
+
+### server
+
+- New: azure/Standard_E32-8ds_v6
+- New: azure/Standard_E64-16ds_v6
+- New: azure/Standard_E96-24ds_v6
+- New: azure/Standard_E96-48ds_v6
+- New: azure/Standard_E96ds_v6
+- Update: azure/Standard_D2ls_v6
+- Update: azure/Standard_D4ls_v6
+- Update: azure/Standard_D8ls_v6
+- Update: azure/Standard_E2ds_v6
+- Update: azure/Standard_E4-2ds_v6
+- Update: azure/Standard_E4ds_v6
+- Update: azure/Standard_E8-2ds_v6
+- Update: azure/Standard_E8-4ds_v6
+- Update: azure/Standard_E8ds_v6
+
+## v0.3.1+20250211095937 (Feb 11, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13259369218
+
+
+### server
+
+- New: azure/Standard_E16ds_v6
+- New: azure/Standard_E8-4ds_v6
+- New: azure/Standard_E8ds_v6
+
+## v0.3.1+20250211074637 (Feb 11, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13257612076
+
+
+### server
+
+- Update: azure/Standard_E2ds_v6
+
+## v0.3.1+20250211064620 (Feb 11, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13256943902
+
+
+### server
+
+- New: azure/Standard_E2ds_v6
+
+## v0.3.1+20250211054259 (Feb 11, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13256267383
+
+
+### server
+
+- Update: azure/Standard_E4ds_v6
+- Update: azure/Standard_E8-2ds_v6
+
+## v0.3.1+20250211044624 (Feb 11, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13255691305
+
+
+### server
+
+- Update: azure/Standard_E4-2ds_v6
+
+## v0.3.1+20250211034956 (Feb 11, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13255121350
+
+
+### server
+
+- New: azure/Standard_E4-2ds_v6
+- New: azure/Standard_E4ds_v6
+- New: azure/Standard_E8-2ds_v6
+
+## v0.3.1+20250210224613 (Feb 10, 2025)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13251394079
+
+
+### server
+
+- New: azure/Standard_D128ls_v6
+- New: azure/Standard_D16ls_v6
+- New: azure/Standard_D48ls_v6
+- New: azure/Standard_D64ls_v6
+- New: azure/Standard_D96ls_v6
+
+## v0.3.1+20250210204640 (Feb 10, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13249501386
+
+
+### server
+
+- Update: azure/Standard_D8ls_v6
+
+## v0.3.1+20250210194623 (Feb 10, 2025)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13248485668
+
+
+### server
+
+- New: azure/Standard_D32ls_v6
+- New: azure/Standard_D8ls_v6
+- Update: azure/Standard_D2ls_v6
+- Update: azure/Standard_D4ls_v6
+
+## v0.3.1+20250210184845 (Feb 10, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13247518833
+
+
+### server
+
+- New: azure/Standard_D2ls_v6
+- New: azure/Standard_D4ls_v6
+
+## v0.3.1+20250210125357 (Feb 10, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13240612805
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-4xCPU-64GB
+
+## v0.3.1+20250207210048 (Feb 07, 2025)
+
+This is an automated release with 0 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13207769079
+
+
+## v0.3.1+20250207164942 (Feb 07, 2025)
+
+This is an automated release with 28 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13203607928
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-16xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-1xCPU-4GB
+- Update: upcloud/CLOUDNATIVE-1xCPU-8GB
+- Update: upcloud/CLOUDNATIVE-24xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-4GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-8GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-384GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-48xCPU-384GB
+- Update: upcloud/CLOUDNATIVE-48xCPU-512GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-384GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-512GB
+- Update: upcloud/CLOUDNATIVE-80xCPU-512GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-32GB
+
+## v0.3.1+20250207135149 (Feb 07, 2025)
+
+This is an automated release with 394 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13200598366
+
+
+### server
+
+- Update: upcloud/12xCPU-48GB
+- Update: upcloud/16xCPU-64GB
+- Update: upcloud/1xCPU-1GB
+- Update: upcloud/1xCPU-2GB
+- Update: upcloud/24xCPU-96GB
+- Update: upcloud/2xCPU-2GB
+- Update: upcloud/2xCPU-4GB
+- Update: upcloud/32xCPU-128GB
+- Update: upcloud/38xCPU-192GB
+- Update: upcloud/48xCPU-256GB
+- Update: upcloud/4xCPU-8GB
+- Update: upcloud/64xCPU-384GB
+- Update: upcloud/6xCPU-16GB
+- Update: upcloud/80xCPU-512GB
+- Update: upcloud/8xCPU-32GB
+- Update: aws/a1.2xlarge
+- Update: aws/a1.4xlarge
+- Update: aws/a1.large
+- Update: aws/a1.medium
+- Update: aws/a1.xlarge
+- Update: aws/c6g.12xlarge
+- Update: aws/c6g.16xlarge
+- Update: aws/c6g.2xlarge
+- Update: aws/c6g.4xlarge
+- Update: aws/c6g.8xlarge
+- Update: aws/c6gd.12xlarge
+- Update: aws/c6gd.16xlarge
+- Update: aws/c6gd.2xlarge
+- Update: aws/c6gd.4xlarge
+- Update: aws/c6gd.8xlarge
+- Update: aws/c6gd.large
+- Update: aws/c6gd.medium
+- Update: aws/c6gd.metal
+- Update: aws/c6gd.xlarge
+- Update: aws/c6g.large
+- Update: aws/c6g.medium
+- Update: aws/c6g.metal
+- Update: aws/c6gn.12xlarge
+- Update: aws/c6gn.16xlarge
+- Update: aws/c6gn.2xlarge
+- Update: aws/c6gn.4xlarge
+- Update: aws/c6gn.8xlarge
+- Update: aws/c6gn.large
+- Update: aws/c6gn.medium
+- Update: aws/c6gn.xlarge
+- Update: aws/c6g.xlarge
+- Update: aws/c7g.12xlarge
+- Update: aws/c7g.16xlarge
+- Update: aws/c7g.2xlarge
+- Update: aws/c7g.4xlarge
+- Update: aws/c7g.8xlarge
+- Update: aws/c7gd.12xlarge
+- Update: aws/c7gd.16xlarge
+- Update: aws/c7gd.2xlarge
+- Update: aws/c7gd.4xlarge
+- Update: aws/c7gd.8xlarge
+- Update: aws/c7gd.large
+- Update: aws/c7gd.medium
+- Update: aws/c7gd.metal
+- Update: aws/c7gd.xlarge
+- Update: aws/c7g.large
+- Update: aws/c7g.medium
+- Update: aws/c7g.metal
+- Update: aws/c7gn.12xlarge
+- Update: aws/c7gn.16xlarge
+- Update: aws/c7gn.2xlarge
+- Update: aws/c7gn.4xlarge
+- Update: aws/c7gn.8xlarge
+- Update: aws/c7gn.large
+- Update: aws/c7gn.medium
+- Update: aws/c7gn.metal
+- Update: aws/c7gn.xlarge
+- Update: aws/c7g.xlarge
+- Update: aws/c8g.12xlarge
+- Update: aws/c8g.16xlarge
+- Update: aws/c8g.24xlarge
+- Update: aws/c8g.2xlarge
+- Update: aws/c8g.48xlarge
+- Update: aws/c8g.4xlarge
+- Update: aws/c8g.8xlarge
+- Update: aws/c8g.large
+- Update: aws/c8g.medium
+- Update: aws/c8g.metal-24xl
+- Update: aws/c8g.metal-48xl
+- Update: aws/c8g.xlarge
+- Update: upcloud/CLOUDNATIVE-16xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-1xCPU-4GB
+- Update: upcloud/CLOUDNATIVE-1xCPU-8GB
+- Update: upcloud/CLOUDNATIVE-24xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-4GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-8GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-384GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-48xCPU-384GB
+- Update: upcloud/CLOUDNATIVE-48xCPU-512GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-384GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-512GB
+- Update: upcloud/CLOUDNATIVE-80xCPU-512GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-32GB
+- Update: upcloud/DEV-1xCPU-1GB
+- Update: upcloud/DEV-1xCPU-1GB-10GB
+- Update: upcloud/DEV-1xCPU-2GB
+- Update: upcloud/DEV-1xCPU-4GB
+- Update: upcloud/DEV-2xCPU-16GB
+- Update: upcloud/DEV-2xCPU-4GB
+- Update: upcloud/DEV-2xCPU-8GB
+- Update: aws/g5g.16xlarge
+- Update: aws/g5g.2xlarge
+- Update: aws/g5g.4xlarge
+- Update: aws/g5g.8xlarge
+- Update: aws/g5g.metal
+- Update: aws/g5g.xlarge
+- Update: upcloud/HICPU-16xCPU-24GB
+- Update: upcloud/HICPU-16xCPU-32GB
+- Update: upcloud/HICPU-32xCPU-48GB
+- Update: upcloud/HICPU-32xCPU-64GB
+- Update: upcloud/HICPU-64xCPU-128GB
+- Update: upcloud/HICPU-64xCPU-96GB
+- Update: upcloud/HICPU-8xCPU-12GB
+- Update: upcloud/HICPU-8xCPU-16GB
+- Update: upcloud/HIMEM-12xCPU-256GB
+- Update: upcloud/HIMEM-16xCPU-384GB
+- Update: upcloud/HIMEM-24xCPU-512GB
+- Update: upcloud/HIMEM-2xCPU-16GB
+- Update: upcloud/HIMEM-2xCPU-8GB
+- Update: upcloud/HIMEM-4xCPU-32GB
+- Update: upcloud/HIMEM-4xCPU-64GB
+- Update: upcloud/HIMEM-6xCPU-128GB
+- Update: upcloud/HIMEM-8xCPU-192GB
+- Update: aws/hpc7g.16xlarge
+- Update: aws/hpc7g.4xlarge
+- Update: aws/hpc7g.8xlarge
+- Update: aws/i4g.16xlarge
+- Update: aws/i4g.2xlarge
+- Update: aws/i4g.4xlarge
+- Update: aws/i4g.8xlarge
+- Update: aws/i4g.large
+- Update: aws/i4g.xlarge
+- Update: aws/i8g.12xlarge
+- Update: aws/i8g.16xlarge
+- Update: aws/i8g.24xlarge
+- Update: aws/i8g.2xlarge
+- Update: aws/i8g.4xlarge
+- Update: aws/i8g.8xlarge
+- Update: aws/i8g.large
+- Update: aws/i8g.metal-24xl
+- Update: aws/i8g.xlarge
+- Update: aws/im4gn.16xlarge
+- Update: aws/im4gn.2xlarge
+- Update: aws/im4gn.4xlarge
+- Update: aws/im4gn.8xlarge
+- Update: aws/im4gn.large
+- Update: aws/im4gn.xlarge
+- Update: aws/is4gen.2xlarge
+- Update: aws/is4gen.4xlarge
+- Update: aws/is4gen.8xlarge
+- Update: aws/is4gen.large
+- Update: aws/is4gen.medium
+- Update: aws/is4gen.xlarge
+- Update: aws/m6g.12xlarge
+- Update: aws/m6g.16xlarge
+- Update: aws/m6g.2xlarge
+- Update: aws/m6g.4xlarge
+- Update: aws/m6g.8xlarge
+- Update: aws/m6gd.12xlarge
+- Update: aws/m6gd.16xlarge
+- Update: aws/m6gd.2xlarge
+- Update: aws/m6gd.4xlarge
+- Update: aws/m6gd.8xlarge
+- Update: aws/m6gd.large
+- Update: aws/m6gd.medium
+- Update: aws/m6gd.metal
+- Update: aws/m6gd.xlarge
+- Update: aws/m6g.large
+- Update: aws/m6g.medium
+- Update: aws/m6g.metal
+- Update: aws/m6g.xlarge
+- Update: aws/m7g.12xlarge
+- Update: aws/m7g.16xlarge
+- Update: aws/m7g.2xlarge
+- Update: aws/m7g.4xlarge
+- Update: aws/m7g.8xlarge
+- Update: aws/m7gd.12xlarge
+- Update: aws/m7gd.16xlarge
+- Update: aws/m7gd.2xlarge
+- Update: aws/m7gd.4xlarge
+- Update: aws/m7gd.8xlarge
+- Update: aws/m7gd.large
+- Update: aws/m7gd.medium
+- Update: aws/m7gd.metal
+- Update: aws/m7gd.xlarge
+- Update: aws/m7g.large
+- Update: aws/m7g.medium
+- Update: aws/m7g.metal
+- Update: aws/m7g.xlarge
+- Update: aws/m8g.12xlarge
+- Update: aws/m8g.16xlarge
+- Update: aws/m8g.24xlarge
+- Update: aws/m8g.2xlarge
+- Update: aws/m8g.48xlarge
+- Update: aws/m8g.4xlarge
+- Update: aws/m8g.8xlarge
+- Update: aws/m8g.large
+- Update: aws/m8g.medium
+- Update: aws/m8g.metal-24xl
+- Update: aws/m8g.metal-48xl
+- Update: aws/m8g.xlarge
+- Update: aws/r6g.12xlarge
+- Update: aws/r6g.16xlarge
+- Update: aws/r6g.2xlarge
+- Update: aws/r6g.4xlarge
+- Update: aws/r6g.8xlarge
+- Update: aws/r6gd.12xlarge
+- Update: aws/r6gd.16xlarge
+- Update: aws/r6gd.2xlarge
+- Update: aws/r6gd.4xlarge
+- Update: aws/r6gd.8xlarge
+- Update: aws/r6gd.large
+- Update: aws/r6gd.medium
+- Update: aws/r6gd.metal
+- Update: aws/r6gd.xlarge
+- Update: aws/r6g.large
+- Update: aws/r6g.medium
+- Update: aws/r6g.metal
+- Update: aws/r6g.xlarge
+- Update: aws/r7g.12xlarge
+- Update: aws/r7g.16xlarge
+- Update: aws/r7g.2xlarge
+- Update: aws/r7g.4xlarge
+- Update: aws/r7g.8xlarge
+- Update: aws/r7gd.12xlarge
+- Update: aws/r7gd.16xlarge
+- Update: aws/r7gd.2xlarge
+- Update: aws/r7gd.4xlarge
+- Update: aws/r7gd.8xlarge
+- Update: aws/r7gd.large
+- Update: aws/r7gd.medium
+- Update: aws/r7gd.metal
+- Update: aws/r7gd.xlarge
+- Update: aws/r7g.large
+- Update: aws/r7g.medium
+- Update: aws/r7g.metal
+- Update: aws/r7g.xlarge
+- Update: aws/r8g.12xlarge
+- Update: aws/r8g.16xlarge
+- Update: aws/r8g.24xlarge
+- Update: aws/r8g.2xlarge
+- Update: aws/r8g.48xlarge
+- Update: aws/r8g.4xlarge
+- Update: aws/r8g.8xlarge
+- Update: aws/r8g.large
+- Update: aws/r8g.medium
+- Update: aws/r8g.metal-24xl
+- Update: aws/r8g.metal-48xl
+- Update: aws/r8g.xlarge
+- Update: azure/Standard_B16pls_v2
+- Update: azure/Standard_B16ps_v2
+- Update: azure/Standard_B2pls_v2
+- Update: azure/Standard_B2ps_v2
+- Update: azure/Standard_B2pts_v2
+- Update: azure/Standard_B4pls_v2
+- Update: azure/Standard_B4ps_v2
+- Update: azure/Standard_B8pls_v2
+- Update: azure/Standard_B8ps_v2
+- Update: azure/Standard_D16pds_v5
+- Update: azure/Standard_D16pds_v6
+- Update: azure/Standard_D16plds_v5
+- Update: azure/Standard_D16plds_v6
+- Update: azure/Standard_D16pls_v5
+- Update: azure/Standard_D16pls_v6
+- Update: azure/Standard_D16ps_v5
+- Update: azure/Standard_D16ps_v6
+- Update: azure/Standard_D2pds_v5
+- Update: azure/Standard_D2pds_v6
+- Update: azure/Standard_D2plds_v5
+- Update: azure/Standard_D2plds_v6
+- Update: azure/Standard_D2pls_v5
+- Update: azure/Standard_D2pls_v6
+- Update: azure/Standard_D2ps_v5
+- Update: azure/Standard_D2ps_v6
+- Update: azure/Standard_D32pds_v5
+- Update: azure/Standard_D32pds_v6
+- Update: azure/Standard_D32plds_v5
+- Update: azure/Standard_D32plds_v6
+- Update: azure/Standard_D32pls_v5
+- Update: azure/Standard_D32pls_v6
+- Update: azure/Standard_D32ps_v5
+- Update: azure/Standard_D32ps_v6
+- Update: azure/Standard_D48pds_v5
+- Update: azure/Standard_D48pds_v6
+- Update: azure/Standard_D48plds_v5
+- Update: azure/Standard_D48plds_v6
+- Update: azure/Standard_D48pls_v5
+- Update: azure/Standard_D48pls_v6
+- Update: azure/Standard_D48ps_v5
+- Update: azure/Standard_D48ps_v6
+- Update: azure/Standard_D4pds_v5
+- Update: azure/Standard_D4pds_v6
+- Update: azure/Standard_D4plds_v5
+- Update: azure/Standard_D4plds_v6
+- Update: azure/Standard_D4pls_v5
+- Update: azure/Standard_D4pls_v6
+- Update: azure/Standard_D4ps_v5
+- Update: azure/Standard_D4ps_v6
+- Update: azure/Standard_D64pds_v5
+- Update: azure/Standard_D64pds_v6
+- Update: azure/Standard_D64plds_v5
+- Update: azure/Standard_D64plds_v6
+- Update: azure/Standard_D64pls_v5
+- Update: azure/Standard_D64pls_v6
+- Update: azure/Standard_D64ps_v5
+- Update: azure/Standard_D64ps_v6
+- Update: azure/Standard_D8pds_v5
+- Update: azure/Standard_D8pds_v6
+- Update: azure/Standard_D8plds_v5
+- Update: azure/Standard_D8plds_v6
+- Update: azure/Standard_D8pls_v5
+- Update: azure/Standard_D8pls_v6
+- Update: azure/Standard_D8ps_v5
+- Update: azure/Standard_D8ps_v6
+- Update: azure/Standard_D96pds_v6
+- Update: azure/Standard_D96plds_v6
+- Update: azure/Standard_D96pls_v6
+- Update: azure/Standard_D96ps_v6
+- Update: azure/Standard_E16pds_v5
+- Update: azure/Standard_E16pds_v6
+- Update: azure/Standard_E16ps_v5
+- Update: azure/Standard_E16ps_v6
+- Update: azure/Standard_E20pds_v5
+- Update: azure/Standard_E20ps_v5
+- Update: azure/Standard_E2pds_v5
+- Update: azure/Standard_E2pds_v6
+- Update: azure/Standard_E2ps_v5
+- Update: azure/Standard_E2ps_v6
+- Update: azure/Standard_E32pds_v5
+- Update: azure/Standard_E32pds_v6
+- Update: azure/Standard_E32ps_v5
+- Update: azure/Standard_E32ps_v6
+- Update: azure/Standard_E48pds_v6
+- Update: azure/Standard_E48ps_v6
+- Update: azure/Standard_E4pds_v5
+- Update: azure/Standard_E4pds_v6
+- Update: azure/Standard_E4ps_v5
+- Update: azure/Standard_E4ps_v6
+- Update: azure/Standard_E64pds_v6
+- Update: azure/Standard_E64ps_v6
+- Update: azure/Standard_E8pds_v5
+- Update: azure/Standard_E8pds_v6
+- Update: azure/Standard_E8ps_v5
+- Update: azure/Standard_E8ps_v6
+- Update: azure/Standard_E96pds_v6
+- Update: azure/Standard_E96ps_v6
+- Update: aws/t4g.2xlarge
+- Update: aws/t4g.large
+- Update: aws/t4g.medium
+- Update: aws/t4g.micro
+- Update: aws/t4g.nano
+- Update: aws/t4g.small
+- Update: aws/t4g.xlarge
+- Update: aws/x2gd.12xlarge
+- Update: aws/x2gd.16xlarge
+- Update: aws/x2gd.2xlarge
+- Update: aws/x2gd.4xlarge
+- Update: aws/x2gd.8xlarge
+- Update: aws/x2gd.large
+- Update: aws/x2gd.medium
+- Update: aws/x2gd.metal
+- Update: aws/x2gd.xlarge
+- Update: aws/x8g.12xlarge
+- Update: aws/x8g.16xlarge
+- Update: aws/x8g.24xlarge
+- Update: aws/x8g.2xlarge
+- Update: aws/x8g.48xlarge
+- Update: aws/x8g.4xlarge
+- Update: aws/x8g.8xlarge
+- Update: aws/x8g.large
+- Update: aws/x8g.medium
+- Update: aws/x8g.metal-24xl
+- Update: aws/x8g.metal-48xl
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20250206104440 (Feb 06, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13176418131
+
+
+### server
+
+- Update: aws/f2.6xlarge
+
+## v0.3.1+20250205224335 (Feb 05, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13167468349
+
+
+### server
+
+- Update: aws/f2.6xlarge
+
+## v0.3.1+20250205205748 (Feb 05, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13165709552
+
+
+### server
+
+- New: aws/f2.6xlarge
+
+## v0.3.1+20250129215119 (Jan 29, 2025)
+
+This is an automated release with 69 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13040445811
+
+
+### server
+
+- Update: gcp/1000012
+- Update: gcp/1000024
+- Update: gcp/1000048
+- Update: gcp/1000096
+- Update: gcp/1001096
+- Update: gcp/1020012
+- Update: gcp/1020024
+- Update: gcp/1020048
+- Update: gcp/1020096
+- Update: gcp/1600004
+- Update: gcp/1600008
+- Update: gcp/1600012
+- Update: gcp/1600016
+- Update: gcp/1600024
+- Update: gcp/1600032
+- Update: gcp/1600048
+- Update: gcp/1600096
+- Update: gcp/1720361
+- Update: gcp/1720362
+- Update: gcp/1720363
+- Update: gcp/1720364
+- Update: gcp/1720366
+- Update: gcp/1720367
+- Update: gcp/1720368
+- Update: aws/g3.16xlarge
+- Update: aws/g3.4xlarge
+- Update: aws/g3.8xlarge
+- Update: aws/g3s.xlarge
+- Update: aws/g4dn.12xlarge
+- Update: aws/g4dn.16xlarge
+- Update: aws/g4dn.2xlarge
+- Update: aws/g4dn.4xlarge
+- Update: aws/g4dn.8xlarge
+- Update: aws/g4dn.metal
+- Update: aws/g4dn.xlarge
+- Update: aws/g5.12xlarge
+- Update: aws/g5.16xlarge
+- Update: aws/g5.24xlarge
+- Update: aws/g5.2xlarge
+- Update: aws/g5.48xlarge
+- Update: aws/g5.4xlarge
+- Update: aws/g5.8xlarge
+- Update: aws/g5g.16xlarge
+- Update: aws/g5g.2xlarge
+- Update: aws/g5g.4xlarge
+- Update: aws/g5g.8xlarge
+- Update: aws/g5g.xlarge
+- Update: aws/g5.xlarge
+- Update: aws/g6.12xlarge
+- Update: aws/g6.16xlarge
+- Update: aws/g6.24xlarge
+- Update: aws/g6.2xlarge
+- Update: aws/g6.48xlarge
+- Update: aws/g6.4xlarge
+- Update: aws/g6.8xlarge
+- Update: aws/g6e.12xlarge
+- Update: aws/g6e.16xlarge
+- Update: aws/g6e.24xlarge
+- Update: aws/g6e.2xlarge
+- Update: aws/g6e.48xlarge
+- Update: aws/g6e.4xlarge
+- Update: aws/g6e.8xlarge
+- Update: aws/g6e.xlarge
+- Update: aws/g6.xlarge
+- Update: aws/gr6.4xlarge
+- Update: aws/gr6.8xlarge
+- Update: azure/Standard_NC24ads_A100_v4
+- Update: azure/Standard_NC48ads_A100_v4
+- Update: azure/Standard_NC96ads_A100_v4
+
+## v0.3.1+20250117115143 (Jan 17, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12827857739
+
+
+### server
+
+- Update: aws/m7i-flex.12xlarge
+- Update: aws/m7i-flex.16xlarge
+
+## v0.3.1+20250117104453 (Jan 17, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12826942054
+
+
+### server
+
+- Update: aws/c7i-flex.12xlarge
+- Update: aws/c7i-flex.16xlarge
+
+## v0.3.1+20250117012635 (Jan 17, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12820272375
+
+
+### server
+
+- Update: aws/c7i-flex.16xlarge
+- Update: aws/m7i-flex.16xlarge
+
+## v0.3.1+20250116234649 (Jan 16, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12819228345
+
+
+### server
+
+- Update: aws/c7i-flex.12xlarge
+- Update: aws/m7i-flex.12xlarge
+
+## v0.3.1+20250116174845 (Jan 16, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12813961169
+
+
+### server
+
+- New: aws/m7i-flex.16xlarge
+- New: aws/m7i-flex.12xlarge
+- New: aws/c7i-flex.16xlarge
+
+## v0.3.1+20250116165328 (Jan 16, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12812931332
+
+
+### server
+
+- New: aws/c7i-flex.12xlarge
+
+## v0.3.1+20250115204211 (Jan 15, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12796181074
+
+
+### server
+
+- New: gcp/1722000
+- New: gcp/1722004
+
+## v0.3.1+20250114054458 (Jan 14, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12761493360
+
+
+### server
+
+- Update: azure/Standard_ND96isr_H200_v5
+
+## v0.3.1+20250110113949 (Jan 10, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12708346599
+
+
+### server
+
+- Update: gcp/901002
+
+## v0.3.1+20250109104455 (Jan 09, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12687765380
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-80xCPU-512GB
+- Update: upcloud/HIMEM-16xCPU-384GB
+- Update: upcloud/HIMEM-24xCPU-512GB
+
+## v0.3.1+20250108135559 (Jan 08, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12671359565
+
+
+### server
+
+- Update: upcloud/HIMEM-24xCPU-512GB
+
+## v0.3.1+20250108114605 (Jan 08, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12669334595
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-80xCPU-512GB
+
+## v0.3.1+20250108105328 (Jan 08, 2025)
+
+This is an automated release with 11 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12668399608
+
+
+### server
+
+- Update: upcloud/48xCPU-256GB
+- Update: upcloud/80xCPU-512GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-384GB
+- Update: upcloud/CLOUDNATIVE-48xCPU-384GB
+- Update: upcloud/CLOUDNATIVE-48xCPU-512GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-384GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-512GB
+- Update: upcloud/HICPU-64xCPU-128GB
+- Update: upcloud/HICPU-8xCPU-12GB
+- Update: upcloud/HIMEM-16xCPU-384GB
+
+## v0.3.1+20250108064701 (Jan 08, 2025)
+
+This is an automated release with 14 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12665102651
+
+
+### server
+
+- New: gcp/1765229
+- New: gcp/1765230
+- New: gcp/1765227
+- New: gcp/1765231
+- New: gcp/1765232
+- New: gcp/1765233
+- New: gcp/1765228
+- New: gcp/1765222
+- New: gcp/1765223
+- New: gcp/1765220
+- New: gcp/1765224
+- New: gcp/1765225
+- New: gcp/1765226
+- New: gcp/1765221
+
+## v0.3.1+20250107205130 (Jan 07, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12658534192
+
+
+### server
+
+- Update: upcloud/80xCPU-512GB
+
+## v0.3.1+20250107194413 (Jan 07, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12657676402
+
+
+### server
+
+- Update: upcloud/48xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-512GB
+- Update: upcloud/HICPU-64xCPU-128GB
+
+## v0.3.1+20250107185116 (Jan 07, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12656876726
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-48xCPU-384GB
+
+## v0.3.1+20250107174705 (Jan 07, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12655899846
+
+
+### server
+
+- Update: upcloud/CLOUDNATIVE-32xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-384GB
+
+## v0.3.1+20250107170155 (Jan 07, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12655204796
+
+
+### server
+
+- Update: upcloud/HICPU-8xCPU-12GB
+
+## v0.3.1+20250107114821 (Jan 07, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12650350250
+
+
+### server
+
+- Update: azure/Standard_M128-64bds_3_v3
+- Update: azure/Standard_M176-88bds_4_v3
+
+## v0.3.1+20250107024639 (Jan 07, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12643880481
+
+
+### server
+
+- Update: azure/Standard_ND96isr_H200_v5
+
+## v0.3.1+20250106224632 (Jan 06, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12641155193
+
+
+### server
+
+- Update: azure/Standard_ND96isr_H200_v5
+
+## v0.3.1+20250106174809 (Jan 06, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12636898234
+
+
+### server
+
+- Update: azure/Standard_M176-88bds_4_v3
+
+## v0.3.1+20250106164949 (Jan 06, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12635976772
+
+
+### server
+
+- Update: azure/Standard_M128-64bds_3_v3
+
+## v0.3.1+20250106125410 (Jan 06, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12632321562
+
+
+### server
+
+- Update: azure/Standard_L80s_v2
+- Update: azure/Standard_M128-64bds_v3
+
+## v0.3.1+20250106044505 (Jan 06, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12626358859
+
+
+### server
+
+- Update: azure/Standard_M128-64bds_v3
+
+## v0.3.1+20250105184427 (Jan 05, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12621829481
+
+
+### server
+
+- Update: azure/Standard_L80s_v2
+
+## v0.3.1+20250105115007 (Jan 05, 2025)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12618969271
+
+
+### server
+
+- Update: azure/Standard_D96ads_v5
+- Update: azure/Standard_D96as_v4
+- Update: azure/Standard_D96a_v4
+- Update: azure/Standard_E64ads_v6
+- Update: azure/Standard_E96pds_v6
+- Update: azure/Standard_F64ams_v6
+
+## v0.3.1+20250105064955 (Jan 05, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12617139220
+
+
+### server
+
+- Update: azure/Standard_E96pds_v6
+- Update: azure/Standard_F64ams_v6
+
+## v0.3.1+20250104204035 (Jan 04, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12613362814
+
+
+### server
+
+- Update: azure/Standard_D96ads_v5
+
+## v0.3.1+20250104164502 (Jan 04, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12611898118
+
+
+### server
+
+- Update: azure/Standard_E64ads_v6
+
+## v0.3.1+20250104154217 (Jan 04, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12611502499
+
+
+### server
+
+- Update: azure/Standard_D96a_v4
+
+## v0.3.1+20250104144822 (Jan 04, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12611097106
+
+
+### server
+
+- Update: azure/Standard_D96as_v4
+
+## v0.3.1+20250104113959 (Jan 04, 2025)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12609932728
+
+
+### server
+
+- Update: azure/Standard_D32ads_v6
+- Update: azure/Standard_D48als_v6
+- Update: azure/Standard_D48as_v6
+- Update: azure/Standard_D96as_v5
+- Update: azure/Standard_E32ads_v6
+- Update: azure/Standard_E32as_v6
+- Update: azure/Standard_E48as_v6
+- Update: azure/Standard_E64as_v6
+- Update: azure/Standard_F32als_v6
+- Update: azure/Standard_F64als_v6
+
+## v0.3.1+20250104084326 (Jan 04, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12608858349
+
+
+### server
+
+- Update: azure/Standard_F64als_v6
+
+## v0.3.1+20250104074010 (Jan 04, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12608489443
+
+
+### server
+
+- Update: azure/Standard_E64as_v6
+
+## v0.3.1+20250104024317 (Jan 04, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12606554543
+
+
+### server
+
+- Update: azure/Standard_E48as_v6
+
+## v0.3.1+20250103194000 (Jan 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12602609568
+
+
+### server
+
+- Update: azure/Standard_E32ads_v6
+
+## v0.3.1+20250103184628 (Jan 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12601973116
+
+
+### server
+
+- Update: azure/Standard_D48as_v6
+
+## v0.3.1+20250103164650 (Jan 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12600493737
+
+
+### server
+
+- Update: azure/Standard_F32als_v6
+
+## v0.3.1+20250103155134 (Jan 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12599690095
+
+
+### server
+
+- Update: azure/Standard_D48als_v6
+
+## v0.3.1+20250103144445 (Jan 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12598908355
+
+
+### server
+
+- Update: azure/Standard_E32as_v6
+
+## v0.3.1+20250103134937 (Jan 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12598287219
+
+
+### server
+
+- Update: azure/Standard_D32ads_v6
+
+## v0.3.1+20250103124736 (Jan 03, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12597538166
+
+
+### server
+
+- Update: azure/Standard_D16ads_v6
+- Update: azure/Standard_D32als_v6
+- Update: azure/Standard_E20as_v6
+
+## v0.3.1+20250103075054 (Jan 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12594121114
+
+
+### server
+
+- Update: azure/Standard_D32als_v6
+
+## v0.3.1+20250103065549 (Jan 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12593604414
+
+
+### server
+
+- Update: azure/Standard_E20as_v6
+
+## v0.3.1+20250103024730 (Jan 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12591631471
+
+
+### server
+
+- Update: azure/Standard_D16ads_v6
+
+## v0.3.1+20250102184410 (Jan 02, 2025)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12586780375
+
+
+### server
+
+- Update: gcp/10040
+- Update: gcp/10080
+- Update: gcp/10160
+- Update: gcp/1720367
+- Update: gcp/1720368
+- Update: gcp/806096
+- Update: gcp/806097
+- Update: gcp/9096
+- Update: azure/Standard_DC8_v2
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20250101234941 (Jan 01, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12575219473
+
+
+### server
+
+- Update: aws/x1.16xlarge
+
+## v0.3.1+20250101224507 (Jan 01, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12574802785
+
+
+### server
+
+- Update: aws/x1.16xlarge
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20250101214829 (Jan 01, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12574400440
+
+
+### server
+
+- Update: aws/x1.16xlarge
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20250101193824 (Jan 01, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12573561614
+
+
+### server
+
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20250101174009 (Jan 01, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12572710875
+
+
+### server
+
+- Update: aws/x1.16xlarge
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20250101164655 (Jan 01, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12572305753
+
+
+### server
+
+- Update: aws/x1.16xlarge
+
+## v0.3.1+20250101144105 (Jan 01, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12571399856
+
+
+### server
+
+- Update: aws/x1.16xlarge
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20250101125014 (Jan 01, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12570508849
+
+
+### server
+
+- Update: aws/x1.16xlarge
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20250101114543 (Jan 01, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12570016023
+
+
+### server
+
+- Update: aws/x1.16xlarge
+
+## v0.3.1+20250101084518 (Jan 01, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12568720625
+
+
+### server
+
+- Update: aws/x1.16xlarge
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20250101074218 (Jan 01, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12568283175
+
+
+### server
+
+- Update: aws/x1.16xlarge
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20250101055046 (Jan 01, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12567444567
+
+
+### server
+
+- Update: aws/x1.16xlarge
+
+## v0.3.1+20250101040308 (Jan 01, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12566689519
+
+
+### server
+
+- Update: aws/x1.16xlarge
+
+## v0.3.1+20250101025409 (Jan 01, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12566215357
+
+
+### server
+
+- Update: aws/x1.16xlarge
+
+## v0.3.1+20241231224231 (Dec 31, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12564380101
+
+
+### server
+
+- Update: aws/x1.16xlarge
+
+## v0.3.1+20241231214750 (Dec 31, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12563956661
+
+
+### server
+
+- Update: aws/x1.16xlarge
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20241231194324 (Dec 31, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12563081680
+
+
+### server
+
+- Update: aws/x1.16xlarge
+
+## v0.3.1+20241231185103 (Dec 31, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12562638620
+
+
+### server
+
+- Update: aws/x1.16xlarge
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20241231174645 (Dec 31, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12562113491
+
+
+### server
+
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20241231164409 (Dec 31, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12561627781
+
+
+### server
+
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20241231144044 (Dec 31, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12560487791
+
+
+### server
+
+- Update: aws/x1.16xlarge
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20241231134655 (Dec 31, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12560013077
+
+
+### server
+
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20241231114156 (Dec 31, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12558830673
+
+
+### server
+
+- Update: aws/x1.16xlarge
+
+## v0.3.1+20241231104859 (Dec 31, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12558287504
+
+
+### server
+
+- Update: aws/i7ie.12xlarge
+- Update: aws/i7ie.18xlarge
+- Update: aws/i7ie.24xlarge
+- Update: aws/i7ie.48xlarge
+- Update: aws/i7ie.6xlarge
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20241231094818 (Dec 31, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12557726264
+
+
+### server
+
+- Update: aws/x1e.16xlarge
+
+## v0.3.1+20241230214722 (Dec 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12551920225
+
+
+### server
+
+- Update: aws/i7ie.48xlarge
+
+## v0.3.1+20241230194130 (Dec 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12550790543
+
+
+### server
+
+- Update: aws/i7ie.24xlarge
+
+## v0.3.1+20241230174407 (Dec 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12549595708
+
+
+### server
+
+- Update: aws/i7ie.18xlarge
+
+## v0.3.1+20241230165222 (Dec 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12549000644
+
+
+### server
+
+- Update: aws/i7ie.6xlarge
+
+## v0.3.1+20241230154407 (Dec 30, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12548320481
+
+
+### server
+
+- Update: aws/i7ie.12xlarge
+
+## v0.3.1+20241227084957 (Dec 27, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12513635700
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241227065417 (Dec 27, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12512597346
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
+## v0.3.1+20241227044106 (Dec 27, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12511663031
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/r8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241227024428 (Dec 27, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12510713594
+
+
+### server
+
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241226234230 (Dec 26, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12509312060
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/r8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241226224145 (Dec 26, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12508868666
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241226214016 (Dec 26, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12508408745
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241226184233 (Dec 26, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12506970071
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241226174744 (Dec 26, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12506414883
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/r8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241226154436 (Dec 26, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12505347659
+
+
+### server
+
+- Update: aws/m8g.xlarge
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241226144202 (Dec 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12504783233
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
+## v0.3.1+20241226134713 (Dec 26, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12504310284
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241226124606 (Dec 26, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12503728647
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241226094214 (Dec 26, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12502027463
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/r8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241226084900 (Dec 26, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12501486768
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/r8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241226074757 (Dec 26, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12500926486
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241226054434 (Dec 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12499917895
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
+## v0.3.1+20241226044334 (Dec 26, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12499489636
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
+## v0.3.1+20241226034934 (Dec 26, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12499064639
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241226024235 (Dec 26, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12498553790
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241225234214 (Dec 25, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12497275426
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241225223912 (Dec 25, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12496910933
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/r8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241225214541 (Dec 25, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12496550516
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/r8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241225205508 (Dec 25, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12496190654
+
+
+### server
+
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241225194710 (Dec 25, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12495823787
+
+
+### server
+
+- Update: aws/m8g.xlarge
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241225184654 (Dec 25, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12495462002
+
+
+### server
+
+- Update: aws/m8g.xlarge
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241225174431 (Dec 25, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12495060719
+
+
+### server
+
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241225164122 (Dec 25, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12494684892
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241225154846 (Dec 25, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12494263207
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/r8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241225135350 (Dec 25, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12493455893
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/r8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241225124719 (Dec 25, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12492965983
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241225114224 (Dec 25, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12492469632
+
+
+### server
+
+- Update: aws/m8g.xlarge
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241225094207 (Dec 25, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12491535936
+
+
+### server
+
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241225084659 (Dec 25, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12491052763
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241225044854 (Dec 25, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12489245546
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241225034659 (Dec 25, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12488818759
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
+## v0.3.1+20241225024222 (Dec 25, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12488317737
+
+
+### server
+
+- Update: aws/m8g.xlarge
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241225011700 (Dec 25, 2024)
+
+This is an automated release with 4 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12487629739
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/r8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241224234715 (Dec 24, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12486994650
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241224204406 (Dec 24, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12485789111
+
+
+### server
+
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241224184350 (Dec 24, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12484918814
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/r8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241224164641 (Dec 24, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12483910607
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241224154609 (Dec 24, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12483325414
+
+
+### server
+
+- Update: aws/m8g.xlarge
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241224144113 (Dec 24, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12482724666
+
+
+### server
+
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241224134908 (Dec 24, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12482190353
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
+## v0.3.1+20241224114200 (Dec 24, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12480875447
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
+## v0.3.1+20241224094152 (Dec 24, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12479602607
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241224084311 (Dec 24, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12478992643
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241224075101 (Dec 24, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12478371085
+
+
+### server
+
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241224064339 (Dec 24, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12477830392
+
+
+### server
+
+- Update: aws/r8g.xlarge
+
+## v0.3.1+20241224044220 (Dec 24, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12476797987
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
+## v0.3.1+20241224035023 (Dec 24, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12476330270
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241224024328 (Dec 24, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12475771686
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241223234911 (Dec 23, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12474104889
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241223223835 (Dec 23, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12473558329
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241223194407 (Dec 23, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12471701994
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241223184447 (Dec 23, 2024)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12471087449
+
+
+### server
+
+- Update: aws/c8g.xlarge
+- Update: aws/m8g.xlarge
+- Update: aws/x8g.xlarge
+
+## v0.3.1+20241223173846 (Dec 23, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12470353084
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
+## v0.3.1+20241223164430 (Dec 23, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12469667127
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
+## v0.3.1+20241223154345 (Dec 23, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12468877530
+
+
+### server
+
+- Update: aws/m8g.xlarge
+
+## v0.3.1+20241220105144 (Dec 20, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12429493219
+
+
+### server
+
+- Update: upcloud/HIMEM-8xCPU-192GB
+
+## v0.3.1+20241219223956 (Dec 19, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12421559539
+
+
+### server
+
+- Update: upcloud/HIMEM-8xCPU-192GB
+
+## v0.3.1+20241219104605 (Dec 19, 2024)
+
+This is an automated release with 53 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12410547656
+
+
+### server
+
+- Update: upcloud/12xCPU-48GB
+- Update: upcloud/16xCPU-64GB
+- Update: upcloud/1xCPU-1GB
+- Update: upcloud/1xCPU-2GB
+- Update: upcloud/24xCPU-96GB
+- Update: upcloud/2xCPU-2GB
+- Update: upcloud/2xCPU-4GB
+- Update: upcloud/32xCPU-128GB
+- Update: upcloud/38xCPU-192GB
+- Update: upcloud/4xCPU-8GB
+- Update: upcloud/64xCPU-384GB
+- Update: upcloud/6xCPU-16GB
+- Update: upcloud/8xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-1xCPU-4GB
+- Update: upcloud/CLOUDNATIVE-1xCPU-8GB
+- Update: upcloud/CLOUDNATIVE-24xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-4GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-8GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-32GB
+- Update: upcloud/DEV-1xCPU-1GB
+- Update: upcloud/DEV-1xCPU-1GB-10GB
+- Update: upcloud/DEV-1xCPU-2GB
+- Update: upcloud/DEV-1xCPU-4GB
+- Update: upcloud/DEV-2xCPU-16GB
+- Update: upcloud/DEV-2xCPU-4GB
+- Update: upcloud/DEV-2xCPU-8GB
+- Update: upcloud/HICPU-16xCPU-24GB
+- Update: upcloud/HICPU-16xCPU-32GB
+- Update: upcloud/HICPU-32xCPU-48GB
+- Update: upcloud/HICPU-32xCPU-64GB
+- Update: upcloud/HICPU-64xCPU-96GB
+- Update: upcloud/HICPU-8xCPU-16GB
+- Update: upcloud/HIMEM-12xCPU-256GB
+- Update: upcloud/HIMEM-2xCPU-16GB
+- Update: upcloud/HIMEM-2xCPU-8GB
+- Update: upcloud/HIMEM-4xCPU-32GB
+- Update: upcloud/HIMEM-4xCPU-64GB
+- Update: upcloud/HIMEM-6xCPU-128GB
+
+## v0.3.1+20241219084600 (Dec 19, 2024)
+
+This is an automated release with 36 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12408743281
+
+
+### server
+
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_HB176-144s_v4
+- Update: azure/Standard_HB176-24s_v4
+- Update: azure/Standard_HB176-48s_v4
+- Update: azure/Standard_HB176-96s_v4
+- Update: azure/Standard_HB176s_v4
+- Update: azure/Standard_HX176-144s
+- Update: azure/Standard_HX176-24s
+- Update: azure/Standard_HX176-48s
+- Update: azure/Standard_HX176-96s
+- Update: azure/Standard_HX176s
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_H100_v5
+- Update: azure/Standard_ND96isr_H200_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+
+## v0.3.1+20241219044303 (Dec 19, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12406095988
+
+
+### server
+
+- Update: upcloud/64xCPU-384GB
+
+## v0.3.1+20241219040151 (Dec 19, 2024)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12405610486
+
+
+### server
+
+- Update: upcloud/32xCPU-128GB
+- Update: upcloud/38xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-256GB
+- Update: upcloud/HICPU-64xCPU-96GB
+- Update: upcloud/HIMEM-12xCPU-256GB
+
+## v0.3.1+20241219024757 (Dec 19, 2024)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12404964743
+
+
+### server
+
+- Update: upcloud/24xCPU-96GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-24xCPU-256GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-192GB
+- Update: upcloud/CLOUDNATIVE-64xCPU-192GB
+- Update: upcloud/HICPU-32xCPU-48GB
+- Update: upcloud/HICPU-32xCPU-64GB
+- Update: upcloud/HIMEM-6xCPU-128GB
+
+## v0.3.1+20241219012722 (Dec 19, 2024)
+
+This is an automated release with 30 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12403953992
+
+
+### server
+
+- Update: upcloud/12xCPU-48GB
+- Update: upcloud/16xCPU-64GB
+- Update: upcloud/2xCPU-2GB
+- Update: upcloud/2xCPU-4GB
+- Update: upcloud/4xCPU-8GB
+- Update: upcloud/6xCPU-16GB
+- Update: upcloud/8xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-16xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-1xCPU-8GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-8GB
+- Update: upcloud/CLOUDNATIVE-32xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-32GB
+- Update: upcloud/CLOUDNATIVE-4xCPU-64GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-128GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-16GB
+- Update: upcloud/CLOUDNATIVE-8xCPU-32GB
+- Update: upcloud/DEV-2xCPU-16GB
+- Update: upcloud/DEV-2xCPU-4GB
+- Update: upcloud/DEV-2xCPU-8GB
+- Update: upcloud/HICPU-16xCPU-24GB
+- Update: upcloud/HICPU-16xCPU-32GB
+- Update: upcloud/HICPU-8xCPU-16GB
+- Update: upcloud/HIMEM-2xCPU-16GB
+- Update: upcloud/HIMEM-2xCPU-8GB
+- Update: upcloud/HIMEM-4xCPU-32GB
+- Update: upcloud/HIMEM-4xCPU-64GB
+
+## v0.3.1+20241218234108 (Dec 18, 2024)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12402870892
+
+
+### server
+
+- Update: upcloud/1xCPU-1GB
+- Update: upcloud/1xCPU-2GB
+- Update: upcloud/CLOUDNATIVE-1xCPU-4GB
+- Update: upcloud/CLOUDNATIVE-2xCPU-4GB
+- Update: upcloud/DEV-1xCPU-1GB
+- Update: upcloud/DEV-1xCPU-1GB-10GB
+- Update: upcloud/DEV-1xCPU-2GB
+- Update: upcloud/DEV-1xCPU-4GB
+
+## v0.3.1+20241212104357 (Dec 12, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12294188837
+
+
+### server
+
+- Update: aws/f2.12xlarge
+
+## v0.3.1+20241211234059 (Dec 11, 2024)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12286480199
+
+
+### server
+
+- Update: aws/f2.12xlarge
+
+## v0.3.1+20241211184259 (Dec 11, 2024)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12282370255
+
+
+### server
+
+- New: aws/f2.48xlarge
+- New: aws/f2.12xlarge
+
+## v0.3.1+20241211094410 (Dec 11, 2024)
+
+This is an automated release with 28 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12273099849
+
+
+### server
+
+- New: upcloud/CLOUDNATIVE-1xCPU-4GB
+- New: upcloud/CLOUDNATIVE-1xCPU-8GB
+- New: upcloud/CLOUDNATIVE-2xCPU-16GB
+- New: upcloud/CLOUDNATIVE-2xCPU-8GB
+- New: upcloud/CLOUDNATIVE-2xCPU-4GB
+- New: upcloud/CLOUDNATIVE-4xCPU-16GB
+- New: upcloud/CLOUDNATIVE-4xCPU-32GB
+- New: upcloud/CLOUDNATIVE-4xCPU-64GB
+- New: upcloud/CLOUDNATIVE-8xCPU-16GB
+- New: upcloud/CLOUDNATIVE-8xCPU-128GB
+- New: upcloud/CLOUDNATIVE-8xCPU-32GB
+- New: upcloud/CLOUDNATIVE-16xCPU-192GB
+- New: upcloud/CLOUDNATIVE-16xCPU-128GB
+- New: upcloud/CLOUDNATIVE-16xCPU-32GB
+- New: upcloud/CLOUDNATIVE-16xCPU-64GB
+- New: upcloud/CLOUDNATIVE-24xCPU-256GB
+- New: upcloud/CLOUDNATIVE-32xCPU-384GB
+- New: upcloud/CLOUDNATIVE-32xCPU-128GB
+- New: upcloud/CLOUDNATIVE-32xCPU-192GB
+- New: upcloud/CLOUDNATIVE-32xCPU-64GB
+- New: upcloud/CLOUDNATIVE-32xCPU-256GB
+- New: upcloud/CLOUDNATIVE-48xCPU-512GB
+- New: upcloud/CLOUDNATIVE-48xCPU-384GB
+- New: upcloud/CLOUDNATIVE-64xCPU-384GB
+- New: upcloud/CLOUDNATIVE-64xCPU-192GB
+- New: upcloud/CLOUDNATIVE-64xCPU-512GB
+- New: upcloud/CLOUDNATIVE-64xCPU-256GB
+- New: upcloud/CLOUDNATIVE-80xCPU-512GB
+
+## v0.3.1+20241210233930 (Dec 10, 2024)
+
+This is an automated release with 70 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/12266429838
+
+
+### vendor
+
+- New: upcloud
+
+### vendor_compliance_link
+
+- New: upcloud/iso27001
+
+### region
+
+- New: upcloud/au-syd1
+- New: upcloud/de-fra1
+- New: upcloud/es-mad1
+- New: upcloud/fi-hel1
+- New: upcloud/fi-hel2
+- New: upcloud/nl-ams1
+- New: upcloud/pl-waw1
+- New: upcloud/se-sto1
+- New: upcloud/sg-sin1
+- New: upcloud/uk-lon1
+- New: upcloud/us-chi1
+- New: upcloud/us-nyc1
+- New: upcloud/us-sjo1
+
+### zone
+
+- New: upcloud/au-syd1/au-syd1
+- New: upcloud/de-fra1/de-fra1
+- New: upcloud/es-mad1/es-mad1
+- New: upcloud/fi-hel1/fi-hel1
+- New: upcloud/fi-hel2/fi-hel2
+- New: upcloud/nl-ams1/nl-ams1
+- New: upcloud/pl-waw1/pl-waw1
+- New: upcloud/se-sto1/se-sto1
+- New: upcloud/sg-sin1/sg-sin1
+- New: upcloud/uk-lon1/uk-lon1
+- New: upcloud/us-chi1/us-chi1
+- New: upcloud/us-nyc1/us-nyc1
+- New: upcloud/us-sjo1/us-sjo1
+
+### storage
+
+- New: upcloud/hdd
+- New: upcloud/standard
+- New: upcloud/maxiops
+
+### server
+
+- New: upcloud/1xCPU-1GB
+- New: upcloud/DEV-1xCPU-1GB
+- New: upcloud/1xCPU-2GB
+- New: upcloud/DEV-1xCPU-1GB-10GB
+- New: upcloud/DEV-1xCPU-2GB
+- New: upcloud/DEV-1xCPU-4GB
+- New: upcloud/DEV-2xCPU-4GB
+- New: upcloud/DEV-2xCPU-16GB
+- New: upcloud/2xCPU-2GB
+- New: upcloud/DEV-2xCPU-8GB
+- New: upcloud/2xCPU-4GB
+- New: upcloud/HIMEM-2xCPU-8GB
+- New: upcloud/HIMEM-2xCPU-16GB
+- New: upcloud/HIMEM-4xCPU-32GB
+- New: upcloud/HIMEM-4xCPU-64GB
+- New: upcloud/4xCPU-8GB
+- New: upcloud/6xCPU-16GB
+- New: upcloud/HIMEM-6xCPU-128GB
+- New: upcloud/HIMEM-8xCPU-192GB
+- New: upcloud/HICPU-8xCPU-16GB
+- New: upcloud/8xCPU-32GB
+- New: upcloud/HICPU-8xCPU-12GB
+- New: upcloud/HIMEM-12xCPU-256GB
+- New: upcloud/12xCPU-48GB
+- New: upcloud/HIMEM-16xCPU-384GB
+- New: upcloud/HICPU-16xCPU-32GB
+- New: upcloud/HICPU-16xCPU-24GB
+- New: upcloud/16xCPU-64GB
+- New: upcloud/HIMEM-24xCPU-512GB
+- New: upcloud/24xCPU-96GB
+- New: upcloud/HICPU-32xCPU-64GB
+- New: upcloud/32xCPU-128GB
+- New: upcloud/HICPU-32xCPU-48GB
+- New: upcloud/38xCPU-192GB
+- New: upcloud/48xCPU-256GB
+- New: upcloud/64xCPU-384GB
+- New: upcloud/HICPU-64xCPU-128GB
+- New: upcloud/HICPU-64xCPU-96GB
+- New: upcloud/80xCPU-512GB
+
 ## v0.3.1+20241210124810 (Dec 10, 2024)
 
 This is an automated release with 1 new/updated/deleted resources.
