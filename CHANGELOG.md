@@ -1,3 +1,26 @@
+## v0.3.1+20250313174513 (Mar 13, 2025)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13840472543
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+### server
+
+- New: aws/i8g.48xlarge
+
 ## v0.3.1+20250313144940 (Mar 13, 2025)
 
 This is an automated release with 7 new/updated/deleted resources.
