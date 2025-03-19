@@ -1,3 +1,13 @@
+## v0.3.1+20250319025236 (Mar 19, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13937416089
+
+
+### region
+
+- Update: azure/indonesiacentral
+
 ## v0.3.1+20250318234641 (Mar 18, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
