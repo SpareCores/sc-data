@@ -1,3 +1,14 @@
+## v0.3.1+20250411114503 (Apr 11, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14401768189
+
+
+### server
+
+- Update: aws/i7ie.metal-24xl
+- Update: aws/i7ie.metal-48xl
+
 ## v0.3.1+20250410204912 (Apr 10, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
