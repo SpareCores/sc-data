@@ -1,3 +1,18 @@
+## v0.3.1+20250414125345 (Apr 14, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14445405492
+
+
+### server
+
+- Update: azure/Standard_D32lds_v6
+
+### benchmark
+
+- New: llm_speed:text_generation
+- New: llm_speed:prompt_processing
+
 ## v0.3.1+20250414115920 (Apr 14, 2025)
 
 This is an automated release with 0 new/updated/deleted resources.
