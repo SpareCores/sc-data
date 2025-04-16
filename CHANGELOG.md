@@ -1,3 +1,15 @@
+## v0.3.1+20250416155627 (Apr 16, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14496141908
+
+
+### server
+
+- Update: gcp/1722000
+- Update: gcp/1722004
+- Update: azure/Standard_NC40ads_H100_v5
+
 ## v0.3.1+20250415114619 (Apr 15, 2025)
 
 This is an automated release with 9 new/updated/deleted resources.
