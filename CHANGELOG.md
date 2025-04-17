@@ -1,3 +1,1215 @@
+## v0.3.1+20250417185356 (Apr 17, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14522074451
+
+
+### server
+
+- Update: azure/Standard_D16lds_v6
+- Update: azure/Standard_D16ls_v6
+- Update: azure/Standard_D16s_v6
+
+## v0.3.1+20250416155627 (Apr 16, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14496141908
+
+
+### server
+
+- Update: gcp/1722000
+- Update: gcp/1722004
+- Update: azure/Standard_NC40ads_H100_v5
+
+## v0.3.1+20250415114619 (Apr 15, 2025)
+
+This is an automated release with 9 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14467913306
+
+
+### server
+
+- Update: azure/Standard_D128s_v6
+- Update: azure/Standard_D32lds_v6
+- Update: azure/Standard_D48ds_v6
+- Update: azure/Standard_D48ls_v6
+- Update: azure/Standard_E32-16ds_v6
+- Update: azure/Standard_E32-8s_v6
+- Update: azure/Standard_E48s_v6
+- Update: azure/Standard_E96-24ds_v6
+- Update: azure/Standard_E96s_v6
+
+## v0.3.1+20250415104943 (Apr 15, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14466861696
+
+
+### server
+
+- Update: azure/Standard_E96-24ds_v6
+
+## v0.3.1+20250415085020 (Apr 15, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14464566753
+
+
+### server
+
+- Update: azure/Standard_D128s_v6
+- Update: azure/Standard_E96s_v6
+
+## v0.3.1+20250415030142 (Apr 15, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14459869010
+
+
+### server
+
+- Update: azure/Standard_E48s_v6
+
+## v0.3.1+20250415013108 (Apr 15, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14458745195
+
+
+### server
+
+- Update: azure/Standard_D48ds_v6
+- Update: azure/Standard_E32-16ds_v6
+
+## v0.3.1+20250414195014 (Apr 14, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14453685311
+
+
+### server
+
+- Update: azure/Standard_D48ls_v6
+- Update: azure/Standard_E32-8s_v6
+
+## v0.3.1+20250414125345 (Apr 14, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14445405492
+
+
+### server
+
+- Update: azure/Standard_D32lds_v6
+
+### benchmark
+
+- New: llm_speed:text_generation
+- New: llm_speed:prompt_processing
+
+## v0.3.1+20250414115920 (Apr 14, 2025)
+
+This is an automated release with 0 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14444761426
+
+
+## v0.3.1+20250411114503 (Apr 11, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14401768189
+
+
+### server
+
+- Update: aws/i7ie.metal-24xl
+- Update: aws/i7ie.metal-48xl
+
+## v0.3.1+20250410204912 (Apr 10, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14389386394
+
+
+### server
+
+- Update: aws/i7ie.metal-48xl
+
+## v0.3.1+20250410194723 (Apr 10, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14388363517
+
+
+### server
+
+- Update: aws/i7ie.metal-24xl
+
+## v0.3.1+20250410165435 (Apr 10, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14385234287
+
+
+### server
+
+- New: aws/i7ie.metal-48xl
+- New: aws/i7ie.metal-24xl
+
+## v0.3.1+20250405114211 (Apr 05, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14281294149
+
+
+### server
+
+- Update: azure/Standard_E64-16s_v6
+
+## v0.3.1+20250404194455 (Apr 04, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14272412968
+
+
+### server
+
+- Update: azure/Standard_E64-16s_v6
+
+## v0.3.1+20250404145329 (Apr 04, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14267228014
+
+
+### server
+
+- Update: aws/trn2.48xlarge
+
+## v0.3.1+20250404135324 (Apr 04, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14266282433
+
+
+### server
+
+- Update: aws/trn2.48xlarge
+
+## v0.3.1+20250404130030 (Apr 04, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14265130674
+
+
+### server
+
+- Update: aws/trn2.48xlarge
+
+## v0.3.1+20250403085024 (Apr 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14238155485
+
+
+### server
+
+- Update: aws/trn2.48xlarge
+
+## v0.3.1+20250403054337 (Apr 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14235417603
+
+
+### server
+
+- Update: aws/trn2.48xlarge
+
+## v0.3.1+20250403044731 (Apr 03, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14234770260
+
+
+### server
+
+- Update: aws/trn2.48xlarge
+
+## v0.3.1+20250402175001 (Apr 02, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14225429573
+
+
+### server
+
+- Update: aws/trn2.48xlarge
+
+## v0.3.1+20250402165413 (Apr 02, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14224410071
+
+
+### server
+
+- Update: aws/trn2.48xlarge
+
+## v0.3.1+20250402155357 (Apr 02, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14223096073
+
+
+### server
+
+- Update: aws/trn2.48xlarge
+
+## v0.3.1+20250402140653 (Apr 02, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14220677696
+
+
+### server
+
+- Update: aws/trn2.48xlarge
+
+## v0.3.1+20250401114937 (Apr 01, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14194046480
+
+
+### server
+
+- Update: azure/Standard_D192ds_v6
+
+## v0.3.1+20250401041411 (Apr 01, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14186587154
+
+
+### server
+
+- Update: azure/Standard_D192ds_v6
+
+## v0.3.1+20250328030429 (Mar 28, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14120588820
+
+
+### server
+
+- Update: aws/p2.16xlarge
+- Update: aws/p2.8xlarge
+- Update: aws/p2.xlarge
+
+## v0.3.1+20250326115139 (Mar 26, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14081777389
+
+
+### server
+
+- Update: azure/Standard_NC40ads_H100_v5
+
+## v0.3.1+20250325154703 (Mar 25, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14063191112
+
+
+### server
+
+- Update: azure/Standard_NC40ads_H100_v5
+
+## v0.3.1+20250323185146 (Mar 23, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14021648970
+
+
+### region
+
+- Update: gcp/1650
+
+## v0.3.1+20250319025236 (Mar 19, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13937416089
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+## v0.3.1+20250318234641 (Mar 18, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13935212735
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+## v0.3.1+20250318184515 (Mar 18, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13930486593
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+## v0.3.1+20250318174855 (Mar 18, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13929252259
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+## v0.3.1+20250318155228 (Mar 18, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13926690580
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+## v0.3.1+20250318144545 (Mar 18, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13925295967
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+## v0.3.1+20250318054730 (Mar 18, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13915861856
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+## v0.3.1+20250318045055 (Mar 18, 2025)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13915227382
+
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250318040555 (Mar 18, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13914689736
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250318013257 (Mar 18, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13912828244
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250317234723 (Mar 17, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13911633173
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250317214642 (Mar 17, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13909875995
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250317204811 (Mar 17, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13908879828
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250317114021 (Mar 17, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13897918319
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250317104658 (Mar 17, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13896794321
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250317064642 (Mar 17, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13892800709
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250317055145 (Mar 17, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13892028595
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250316205236 (Mar 16, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13886943767
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250316174803 (Mar 16, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13885578959
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250316124703 (Mar 16, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13883216504
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250316114121 (Mar 16, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13882726041
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250316075109 (Mar 16, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13880992138
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250316054525 (Mar 16, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13880154448
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250315164751 (Mar 15, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13874497736
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250315104445 (Mar 15, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13871853236
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250315094724 (Mar 15, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13871432886
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250315074934 (Mar 15, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13870613124
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250315044557 (Mar 15, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13869350074
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250315040109 (Mar 15, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13868967502
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250315024705 (Mar 15, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13868465641
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250314214938 (Mar 14, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13865371714
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250314204314 (Mar 14, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13864548998
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250314185146 (Mar 14, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13862759238
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+## v0.3.1+20250314164608 (Mar 14, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13860693720
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+## v0.3.1+20250314155234 (Mar 14, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13859536407
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250314095049 (Mar 14, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13853350648
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250314045305 (Mar 14, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13849710476
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250314035810 (Mar 14, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13849191199
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250314030446 (Mar 14, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13848465657
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250313174513 (Mar 13, 2025)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13840472543
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+### server
+
+- New: aws/i8g.48xlarge
+
+## v0.3.1+20250313144940 (Mar 13, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13836639077
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250313125719 (Mar 13, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13834374503
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250313104610 (Mar 13, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13832069816
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250313095048 (Mar 13, 2025)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13830914917
+
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250313085843 (Mar 13, 2025)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13829929629
+
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250313035741 (Mar 13, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13826351506
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250313030656 (Mar 13, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13825616602
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250313014529 (Mar 13, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13824437124
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250312170147 (Mar 12, 2025)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13816176131
+
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250312144647 (Mar 12, 2025)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13813420912
+
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
+## v0.3.1+20250312135254 (Mar 12, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/13812343809
+
+
+### region
+
+- Update: azure/indonesiacentral
+
+### zone
+
+- Update: azure/indonesiacentral/1
+- Update: azure/japanwest/1
+- Update: azure/indonesiacentral/2
+- Update: azure/japanwest/2
+- Update: azure/indonesiacentral/3
+- Update: azure/japanwest/3
+
 ## v0.3.1+20250301125909 (Mar 01, 2025)
 
 This is an automated release with 15 new/updated/deleted resources.
