@@ -1,3 +1,28 @@
+## v0.3.1+20250422114954 (Apr 22, 2025)
+
+This is an automated release with 16 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14593298800
+
+
+### server
+
+- Update: aws/m8gd.12xlarge
+- Update: aws/m8gd.16xlarge
+- Update: aws/m8gd.2xlarge
+- Update: aws/m8gd.4xlarge
+- Update: aws/m8gd.8xlarge
+- Update: aws/m8gd.large
+- Update: aws/m8gd.medium
+- Update: aws/m8gd.xlarge
+- Update: aws/r8gd.12xlarge
+- Update: aws/r8gd.2xlarge
+- Update: aws/r8gd.4xlarge
+- Update: aws/r8gd.8xlarge
+- Update: aws/r8gd.large
+- Update: aws/r8gd.medium
+- Update: aws/r8gd.xlarge
+- Update: azure/Standard_D64ds_v6
+
 ## v0.3.1+20250422105927 (Apr 22, 2025)
 
 This is an automated release with 8 new/updated/deleted resources.
