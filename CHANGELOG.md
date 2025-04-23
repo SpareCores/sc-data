@@ -1,3 +1,13 @@
+## v0.3.1+20250423224827 (Apr 23, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14629044675
+
+
+### server
+
+- Update: aws/m8gd.metal-48xl
+
 ## v0.3.1+20250423215803 (Apr 23, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
