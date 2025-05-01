@@ -1,3 +1,53 @@
+## v0.3.1+20250501014600 (May 01, 2025)
+
+This is an automated release with 41 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14767342935
+
+
+### server
+
+- New: azure/Standard_NV28ads_V710_v5
+- Update: azure/Standard_A10
+- Update: azure/Standard_A11
+- Update: azure/Standard_A8
+- Update: azure/Standard_A9
+- Update: azure/Standard_DC2s
+- Update: azure/Standard_DC4s
+- Update: azure/Standard_DC8s
+- Update: azure/Standard_H16
+- Update: azure/Standard_H16m
+- Update: azure/Standard_H16mr
+- Update: azure/Standard_H16r
+- Update: azure/Standard_H8
+- Update: azure/Standard_H8m
+- Update: azure/Standard_HB60-15rs
+- Update: azure/Standard_HB60-30rs
+- Update: azure/Standard_HB60-45rs
+- Update: azure/Standard_HB60rs
+- Update: azure/Standard_NC12
+- Update: azure/Standard_NC12s_v2
+- Update: azure/Standard_NC24
+- Update: azure/Standard_NC24r
+- Update: azure/Standard_NC24rs_v2
+- Update: azure/Standard_NC24s_v2
+- Update: azure/Standard_NC6
+- Update: azure/Standard_NC6s_v2
+- Update: azure/Standard_ND12s
+- Update: azure/Standard_ND24rs
+- Update: azure/Standard_ND24s
+- Update: azure/Standard_ND6s
+- Update: azure/Standard_ND96is_H100_v5
+- Update: azure/Standard_NV10ads_A10_v5
+- Update: azure/Standard_NV12
+- Update: azure/Standard_NV20adms_A10_v5
+- Update: azure/Standard_NV20ads_A10_v5
+- Update: azure/Standard_NV24
+- Update: azure/Standard_NV30adms_A10_v5
+- Update: azure/Standard_NV30ads_A10_v5
+- Update: azure/Standard_NV40ads_A10_v5
+- Update: azure/Standard_NV4ads_A10_v5
+- Update: azure/Standard_NV6
+
 ## v0.3.1+20250428205745 (Apr 28, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
