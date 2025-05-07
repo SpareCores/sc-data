@@ -1,3 +1,20 @@
+## v0.3.1+20250507104824 (May 07, 2025)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/14880784627
+
+
+### zone
+
+- Update: azure/chilecentral/0
+- Update: azure/malaysiawest/0
+- Update: azure/chilecentral/1
+- Update: azure/malaysiawest/1
+- Update: azure/chilecentral/2
+- Update: azure/malaysiawest/2
+- Update: azure/chilecentral/3
+- Update: azure/malaysiawest/3
+
 ## v0.3.1+20250507095435 (May 07, 2025)
 
 This is an automated release with 2 new/updated/deleted resources.
