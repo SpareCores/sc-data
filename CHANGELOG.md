@@ -1,3 +1,15 @@
+## v0.3.1+20250526160305 (May 26, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/15257177559
+
+
+### server
+
+- Update: azure/Standard_FX2mds_v2
+- Update: azure/Standard_FX2ms_v2
+- Update: azure/Standard_FX4-2ms_v2
+
 ## v0.3.1+20250520225403 (May 20, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
