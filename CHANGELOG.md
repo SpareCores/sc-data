@@ -1,3 +1,59 @@
+## v0.3.1+20250527130013 (May 27, 2025)
+
+This is an automated release with 47 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/15275048228
+
+
+### server
+
+- Update: azure/Standard_FX12-6mds_v2
+- Update: azure/Standard_FX12-6ms_v2
+- Update: azure/Standard_FX12mds_v2
+- Update: azure/Standard_FX12ms_v2
+- Update: azure/Standard_FX16-4mds_v2
+- Update: azure/Standard_FX16-4ms_v2
+- Update: azure/Standard_FX16-8mds_v2
+- Update: azure/Standard_FX16-8ms_v2
+- Update: azure/Standard_FX16mds_v2
+- Update: azure/Standard_FX16ms_v2
+- Update: azure/Standard_FX24-12mds_v2
+- Update: azure/Standard_FX24-12ms_v2
+- Update: azure/Standard_FX24-6mds_v2
+- Update: azure/Standard_FX24-6ms_v2
+- Update: azure/Standard_FX24mds_v2
+- Update: azure/Standard_FX24ms_v2
+- Update: azure/Standard_FX2mds_v2
+- Update: azure/Standard_FX2ms_v2
+- Update: azure/Standard_FX32-16mds_v2
+- Update: azure/Standard_FX32-16ms_v2
+- Update: azure/Standard_FX32-8mds_v2
+- Update: azure/Standard_FX32-8ms_v2
+- Update: azure/Standard_FX32mds_v2
+- Update: azure/Standard_FX32ms_v2
+- Update: azure/Standard_FX4-2mds_v2
+- Update: azure/Standard_FX4-2ms_v2
+- Update: azure/Standard_FX48-12mds_v2
+- Update: azure/Standard_FX48-12ms_v2
+- Update: azure/Standard_FX48-24mds_v2
+- Update: azure/Standard_FX48-24ms_v2
+- Update: azure/Standard_FX48mds_v2
+- Update: azure/Standard_FX48ms_v2
+- Update: azure/Standard_FX4mds_v2
+- Update: azure/Standard_FX4ms_v2
+- Update: azure/Standard_FX64-16ms_v2
+- Update: azure/Standard_FX64-32mds_v2
+- Update: azure/Standard_FX64-32ms_v2
+- Update: azure/Standard_FX64ms_v2
+- Update: azure/Standard_FX8-2mds_v2
+- Update: azure/Standard_FX8-2ms_v2
+- Update: azure/Standard_FX8-4mds_v2
+- Update: azure/Standard_FX8-4ms_v2
+- Update: azure/Standard_FX8mds_v2
+- Update: azure/Standard_FX8ms_v2
+- Update: azure/Standard_FX96-24ms_v2
+- Update: azure/Standard_FX96-48ms_v2
+- Update: azure/Standard_FX96ms_v2
+
 ## v0.3.1+20250527110028 (May 27, 2025)
 
 This is an automated release with 3 new/updated/deleted resources.
