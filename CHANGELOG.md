@@ -1,3 +1,37 @@
+## v0.3.1+20250610110236 (Jun 10, 2025)
+
+This is an automated release with 25 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/15556714296
+
+
+### server
+
+- New: azure/Standard_L12aos_v4
+- New: azure/Standard_L16aos_v4
+- New: azure/Standard_L16as_v4
+- New: azure/Standard_L16s_v4
+- New: azure/Standard_L24aos_v4
+- New: azure/Standard_L2aos_v4
+- New: azure/Standard_L2as_v4
+- New: azure/Standard_L2s_v4
+- New: azure/Standard_L32aos_v4
+- New: azure/Standard_L32as_v4
+- New: azure/Standard_L32s_v4
+- New: azure/Standard_L48as_v4
+- New: azure/Standard_L48s_v4
+- New: azure/Standard_L4aos_v4
+- New: azure/Standard_L4as_v4
+- New: azure/Standard_L4s_v4
+- New: azure/Standard_L64as_v4
+- New: azure/Standard_L64s_v4
+- New: azure/Standard_L80as_v4
+- New: azure/Standard_L80s_v4
+- New: azure/Standard_L8aos_v4
+- New: azure/Standard_L8as_v4
+- New: azure/Standard_L8s_v4
+- New: azure/Standard_L96as_v4
+- New: azure/Standard_L96s_v4
+
 ## v0.3.1+20250610014129 (Jun 10, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
