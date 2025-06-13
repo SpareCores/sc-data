@@ -1,3 +1,13 @@
+## v0.3.1+20250613215623 (Jun 13, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/15644014011
+
+
+### server
+
+- Update: azure/Standard_L2aos_v4
+
 ## v0.3.1+20250611125840 (Jun 11, 2025)
 
 This is an automated release with 2 new/updated/deleted resources.
