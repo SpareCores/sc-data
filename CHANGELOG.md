@@ -1,3 +1,14 @@
+## v0.3.1+20250614095542 (Jun 14, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/15650508995
+
+
+### server
+
+- Update: azure/Standard_L12aos_v4
+- Update: azure/Standard_L16as_v4
+
 ## v0.3.1+20250614090038 (Jun 14, 2025)
 
 This is an automated release with 2 new/updated/deleted resources.
