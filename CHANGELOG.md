@@ -1,3 +1,13 @@
+## v0.3.1+20250614194813 (Jun 14, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/15655220845
+
+
+### server
+
+- Update: azure/Standard_L48s_v4
+
 ## v0.3.1+20250614185342 (Jun 14, 2025)
 
 This is an automated release with 2 new/updated/deleted resources.
