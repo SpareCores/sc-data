@@ -1,3 +1,15 @@
+## v0.3.1+20250630190113 (Jun 30, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/15980467210
+
+
+### server
+
+- Update: aws/c8gn.2xlarge
+- Update: aws/c8gn.large
+- Update: aws/c8gn.xlarge
+
 ## v0.3.1+20250630175232 (Jun 30, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
