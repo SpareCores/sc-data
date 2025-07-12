@@ -31,27 +31,38 @@ pip install "sparecores-data @ git+https://git@github.com/SpareCores/sc-data.git
 
 ## Usage
 
-For easy access to the most recent version of the SQLite database
-file, import the `db` object of the `sc_data` Python package, which
-runs an updater thread in the background to keep the SQLite file
-up-to-date:
+For easy access to the most recent version of the SQLite database file, import
+the `db` object of the `sc_data` Python package, which runs an updater thread
+in the background to keep the SQLite file up-to-date:
 
 ```py
 from sc_data import db
 print(db.path)
 ```
 
-By default, the SQLite file will be updated every 600 seconds, which
-can be overwritten by the `sc_data_db_refresh_seconds` builtins
-attribute or the `SC_DATA_DB_REFRESH_SECONDS` environment variable.
+This attempts to download the latest version of the database from our public S3
+bucket within 30 seconds (see config options below), and returns the path of the
+tempfile on success, or a limited version of the database that is bundled with
+the package (without pricing information).
 
-Similarly, you van set the following environment variables:
+To enforce waiting for the update to complete, you can use the `updated` event:
 
-- `SC_DATA_NO_UPDATE`
-- `SC_DATA_DB_PATH`
-- `SC_DATA_DB_URL`
-- `SC_DATA_DB_REFRESH_SECONDS`
-- `SC_DATA_HTTP_TIMEOUT`
+```py
+db.updated.wait()
+```
+
+## Configuration
+
+The package comes with the following set of default parameters, which can be
+overridden by builtins or environment variables:
+
+| Configuration | Description | Default Value | Builtin Name | Environment Variable |
+|---------------|-------------|---------------|--------------|---------------------|
+| Initial Database | The file path of the initial database to load | `data/sc-data-priceless.db` | `sc_data_db_path` | `SC_DATA_DB_PATH` |
+| Disable Updates | Whether to disable automatic updates | `False` | `sc_data_no_update` | `SC_DATA_NO_UPDATE` |
+| Database URL | The URL of the most recent version of the database file | `https://sc-data-public-40e9d310.s3.amazonaws.com/sc-data-all.db.bz2` | `sc_data_db_url` | `SC_DATA_DB_URL` |
+| HTTP Timeout | The timeout in seconds for downloading the database file | `30` | `sc_data_http_timeout` | `SC_DATA_HTTP_TIMEOUT` |
+| Refresh Interval | The interval in seconds to update the database | `600` | `sc_data_db_refresh_seconds` | `SC_DATA_DB_REFRESH_SECONDS` |
 
 ## References
 
