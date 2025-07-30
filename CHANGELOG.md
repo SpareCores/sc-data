@@ -1,3 +1,13 @@
+## v0.3.1+20250730165145 (Jul 30, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/16628118254
+
+
+### server
+
+- Update: upcloud/GPU-32xCPU-384GB-3xL40S
+
 ## v0.3.1+20250730114546 (Jul 30, 2025)
 
 This is an automated release with 4 new/updated/deleted resources.
