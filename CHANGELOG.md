@@ -1,3 +1,23 @@
+## v0.3.1+20250815114346 (Aug 15, 2025)
+
+This is an automated release with 11 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/16988839000
+
+
+### server
+
+- Update: upcloud/GPU-12xCPU-128GB-1xL40S
+- Update: upcloud/GPU-12xCPU-128GB-2xL40S
+- Update: upcloud/GPU-16xCPU-192GB-1xL40S
+- Update: upcloud/GPU-16xCPU-192GB-2xL40S
+- Update: upcloud/GPU-16xCPU-192GB-3xL40S
+- Update: upcloud/GPU-20xCPU-256GB-1xL40S
+- Update: upcloud/GPU-20xCPU-256GB-2xL40S
+- Update: upcloud/GPU-20xCPU-256GB-3xL40S
+- Update: upcloud/GPU-32xCPU-384GB-2xL40S
+- Update: upcloud/GPU-32xCPU-384GB-3xL40S
+- Update: upcloud/GPU-8xCPU-64GB-1xL40S
+
 ## v0.3.1+20250809045939 (Aug 09, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
