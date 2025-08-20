@@ -1,3 +1,37 @@
+## v0.3.1+20250820204719 (Aug 20, 2025)
+
+This is an automated release with 25 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/17109330330
+
+
+### server
+
+- New: aws/r8i-flex.8xlarge
+- New: aws/r8i.32xlarge
+- New: aws/r8i.large
+- New: aws/r8i.48xlarge
+- New: aws/r8i.16xlarge
+- New: aws/r8i.24xlarge
+- New: aws/r8i.12xlarge
+- New: aws/r8i.96xlarge
+- New: aws/r8i.2xlarge
+- New: aws/r8i.xlarge
+- New: aws/r8i-flex.4xlarge
+- New: aws/r8i-flex.2xlarge
+- New: aws/r8i.4xlarge
+- New: aws/r8i.metal-48xl
+- New: aws/r8i.metal-96xl
+- New: aws/r8i-flex.12xlarge
+- New: aws/r8i-flex.16xlarge
+- New: aws/r8i-flex.xlarge
+- New: aws/r8i-flex.large
+- New: aws/r8i.8xlarge
+- New: gcp/1770202
+- New: gcp/1770203
+- New: gcp/1770204
+- Update: azure/Standard_HC44-16rs
+- Update: azure/Standard_HC44-32rs
+
 ## v0.3.1+20250815114346 (Aug 15, 2025)
 
 This is an automated release with 11 new/updated/deleted resources.
