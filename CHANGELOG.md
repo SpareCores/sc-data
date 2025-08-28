@@ -1,3 +1,26 @@
+## v0.3.1+20250828234725 (Aug 28, 2025)
+
+This is an automated release with 14 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/17310141734
+
+
+### server
+
+- New: aws/i8ge.12xlarge
+- New: aws/i8ge.24xlarge
+- New: aws/i8ge.18xlarge
+- New: aws/i8ge.48xlarge
+- New: aws/i8ge.3xlarge
+- New: aws/i8ge.metal-24xl
+- New: aws/i8ge.metal-48xl
+- New: aws/i8ge.xlarge
+- New: aws/i8ge.6xlarge
+- New: aws/i8ge.2xlarge
+- New: aws/i8ge.large
+- Update: aws/m8i.48xlarge
+- Update: aws/m8i-flex.16xlarge
+- Update: aws/m8i.metal-48xl
+
 ## v0.3.1+20250828224255 (Aug 28, 2025)
 
 This is an automated release with 4 new/updated/deleted resources.
