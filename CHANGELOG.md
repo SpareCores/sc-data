@@ -1,3 +1,17 @@
+## v0.3.1+20250829074435 (Aug 29, 2025)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/17317348856
+
+
+### server
+
+- Update: aws/i8ge.18xlarge
+- Update: aws/i8ge.24xlarge
+- Update: aws/i8ge.48xlarge
+- Update: aws/i8ge.metal-24xl
+- Update: aws/i8ge.metal-48xl
+
 ## v0.3.1+20250829054318 (Aug 29, 2025)
 
 This is an automated release with 3 new/updated/deleted resources.
