@@ -1,3 +1,41 @@
+## v0.3.1+20250829130105 (Aug 29, 2025)
+
+This is an automated release with 29 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/17323895920
+
+
+### server
+
+- Update: aws/i8ge.18xlarge
+- Update: aws/i8ge.24xlarge
+- Update: aws/i8ge.2xlarge
+- Update: aws/i8ge.3xlarge
+- Update: aws/i8ge.48xlarge
+- Update: aws/i8ge.6xlarge
+- Update: aws/i8ge.large
+- Update: aws/i8ge.metal-24xl
+- Update: aws/i8ge.metal-48xl
+- Update: aws/i8ge.xlarge
+- Update: aws/m8i.12xlarge
+- Update: aws/m8i.16xlarge
+- Update: aws/m8i.24xlarge
+- Update: aws/m8i.2xlarge
+- Update: aws/m8i.32xlarge
+- Update: aws/m8i.48xlarge
+- Update: aws/m8i.4xlarge
+- Update: aws/m8i.8xlarge
+- Update: aws/m8i.96xlarge
+- Update: aws/m8i-flex.12xlarge
+- Update: aws/m8i-flex.16xlarge
+- Update: aws/m8i-flex.2xlarge
+- Update: aws/m8i-flex.4xlarge
+- Update: aws/m8i-flex.8xlarge
+- Update: aws/m8i-flex.large
+- Update: aws/m8i-flex.xlarge
+- Update: aws/m8i.large
+- Update: aws/m8i.metal-96xl
+- Update: aws/m8i.xlarge
+
 ## v0.3.1+20250829074435 (Aug 29, 2025)
 
 This is an automated release with 5 new/updated/deleted resources.
