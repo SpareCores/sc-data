@@ -1,3 +1,13 @@
+## v0.3.1+20250901050008 (Sep 01, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/17367562967
+
+
+### server
+
+- New: azure/Standard_M416bs_v3
+
 ## v0.3.1+20250829130105 (Aug 29, 2025)
 
 This is an automated release with 29 new/updated/deleted resources.
