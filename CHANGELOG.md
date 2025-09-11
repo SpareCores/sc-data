@@ -1,3 +1,19 @@
+## v0.3.1+20250911215216 (Sep 11, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/17657461380
+
+
+### server
+
+- New: aws/mac-m4pro.metal
+- New: aws/mac-m4.metal
+- New: gcp/999904051
+- New: gcp/999904052
+- New: gcp/999904050
+- Update: aws/i7i.12xlarge
+- Update: aws/i8g.8xlarge
+
 ## v0.3.1+20250911164715 (Sep 11, 2025)
 
 This is an automated release with 4 new/updated/deleted resources.
