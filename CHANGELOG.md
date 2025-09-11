@@ -1,3 +1,13 @@
+## v0.3.1+20250911015436 (Sep 11, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/17631030579
+
+
+### server
+
+- Update: aws/i7i.12xlarge
+
 ## v0.3.1+20250910234251 (Sep 10, 2025)
 
 This is an automated release with 4 new/updated/deleted resources.
