@@ -1,3 +1,44 @@
+## v0.3.1+20250914040703 (Sep 14, 2025)
+
+This is an automated release with 32 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/17705892605
+
+
+### server
+
+- New: azure/Standard_DC16ads_v6
+- New: azure/Standard_DC16as_v6
+- New: azure/Standard_DC2ads_v6
+- New: azure/Standard_DC2as_v6
+- New: azure/Standard_DC32ads_v6
+- New: azure/Standard_DC32as_v6
+- New: azure/Standard_DC48ads_v6
+- New: azure/Standard_DC48as_v6
+- New: azure/Standard_DC4ads_v6
+- New: azure/Standard_DC4as_v6
+- New: azure/Standard_DC64ads_v6
+- New: azure/Standard_DC64as_v6
+- New: azure/Standard_DC8ads_v6
+- New: azure/Standard_DC8as_v6
+- New: azure/Standard_DC96ads_v6
+- New: azure/Standard_DC96as_v6
+- New: azure/Standard_EC16ads_v6
+- New: azure/Standard_EC16as_v6
+- New: azure/Standard_EC2ads_v6
+- New: azure/Standard_EC2as_v6
+- New: azure/Standard_EC32ads_v6
+- New: azure/Standard_EC32as_v6
+- New: azure/Standard_EC48ads_v6
+- New: azure/Standard_EC48as_v6
+- New: azure/Standard_EC4ads_v6
+- New: azure/Standard_EC4as_v6
+- New: azure/Standard_EC64ads_v6
+- New: azure/Standard_EC64as_v6
+- New: azure/Standard_EC8ads_v6
+- New: azure/Standard_EC8as_v6
+- New: azure/Standard_EC96ads_v6
+- New: azure/Standard_EC96as_v6
+
 ## v0.3.1+20250912094647 (Sep 12, 2025)
 
 This is an automated release with 6 new/updated/deleted resources.
