@@ -1,3 +1,22 @@
+## v0.3.1+20250916114349 (Sep 16, 2025)
+
+This is an automated release with 10 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/17763892308
+
+
+### server
+
+- Update: aws/r8gn.12xlarge
+- Update: aws/r8gn.16xlarge
+- Update: aws/r8gn.24xlarge
+- Update: aws/r8gn.2xlarge
+- Update: aws/r8gn.48xlarge
+- Update: aws/r8gn.4xlarge
+- Update: aws/r8gn.8xlarge
+- Update: aws/r8gn.large
+- Update: aws/r8gn.medium
+- Update: aws/r8gn.xlarge
+
 ## v0.3.1+20250916054336 (Sep 16, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
