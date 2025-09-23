@@ -1,3 +1,13 @@
+## v0.3.1+20250923045648 (Sep 23, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/17935623954
+
+
+### server
+
+- Update: aws/r8gb.medium
+
 ## v0.3.1+20250922154949 (Sep 22, 2025)
 
 This is an automated release with 10 new/updated/deleted resources.
