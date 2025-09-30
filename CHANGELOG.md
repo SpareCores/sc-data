@@ -1,3 +1,13 @@
+## v0.3.1+20250930225050 (Sep 30, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/18144893264
+
+
+### storage
+
+- Update: aws/gp3
+
 ## v0.3.1+20250923114255 (Sep 23, 2025)
 
 This is an automated release with 9 new/updated/deleted resources.
