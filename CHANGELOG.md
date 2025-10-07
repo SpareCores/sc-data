@@ -1,3 +1,30 @@
+## v0.3.1+20251007114524 (Oct 07, 2025)
+
+This is an automated release with 18 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/18310807966
+
+
+### server
+
+- Update: aws/c8i.12xlarge
+- Update: aws/c8i.16xlarge
+- Update: aws/c8i.24xlarge
+- Update: aws/c8i.2xlarge
+- Update: aws/c8i.32xlarge
+- Update: aws/c8i.48xlarge
+- Update: aws/c8i.4xlarge
+- Update: aws/c8i.8xlarge
+- Update: aws/c8i.96xlarge
+- Update: aws/c8i-flex.12xlarge
+- Update: aws/c8i-flex.16xlarge
+- Update: aws/c8i-flex.2xlarge
+- Update: aws/c8i-flex.4xlarge
+- Update: aws/c8i-flex.8xlarge
+- Update: aws/c8i-flex.large
+- Update: aws/c8i-flex.xlarge
+- Update: aws/c8i.large
+- Update: aws/c8i.xlarge
+
 ## v0.3.1+20251007045440 (Oct 07, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
