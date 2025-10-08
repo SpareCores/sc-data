@@ -1,3 +1,14 @@
+## v0.3.1+20251008045555 (Oct 08, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/18333638674
+
+
+### server
+
+- Update: aws/m8a.2xlarge
+- Update: aws/m8a.xlarge
+
 ## v0.3.1+20251008040917 (Oct 08, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
