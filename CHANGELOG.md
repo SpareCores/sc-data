@@ -1,3 +1,13 @@
+## v0.3.1+20251008032601 (Oct 08, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/18332308434
+
+
+### server
+
+- Update: aws/m8a.medium
+
 ## v0.3.1+20251007155441 (Oct 07, 2025)
 
 This is an automated release with 12 new/updated/deleted resources.
