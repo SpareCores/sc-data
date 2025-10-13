@@ -1,3 +1,13 @@
+## v0.3.1+20251013033919 (Oct 13, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/18453911935
+
+
+### server
+
+- Update: azure/Standard_ND40s_v3
+
 ## v0.3.1+20251013015449 (Oct 13, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
