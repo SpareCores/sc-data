@@ -1,3 +1,14 @@
+## v0.3.1+20251023234601 (Oct 23, 2025)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/18764529963
+
+
+### region
+
+- Update: azure/austriaeast
+- Update: azure/belgiumcentral
+
 ## v0.3.1+20251023224552 (Oct 23, 2025)
 
 This is an automated release with 3 new/updated/deleted resources.
