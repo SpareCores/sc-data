@@ -1,3 +1,20 @@
+## v0.3.1+20251023045353 (Oct 23, 2025)
+
+This is an automated release with 8 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/18737408379
+
+
+### server
+
+- Update: azure/Standard_A0
+- Update: azure/Standard_A1
+- Update: azure/Standard_A2
+- Update: azure/Standard_A3
+- Update: azure/Standard_A4
+- Update: azure/Standard_A5
+- Update: azure/Standard_A6
+- Update: azure/Standard_A7
+
 ## v0.3.1+20251023033207 (Oct 23, 2025)
 
 This is an automated release with 8 new/updated/deleted resources.
