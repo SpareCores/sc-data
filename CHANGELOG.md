@@ -1,3 +1,13 @@
+## v0.3.1+20251105033818 (Nov 05, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/19089977626
+
+
+### server
+
+- Update: aws/r8a.metal-48xl
+
 ## v0.3.1+20251105015325 (Nov 05, 2025)
 
 This is an automated release with 3 new/updated/deleted resources.
