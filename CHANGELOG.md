@@ -1,3 +1,17 @@
+## v0.3.1+20251107054919 (Nov 07, 2025)
+
+This is an automated release with 5 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/19158979305
+
+
+### server
+
+- New: azure/Standard_HB368-144rs_v5
+- New: azure/Standard_HB368-192rs_v5
+- New: azure/Standard_HB368-240rs_v5
+- New: azure/Standard_HB368-48rs_v5
+- New: azure/Standard_HB368-96rs_v5
+
 ## v0.3.1+20251107045119 (Nov 07, 2025)
 
 This is an automated release with 4 new/updated/deleted resources.
