@@ -1,3 +1,15 @@
+## v0.3.1+20251116224616 (Nov 16, 2025)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/19412863700
+
+
+### server
+
+- Update: aws/g6f.2xlarge
+- Update: aws/g6f.xlarge
+- Update: aws/gr6f.4xlarge
+
 ## v0.3.1+20251116214658 (Nov 16, 2025)
 
 This is an automated release with 4 new/updated/deleted resources.
