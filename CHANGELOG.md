@@ -1,3 +1,13 @@
+## v0.3.1+20251118194514 (Nov 18, 2025)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/19478253728
+
+
+### server
+
+- New: aws/p6-b300.48xlarge
+
 ## v0.3.1+20251118105257 (Nov 18, 2025)
 
 This is an automated release with 3 new/updated/deleted resources.
