@@ -1,3 +1,32 @@
+## v0.3.1+20251202085726 (Dec 02, 2025)
+
+This is an automated release with 20 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/19851979596
+
+
+### server
+
+- New: aws/x8aedz.6xlarge
+- New: aws/x8aedz.3xlarge
+- New: aws/x8aedz.large
+- New: aws/x8aedz.24xlarge
+- New: aws/x8aedz.12xlarge
+- New: aws/x8aedz.metal-24xl
+- New: aws/x8aedz.xlarge
+- New: aws/x8aedz.metal-12xl
+- New: aws/c8a.2xlarge
+- New: aws/c8a.medium
+- New: aws/c8a.16xlarge
+- New: aws/c8a.xlarge
+- New: aws/c8a.metal-24xl
+- New: aws/c8a.large
+- New: aws/c8a.48xlarge
+- New: aws/c8a.8xlarge
+- New: aws/c8a.4xlarge
+- New: aws/c8a.24xlarge
+- New: aws/c8a.12xlarge
+- New: aws/c8a.metal-48xl
+
 ## v0.3.1+20251121234556 (Nov 21, 2025)
 
 This is an automated release with 1 new/updated/deleted resources.
