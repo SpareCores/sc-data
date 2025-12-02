@@ -1,3 +1,53 @@
+## v0.3.1+20251202131058 (Dec 02, 2025)
+
+This is an automated release with 41 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/19858859958
+
+
+### server
+
+- Update: azure/Standard_B12ms
+- Update: azure/Standard_B16als_v2
+- Update: azure/Standard_B16as_v2
+- Update: azure/Standard_B16ls_v2
+- Update: azure/Standard_B16ms
+- Update: azure/Standard_B16pls_v2
+- Update: azure/Standard_B16ps_v2
+- Update: azure/Standard_B16s_v2
+- Update: azure/Standard_B1ls
+- Update: azure/Standard_B1ms
+- Update: azure/Standard_B1s
+- Update: azure/Standard_B20ms
+- Update: azure/Standard_B2als_v2
+- Update: azure/Standard_B2as_v2
+- Update: azure/Standard_B2ats_v2
+- Update: azure/Standard_B2ls_v2
+- Update: azure/Standard_B2ms
+- Update: azure/Standard_B2pls_v2
+- Update: azure/Standard_B2ps_v2
+- Update: azure/Standard_B2pts_v2
+- Update: azure/Standard_B2s
+- Update: azure/Standard_B2s_v2
+- Update: azure/Standard_B2ts_v2
+- Update: azure/Standard_B32als_v2
+- Update: azure/Standard_B32as_v2
+- Update: azure/Standard_B32ls_v2
+- Update: azure/Standard_B32s_v2
+- Update: azure/Standard_B4als_v2
+- Update: azure/Standard_B4as_v2
+- Update: azure/Standard_B4ls_v2
+- Update: azure/Standard_B4ms
+- Update: azure/Standard_B4pls_v2
+- Update: azure/Standard_B4ps_v2
+- Update: azure/Standard_B4s_v2
+- Update: azure/Standard_B8als_v2
+- Update: azure/Standard_B8as_v2
+- Update: azure/Standard_B8ls_v2
+- Update: azure/Standard_B8ms
+- Update: azure/Standard_B8pls_v2
+- Update: azure/Standard_B8ps_v2
+- Update: azure/Standard_B8s_v2
+
 ## v0.3.1+20251202085726 (Dec 02, 2025)
 
 This is an automated release with 20 new/updated/deleted resources.
