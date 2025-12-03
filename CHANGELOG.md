@@ -1,3 +1,18 @@
+## v0.3.1+20251203130856 (Dec 03, 2025)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/19894090183
+
+
+### server
+
+- Update: aws/x8aedz.12xlarge
+- Update: aws/x8aedz.24xlarge
+- Update: aws/x8aedz.3xlarge
+- Update: aws/x8aedz.6xlarge
+- Update: aws/x8aedz.large
+- Update: aws/x8aedz.xlarge
+
 ## v0.3.1+20251203114825 (Dec 03, 2025)
 
 This is an automated release with 11 new/updated/deleted resources.
