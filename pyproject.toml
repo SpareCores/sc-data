@@ -1,14 +1,14 @@
 [project]
 name = "sparecores-data"
-version = "0.3.1"
-description = "Structured data collected by sparecores-crawler."
+version = "0.3.2"
+description = "Structured data on cloud servers collected by sparecores-crawler."
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-  { name="Attila Nagy" },
   { name="Gergely Daroczi" },
-  { name="Balazs Hodobay" },
+  { name="Attila Nagy" },
 ]
+
 maintainers = [
   { name="Spare Cores team", email="pkg@sparecores.com" }
 ]
@@ -20,7 +20,7 @@ keywords = ["cloud", "compute", "etl", "sqlite", "spot-instances", "cost-optimiz
 classifiers = [
   "Programming Language :: Python :: 3",
   "Operating System :: OS Independent",
-  "Development Status :: 4 - Beta",
+  "Development Status :: 5 - Production/Stable",
 ]
 
 [project.urls]
