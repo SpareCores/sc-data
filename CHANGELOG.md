@@ -1,3 +1,30 @@
+## v0.3.2+20251209145427 (Dec 09, 2025)
+
+This is an automated release with 18 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/20066636081
+
+
+### server
+
+- Update: hcloud/100
+- Update: hcloud/101
+- Update: hcloud/108
+- Update: hcloud/109
+- Update: hcloud/110
+- Update: hcloud/111
+- Update: hcloud/112
+- Update: hcloud/113
+- Update: hcloud/96
+- Update: hcloud/97
+- Update: hcloud/98
+- Update: hcloud/99
+- Update: ovh/b3-16
+- Update: ovh/b3-8
+- Update: ovh/c3-16
+- Update: ovh/c3-4
+- Update: ovh/c3-8
+- Update: ovh/r3-16
+
 ## v0.3.2+20251209115243 (Dec 09, 2025)
 
 This is an automated release with 7 new/updated/deleted resources.
