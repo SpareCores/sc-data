@@ -1,3 +1,25 @@
+## v0.3.2+20251211145116 (Dec 11, 2025)
+
+This is an automated release with 7 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/20136194299
+
+
+### region
+
+- New: upcloud/dk-cph1
+
+### zone
+
+- New: upcloud/dk-cph1/dk-cph1
+
+### server
+
+- Update: aws/c8gb.2xlarge
+- Update: aws/c8gb.4xlarge
+- Update: aws/c8gb.large
+- Update: aws/c8gb.medium
+- Update: aws/c8gb.xlarge
+
 ## v0.3.2+20251210215436 (Dec 10, 2025)
 
 This is an automated release with 2 new/updated/deleted resources.
