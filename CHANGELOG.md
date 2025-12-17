@@ -1,3 +1,80 @@
+## v0.3.2+20251217155714 (Dec 17, 2025)
+
+This is an automated release with 68 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/20307746326
+
+
+### server
+
+- New: gcp/999921025
+- New: gcp/999921008
+- New: gcp/999921012
+- New: gcp/999921009
+- New: gcp/999921013
+- New: gcp/999921010
+- New: gcp/999921014
+- New: gcp/999921015
+- New: gcp/999921011
+- New: gcp/999921016
+- New: gcp/999921020
+- New: gcp/999921017
+- New: gcp/999921021
+- New: gcp/999921018
+- New: gcp/999921022
+- New: gcp/999921023
+- New: gcp/999921019
+- New: gcp/999921000
+- New: gcp/999921004
+- New: gcp/999921001
+- New: gcp/999921005
+- New: gcp/999921002
+- New: gcp/999921006
+- New: gcp/999921007
+- New: gcp/999921003
+- Update: upcloud/80xCPU-512GB
+- Update: ovh/a10-180
+- Update: ovh/a10-45
+- Update: ovh/a10-90
+- Update: ovh/b3-128
+- Update: ovh/b3-256
+- Update: ovh/b3-32
+- Update: ovh/b3-512
+- Update: ovh/b3-64
+- Update: ovh/c2-120
+- Update: ovh/c2-30
+- Update: ovh/c2-60
+- Update: ovh/c3-128
+- Update: ovh/c3-256
+- Update: ovh/c3-320
+- Update: ovh/c3-64
+- Update: upcloud/CLOUDNATIVE-80xCPU-512GB
+- Update: ovh/h100-380
+- Update: ovh/i1-180
+- Update: ovh/i1-45
+- Update: ovh/i1-90
+- Update: ovh/l40s-180
+- Update: ovh/l40s-90
+- Update: ovh/l4-180
+- Update: ovh/l4-360
+- Update: ovh/l4-90
+- Update: ovh/r2-120
+- Update: ovh/r2-240
+- Update: ovh/r2-30
+- Update: ovh/r2-60
+- Update: ovh/r3-128
+- Update: ovh/r3-256
+- Update: ovh/r3-32
+- Update: ovh/r3-512
+- Update: ovh/r3-64
+- Update: ovh/rtx5000-84
+- Update: ovh/t1-45
+- Update: ovh/t1-90
+- Update: ovh/t1-le-180
+- Update: ovh/t1-le-90
+- Update: ovh/t2-90
+- Update: ovh/t2-le-180
+- Update: ovh/t2-le-90
+
 ## v0.3.2+20251216214916 (Dec 16, 2025)
 
 This is an automated release with 3 new/updated/deleted resources.
