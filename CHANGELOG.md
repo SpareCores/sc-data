@@ -1,3 +1,49 @@
+## v0.3.3+20260107220126 (Jan 07, 2026)
+
+This is an automated release with 34 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/20796889538
+
+
+### region
+
+- New: aws/ap-east-2
+- New: aws/ap-southeast-5
+- New: aws/ap-southeast-6
+- New: aws/ap-southeast-7
+- New: aws/mx-central-1
+- Update: aws/af-south-1
+- Update: aws/ap-east-1
+- Update: aws/ap-northeast-1
+- Update: aws/ap-northeast-2
+- Update: aws/ap-northeast-3
+- Update: aws/ap-southeast-1
+- Update: aws/ap-southeast-2
+- Update: aws/ap-southeast-3
+- Update: aws/ap-southeast-4
+- Update: aws/ca-west-1
+- Update: aws/il-central-1
+- Update: aws/me-central-1
+- Update: aws/me-south-1
+- Update: aws/sa-east-1
+
+### zone
+
+- New: aws/ap-east-2/ape2-az1
+- New: aws/ap-east-2/ape2-az2
+- New: aws/ap-east-2/ape2-az3
+- New: aws/ap-southeast-5/apse5-az1
+- New: aws/ap-southeast-5/apse5-az2
+- New: aws/ap-southeast-5/apse5-az3
+- New: aws/ap-southeast-6/apse6-az1
+- New: aws/ap-southeast-6/apse6-az2
+- New: aws/ap-southeast-6/apse6-az3
+- New: aws/ap-southeast-7/apse7-az1
+- New: aws/ap-southeast-7/apse7-az2
+- New: aws/ap-southeast-7/apse7-az3
+- New: aws/mx-central-1/mxc1-az1
+- New: aws/mx-central-1/mxc1-az2
+- New: aws/mx-central-1/mxc1-az3
+
 ## v0.3.3+20260107105304 (Jan 07, 2026)
 
 This is an automated release with 2039 new/updated/deleted resources.
