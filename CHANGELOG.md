@@ -1,3 +1,7 @@
+## v0.3.3 (Jan 7, 2026)
+
+Bump version to sync with the new `sparecores-crawler` v0.3.3 release.
+
 ## v0.3.2+20260107101937 (Jan 07, 2026)
 
 This is an automated release with 0 new/updated/deleted resources.

@@ -33,6 +33,9 @@ jobs:
       OVH_PROJECT_ID: ${{ secrets.OVH_PROJECT_ID }}
       OVH_ENDPOINT: ${{ vars.OVH_ENDPOINT }}
       OVH_SUBSIDIARY: ${{ vars.OVH_SUBSIDIARY }}
+      ALIBABA_CLOUD_ACCESS_KEY_ID: ${{ secrets.ALIBABA_CLOUD_ACCESS_KEY_ID }}
+      ALIBABA_CLOUD_ACCESS_KEY_SECRET: ${{ secrets.ALIBABA_CLOUD_ACCESS_KEY_SECRET }}
+      ALIBABA_CLOUD_REGION: ${{ vars.ALIBABA_CLOUD_REGION }}
       COLUMNS: 160
     steps:
       - name: Checkout
