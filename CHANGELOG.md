@@ -1,3 +1,13 @@
+## v0.3.3+20260111100633 (Jan 11, 2026)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/20892841396
+
+
+### zone
+
+- Update: alicloud/cn-nanjing/cn-nanjing-a
+
 ## v0.3.3+20260110040757 (Jan 10, 2026)
 
 This is an automated release with 198 new/updated/deleted resources.
