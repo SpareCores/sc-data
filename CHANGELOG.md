@@ -1,3 +1,28 @@
+## v0.3.3+20260112120403 (Jan 12, 2026)
+
+This is an automated release with 13 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/20917511110
+
+
+### zone
+
+- Update: alicloud/cn-shanghai/cn-shanghai-a
+- Update: alicloud/cn-shanghai/cn-shanghai-b
+- Update: alicloud/cn-shanghai/cn-shanghai-c
+- Update: alicloud/cn-shanghai/cn-shanghai-d
+- Update: alicloud/cn-shanghai/cn-shanghai-e
+- Update: alicloud/cn-shanghai/cn-shanghai-f
+- Update: alicloud/cn-shanghai/cn-shanghai-g
+- Update: alicloud/cn-shanghai/cn-shanghai-k
+- Update: alicloud/cn-shanghai/cn-shanghai-l
+- Update: alicloud/cn-shanghai/cn-shanghai-m
+- Update: alicloud/cn-shanghai/cn-shanghai-n
+- Update: alicloud/cn-shanghai/cn-shanghai-o
+
+### server
+
+- New: alicloud/ecs.poc-test.t86
+
 ## v0.3.3+20260111111244 (Jan 11, 2026)
 
 This is an automated release with 1 new/updated/deleted resources.
