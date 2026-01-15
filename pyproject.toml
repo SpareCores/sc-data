@@ -14,7 +14,6 @@ maintainers = [
 ]
 dependencies = [
     "requests",
-    "safe_exit",
 ]
 keywords = ["cloud", "compute", "etl", "sqlite", "spot-instances", "cost-optimization"]
 classifiers = [
