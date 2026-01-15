@@ -1,3 +1,21 @@
+## v0.3.3+20260115120929 (Jan 15, 2026)
+
+This is an automated release with 3 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/21029500018
+
+
+### region
+
+- New: upcloud/no-svg1
+
+### zone
+
+- New: upcloud/no-svg1/no-svg1
+
+### server
+
+- Update: alicloud/ecs.t5-lc1m1.small
+
 ## v0.3.3+20260115042654 (Jan 15, 2026)
 
 This is an automated release with 1 new/updated/deleted resources.
