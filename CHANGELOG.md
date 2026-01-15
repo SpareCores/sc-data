@@ -1,3 +1,13 @@
+## v0.3.3+20260115042654 (Jan 15, 2026)
+
+This is an automated release with 1 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/21018908151
+
+
+### server
+
+- New: alicloud/ecs.ebmr9i-hex.48xlarge
+
 ## v0.3.3+20260115000504 (Jan 15, 2026)
 
 This is an automated release with 1881 new/updated/deleted resources.
