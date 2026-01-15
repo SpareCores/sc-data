@@ -40,10 +40,18 @@ from sc_data import db
 print(db.path)
 ```
 
-This attempts to download the latest version of the database from our public S3
-bucket within 30 seconds (see config options below), and returns the path of the
-tempfile on success, or a limited version of the database that is bundled with
-the package (without pricing information).
+The database is cached locally in a persistent directory and automatically
+updated when needed. On import, the package:
+
+1. Checks the local cache for a valid (non-stale) database
+2. If cached and fresh, uses it immediately
+3. Otherwise, downloads the latest version from our public S3 bucket
+4. Falls back to a limited version bundled with the package (without pricing information) if download fails
+
+The cache is stored in a platform-specific location:
+- **Linux**: `$XDG_CACHE_HOME/sparecores-data/` or `~/.cache/sparecores-data/`
+- **macOS**: `~/Library/Caches/sparecores-data/`
+- **Windows**: `%LOCALAPPDATA%/sparecores-data/`
 
 To enforce waiting for the update to complete, you can use the `updated` event:
 
@@ -58,11 +66,14 @@ overridden by builtins or environment variables:
 
 | Configuration | Description | Default Value | Builtin Name | Environment Variable |
 |---------------|-------------|---------------|--------------|---------------------|
-| Initial Database | The file path of the initial database to load | `data/sc-data-priceless.db` | `sc_data_db_path` | `SC_DATA_DB_PATH` |
+| Custom Database Path | Custom file path for the database (bypasses cache) | - | `sc_data_db_path` | `SC_DATA_DB_PATH` |
 | Disable Updates | Whether to disable automatic updates | `False` | `sc_data_no_update` | `SC_DATA_NO_UPDATE` |
-| Database URL | The URL of the most recent version of the database file | `https://sc-data-public-40e9d310.s3.amazonaws.com/sc-data-all.db.bz2` | `sc_data_db_url` | `SC_DATA_DB_URL` |
+| Database URL | The URL of the most recent version of the database file | `https://...sc-data-all.db.bz2` | `sc_data_db_url` | `SC_DATA_DB_URL` |
 | HTTP Timeout | The timeout in seconds for downloading the database file | `30` | `sc_data_http_timeout` | `SC_DATA_HTTP_TIMEOUT` |
-| Refresh Interval | The interval in seconds to update the database | `600` | `sc_data_db_refresh_seconds` | `SC_DATA_DB_REFRESH_SECONDS` |
+| Refresh Interval | The interval in seconds to check for database updates | `600` | `sc_data_db_refresh_seconds` | `SC_DATA_DB_REFRESH_SECONDS` |
+| Cache TTL | Time in seconds before the cached database is considered stale | `86400` (1 day) | `sc_data_db_cache_ttl` | `SC_DATA_DB_CACHE_TTL` |
+
+**Note**: Setting `SC_DATA_DB_PATH` disables caching and uses the specified file directly.
 
 ## References
 
