@@ -1,3 +1,79 @@
+## v0.3.4+20260116133345 (Jan 16, 2026)
+
+This is an automated release with 67 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/21067097505
+
+
+### server
+
+- Update: gcp/1020012
+- Update: gcp/1020024
+- Update: gcp/1020048
+- Update: gcp/1020096
+- Update: gcp/1301004
+- Update: gcp/1301008
+- Update: gcp/1301022
+- Update: gcp/1301044
+- Update: gcp/1301088
+- Update: gcp/1301176
+- Update: gcp/1720361
+- Update: gcp/1720362
+- Update: gcp/1720363
+- Update: gcp/1720364
+- Update: gcp/1720366
+- Update: gcp/1720367
+- Update: gcp/1722000
+- Update: gcp/1730008
+- Update: gcp/1730016
+- Update: gcp/1730030
+- Update: gcp/1730060
+- Update: gcp/1730090
+- Update: gcp/1730180
+- Update: gcp/1730360
+- Update: gcp/1742000
+- Update: gcp/1742001
+- Update: gcp/1742008
+- Update: gcp/1742009
+- Update: gcp/1742010
+- Update: gcp/1742011
+- Update: gcp/1742012
+- Update: gcp/1742013
+- Update: gcp/1742014
+- Update: gcp/1742015
+- Update: gcp/1742016
+- Update: gcp/1742017
+- Update: gcp/1742018
+- Update: gcp/9905008
+- Update: gcp/9905016
+- Update: gcp/9905030
+- Update: gcp/9905060
+- Update: gcp/9905090
+- Update: gcp/9905180
+- Update: gcp/9905360
+- Update: gcp/9910002
+- Update: gcp/999913004
+- Update: gcp/999913008
+- Update: gcp/999913016
+- Update: gcp/999913024
+- Update: gcp/999913032
+- Update: gcp/999913048
+- Update: gcp/999913096
+- Update: gcp/999913144
+- Update: gcp/999913192
+- Update: gcp/999913288
+- Update: gcp/999914004
+- Update: gcp/999914008
+- Update: gcp/999914016
+- Update: gcp/999914024
+- Update: gcp/999914032
+- Update: gcp/999914048
+- Update: gcp/999914096
+- Update: gcp/999914144
+- Update: gcp/999914192
+- Update: gcp/999914288
+- Update: gcp/999919288
+- Update: aws/x8i.32xlarge
+
 ## v0.3.4+20260116120939 (Jan 16, 2026)
 
 This is an automated release with 6 new/updated/deleted resources.
