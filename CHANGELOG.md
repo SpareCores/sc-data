@@ -1,3 +1,21 @@
+## v0.3.4+20260116120939 (Jan 16, 2026)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/21064935557
+
+
+### zone
+
+- Update: gcp/1680/2680
+- Update: gcp/1680/2681
+- Update: gcp/1680/2682
+
+### server
+
+- Update: alicloud/ecs.c6r.large
+- Update: alicloud/ecs.c6r.xlarge
+- Update: aws/x8i.24xlarge
+
 ## v0.3.4+20260116101445 (Jan 16, 2026)
 
 This is an automated release with 3 new/updated/deleted resources.
