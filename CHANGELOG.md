@@ -1,3 +1,14 @@
+## v0.3.4+20260118160659 (Jan 18, 2026)
+
+This is an automated release with 2 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/21114021068
+
+
+### zone
+
+- Update: alicloud/cn-heyuan/cn-heyuan-a
+- Update: alicloud/cn-heyuan/cn-heyuan-b
+
 ## v0.3.4+20260117150059 (Jan 17, 2026)
 
 This is an automated release with 1 new/updated/deleted resources.
