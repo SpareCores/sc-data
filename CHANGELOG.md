@@ -1,3 +1,85 @@
+## v0.3.4+20260121000554 (Jan 21, 2026)
+
+This is an automated release with 73 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/21190994218
+
+
+### server
+
+- Update: alicloud/ecs.c6r.large
+- Update: alicloud/ecs.c6r.xlarge
+- Update: alicloud/ecs.c7a.large
+- Update: alicloud/ecs.ebmgn6v.24xlarge
+- Update: alicloud/ecs.ebmgn7e.32xlarge
+- Update: alicloud/ecs.ebmgn7ex.32xlarge
+- Update: alicloud/ecs.ebmgn7v.32xlarge
+- Update: alicloud/ecs.ebmgn9g.64xlarge
+- Update: alicloud/ecs.ebmgn9ge.64xlarge
+- Update: alicloud/ecs.ga1.2xlarge
+- Update: alicloud/ecs.ga1.4xlarge
+- Update: alicloud/ecs.ga1.8xlarge
+- Update: alicloud/ecs.ga1.xlarge
+- Update: alicloud/ecs.gn7e-c16g1.16xlarge
+- Update: alicloud/ecs.gn7e-c16g1.32xlarge
+- Update: alicloud/ecs.gn7e-c16g1.4xlarge
+- Update: alicloud/ecs.gn7e-c16g1.8xlarge
+- Update: alicloud/ecs.gn9g-2x.16xlarge
+- Update: alicloud/ecs.gn9g-4x.32xlarge
+- Update: alicloud/ecs.gn9g.4xlarge
+- Update: alicloud/ecs.gn9g-8x.64xlarge
+- Update: alicloud/ecs.gn9g.8xlarge
+- Update: alicloud/ecs.poc-test.t13
+- Update: alicloud/ecs.poc-test.t14
+- Update: alicloud/ecs.sccgn6.24xlarge
+- Update: alicloud/ecs.sccgn7ex.32xlarge
+- Update: alicloud/ecs.sgn6i-vws-m2.xlarge
+- Update: alicloud/ecs.sgn6i-vws-m4.2xlarge
+- Update: alicloud/ecs.sgn6i-vws-m8.4xlarge
+- Update: alicloud/ecs.sgn7i-vws-m2s.xlarge
+- Update: alicloud/ecs.sgn7i-vws-m2.xlarge
+- Update: alicloud/ecs.sgn7i-vws-m4.2xlarge
+- Update: alicloud/ecs.sgn7i-vws-m4s.2xlarge
+- Update: alicloud/ecs.sgn7i-vws-m8.4xlarge
+- Update: alicloud/ecs.sgn7i-vws-m8s.4xlarge
+- Update: alicloud/ecs.sgn8ia-m16.8xlarge
+- Update: alicloud/ecs.sgn8ia-m24.12xlarge
+- Update: alicloud/ecs.sgn8ia-m2.xlarge
+- Update: alicloud/ecs.sgn8ia-m4.2xlarge
+- Update: alicloud/ecs.sgn8ia-m48.24xlarge
+- Update: alicloud/ecs.sgn8ia-m8.4xlarge
+- Update: alicloud/ecs.vgn5i-m1.large
+- Update: alicloud/ecs.vgn5i-m2.xlarge
+- Update: alicloud/ecs.vgn5i-m4.2xlarge
+- Update: alicloud/ecs.vgn6i-m4-vws.xlarge
+- Update: alicloud/ecs.vgn6i-m4.xlarge
+- Update: alicloud/ecs.vgn6i-m8.2xlarge
+- Update: alicloud/ecs.vgn6i-m8-vws.2xlarge
+- Update: alicloud/ecs.vgn7i-vws-m12.3xlarge
+- Update: alicloud/ecs.vgn7i-vws-m24.7xlarge
+- Update: alicloud/ecs.vgn7i-vws-m4.xlarge
+- Update: alicloud/ecs.vgn7i-vws-m8.2xlarge
+- Update: aws/g7e.12xlarge
+- Update: aws/g7e.24xlarge
+- Update: aws/g7e.2xlarge
+- Update: aws/g7e.48xlarge
+- Update: aws/g7e.4xlarge
+- Update: aws/g7e.8xlarge
+- Update: ovh/rtx5000-28
+- Update: ovh/rtx5000-56
+- Update: ovh/rtx5000-84
+- Update: ovh/t1-180
+- Update: ovh/t1-45
+- Update: ovh/t1-90
+- Update: ovh/t1-le-180
+- Update: ovh/t1-le-45
+- Update: ovh/t1-le-90
+- Update: ovh/t2-180
+- Update: ovh/t2-45
+- Update: ovh/t2-90
+- Update: ovh/t2-le-180
+- Update: ovh/t2-le-45
+- Update: ovh/t2-le-90
+
 ## v0.3.4+20260120192159 (Jan 20, 2026)
 
 This is an automated release with 135 new/updated/deleted resources.
