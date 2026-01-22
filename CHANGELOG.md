@@ -1,3 +1,21 @@
+## v0.3.4+20260122201547 (Jan 22, 2026)
+
+This is an automated release with 6 new/updated/deleted resources.
+Job was run at https://github.com/SpareCores/sc-data/actions/runs/21261928816
+
+
+### zone
+
+- Update: gcp/1550/2554
+
+### server
+
+- New: aws/r8gb.metal-48xl
+- New: aws/c8gb.metal-48xl
+- New: aws/r8gb.48xlarge
+- New: aws/m8gb.48xlarge
+- New: aws/c8gb.48xlarge
+
 ## v0.3.4+20260122181849 (Jan 22, 2026)
 
 This is an automated release with 1 new/updated/deleted resources.
