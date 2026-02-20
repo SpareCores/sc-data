@@ -5,14 +5,15 @@ Usage:
 
 ```
 import sc_data
-sc_data.db.path  # this will hold the actual data file's path (either the built-in, cached, or a custom path)
+sc_data.db.path  # this will hold the actual data file's path (either cached or a custom path)
 sc_data.db.hash  # an SHA256 hash of the DB, can be used to track changes and reopen the database if needed
 ```
 
 The module accepts the following parameters (must be set before importing):
     - builtins.sc_data_no_update / SC_DATA_NO_UPDATE - don't do updates if set
     - builtins.sc_data_db_path / SC_DATA_DB_PATH - the initial database path (overrides cache)
-    - builtins.sc_data_db_url / SC_DATA_DB_URL - DB URL to fetch updates
+    - builtins.sc_data_db_type / SC_DATA_DB_TYPE - database type: "full" (default, includes prices) or "priceless" (no prices, smaller)
+    - builtins.sc_data_db_url / SC_DATA_DB_URL - DB URL to fetch updates (overrides db_type if set)
     - builtins.sc_data_http_timeout / SC_DATA_HTTP_TIMEOUT - HTTP timeout in seconds
     - builtins.sc_data_db_refresh_seconds / SC_DATA_DB_REFRESH_SECONDS - update database after this has passed
     - builtins.sc_data_db_cache_ttl / SC_DATA_DB_CACHE_TTL - cache TTL in seconds (default: 86400 = 1 day)

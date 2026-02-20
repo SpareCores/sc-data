@@ -15,8 +15,6 @@ logger = logging.getLogger(__name__)
 
 # Cache directory and file names
 CACHE_DIR_NAME = "sparecores-data"
-CACHE_DB_NAME = "sc-data.db"
-CACHE_HASH_NAME = "sc-data.hash"
 
 
 def get_parameter(name):
@@ -25,6 +23,41 @@ def get_parameter(name):
         getattr(builtins, f"sc_data_{name}", None)
         or os.environ.get(f"SC_DATA_{name.upper()}")
         or getattr(constants, name.upper(), None)
+    )
+
+
+def get_db_url():
+    """Get the database URL, constructing it from DB_TYPE if DB_URL is not explicitly set."""
+    # Check if user explicitly set a custom URL
+    explicit_url = (
+        getattr(builtins, "sc_data_db_url", None) or os.environ.get("SC_DATA_DB_URL")
+    )
+    if explicit_url:
+        return explicit_url
+
+    # Otherwise, construct URL from database type
+    db_type = get_parameter("db_type") or "full"
+    if db_type not in ("full", "priceless"):
+        logger.warning(
+            "Invalid db_type '%s', expected 'full' or 'priceless'. Using 'full'.",
+            db_type,
+        )
+        db_type = "full"
+
+    filename = "sc-data-all.sql.xz" if db_type == "full" else "sc-data-priceless.sql.xz"
+    base_url = get_parameter("db_base_url") or constants.DB_BASE_URL
+    return f"{base_url}/{filename}"
+
+
+def get_cache_file_names():
+    """Get cache file names based on database type."""
+    db_type = get_parameter("db_type") or "full"
+    if db_type not in ("full", "priceless"):
+        db_type = "full"
+    suffix = db_type if db_type == "priceless" else "all"
+    return (
+        f"sc-data-{suffix}.db",
+        f"sc-data-{suffix}.hash",
     )
 
 
@@ -81,20 +114,24 @@ class Data(threading.Thread):
 
         # Get cache directory and file paths
         self.cache_dir = get_cache_dir()
-        self.cache_db_path = os.path.join(self.cache_dir, CACHE_DB_NAME)
-        self.cache_hash_path = os.path.join(self.cache_dir, CACHE_HASH_NAME)
+        cache_db_name, cache_hash_name = get_cache_file_names()
+        self.cache_db_path = os.path.join(self.cache_dir, cache_db_name)
+        self.cache_hash_path = os.path.join(self.cache_dir, cache_hash_name)
 
-        # Initialize with embedded DB path and hash
-        self.actual_db_path = get_parameter("db_path")
-        self.actual_db_hash = constants.DB_HASH
-
-        # Check if user explicitly set a custom DB path (via builtins or envvar, not defaults)
+        # Check if user explicitly set a custom DB path (via builtins or envvar)
         custom_db_path = getattr(builtins, "sc_data_db_path", None) or os.environ.get(
             "SC_DATA_DB_PATH"
         )
 
-        # Try to use cached database if available and not stale
-        if not custom_db_path:  # Only use cache if DB_PATH not explicitly set by user
+        # Initialize path and hash: use custom path if provided, otherwise None
+        # (will be set from cache or download)
+        if custom_db_path:
+            self.actual_db_path = custom_db_path
+            self.actual_db_hash = None  # Hash not tracked for custom paths
+        else:
+            self.actual_db_path = None
+            self.actual_db_hash = None
+            # Try to use cached database if available and not stale
             self._init_from_cache()
 
         super().__init__(*args, **kwargs)
@@ -133,6 +170,8 @@ class Data(threading.Thread):
                         cache_age,
                         cache_ttl,
                     )
+            else:
+                logger.debug("No cached database found, will download")
         except Exception as e:
             logger.warning("Failed to read cached database, will refresh: %s", e)
 
@@ -242,7 +281,7 @@ class Data(threading.Thread):
         try:
             # Initiate a streaming GET to receive headers first
             r = requests.get(
-                get_parameter("db_url"),
+                get_db_url(),
                 timeout=float(get_parameter("http_timeout")),
                 stream=True,
             )
@@ -250,6 +289,7 @@ class Data(threading.Thread):
             # Check for successful response
             if not (200 <= r.status_code < 300):
                 logger.warning("Failed to fetch database: HTTP %d", r.status_code)
+                r.close()
                 return False
 
             # Get remote hash
@@ -264,8 +304,13 @@ class Data(threading.Thread):
             cached_hash = self._read_cached_hash()
             cache_stale = self._is_cache_stale()
 
+            # Need to download if:
+            # 1. No database path set yet (first run or cache missing)
+            # 2. Hash changed
+            # 3. Cache is stale (TTL exceeded)
             need_download = (
-                remote_hash != self.actual_db_hash
+                self.actual_db_path is None
+                or remote_hash != self.actual_db_hash
                 or remote_hash != cached_hash
                 or cache_stale
             )
@@ -290,8 +335,8 @@ class Data(threading.Thread):
                 logger.debug("Updated database to hash %s", remote_hash)
                 return True
             else:
-                # Cache write failed, but we might still be able to use the embedded DB
-                logger.warning("Cache write failed, using existing database")
+                # Cache write failed
+                logger.warning("Cache write failed")
                 return False
 
         except Exception as e:
@@ -330,12 +375,28 @@ class Data(threading.Thread):
                 time.sleep(retry_delay)
                 continue
             elif first_attempt:
-                # After max retries, signal anyway to avoid blocking forever
-                logger.warning(
-                    "Failed to update database after %d attempts, using existing database",
-                    max_retries + 1,
-                )
-                self.updated.set()
+                # After max retries, check if we have an existing database
+                with self.lock:
+                    has_db = self.actual_db_path is not None and os.path.exists(
+                        self.actual_db_path
+                    )
+                
+                if has_db:
+                    # We have an existing database, signal completion
+                    logger.warning(
+                        "Failed to update database after %d attempts, using existing database",
+                        max_retries + 1,
+                    )
+                    self.updated.set()
+                else:
+                    # No database available, fail
+                    logger.error(
+                        "Failed to download database after %d attempts and no existing database found",
+                        max_retries + 1,
+                    )
+                    raise RuntimeError(
+                        f"Failed to download database after {max_retries + 1} attempts and no existing database available"
+                    )
                 first_attempt = False
 
             time.sleep(int(get_parameter("db_refresh_seconds")))

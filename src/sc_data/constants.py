@@ -1,14 +1,6 @@
-import importlib.resources
-
-PKG_DB_FILE = "data/sc-data-priceless.db"
-PKG_DB_HASH = "data/db_hash"
-DB_PATH = importlib.resources.files(__name__.split(".")[0]).joinpath(PKG_DB_FILE)
-DB_HASH = (
-    open(importlib.resources.files(__name__.split(".")[0]).joinpath(PKG_DB_HASH), "r")
-    .read()
-    .strip()
-)
-DB_URL = "https://cdn.sparecores.net/sc-data/sc-data-all.sql.xz"
+DB_BASE_URL = "https://cdn.sparecores.net/sc-data"
+DB_URL = None  # If None, will be constructed from DB_TYPE
+DB_TYPE = "full"  # "full" or "priceless"
 HTTP_TIMEOUT = 30
 DB_REFRESH_SECONDS = 600
 DB_CACHE_TTL = 86400  # Cache TTL in seconds (1 day)
