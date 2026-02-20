@@ -8,7 +8,7 @@ DB_HASH = (
     .read()
     .strip()
 )
-DB_URL = "https://sc-data-public-40e9d310.s3.amazonaws.com/sc-data-all.db.bz2"
+DB_URL = "https://cdn.sparecores.net/sc-data/sc-data-all.sql.xz"
 HTTP_TIMEOUT = 30
 DB_REFRESH_SECONDS = 600
 DB_CACHE_TTL = 86400  # Cache TTL in seconds (1 day)
