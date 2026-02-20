@@ -24,9 +24,10 @@ Cache location (when SC_DATA_DB_PATH is not set):
     - Windows: %LOCALAPPDATA%/sparecores-data/
 """
 
-from .data import Data, get_parameter
 import builtins
 import os
+
+from .data import Data, get_parameter
 
 db = Data(name="remote_update")
 db.start()
@@ -39,8 +40,8 @@ with db.lock:
         raise db.error
     # If no path and no custom path was set, this indicates a failure
     if db.actual_db_path is None:
-        custom_db_path = (
-            getattr(builtins, "sc_data_db_path", None) or os.environ.get("SC_DATA_DB_PATH")
+        custom_db_path = getattr(builtins, "sc_data_db_path", None) or os.environ.get(
+            "SC_DATA_DB_PATH"
         )
         if not custom_db_path:
             raise RuntimeError(
