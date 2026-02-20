@@ -47,22 +47,29 @@ def get_cache_dir():
     return os.path.join(base_cache, CACHE_DIR_NAME)
 
 
-def _restore_sql_dump(conn, text_stream):
-    """Stream-execute a SQL dump into conn, line by line.
+_TXN_CONTROL = frozenset(("BEGIN TRANSACTION;", "BEGIN;", "COMMIT;"))
 
-    Uses sqlite3.complete_statement() (C-level sqlite3_complete) to detect
-    statement boundaries — no Python-level SQL parsing needed.  The caller
-    must open conn with isolation_level=None so that the dump's own
-    BEGIN TRANSACTION / COMMIT is honoured as-is.
+
+def _restore_sql_dump(conn, text_stream, chunk_size=8 * 1024 * 1024):
+    """Stream-execute a SQL dump into conn in chunked transactions.
+
+    Strips the dump's own BEGIN/COMMIT, re-wraps each chunk in a transaction,
+    and feeds it to executescript() — which runs a tight C-level
+    sqlite3_prepare_v2 + sqlite3_step loop with the GIL released.
+
+    The caller should set PRAGMA journal_mode=OFF and synchronous=OFF
+    for best performance on temp databases where crash-safety is not needed.
     """
     buf = ""
     for line in text_stream:
+        if line.strip() in _TXN_CONTROL:
+            continue
         buf += line
-        if ";" in line and sqlite3.complete_statement(buf):
-            conn.execute(buf)
+        if len(buf) >= chunk_size and ";" in line and sqlite3.complete_statement(buf):
+            conn.executescript("BEGIN;\n" + buf + "COMMIT;")
             buf = ""
     if buf.strip():
-        conn.execute(buf)
+        conn.executescript("BEGIN;\n" + buf + "COMMIT;")
 
 
 class Data(threading.Thread):
@@ -183,12 +190,14 @@ class Data(threading.Thread):
             os.close(temp_db_fd)
             os.close(temp_hash_fd)
 
-            # Stream download -> lzma decompress -> line-by-line SQL restore.
-            # isolation_level=None keeps Python out of transaction management
-            # so the dump's own BEGIN/COMMIT work as intended.
+            # Stream download -> lzma decompress -> chunked SQL restore.
+            # Temp file gets atomically renamed on success, so we can
+            # safely skip journal and fsync for maximum write speed.
             with lzma.open(response.raw, mode="rt", encoding="utf-8") as sql:
                 conn = sqlite3.connect(temp_db_path, isolation_level=None)
                 try:
+                    conn.execute("PRAGMA journal_mode=OFF")
+                    conn.execute("PRAGMA synchronous=OFF")
                     _restore_sql_dump(conn, sql)
                 finally:
                     conn.close()
