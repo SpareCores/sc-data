@@ -25,10 +25,24 @@ Cache location (when SC_DATA_DB_PATH is not set):
 """
 
 from .data import Data, get_parameter
+import builtins
+import os
 
 db = Data(name="remote_update")
 db.start()
+# Wait for initial update with timeout
 db.updated.wait(float(get_parameter("http_timeout")) + 1)
 # Check for errors from the daemon thread and re-raise if present
-if db.error is not None:
-    raise db.error
+# Also check if path is None (which indicates failure if no custom path was set)
+with db.lock:
+    if db.error is not None:
+        raise db.error
+    # If no path and no custom path was set, this indicates a failure
+    if db.actual_db_path is None:
+        custom_db_path = (
+            getattr(builtins, "sc_data_db_path", None) or os.environ.get("SC_DATA_DB_PATH")
+        )
+        if not custom_db_path:
+            raise RuntimeError(
+                "Database initialization failed: no database path available and no error was set"
+            )

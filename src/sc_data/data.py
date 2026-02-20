@@ -267,6 +267,15 @@ class Data(threading.Thread):
     @property
     def path(self):
         with self.lock:
+            # If path is None and there's an error, raise it
+            if self.actual_db_path is None:
+                if self.error is not None:
+                    raise self.error
+                # If updated event is set but path is still None, something went wrong
+                if self.updated.is_set():
+                    raise RuntimeError(
+                        "Database path is not available: initialization completed but no database path was set"
+                    )
             return self.actual_db_path
 
     @property
