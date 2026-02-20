@@ -1,6 +1,6 @@
 import builtins
-import lzma
 import logging
+import lzma
 import os
 import sqlite3
 import tempfile
