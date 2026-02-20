@@ -29,8 +29,8 @@ def get_parameter(name):
 def get_db_url():
     """Get the database URL, constructing it from DB_TYPE if DB_URL is not explicitly set."""
     # Check if user explicitly set a custom URL
-    explicit_url = (
-        getattr(builtins, "sc_data_db_url", None) or os.environ.get("SC_DATA_DB_URL")
+    explicit_url = getattr(builtins, "sc_data_db_url", None) or os.environ.get(
+        "SC_DATA_DB_URL"
     )
     if explicit_url:
         return explicit_url
@@ -111,6 +111,7 @@ class Data(threading.Thread):
     def __init__(self, *args, **kwargs):
         self.updated = threading.Event()
         self.lock = threading.Lock()
+        self.error = None  # Store exceptions from daemon thread
 
         # Get cache directory and file paths
         self.cache_dir = get_cache_dir()
@@ -380,7 +381,7 @@ class Data(threading.Thread):
                     has_db = self.actual_db_path is not None and os.path.exists(
                         self.actual_db_path
                     )
-                
+
                 if has_db:
                     # We have an existing database, signal completion
                     logger.warning(
@@ -389,14 +390,17 @@ class Data(threading.Thread):
                     )
                     self.updated.set()
                 else:
-                    # No database available, fail
+                    # No database available, store error and signal completion
                     logger.error(
                         "Failed to download database after %d attempts and no existing database found",
                         max_retries + 1,
                     )
-                    raise RuntimeError(
-                        f"Failed to download database after {max_retries + 1} attempts and no existing database available"
-                    )
+                    with self.lock:
+                        self.error = RuntimeError(
+                            f"Failed to download database after {max_retries + 1} attempts and no existing database available"
+                        )
+                    self.updated.set()
+                    return  # Exit thread, don't raise
                 first_attempt = False
 
             time.sleep(int(get_parameter("db_refresh_seconds")))

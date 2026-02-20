@@ -29,3 +29,6 @@ from .data import Data, get_parameter
 db = Data(name="remote_update")
 db.start()
 db.updated.wait(float(get_parameter("http_timeout")) + 1)
+# Check for errors from the daemon thread and re-raise if present
+if db.error is not None:
+    raise db.error
