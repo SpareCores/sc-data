@@ -1,8 +1,8 @@
 import builtins
-import bz2
+import lzma
 import logging
 import os
-import shutil
+import sqlite3
 import tempfile
 import threading
 import time
@@ -47,12 +47,22 @@ def get_cache_dir():
     return os.path.join(base_cache, CACHE_DIR_NAME)
 
 
-def handle(f, url=None):
-    """Return the original or wrapped file handle depending on the file name."""
-    if url and url.endswith("bz2"):
-        return bz2.BZ2File(f, mode="rb")
-    else:
-        return f
+def _restore_sql_dump(conn, text_stream):
+    """Stream-execute a SQL dump into conn, line by line.
+
+    Uses sqlite3.complete_statement() (C-level sqlite3_complete) to detect
+    statement boundaries — no Python-level SQL parsing needed.  The caller
+    must open conn with isolation_level=None so that the dump's own
+    BEGIN TRANSACTION / COMMIT is honoured as-is.
+    """
+    buf = ""
+    for line in text_stream:
+        buf += line
+        if ";" in line and sqlite3.complete_statement(buf):
+            conn.execute(buf)
+            buf = ""
+    if buf.strip():
+        conn.execute(buf)
 
 
 class Data(threading.Thread):
@@ -150,10 +160,11 @@ class Data(threading.Thread):
         except Exception:
             return True
 
-    def _atomic_write_cache(self, content_source, db_hash):
+    def _atomic_write_cache(self, response, db_hash):
         """
         Atomically write the database to cache.
-        Writes to a temp file first, then renames on success.
+        Streams the SQL dump, decompresses with lzma, executes into a temp db,
+        then renames on success.
         """
         if not self._ensure_cache_dir():
             return False
@@ -169,14 +180,21 @@ class Data(threading.Thread):
             temp_hash_fd, temp_hash_path = tempfile.mkstemp(
                 dir=self.cache_dir, suffix=".hash.tmp"
             )
+            os.close(temp_db_fd)
+            os.close(temp_hash_fd)
 
-            # Write database to temp file
-            with os.fdopen(temp_db_fd, "wb") as temp_db_file:
-                fh = handle(content_source, url=get_parameter("db_url"))
-                shutil.copyfileobj(fh, temp_db_file)
+            # Stream download -> lzma decompress -> line-by-line SQL restore.
+            # isolation_level=None keeps Python out of transaction management
+            # so the dump's own BEGIN/COMMIT work as intended.
+            with lzma.open(response.raw, mode="rt", encoding="utf-8") as sql:
+                conn = sqlite3.connect(temp_db_path, isolation_level=None)
+                try:
+                    _restore_sql_dump(conn, sql)
+                finally:
+                    conn.close()
 
             # Write hash to temp file
-            with os.fdopen(temp_hash_fd, "w") as temp_hash_file:
+            with open(temp_hash_path, "w") as temp_hash_file:
                 temp_hash_file.write(db_hash)
 
             # Atomic rename (on Unix, rename is atomic if on same filesystem)
@@ -244,6 +262,7 @@ class Data(threading.Thread):
             )
 
             if not need_download:
+                r.close()
                 logger.debug("No need to update database (hash matches, cache fresh)")
                 return True
 
@@ -255,7 +274,7 @@ class Data(threading.Thread):
             )
 
             # Download and write to cache atomically
-            if self._atomic_write_cache(r.raw, remote_hash):
+            if self._atomic_write_cache(r, remote_hash):
                 with self.lock:
                     self.actual_db_path = self.cache_db_path
                     self.actual_db_hash = remote_hash
