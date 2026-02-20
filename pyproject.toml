@@ -38,6 +38,8 @@ include-package-data = true  # see MANIFEST.in
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+log_cli = true
+log_cli_level = "DEBUG"
 
 [tool.setuptools.packages.find]
 where = ["src"]

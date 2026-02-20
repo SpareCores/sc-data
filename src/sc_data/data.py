@@ -288,36 +288,34 @@ class Data(threading.Thread):
         Update the database file if necessary.
         Returns True if update succeeded or was not needed, False on failure.
         """
+        t0 = time.time()
+        url = get_db_url()
         try:
-            # Initiate a streaming GET to receive headers first
+            logger.debug(
+                "update: GET %s (timeout=%s)", url, get_parameter("http_timeout")
+            )
             r = requests.get(
-                get_db_url(),
+                url,
                 timeout=float(get_parameter("http_timeout")),
                 stream=True,
             )
+            elapsed = time.time() - t0
+            logger.debug("update: HTTP %d in %.1fs", r.status_code, elapsed)
 
             # Check for successful response
             if not (200 <= r.status_code < 300):
-                logger.warning("Failed to fetch database: HTTP %d", r.status_code)
+                logger.warning("update: HTTP %d after %.1fs", r.status_code, elapsed)
                 r.close()
                 return False
 
             # Get remote hash
             remote_hash = r.headers.get("x-amz-meta-hash")
             if not remote_hash:
-                # Use timestamp as fallback hash if header is missing
                 remote_hash = str(time.time())
 
-            # Check if we need to download:
-            # 1. Hash changed
-            # 2. Cache is stale (TTL exceeded)
             cached_hash = self._read_cached_hash()
             cache_stale = self._is_cache_stale()
 
-            # Need to download if:
-            # 1. No database path set yet (first run or cache missing)
-            # 2. Hash changed
-            # 3. Cache is stale (TTL exceeded)
             need_download = (
                 self.actual_db_path is None
                 or remote_hash != self.actual_db_hash
@@ -331,7 +329,7 @@ class Data(threading.Thread):
                 return True
 
             logger.debug(
-                "Downloading new SQLite database (remote_hash=%s, cached_hash=%s, stale=%s)",
+                "update: downloading (remote_hash=%s, cached_hash=%s, stale=%s)",
                 remote_hash,
                 cached_hash,
                 cache_stale,
@@ -342,19 +340,25 @@ class Data(threading.Thread):
                 with self.lock:
                     self.actual_db_path = self.cache_db_path
                     self.actual_db_hash = remote_hash
-                logger.debug("Updated database to hash %s", remote_hash)
+                logger.debug(
+                    "update: done in %.1fs, path=%s",
+                    time.time() - t0,
+                    self.cache_db_path,
+                )
                 return True
             else:
-                # Cache write failed
-                logger.warning("Cache write failed")
+                logger.warning(
+                    "update: cache write failed after %.1fs", time.time() - t0
+                )
                 return False
 
         except Exception as e:
-            logger.warning("Failed to update database: %s", e)
+            logger.warning("update: failed after %.1fs: %s", time.time() - t0, e)
             return False
 
     def run(self):
         """Start the update thread if no_update is not set."""
+        logger.debug("Data thread started; db_url=%s", get_db_url())
         if get_parameter("no_update"):
             logger.warn("Automated database refresh is disabled.")
             self.updated.set()
@@ -367,6 +371,12 @@ class Data(threading.Thread):
 
         while True:
             success = self.update()
+            logger.debug(
+                "update() returned %s; path=%r, error=%r",
+                success,
+                self.actual_db_path,
+                self.error,
+            )
 
             # Only signal update completion if it succeeded or if we've exhausted retries
             if success:
