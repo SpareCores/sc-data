@@ -29,10 +29,15 @@ homepage = "https://sparecores.com"
 
 [project.optional-dependencies]
 testing = ["pytest", "sqlalchemy"]
+dev = ["sparecores-data[testing]"]
 all = ["sparecores-data[testing]"]
 
 [tool.setuptools]
 include-package-data = true  # see MANIFEST.in
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
