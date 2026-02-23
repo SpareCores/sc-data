@@ -360,7 +360,7 @@ class Data(threading.Thread):
         """Start the update thread if no_update is not set."""
         logger.debug("Data thread started; db_url=%s", get_db_url())
         if get_parameter("no_update"):
-            logger.warn("Automated database refresh is disabled.")
+            logger.warning("Automated database refresh is disabled.")
             self.updated.set()
             return
 
