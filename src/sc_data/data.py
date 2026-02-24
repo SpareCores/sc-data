@@ -294,63 +294,66 @@ class Data(threading.Thread):
             logger.debug(
                 "update: GET %s (timeout=%s)", url, get_parameter("http_timeout")
             )
-            r = requests.get(
+            with requests.get(
                 url,
                 timeout=float(get_parameter("http_timeout")),
                 stream=True,
-            )
-            elapsed = time.time() - t0
-            logger.debug("update: HTTP %d in %.1fs", r.status_code, elapsed)
+            ) as r:
+                elapsed = time.time() - t0
+                logger.debug("update: HTTP %d in %.1fs", r.status_code, elapsed)
 
-            # Check for successful response
-            if not (200 <= r.status_code < 300):
-                logger.warning("update: HTTP %d after %.1fs", r.status_code, elapsed)
-                r.close()
-                return False
+                # Check for successful response
+                if not (200 <= r.status_code < 300):
+                    logger.warning(
+                        "update: HTTP %d after %.1fs", r.status_code, elapsed
+                    )
+                    return False
 
-            # Get remote hash
-            remote_hash = r.headers.get("x-amz-meta-hash")
-            if not remote_hash:
-                remote_hash = str(time.time())
+                # Get remote hash
+                remote_hash = r.headers.get("x-amz-meta-hash")
+                if not remote_hash:
+                    remote_hash = str(time.time())
 
-            cached_hash = self._read_cached_hash()
-            cache_stale = self._is_cache_stale()
+                cached_hash = self._read_cached_hash()
+                cache_stale = self._is_cache_stale()
 
-            need_download = (
-                self.actual_db_path is None
-                or remote_hash != self.actual_db_hash
-                or remote_hash != cached_hash
-                or cache_stale
-            )
+                need_download = (
+                    self.actual_db_path is None
+                    or remote_hash != self.actual_db_hash
+                    or remote_hash != cached_hash
+                    or cache_stale
+                )
 
-            if not need_download:
-                r.close()
-                logger.debug("No need to update database (hash matches, cache fresh)")
-                return True
+                if not need_download:
+                    logger.debug(
+                        "No need to update database (hash matches, cache fresh)"
+                    )
+                    return True
 
-            logger.debug(
-                "update: downloading (remote_hash=%s, cached_hash=%s, stale=%s)",
-                remote_hash,
-                cached_hash,
-                cache_stale,
-            )
-
-            # Download and write to cache atomically
-            if self._atomic_write_cache(r, remote_hash):
-                with self.lock:
-                    self.actual_db_path = self.cache_db_path
-                    self.actual_db_hash = remote_hash
                 logger.debug(
-                    "update: done in %.1fs, path=%s",
-                    time.time() - t0,
-                    self.cache_db_path,
+                    "update: downloading (remote_hash=%s, cached_hash=%s, stale=%s)",
+                    remote_hash,
+                    cached_hash,
+                    cache_stale,
                 )
-                return True
-            else:
-                logger.warning(
-                    "update: cache write failed after %.1fs", time.time() - t0
-                )
-                return False
+
+                # Download and write to cache atomically
+                if self._atomic_write_cache(r, remote_hash):
+                    with self.lock:
+                        self.actual_db_path = self.cache_db_path
+                        self.actual_db_hash = remote_hash
+                    logger.debug(
+                        "update: done in %.1fs, path=%s",
+                        time.time() - t0,
+                        self.cache_db_path,
+                    )
+                    return True
+                else:
+                    logger.warning(
+                        "update: cache write failed after %.1fs",
+                        time.time() - t0,
+                    )
+                    return False
 
         except Exception as e:
             logger.warning("update: failed after %.1fs: %s", time.time() - t0, e)
