@@ -41,5 +41,10 @@ logger.debug(
     db.error,
     db.is_alive(),
 )
+if not event_set:
+    raise TimeoutError(
+        "sc_data: database not ready within %.1fs (path=%r, thread_alive=%s)"
+        % (timeout, db.actual_db_path, db.is_alive())
+    )
 if db.error is not None:
     raise db.error
