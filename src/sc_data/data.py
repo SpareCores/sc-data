@@ -275,10 +275,11 @@ class Data(threading.Thread):
                     )
                     return False
 
-                # Get remote hash
+                # Get remote hash; skip refresh when header is missing
                 remote_hash = r.headers.get("x-amz-meta-hash")
                 if not remote_hash:
-                    remote_hash = str(time.time())
+                    logger.warning("update: x-amz-meta-hash missing, skipping refresh")
+                    return True
 
                 need_download = (
                     self.actual_db_path is None or remote_hash != self.actual_db_hash
