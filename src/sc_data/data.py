@@ -148,9 +148,7 @@ class Data(threading.Thread):
                     with self.lock:
                         self.actual_db_path = self.cache_db_path
                         self.actual_db_hash = cached_hash
-                    logger.debug(
-                        "Using cached database (hash: %s)", cached_hash
-                    )
+                    logger.debug("Using cached database (hash: %s)", cached_hash)
                     return
             logger.debug("No cached database found, will download")
         except Exception as e:
@@ -283,8 +281,7 @@ class Data(threading.Thread):
                     remote_hash = str(time.time())
 
                 need_download = (
-                    self.actual_db_path is None
-                    or remote_hash != self.actual_db_hash
+                    self.actual_db_path is None or remote_hash != self.actual_db_hash
                 )
 
                 if not need_download:
