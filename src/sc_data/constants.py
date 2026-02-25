@@ -3,4 +3,3 @@ DB_URL = None  # If None, will be constructed from DB_TYPE
 DB_TYPE = "full"  # "full" or "priceless"
 HTTP_TIMEOUT = 600
 DB_REFRESH_SECONDS = 600
-DB_CACHE_TTL = 86400  # Cache TTL in seconds (1 day)

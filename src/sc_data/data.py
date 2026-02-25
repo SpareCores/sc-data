@@ -138,41 +138,21 @@ class Data(threading.Thread):
         super().__init__(*args, **kwargs)
 
     def _init_from_cache(self):
-        """Initialize from cached database if available and not stale."""
+        """Initialize from cached database if available."""
         try:
             if os.path.exists(self.cache_db_path) and os.path.exists(
                 self.cache_hash_path
             ):
-                # Check if cache is stale based on file modification time
-                cache_mtime = os.path.getmtime(self.cache_db_path)
-                cache_age = time.time() - cache_mtime
-                cache_ttl = float(
-                    get_parameter("db_cache_ttl") or constants.DB_CACHE_TTL
-                )
-
-                if cache_age < cache_ttl:
-                    # Cache is still valid, use it
-                    with open(self.cache_hash_path, "r") as f:
-                        cached_hash = f.read().strip()
-
-                    if cached_hash:
-                        with self.lock:
-                            self.actual_db_path = self.cache_db_path
-                            self.actual_db_hash = cached_hash
-                        logger.debug(
-                            "Using cached database (age: %.0fs, hash: %s)",
-                            cache_age,
-                            cached_hash,
-                        )
-                        return
-                else:
+                cached_hash = self._read_cached_hash()
+                if cached_hash:
+                    with self.lock:
+                        self.actual_db_path = self.cache_db_path
+                        self.actual_db_hash = cached_hash
                     logger.debug(
-                        "Cached database is stale (age: %.0fs > TTL: %.0fs)",
-                        cache_age,
-                        cache_ttl,
+                        "Using cached database (hash: %s)", cached_hash
                     )
-            else:
-                logger.debug("No cached database found, will download")
+                    return
+            logger.debug("No cached database found, will download")
         except Exception as e:
             logger.warning("Failed to read cached database, will refresh: %s", e)
 
@@ -194,18 +174,6 @@ class Data(threading.Thread):
         except Exception as e:
             logger.warning("Failed to read cached hash: %s", e)
         return None
-
-    def _is_cache_stale(self):
-        """Check if the cache is stale based on TTL."""
-        try:
-            if not os.path.exists(self.cache_db_path):
-                return True
-            cache_mtime = os.path.getmtime(self.cache_db_path)
-            cache_age = time.time() - cache_mtime
-            cache_ttl = float(get_parameter("db_cache_ttl") or constants.DB_CACHE_TTL)
-            return cache_age >= cache_ttl
-        except Exception:
-            return True
 
     def _atomic_write_cache(self, response, db_hash):
         """
@@ -314,27 +282,22 @@ class Data(threading.Thread):
                 if not remote_hash:
                     remote_hash = str(time.time())
 
-                cached_hash = self._read_cached_hash()
-                cache_stale = self._is_cache_stale()
-
                 need_download = (
                     self.actual_db_path is None
                     or remote_hash != self.actual_db_hash
-                    or remote_hash != cached_hash
-                    or cache_stale
                 )
 
                 if not need_download:
                     logger.debug(
-                        "No need to update database (hash matches, cache fresh)"
+                        "No need to update database (hash matches: %s)",
+                        remote_hash,
                     )
                     return True
 
                 logger.debug(
-                    "update: downloading (remote_hash=%s, cached_hash=%s, stale=%s)",
+                    "update: downloading (remote_hash=%s, current_hash=%s)",
                     remote_hash,
-                    cached_hash,
-                    cache_stale,
+                    self.actual_db_hash,
                 )
 
                 # Download and write to cache atomically

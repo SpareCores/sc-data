@@ -16,7 +16,6 @@ The module accepts the following parameters (must be set before importing):
     - builtins.sc_data_db_url / SC_DATA_DB_URL - DB URL to fetch updates (overrides db_type if set)
     - builtins.sc_data_http_timeout / SC_DATA_HTTP_TIMEOUT - HTTP timeout in seconds
     - builtins.sc_data_db_refresh_seconds / SC_DATA_DB_REFRESH_SECONDS - update database after this has passed
-    - builtins.sc_data_db_cache_ttl / SC_DATA_DB_CACHE_TTL - cache TTL in seconds (default: 86400 = 1 day)
 
 Cache location (when SC_DATA_DB_PATH is not set):
     - Linux: $XDG_CACHE_HOME/sparecores-data/ or ~/.cache/sparecores-data/

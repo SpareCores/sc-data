@@ -71,7 +71,6 @@ overridden by builtins or environment variables:
 | Database URL | The URL of the most recent version of the database file (overrides Database Type if set) | Auto-constructed from Database Type | `sc_data_db_url` | `SC_DATA_DB_URL` |
 | HTTP Timeout | The timeout in seconds for downloading the database file | `30` | `sc_data_http_timeout` | `SC_DATA_HTTP_TIMEOUT` |
 | Refresh Interval | The interval in seconds to check for database updates | `600` | `sc_data_db_refresh_seconds` | `SC_DATA_DB_REFRESH_SECONDS` |
-| Cache TTL | Time in seconds before the cached database is considered stale | `86400` (1 day) | `sc_data_db_cache_ttl` | `SC_DATA_DB_CACHE_TTL` |
 
 **Note**: Setting `SC_DATA_DB_PATH` disables caching and uses the specified file directly.
 
