@@ -28,9 +28,8 @@ issues = "https://github.com/SpareCores/sc-data/issues"
 homepage = "https://sparecores.com"
 
 [project.optional-dependencies]
-testing = ["pytest", "sqlalchemy"]
-dev = ["sparecores-data[testing]"]
-all = ["sparecores-data[testing]"]
+dev = ["pytest", "sqlalchemy"]
+all = ["sparecores-data[dev]"]
 
 [tool.setuptools]
 include-package-data = true  # see MANIFEST.in
