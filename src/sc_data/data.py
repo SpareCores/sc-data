@@ -123,6 +123,7 @@ class Data(threading.Thread):
         custom_db_path = getattr(builtins, "sc_data_db_path", None) or os.environ.get(
             "SC_DATA_DB_PATH"
         )
+        self._custom_db_path = bool(custom_db_path)
 
         # Initialize path and hash: use custom path if provided, otherwise None
         # (will be set from cache or download)
@@ -139,6 +140,8 @@ class Data(threading.Thread):
 
     def _init_from_cache(self):
         """Initialize from cached database if available."""
+        if self.actual_db_path is not None:
+            return
         try:
             if os.path.exists(self.cache_db_path) and os.path.exists(
                 self.cache_hash_path
@@ -254,6 +257,8 @@ class Data(threading.Thread):
         Update the database file if necessary.
         Returns True if update succeeded or was not needed, False on failure.
         """
+        if self._custom_db_path:
+            return True
         t0 = time.time()
         url = get_db_url()
         try:
