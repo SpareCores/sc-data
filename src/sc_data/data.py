@@ -27,38 +27,13 @@ def get_parameter(name):
 
 
 def get_db_url():
-    """Get the database URL, constructing it from DB_TYPE if DB_URL is not explicitly set."""
-    # Check if user explicitly set a custom URL
-    explicit_url = getattr(builtins, "sc_data_db_url", None) or os.environ.get(
-        "SC_DATA_DB_URL"
-    )
-    if explicit_url:
-        return explicit_url
-
-    # Otherwise, construct URL from database type
-    db_type = get_parameter("db_type") or "full"
-    if db_type not in ("full", "priceless"):
-        logger.warning(
-            "Invalid db_type '%s', expected 'full' or 'priceless'. Using 'full'.",
-            db_type,
-        )
-        db_type = "full"
-
-    filename = "sc-data-all.sql.xz" if db_type == "full" else "sc-data-priceless.sql.xz"
-    base_url = get_parameter("db_base_url") or constants.DB_BASE_URL
-    return f"{base_url}/{filename}"
+    """Get the database URL (from builtins, env, or constants default)."""
+    return get_parameter("db_url") or constants.DB_URL
 
 
 def get_cache_file_names():
-    """Get cache file names based on database type."""
-    db_type = get_parameter("db_type") or "full"
-    if db_type not in ("full", "priceless"):
-        db_type = "full"
-    suffix = db_type if db_type == "priceless" else "all"
-    return (
-        f"sc-data-{suffix}.db",
-        f"sc-data-{suffix}.hash",
-    )
+    """Return cache file names for the default database."""
+    return ("sc-data-all.db", "sc-data-all.hash")
 
 
 def get_cache_dir():
