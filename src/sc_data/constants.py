@@ -9,7 +9,12 @@ def _default_db_url():
         v = sc_crawler.__version_info__
         version = f"{v[0]}.{v[1]}"
         return f"{CDN_BASE}/{version}/sc-data-all.sql.xz"
-    except Exception:
+    except ImportError:
+        return f"{CDN_BASE}/latest/sc-data-all.sql.xz"
+    else:
+        v = getattr(sc_crawler, "__version_info__", None)
+        if isinstance(v, (tuple, list)) and len(v) >= 2:
+            return f"{CDN_BASE}/{v[0]}.{v[1]}/sc-data-all.sql.xz"
         return f"{CDN_BASE}/latest/sc-data-all.sql.xz"
 
 
