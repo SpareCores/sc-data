@@ -5,7 +5,7 @@ Usage:
 
 ```
 import sc_data
-sc_data.db.path  # this will hold the actual data file's path (either the built-in, cached, or a custom path)
+sc_data.db.path  # this will hold the actual data file's path (either cached or a custom path)
 sc_data.db.hash  # an SHA256 hash of the DB, can be used to track changes and reopen the database if needed
 ```
 
@@ -15,7 +15,6 @@ The module accepts the following parameters (must be set before importing):
     - builtins.sc_data_db_url / SC_DATA_DB_URL - DB URL to fetch updates
     - builtins.sc_data_http_timeout / SC_DATA_HTTP_TIMEOUT - HTTP timeout in seconds
     - builtins.sc_data_db_refresh_seconds / SC_DATA_DB_REFRESH_SECONDS - update database after this has passed
-    - builtins.sc_data_db_cache_ttl / SC_DATA_DB_CACHE_TTL - cache TTL in seconds (default: 86400 = 1 day)
 
 Cache location (when SC_DATA_DB_PATH is not set):
     - Linux: $XDG_CACHE_HOME/sparecores-data/ or ~/.cache/sparecores-data/
@@ -23,8 +22,28 @@ Cache location (when SC_DATA_DB_PATH is not set):
     - Windows: %LOCALAPPDATA%/sparecores-data/
 """
 
+import logging
+
 from .data import Data, get_parameter
+
+logger = logging.getLogger(__name__)
 
 db = Data(name="remote_update")
 db.start()
-db.updated.wait(float(get_parameter("http_timeout")) + 1)
+timeout = float(get_parameter("http_timeout")) + 1
+event_set = db.updated.wait(timeout)
+logger.debug(
+    "updated.wait(%.1f) returned %s; path=%r, error=%r, thread alive=%s",
+    timeout,
+    event_set,
+    db.actual_db_path,
+    db.error,
+    db.is_alive(),
+)
+if not event_set:
+    raise TimeoutError(
+        "sc_data: database not ready within %.1fs (path=%r, thread_alive=%s)"
+        % (timeout, db.actual_db_path, db.is_alive())
+    )
+if db.error is not None:
+    raise db.error

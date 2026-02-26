@@ -45,8 +45,7 @@ updated when needed. On import, the package:
 
 1. Checks the local cache for a valid (non-stale) database
 2. If cached and fresh, uses it immediately
-3. Otherwise, downloads the latest version from our public S3 bucket
-4. Falls back to a limited version bundled with the package (without pricing information) if download fails
+3. Otherwise, downloads the latest version from our CDN
 
 The cache is stored in a platform-specific location:
 - **Linux**: `$XDG_CACHE_HOME/sparecores-data/` or `~/.cache/sparecores-data/`
@@ -68,10 +67,9 @@ overridden by builtins or environment variables:
 |---------------|-------------|---------------|--------------|---------------------|
 | Custom Database Path | Custom file path for the database (bypasses cache) | - | `sc_data_db_path` | `SC_DATA_DB_PATH` |
 | Disable Updates | Whether to disable automatic updates | `False` | `sc_data_no_update` | `SC_DATA_NO_UPDATE` |
-| Database URL | The URL of the most recent version of the database file | `https://...sc-data-all.db.bz2` | `sc_data_db_url` | `SC_DATA_DB_URL` |
+| Database URL | The URL of the most recent version of the database file (when unset, the default URL is used) | `https://cdn.sparecores.net/sc-data/sc-data-all.sql.xz` | `sc_data_db_url` | `SC_DATA_DB_URL` |
 | HTTP Timeout | The timeout in seconds for downloading the database file | `30` | `sc_data_http_timeout` | `SC_DATA_HTTP_TIMEOUT` |
 | Refresh Interval | The interval in seconds to check for database updates | `600` | `sc_data_db_refresh_seconds` | `SC_DATA_DB_REFRESH_SECONDS` |
-| Cache TTL | Time in seconds before the cached database is considered stale | `86400` (1 day) | `sc_data_db_cache_ttl` | `SC_DATA_DB_CACHE_TTL` |
 
 **Note**: Setting `SC_DATA_DB_PATH` disables caching and uses the specified file directly.
 

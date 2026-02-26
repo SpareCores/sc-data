@@ -1,6 +1,6 @@
 [project]
 name = "sparecores-data"
-version = "0.3.4"
+version = "0.4.0"
 description = "Structured data on cloud servers collected by sparecores-crawler."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -28,11 +28,17 @@ issues = "https://github.com/SpareCores/sc-data/issues"
 homepage = "https://sparecores.com"
 
 [project.optional-dependencies]
-testing = ["pytest", "sqlalchemy"]
-all = ["sparecores-data[testing]"]
+dev = ["pytest", "sqlalchemy"]
+all = ["sparecores-data[dev]"]
 
 [tool.setuptools]
 include-package-data = true  # see MANIFEST.in
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+log_cli = true
+log_cli_level = "DEBUG"
 
 [tool.setuptools.packages.find]
 where = ["src"]

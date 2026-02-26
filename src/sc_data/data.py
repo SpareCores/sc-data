@@ -1,8 +1,8 @@
 import builtins
-import bz2
 import logging
+import lzma
 import os
-import shutil
+import sqlite3
 import tempfile
 import threading
 import time
@@ -15,8 +15,6 @@ logger = logging.getLogger(__name__)
 
 # Cache directory and file names
 CACHE_DIR_NAME = "sparecores-data"
-CACHE_DB_NAME = "sc-data.db"
-CACHE_HASH_NAME = "sc-data.hash"
 
 
 def get_parameter(name):
@@ -26,6 +24,16 @@ def get_parameter(name):
         or os.environ.get(f"SC_DATA_{name.upper()}")
         or getattr(constants, name.upper(), None)
     )
+
+
+def get_db_url():
+    """Get the database URL (from builtins, env, or constants default)."""
+    return get_parameter("db_url") or constants.DB_URL
+
+
+def get_cache_file_names():
+    """Return cache file names for the default database."""
+    return ("sc-data-all.db", "sc-data-all.hash")
 
 
 def get_cache_dir():
@@ -47,12 +55,29 @@ def get_cache_dir():
     return os.path.join(base_cache, CACHE_DIR_NAME)
 
 
-def handle(f, url=None):
-    """Return the original or wrapped file handle depending on the file name."""
-    if url and url.endswith("bz2"):
-        return bz2.BZ2File(f, mode="rb")
-    else:
-        return f
+_TXN_CONTROL = frozenset(("BEGIN TRANSACTION;", "BEGIN;", "COMMIT;"))
+
+
+def _restore_sql_dump(conn, text_stream, chunk_size=8 * 1024 * 1024):
+    """Stream-execute a SQL dump into conn in chunked transactions.
+
+    Strips the dump's own BEGIN/COMMIT, re-wraps each chunk in a transaction,
+    and feeds it to executescript() — which runs a tight C-level
+    sqlite3_prepare_v2 + sqlite3_step loop with the GIL released.
+
+    The caller should set PRAGMA journal_mode=OFF and synchronous=OFF
+    for best performance on temp databases where crash-safety is not needed.
+    """
+    buf = ""
+    for line in text_stream:
+        if line.strip() in _TXN_CONTROL:
+            continue
+        buf += line
+        if len(buf) >= chunk_size and ";" in line and sqlite3.complete_statement(buf):
+            conn.executescript("BEGIN;\n" + buf + "COMMIT;")
+            buf = ""
+    if buf.strip():
+        conn.executescript("BEGIN;\n" + buf + "COMMIT;")
 
 
 class Data(threading.Thread):
@@ -61,61 +86,49 @@ class Data(threading.Thread):
     def __init__(self, *args, **kwargs):
         self.updated = threading.Event()
         self.lock = threading.Lock()
+        self.error = None  # Store exceptions from daemon thread
 
         # Get cache directory and file paths
         self.cache_dir = get_cache_dir()
-        self.cache_db_path = os.path.join(self.cache_dir, CACHE_DB_NAME)
-        self.cache_hash_path = os.path.join(self.cache_dir, CACHE_HASH_NAME)
+        cache_db_name, cache_hash_name = get_cache_file_names()
+        self.cache_db_path = os.path.join(self.cache_dir, cache_db_name)
+        self.cache_hash_path = os.path.join(self.cache_dir, cache_hash_name)
 
-        # Initialize with embedded DB path and hash
-        self.actual_db_path = get_parameter("db_path")
-        self.actual_db_hash = constants.DB_HASH
-
-        # Check if user explicitly set a custom DB path (via builtins or envvar, not defaults)
+        # Check if user explicitly set a custom DB path (via builtins or envvar)
         custom_db_path = getattr(builtins, "sc_data_db_path", None) or os.environ.get(
             "SC_DATA_DB_PATH"
         )
+        self._custom_db_path = bool(custom_db_path)
 
-        # Try to use cached database if available and not stale
-        if not custom_db_path:  # Only use cache if DB_PATH not explicitly set by user
+        # Initialize path and hash: use custom path if provided, otherwise None
+        # (will be set from cache or download)
+        if custom_db_path:
+            self.actual_db_path = custom_db_path
+            self.actual_db_hash = None  # Hash not tracked for custom paths
+        else:
+            self.actual_db_path = None
+            self.actual_db_hash = None
+            # Try to use cached database if available and not stale
             self._init_from_cache()
 
         super().__init__(*args, **kwargs)
 
     def _init_from_cache(self):
-        """Initialize from cached database if available and not stale."""
+        """Initialize from cached database if available."""
+        if self.actual_db_path is not None:
+            return
         try:
             if os.path.exists(self.cache_db_path) and os.path.exists(
                 self.cache_hash_path
             ):
-                # Check if cache is stale based on file modification time
-                cache_mtime = os.path.getmtime(self.cache_db_path)
-                cache_age = time.time() - cache_mtime
-                cache_ttl = float(
-                    get_parameter("db_cache_ttl") or constants.DB_CACHE_TTL
-                )
-
-                if cache_age < cache_ttl:
-                    # Cache is still valid, use it
-                    with open(self.cache_hash_path, "r") as f:
-                        cached_hash = f.read().strip()
-
-                    if cached_hash:
-                        with self.lock:
-                            self.actual_db_path = self.cache_db_path
-                            self.actual_db_hash = cached_hash
-                        logger.debug(
-                            "Using cached database (age: %.0fs, hash: %s)",
-                            cache_age,
-                            cached_hash,
-                        )
-                        return
-                else:
-                    logger.debug(
-                        "Cached database is stale (age: %.0fs > TTL: %.0fs)",
-                        cache_age,
-                        cache_ttl,
-                    )
+                cached_hash = self._read_cached_hash()
+                if cached_hash:
+                    with self.lock:
+                        self.actual_db_path = self.cache_db_path
+                        self.actual_db_hash = cached_hash
+                    logger.debug("Using cached database (hash: %s)", cached_hash)
+                    return
+            logger.debug("No cached database found, will download")
         except Exception as e:
             logger.warning("Failed to read cached database, will refresh: %s", e)
 
@@ -138,22 +151,11 @@ class Data(threading.Thread):
             logger.warning("Failed to read cached hash: %s", e)
         return None
 
-    def _is_cache_stale(self):
-        """Check if the cache is stale based on TTL."""
-        try:
-            if not os.path.exists(self.cache_db_path):
-                return True
-            cache_mtime = os.path.getmtime(self.cache_db_path)
-            cache_age = time.time() - cache_mtime
-            cache_ttl = float(get_parameter("db_cache_ttl") or constants.DB_CACHE_TTL)
-            return cache_age >= cache_ttl
-        except Exception:
-            return True
-
-    def _atomic_write_cache(self, content_source, db_hash):
+    def _atomic_write_cache(self, response, db_hash):
         """
         Atomically write the database to cache.
-        Writes to a temp file first, then renames on success.
+        Streams the SQL dump, decompresses with lzma, executes into a temp db,
+        then renames on success.
         """
         if not self._ensure_cache_dir():
             return False
@@ -169,14 +171,23 @@ class Data(threading.Thread):
             temp_hash_fd, temp_hash_path = tempfile.mkstemp(
                 dir=self.cache_dir, suffix=".hash.tmp"
             )
+            os.close(temp_db_fd)
+            os.close(temp_hash_fd)
 
-            # Write database to temp file
-            with os.fdopen(temp_db_fd, "wb") as temp_db_file:
-                fh = handle(content_source, url=get_parameter("db_url"))
-                shutil.copyfileobj(fh, temp_db_file)
+            # Stream download -> lzma decompress -> chunked SQL restore.
+            # Temp file gets atomically renamed on success, so we can
+            # safely skip journal and fsync for maximum write speed.
+            with lzma.open(response.raw, mode="rt", encoding="utf-8") as sql:
+                conn = sqlite3.connect(temp_db_path, isolation_level=None)
+                try:
+                    conn.execute("PRAGMA journal_mode=OFF")
+                    conn.execute("PRAGMA synchronous=OFF")
+                    _restore_sql_dump(conn, sql)
+                finally:
+                    conn.close()
 
             # Write hash to temp file
-            with os.fdopen(temp_hash_fd, "w") as temp_hash_file:
+            with open(temp_hash_path, "w") as temp_hash_file:
                 temp_hash_file.write(db_hash)
 
             # Atomic rename (on Unix, rename is atomic if on same filesystem)
@@ -200,6 +211,15 @@ class Data(threading.Thread):
     @property
     def path(self):
         with self.lock:
+            # If path is None and there's an error, raise it
+            if self.actual_db_path is None:
+                if self.error is not None:
+                    raise self.error
+                # If updated event is set but path is still None, something went wrong
+                if self.updated.is_set():
+                    raise RuntimeError(
+                        "Database path is not available: initialization completed but no database path was set"
+                    )
             return self.actual_db_path
 
     @property
@@ -212,68 +232,79 @@ class Data(threading.Thread):
         Update the database file if necessary.
         Returns True if update succeeded or was not needed, False on failure.
         """
+        if self._custom_db_path:
+            return True
+        t0 = time.time()
+        url = get_db_url()
         try:
-            # Initiate a streaming GET to receive headers first
-            r = requests.get(
-                get_parameter("db_url"),
+            logger.debug(
+                "update: GET %s (timeout=%s)", url, get_parameter("http_timeout")
+            )
+            with requests.get(
+                url,
                 timeout=float(get_parameter("http_timeout")),
                 stream=True,
-            )
+            ) as r:
+                elapsed = time.time() - t0
+                logger.debug("update: HTTP %d in %.1fs", r.status_code, elapsed)
 
-            # Check for successful response
-            if not (200 <= r.status_code < 300):
-                logger.warning("Failed to fetch database: HTTP %d", r.status_code)
-                return False
+                # Check for successful response
+                if not (200 <= r.status_code < 300):
+                    logger.warning(
+                        "update: HTTP %d after %.1fs", r.status_code, elapsed
+                    )
+                    return False
 
-            # Get remote hash
-            remote_hash = r.headers.get("x-amz-meta-hash")
-            if not remote_hash:
-                # Use timestamp as fallback hash if header is missing
-                remote_hash = str(time.time())
+                # Get remote hash; skip refresh when header is missing
+                remote_hash = r.headers.get("x-amz-meta-hash")
+                if not remote_hash:
+                    logger.warning("update: x-amz-meta-hash missing, skipping refresh")
+                    return True
 
-            # Check if we need to download:
-            # 1. Hash changed
-            # 2. Cache is stale (TTL exceeded)
-            cached_hash = self._read_cached_hash()
-            cache_stale = self._is_cache_stale()
+                need_download = (
+                    self.actual_db_path is None or remote_hash != self.actual_db_hash
+                )
 
-            need_download = (
-                remote_hash != self.actual_db_hash
-                or remote_hash != cached_hash
-                or cache_stale
-            )
+                if not need_download:
+                    logger.debug(
+                        "No need to update database (hash matches: %s)",
+                        remote_hash,
+                    )
+                    return True
 
-            if not need_download:
-                logger.debug("No need to update database (hash matches, cache fresh)")
-                return True
+                logger.debug(
+                    "update: downloading (remote_hash=%s, current_hash=%s)",
+                    remote_hash,
+                    self.actual_db_hash,
+                )
 
-            logger.debug(
-                "Downloading new SQLite database (remote_hash=%s, cached_hash=%s, stale=%s)",
-                remote_hash,
-                cached_hash,
-                cache_stale,
-            )
-
-            # Download and write to cache atomically
-            if self._atomic_write_cache(r.raw, remote_hash):
-                with self.lock:
-                    self.actual_db_path = self.cache_db_path
-                    self.actual_db_hash = remote_hash
-                logger.debug("Updated database to hash %s", remote_hash)
-                return True
-            else:
-                # Cache write failed, but we might still be able to use the embedded DB
-                logger.warning("Cache write failed, using existing database")
-                return False
+                # Download and write to cache atomically
+                if self._atomic_write_cache(r, remote_hash):
+                    with self.lock:
+                        self.actual_db_path = self.cache_db_path
+                        self.actual_db_hash = remote_hash
+                    logger.debug(
+                        "update: done in %.1fs, path=%s",
+                        time.time() - t0,
+                        self.cache_db_path,
+                    )
+                    return True
+                else:
+                    logger.warning(
+                        "update: cache write failed after %.1fs",
+                        time.time() - t0,
+                    )
+                    return False
 
         except Exception as e:
-            logger.warning("Failed to update database: %s", e)
+            logger.warning("update: failed after %.1fs: %s", time.time() - t0, e)
             return False
 
     def run(self):
         """Start the update thread if no_update is not set."""
+        logger.debug("Data thread started; db_url=%s", get_db_url())
         if get_parameter("no_update"):
-            logger.warn("Automated database refresh is disabled.")
+            logger.warning("Automated database refresh is disabled.")
             self.updated.set()
             return
 
@@ -284,6 +315,12 @@ class Data(threading.Thread):
 
         while True:
             success = self.update()
+            logger.debug(
+                "update() returned %s; path=%r, error=%r",
+                success,
+                self.actual_db_path,
+                self.error,
+            )
 
             # Only signal update completion if it succeeded or if we've exhausted retries
             if success:
@@ -302,12 +339,31 @@ class Data(threading.Thread):
                 time.sleep(retry_delay)
                 continue
             elif first_attempt:
-                # After max retries, signal anyway to avoid blocking forever
-                logger.warning(
-                    "Failed to update database after %d attempts, using existing database",
-                    max_retries + 1,
-                )
-                self.updated.set()
+                # After max retries, check if we have an existing database
+                with self.lock:
+                    has_db = self.actual_db_path is not None and os.path.exists(
+                        self.actual_db_path
+                    )
+
+                if has_db:
+                    # We have an existing database, signal completion
+                    logger.warning(
+                        "Failed to update database after %d attempts, using existing database",
+                        max_retries + 1,
+                    )
+                    self.updated.set()
+                else:
+                    # No database available, store error and signal completion
+                    logger.error(
+                        "Failed to download database after %d attempts and no existing database found",
+                        max_retries + 1,
+                    )
+                    with self.lock:
+                        self.error = RuntimeError(
+                            f"Failed to download database after {max_retries + 1} attempts and no existing database available"
+                        )
+                    self.updated.set()
+                    return  # Exit thread, don't raise
                 first_attempt = False
 
             time.sleep(int(get_parameter("db_refresh_seconds")))
