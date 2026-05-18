@@ -1,3 +1,16 @@
+## v0.5.0 (May 16, 2026)
+
+Relicense from CC-BY-SA 4.0 to MPL 2.0 due to the following reasons:
+
+- no actual data was bundled with the package since v0.4.0 to avoid confusion
+  about the availability of pricing information (previously bundled data was
+  partial, without pricing information, while downloaded SQLite database file
+  contained full pricing information), and
+- clarify on the data VS software licensing terms.
+
+The package now also prints a warning when downloading and using data file(s)
+with less permissive licenses, such as BLS 1.1 (default option since May 2026).
+
 ## v0.4.1 (Feb 26, 2026)
 
 Use versioned path for the collected data to support different versions of the

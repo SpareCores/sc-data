@@ -3,6 +3,7 @@ import logging
 import lzma
 import os
 import sqlite3
+import sys
 import tempfile
 import threading
 import time
@@ -87,6 +88,7 @@ class Data(threading.Thread):
         self.updated = threading.Event()
         self.lock = threading.Lock()
         self.error = None  # Store exceptions from daemon thread
+        self._license_notice_shown = False
 
         # Get cache directory and file paths
         self.cache_dir = get_cache_dir()
@@ -151,6 +153,60 @@ class Data(threading.Thread):
             logger.warning("Failed to read cached hash: %s", e)
         return None
 
+    def _read_metadata(self, db_path):
+        """Read the _metadata table from a SQLite database, return a dict."""
+        try:
+            conn = sqlite3.connect(db_path)
+            try:
+                cursor = conn.execute("SELECT * FROM _metadata")
+                rows = cursor.fetchall()
+                cols = [d[0] for d in cursor.description]
+                if rows:
+                    if cols == ["key", "value"]:
+                        return {r[0]: r[1] for r in rows}
+                    return dict(zip(cols, rows[0]))
+            finally:
+                conn.close()
+        except Exception as e:
+            logger.debug("Could not read _metadata table: %s", e)
+        return {}
+
+    def _show_license_notice(self, metadata):
+        """Print a license notice to stderr on first data download.
+
+        Suppressed if SC_DATA_NO_LICENSE_NOTICE is set or the notice was
+        already shown in this session, or if no metadata is available.
+        """
+        if self._license_notice_shown:
+            return
+        self._license_notice_shown = True
+        if get_parameter("no_license_notice"):
+            return
+        if not metadata:
+            return
+        lines = ["\nSpare Cores Navigator Data Licensing Notice:"]
+        if metadata.get("publisher"):
+            lines.append(f" - Data publisher: {metadata['publisher']}")
+        if metadata.get("published_by"):
+            lines.append(f" - Published by: {metadata['published_by']}")
+        if metadata.get("published_at"):
+            lines.append(f" - Published at: {metadata['published_at']}")
+        if metadata.get("license"):
+            line = f" - License: {metadata['license']}"
+            if metadata.get("license_url"):
+                line += f" ({metadata['license_url']})"
+            lines.append(line)
+        if metadata.get("additional_use_grant"):
+            lines.append(
+                f"   - Additional use grant: {metadata['additional_use_grant']}"
+            )
+        if metadata.get("change_date"):
+            lines.append(f"   - Change date: {metadata['change_date']}")
+        if metadata.get("change_license"):
+            lines.append(f"   - Change license: {metadata['change_license']}")
+        lines.append("")
+        print("\n".join(lines), file=sys.stderr)
+
     def _atomic_write_cache(self, response, db_hash):
         """
         Atomically write the database to cache.
@@ -177,12 +233,15 @@ class Data(threading.Thread):
             # Stream download -> lzma decompress -> chunked SQL restore.
             # Temp file gets atomically renamed on success, so we can
             # safely skip journal and fsync for maximum write speed.
+            metadata = {}
             with lzma.open(response.raw, mode="rt", encoding="utf-8") as sql:
                 conn = sqlite3.connect(temp_db_path, isolation_level=None)
                 try:
                     conn.execute("PRAGMA journal_mode=OFF")
                     conn.execute("PRAGMA synchronous=OFF")
                     _restore_sql_dump(conn, sql)
+                    metadata = self._read_metadata(temp_db_path)
+                    logger.debug("Database metadata: %s", metadata)
                 finally:
                     conn.close()
 
@@ -195,6 +254,7 @@ class Data(threading.Thread):
             os.replace(temp_hash_path, self.cache_hash_path)
 
             logger.debug("Atomically wrote database to cache (hash: %s)", db_hash)
+            self._show_license_notice(metadata)
             return True
 
         except Exception as e:
@@ -270,6 +330,7 @@ class Data(threading.Thread):
                         "No need to update database (hash matches: %s)",
                         remote_hash,
                     )
+                    self._show_license_notice(self._read_metadata(self.actual_db_path))
                     return True
 
                 logger.debug(
