@@ -1,6 +1,6 @@
 [project]
 name = "sparecores-data"
-version = "0.5.0"
+version = "0.5.1"
 description = "Structured data on cloud servers collected by sparecores-crawler."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -32,8 +32,12 @@ homepage = "https://sparecores.com"
 dev = ["pytest", "sqlalchemy"]
 all = ["sparecores-data[dev]"]
 
+[project.scripts]
+sc-data = "sc_data_cli:main"
+
 [tool.setuptools]
 include-package-data = true  # see MANIFEST.in
+py-modules = ["sc_data_cli"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

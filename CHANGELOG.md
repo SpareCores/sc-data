@@ -1,3 +1,9 @@
+## v0.5.1 (Aug 18, 2026)
+
+New `sc-data` command-line tool to make the SQLite database file available
+outside of Python, e.g. `sc-data download /tmp/sc-data.db` downloads and imports
+the most recent data dump, then writes the SQLite file to the given path.
+
 ## v0.5.0 (May 16, 2026)
 
 Relicense from CC-BY-SA 4.0 to MPL 2.0 due to the following reasons:
