@@ -35,6 +35,7 @@ in the background to keep the SQLite file up-to-date:
 
 ```py
 from sc_data import db
+
 print(db.path)
 ```
 
@@ -55,6 +56,23 @@ To enforce waiting for the update to complete, you can use the `updated` event:
 ```py
 db.updated.wait()
 ```
+
+## Command-line interface
+
+To get the most recent version of the SQLite database file without writing any
+Python code, e.g. for use in other tools, run:
+
+```
+sc-data download /path/to/sc-data.db
+```
+
+This downloads and imports the data into the cache as described above, then
+copies the resulting SQLite file to the given path -- overwriting an already
+existing file, and creating missing parent directories.
+
+Run `sc-data download --help` for the available options, e.g. `--db-url`,
+`--timeout`, or `--no-update` to use the cached file without checking for a
+newer version.
 
 ## Configuration
 
