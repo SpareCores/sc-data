@@ -83,7 +83,7 @@ overridden by builtins or environment variables:
 |---------------|-------------|---------------|--------------|---------------------|
 | Custom Database Path | Custom file path for the database (bypasses cache) | - | `sc_data_db_path` | `SC_DATA_DB_PATH` |
 | Disable Updates | Whether to disable automatic updates | `False` | `sc_data_no_update` | `SC_DATA_NO_UPDATE` |
-| Database URL | The URL of the most recent version of the database file (when unset, the default URL is used) | `https://cdn.sparecores.net/sc-data/sc-data-all.sql.xz` | `sc_data_db_url` | `SC_DATA_DB_URL` |
+| Database URL | The URL of the most recent version of the database file (when unset, the default URL is used) | `https://cdn.sparecores.net/sc-data/latest/sc-data-all.sql.xz` | `sc_data_db_url` | `SC_DATA_DB_URL` |
 | HTTP Timeout | The timeout in seconds for downloading the database file | `30` | `sc_data_http_timeout` | `SC_DATA_HTTP_TIMEOUT` |
 | Refresh Interval | The interval in seconds to check for database updates | `600` | `sc_data_db_refresh_seconds` | `SC_DATA_DB_REFRESH_SECONDS` |
 | Suppress Data License Notice | Suppress the data license notice printed to stderr | - | `sc_data_no_license_notice` | `SC_DATA_NO_LICENSE_NOTICE` |
