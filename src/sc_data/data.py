@@ -2,6 +2,7 @@ import builtins
 import logging
 import lzma
 import os
+import socket
 import sqlite3
 import sys
 import tempfile
@@ -86,19 +87,26 @@ def _restore_sql_dump(conn, text_stream, chunk_size=8 * 1024 * 1024):
         conn.executescript("BEGIN;\n" + buf + "COMMIT;")
 
 
+def _shutdown(response):
+    """Shut down the socket of a streamed response, if still open."""
+    try:
+        response.raw.connection.sock.shutdown(socket.SHUT_RDWR)
+    except (AttributeError, OSError):
+        pass  # already finished and released
+
+
 def _fetch_range(url, path, start, end, max_stalls=10):
     """Download bytes [start, end] of url into the same offset of path.
 
     Individual CDN connections tend to either fly or crawl, so an attempt
     running longer than DOWNLOAD_ATTEMPT_SECONDS is dropped, and a fresh
-    connection resumes from the last written byte. Gives up only after
-    max_stalls consecutive attempts without any progress.
+    connection resumes from the last written byte. Gives up after max_stalls
+    consecutive attempts without progress, i.e. not even one 16 KiB block.
     """
     pos = start
     stalls = 0
     while pos <= end:
         attempt_start = pos
-        deadline = time.time() + DOWNLOAD_ATTEMPT_SECONDS
         try:
             with requests.get(
                 url,
@@ -106,13 +114,18 @@ def _fetch_range(url, path, start, end, max_stalls=10):
                 timeout=(10, DOWNLOAD_ATTEMPT_SECONDS),
                 stream=True,
             ) as r, open(path, "r+b") as f:
-                r.raise_for_status()
-                f.seek(pos)
-                for block in r.iter_content(256 * 1024):
-                    f.write(block)
-                    pos += len(block)
-                    if time.time() > deadline:
-                        break
+                # shutting down the socket interrupts even a blocked read that
+                # trickles in too slowly for the read timeout to ever fire
+                watchdog = threading.Timer(DOWNLOAD_ATTEMPT_SECONDS, _shutdown, (r,))
+                watchdog.start()
+                try:
+                    r.raise_for_status()
+                    f.seek(pos)
+                    for block in r.iter_content(16 * 1024):
+                        f.write(block)
+                        pos += len(block)
+                finally:
+                    watchdog.cancel()
         except requests.RequestException as e:
             logger.debug("range %d-%d: failed at byte %d: %s", start, end, pos, e)
         stalls = 0 if pos > attempt_start else stalls + 1
