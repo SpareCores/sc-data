@@ -1,4 +1,4 @@
-## v0.5.x (development version)
+## v0.6.0 (Oct 13, 2026)
 
 Download the database file using parallel HTTP range requests (16 threads by
 default), retrying slow or stalled ranges on a fresh connection, instead of a
