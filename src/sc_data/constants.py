@@ -20,4 +20,6 @@ def _default_db_url():
 
 DB_URL = _default_db_url()
 HTTP_TIMEOUT = 600
+IMPORT_TIMEOUT = 300
 DB_REFRESH_SECONDS = 600
+DOWNLOAD_THREADS = 16

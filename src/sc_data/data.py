@@ -2,6 +2,8 @@ import builtins
 import logging
 import lzma
 import os
+import queue
+import socket
 import sqlite3
 import sys
 import tempfile
@@ -16,6 +18,10 @@ logger = logging.getLogger(__name__)
 
 # Cache directory and file names
 CACHE_DIR_NAME = "sparecores-data"
+
+# Parallel download of the database file
+DOWNLOAD_CHUNK_SIZE = 2 * 1024 * 1024
+DOWNLOAD_ATTEMPT_SECONDS = 10
 
 
 def get_parameter(name):
@@ -59,7 +65,7 @@ def get_cache_dir():
 _TXN_CONTROL = frozenset(("BEGIN TRANSACTION;", "BEGIN;", "COMMIT;"))
 
 
-def _restore_sql_dump(conn, text_stream, chunk_size=8 * 1024 * 1024):
+def _restore_sql_dump(conn, text_stream, deadline, chunk_size=8 * 1024 * 1024):
     """Stream-execute a SQL dump into conn in chunked transactions.
 
     Strips the dump's own BEGIN/COMMIT, re-wraps each chunk in a transaction,
@@ -68,6 +74,8 @@ def _restore_sql_dump(conn, text_stream, chunk_size=8 * 1024 * 1024):
 
     The caller should set PRAGMA journal_mode=OFF and synchronous=OFF
     for best performance on temp databases where crash-safety is not needed.
+
+    Raises TimeoutError when still running after the (time.monotonic) deadline.
     """
     buf = ""
     for line in text_stream:
@@ -77,8 +85,111 @@ def _restore_sql_dump(conn, text_stream, chunk_size=8 * 1024 * 1024):
         if len(buf) >= chunk_size and ";" in line and sqlite3.complete_statement(buf):
             conn.executescript("BEGIN;\n" + buf + "COMMIT;")
             buf = ""
+            if time.monotonic() > deadline:
+                raise TimeoutError("database import did not finish in time")
     if buf.strip():
         conn.executescript("BEGIN;\n" + buf + "COMMIT;")
+
+
+def _shutdown(response):
+    """Shut down the socket of a streamed response, if still open."""
+    try:
+        response.raw.connection.sock.shutdown(socket.SHUT_RDWR)
+    except (AttributeError, OSError):
+        pass  # already finished and released
+
+
+def _fetch_range(url, etag, path, start, end, stop, max_stalls=10):
+    """Download bytes [start, end] of url into the same offset of path.
+
+    Only accepts bytes from the object with the given ETag, so that a file
+    republished during the download cannot result in a mix of two versions.
+
+    Individual CDN connections tend to either fly or crawl, so an attempt
+    running longer than DOWNLOAD_ATTEMPT_SECONDS is dropped, and a fresh
+    connection resumes from the last written byte. Gives up after max_stalls
+    consecutive attempts without progress, i.e. not even one 16 KiB block.
+    Returns early once stop is set.
+    """
+    pos = start
+    stalls = 0
+    while pos <= end and not stop.is_set():
+        attempt_start = pos
+        try:
+            with requests.get(
+                url,
+                headers={"Range": f"bytes={pos}-{end}", "If-Match": etag},
+                timeout=(10, DOWNLOAD_ATTEMPT_SECONDS),
+                stream=True,
+            ) as r, open(path, "r+b") as f:
+                # shutting down the socket interrupts even a blocked read that
+                # trickles in too slowly for the read timeout to ever fire
+                watchdog = threading.Timer(DOWNLOAD_ATTEMPT_SECONDS, _shutdown, (r,))
+                watchdog.start()
+                try:
+                    if r.status_code == 412:
+                        raise RuntimeError(f"{url} changed during the download")
+                    if 400 <= r.status_code < 500:
+                        raise RuntimeError(f"HTTP {r.status_code} for {url}")
+                    r.raise_for_status()
+                    f.seek(pos)
+                    for block in r.iter_content(16 * 1024):
+                        if stop.is_set():
+                            return
+                        f.write(block)
+                        pos += len(block)
+                finally:
+                    watchdog.cancel()
+        # the watchdog's socket shutdown can also surface as ValueError or
+        # AttributeError from the SSL layer, depending on timing
+        except (requests.RequestException, ValueError, AttributeError) as e:
+            logger.debug("range %d-%d: failed at byte %d: %s", start, end, pos, e)
+        stalls = 0 if pos > attempt_start else stalls + 1
+        if stalls == max_stalls:
+            raise RuntimeError(f"failed to download bytes {start}-{end} of {url}")
+        stop.wait(stalls)  # back off after failed attempts
+
+
+def _download(url, etag, size, path, deadline):
+    """Download url of the given ETag and size to path in parallel ranges.
+
+    Gives up at the deadline (time.monotonic() based). Workers are daemon threads,
+    so neither the deadline nor an interpreter exit waits for them: once stop
+    is set, they quit within an attempt (DOWNLOAD_ATTEMPT_SECONDS or so).
+    """
+    with open(path, "wb") as f:
+        f.truncate(size)
+    ranges = queue.SimpleQueue()
+    for start in range(0, size, DOWNLOAD_CHUNK_SIZE):
+        ranges.put((start, min(start + DOWNLOAD_CHUNK_SIZE, size) - 1))
+    stop = threading.Event()
+    errors = []
+
+    def worker():
+        try:
+            while not stop.is_set():
+                try:
+                    start, end = ranges.get_nowait()
+                except queue.Empty:
+                    return
+                _fetch_range(url, etag, path, start, end, stop)
+        except Exception as e:
+            errors.append(e)
+            stop.set()
+
+    threads = [
+        threading.Thread(target=worker, daemon=True)
+        for _ in range(max(1, int(get_parameter("download_threads"))))
+    ]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join(max(0, deadline - time.monotonic()))
+    stop.set()
+    if errors:
+        raise errors[0]
+    if any(t.is_alive() for t in threads):
+        raise TimeoutError("database download did not finish in time")
 
 
 class Data(threading.Thread):
@@ -207,10 +318,10 @@ class Data(threading.Thread):
         lines.append("")
         print("\n".join(lines), file=sys.stderr)
 
-    def _atomic_write_cache(self, response, db_hash):
+    def _atomic_write_cache(self, url, etag, size, db_hash, deadline):
         """
         Atomically write the database to cache.
-        Streams the SQL dump, decompresses with lzma, executes into a temp db,
+        Downloads the SQL dump, decompresses with lzma, executes into a temp db,
         then renames on success.
         """
         if not self._ensure_cache_dir():
@@ -218,6 +329,7 @@ class Data(threading.Thread):
 
         temp_db_path = None
         temp_hash_path = None
+        temp_xz_path = None
 
         try:
             # Create temp files in the cache directory for atomic rename
@@ -227,19 +339,28 @@ class Data(threading.Thread):
             temp_hash_fd, temp_hash_path = tempfile.mkstemp(
                 dir=self.cache_dir, suffix=".hash.tmp"
             )
+            temp_xz_fd, temp_xz_path = tempfile.mkstemp(
+                dir=self.cache_dir, suffix=".xz.tmp"
+            )
             os.close(temp_db_fd)
             os.close(temp_hash_fd)
+            os.close(temp_xz_fd)
 
-            # Stream download -> lzma decompress -> chunked SQL restore.
+            _download(url, etag, size, temp_xz_path, deadline)
+
+            # lzma decompress -> chunked SQL restore.
             # Temp file gets atomically renamed on success, so we can
             # safely skip journal and fsync for maximum write speed.
             metadata = {}
-            with lzma.open(response.raw, mode="rt", encoding="utf-8") as sql:
+            with lzma.open(temp_xz_path, mode="rt", encoding="utf-8") as sql:
                 conn = sqlite3.connect(temp_db_path, isolation_level=None)
                 try:
                     conn.execute("PRAGMA journal_mode=OFF")
                     conn.execute("PRAGMA synchronous=OFF")
-                    _restore_sql_dump(conn, sql)
+                    import_deadline = time.monotonic() + float(
+                        get_parameter("import_timeout")
+                    )
+                    _restore_sql_dump(conn, sql, import_deadline)
                     metadata = self._read_metadata(temp_db_path)
                     logger.debug("Database metadata: %s", metadata)
                 finally:
@@ -259,14 +380,16 @@ class Data(threading.Thread):
 
         except Exception as e:
             logger.warning("Failed to write database to cache: %s", e)
-            # Clean up temp files on failure
-            for temp_path in [temp_db_path, temp_hash_path]:
+            return False
+
+        finally:
+            # Remove the temp files that were not renamed into place
+            for temp_path in [temp_db_path, temp_hash_path, temp_xz_path]:
                 if temp_path and os.path.exists(temp_path):
                     try:
                         os.unlink(temp_path)
                     except Exception:
                         pass
-            return False
 
     @property
     def path(self):
@@ -295,15 +418,15 @@ class Data(threading.Thread):
         if self._custom_db_path:
             return True
         t0 = time.time()
+        deadline = time.monotonic() + float(get_parameter("http_timeout"))
         url = get_db_url()
         try:
             logger.debug(
-                "update: GET %s (timeout=%s)", url, get_parameter("http_timeout")
+                "update: HEAD %s (timeout=%s)", url, get_parameter("http_timeout")
             )
-            with requests.get(
+            with requests.head(
                 url,
                 timeout=float(get_parameter("http_timeout")),
-                stream=True,
             ) as r:
                 elapsed = time.time() - t0
                 logger.debug("update: HTTP %d in %.1fs", r.status_code, elapsed)
@@ -340,7 +463,13 @@ class Data(threading.Thread):
                 )
 
                 # Download and write to cache atomically
-                if self._atomic_write_cache(r, remote_hash):
+                if self._atomic_write_cache(
+                    url,
+                    r.headers["etag"],
+                    int(r.headers["content-length"]),
+                    remote_hash,
+                    deadline,
+                ):
                     with self.lock:
                         self.actual_db_path = self.cache_db_path
                         self.actual_db_hash = remote_hash

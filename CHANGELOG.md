@@ -1,3 +1,14 @@
+## v0.6.0 (Oct 13, 2026)
+
+Download the database file using parallel HTTP range requests (16 threads by
+default), retrying slow or stalled ranges on a fresh connection, instead of a
+single stream that could crawl or stall on CDN cache misses.
+
+`SC_DATA_HTTP_TIMEOUT` (`--timeout`) is now the maximum time for checking for
+and downloading a new database file, instead of a per-request timeout. The new
+`SC_DATA_IMPORT_TIMEOUT` (`--import-timeout`, 300 seconds by default) limits
+decompressing and importing it.
+
 ## v0.5.1 (Aug 18, 2026)
 
 New `sc-data` command-line tool to make the SQLite database file available

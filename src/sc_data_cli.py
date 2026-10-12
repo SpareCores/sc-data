@@ -36,7 +36,16 @@ def main():
         "--db-url", help="URL of the compressed SQL dump to download (SC_DATA_DB_URL)"
     )
     download.add_argument(
-        "--timeout", type=float, help="HTTP timeout in seconds (SC_DATA_HTTP_TIMEOUT)"
+        "--timeout",
+        type=float,
+        help="max seconds for checking for and downloading the data dump "
+        "(SC_DATA_HTTP_TIMEOUT)",
+    )
+    download.add_argument(
+        "--import-timeout",
+        type=float,
+        help="max seconds for decompressing and importing the data dump "
+        "(SC_DATA_IMPORT_TIMEOUT)",
     )
     download.add_argument(
         "--no-update",
@@ -61,6 +70,8 @@ def main():
         os.environ["SC_DATA_DB_URL"] = args.db_url
     if args.timeout is not None:
         os.environ["SC_DATA_HTTP_TIMEOUT"] = str(args.timeout)
+    if args.import_timeout is not None:
+        os.environ["SC_DATA_IMPORT_TIMEOUT"] = str(args.import_timeout)
     if args.no_update:
         os.environ["SC_DATA_NO_UPDATE"] = "1"
 

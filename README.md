@@ -71,8 +71,8 @@ copies the resulting SQLite file to the given path -- overwriting an already
 existing file, and creating missing parent directories.
 
 Run `sc-data download --help` for the available options, e.g. `--db-url`,
-`--timeout`, or `--no-update` to use the cached file without checking for a
-newer version.
+`--timeout`, `--import-timeout`, or `--no-update` to use the cached file without
+checking for a newer version.
 
 ## Configuration
 
@@ -84,7 +84,9 @@ overridden by builtins or environment variables:
 | Custom Database Path | Custom file path for the database (bypasses cache) | - | `sc_data_db_path` | `SC_DATA_DB_PATH` |
 | Disable Updates | Whether to disable automatic updates | `False` | `sc_data_no_update` | `SC_DATA_NO_UPDATE` |
 | Database URL | The URL of the most recent version of the database file (when unset, the default URL is used) | `https://cdn.sparecores.net/sc-data/latest/sc-data-all.sql.xz` | `sc_data_db_url` | `SC_DATA_DB_URL` |
-| HTTP Timeout | The timeout in seconds for downloading the database file | `30` | `sc_data_http_timeout` | `SC_DATA_HTTP_TIMEOUT` |
+| HTTP Timeout | The maximum time in seconds for checking for and downloading a new database file (not including importing it) | `600` | `sc_data_http_timeout` | `SC_DATA_HTTP_TIMEOUT` |
+| Import Timeout | The maximum time in seconds for decompressing and importing a downloaded database file | `300` | `sc_data_import_timeout` | `SC_DATA_IMPORT_TIMEOUT` |
+| Download Threads | Number of parallel HTTP range requests used to download the database file | `16` | `sc_data_download_threads` | `SC_DATA_DOWNLOAD_THREADS` |
 | Refresh Interval | The interval in seconds to check for database updates | `600` | `sc_data_db_refresh_seconds` | `SC_DATA_DB_REFRESH_SECONDS` |
 | Suppress Data License Notice | Suppress the data license notice printed to stderr | - | `sc_data_no_license_notice` | `SC_DATA_NO_LICENSE_NOTICE` |
 
