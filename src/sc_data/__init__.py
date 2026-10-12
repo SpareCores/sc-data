@@ -13,7 +13,9 @@ The module accepts the following parameters (must be set before importing):
     - builtins.sc_data_no_update / SC_DATA_NO_UPDATE - don't do updates if set
     - builtins.sc_data_db_path / SC_DATA_DB_PATH - the initial database path (overrides cache)
     - builtins.sc_data_db_url / SC_DATA_DB_URL - DB URL to fetch updates
-    - builtins.sc_data_http_timeout / SC_DATA_HTTP_TIMEOUT - HTTP timeout in seconds
+    - builtins.sc_data_http_timeout / SC_DATA_HTTP_TIMEOUT - max seconds for checking for and downloading a new DB
+    - builtins.sc_data_import_timeout / SC_DATA_IMPORT_TIMEOUT - max seconds for decompressing and importing a downloaded DB
+    - builtins.sc_data_download_threads / SC_DATA_DOWNLOAD_THREADS - number of parallel range requests for the download
     - builtins.sc_data_db_refresh_seconds / SC_DATA_DB_REFRESH_SECONDS - update database after this has passed
 
 Cache location (when SC_DATA_DB_PATH is not set):
@@ -30,7 +32,9 @@ logger = logging.getLogger(__name__)
 
 db = Data(name="remote_update")
 db.start()
-timeout = float(get_parameter("http_timeout")) + 1
+timeout = (
+    float(get_parameter("http_timeout")) + float(get_parameter("import_timeout")) + 1
+)
 event_set = db.updated.wait(timeout)
 logger.debug(
     "updated.wait(%.1f) returned %s; path=%r, error=%r, thread alive=%s",

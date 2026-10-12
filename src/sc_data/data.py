@@ -65,7 +65,7 @@ def get_cache_dir():
 _TXN_CONTROL = frozenset(("BEGIN TRANSACTION;", "BEGIN;", "COMMIT;"))
 
 
-def _restore_sql_dump(conn, text_stream, chunk_size=8 * 1024 * 1024):
+def _restore_sql_dump(conn, text_stream, deadline, chunk_size=8 * 1024 * 1024):
     """Stream-execute a SQL dump into conn in chunked transactions.
 
     Strips the dump's own BEGIN/COMMIT, re-wraps each chunk in a transaction,
@@ -74,6 +74,8 @@ def _restore_sql_dump(conn, text_stream, chunk_size=8 * 1024 * 1024):
 
     The caller should set PRAGMA journal_mode=OFF and synchronous=OFF
     for best performance on temp databases where crash-safety is not needed.
+
+    Raises TimeoutError when still running after the (time.monotonic) deadline.
     """
     buf = ""
     for line in text_stream:
@@ -83,6 +85,8 @@ def _restore_sql_dump(conn, text_stream, chunk_size=8 * 1024 * 1024):
         if len(buf) >= chunk_size and ";" in line and sqlite3.complete_statement(buf):
             conn.executescript("BEGIN;\n" + buf + "COMMIT;")
             buf = ""
+            if time.monotonic() > deadline:
+                raise TimeoutError("database import did not finish in time")
     if buf.strip():
         conn.executescript("BEGIN;\n" + buf + "COMMIT;")
 
@@ -125,6 +129,8 @@ def _fetch_range(url, etag, path, start, end, stop, max_stalls=10):
                 try:
                     if r.status_code == 412:
                         raise RuntimeError(f"{url} changed during the download")
+                    if 400 <= r.status_code < 500:
+                        raise RuntimeError(f"HTTP {r.status_code} for {url}")
                     r.raise_for_status()
                     f.seek(pos)
                     for block in r.iter_content(16 * 1024):
@@ -147,7 +153,7 @@ def _fetch_range(url, etag, path, start, end, stop, max_stalls=10):
 def _download(url, etag, size, path, deadline):
     """Download url of the given ETag and size to path in parallel ranges.
 
-    Gives up at the deadline (time.time() based). Workers are daemon threads,
+    Gives up at the deadline (time.monotonic() based). Workers are daemon threads,
     so neither the deadline nor an interpreter exit waits for them: once stop
     is set, they quit within an attempt (DOWNLOAD_ATTEMPT_SECONDS or so).
     """
@@ -173,12 +179,12 @@ def _download(url, etag, size, path, deadline):
 
     threads = [
         threading.Thread(target=worker, daemon=True)
-        for _ in range(int(get_parameter("download_threads")))
+        for _ in range(max(1, int(get_parameter("download_threads"))))
     ]
     for t in threads:
         t.start()
     for t in threads:
-        t.join(max(0, deadline - time.time()))
+        t.join(max(0, deadline - time.monotonic()))
     stop.set()
     if errors:
         raise errors[0]
@@ -351,7 +357,10 @@ class Data(threading.Thread):
                 try:
                     conn.execute("PRAGMA journal_mode=OFF")
                     conn.execute("PRAGMA synchronous=OFF")
-                    _restore_sql_dump(conn, sql)
+                    import_deadline = time.monotonic() + float(
+                        get_parameter("import_timeout")
+                    )
+                    _restore_sql_dump(conn, sql, import_deadline)
                     metadata = self._read_metadata(temp_db_path)
                     logger.debug("Database metadata: %s", metadata)
                 finally:
@@ -371,21 +380,16 @@ class Data(threading.Thread):
 
         except Exception as e:
             logger.warning("Failed to write database to cache: %s", e)
-            # Clean up temp files on failure
-            for temp_path in [temp_db_path, temp_hash_path]:
+            return False
+
+        finally:
+            # Remove the temp files that were not renamed into place
+            for temp_path in [temp_db_path, temp_hash_path, temp_xz_path]:
                 if temp_path and os.path.exists(temp_path):
                     try:
                         os.unlink(temp_path)
                     except Exception:
                         pass
-            return False
-
-        finally:
-            if temp_xz_path and os.path.exists(temp_xz_path):
-                try:
-                    os.unlink(temp_xz_path)
-                except Exception:
-                    pass
 
     @property
     def path(self):
@@ -414,7 +418,7 @@ class Data(threading.Thread):
         if self._custom_db_path:
             return True
         t0 = time.time()
-        deadline = t0 + float(get_parameter("http_timeout"))
+        deadline = time.monotonic() + float(get_parameter("http_timeout"))
         url = get_db_url()
         try:
             logger.debug(
