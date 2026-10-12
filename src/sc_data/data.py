@@ -7,6 +7,7 @@ import sys
 import tempfile
 import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 
 import requests
 
@@ -16,6 +17,10 @@ logger = logging.getLogger(__name__)
 
 # Cache directory and file names
 CACHE_DIR_NAME = "sparecores-data"
+
+# Parallel download of the database file
+DOWNLOAD_CHUNK_SIZE = 2 * 1024 * 1024
+DOWNLOAD_ATTEMPT_SECONDS = 10
 
 
 def get_parameter(name):
@@ -79,6 +84,53 @@ def _restore_sql_dump(conn, text_stream, chunk_size=8 * 1024 * 1024):
             buf = ""
     if buf.strip():
         conn.executescript("BEGIN;\n" + buf + "COMMIT;")
+
+
+def _fetch_range(url, path, start, end, max_stalls=10):
+    """Download bytes [start, end] of url into the same offset of path.
+
+    Individual CDN connections tend to either fly or crawl, so an attempt
+    running longer than DOWNLOAD_ATTEMPT_SECONDS is dropped, and a fresh
+    connection resumes from the last written byte. Gives up only after
+    max_stalls consecutive attempts without any progress.
+    """
+    pos = start
+    stalls = 0
+    while pos <= end:
+        attempt_start = pos
+        deadline = time.time() + DOWNLOAD_ATTEMPT_SECONDS
+        try:
+            with requests.get(
+                url,
+                headers={"Range": f"bytes={pos}-{end}"},
+                timeout=(10, DOWNLOAD_ATTEMPT_SECONDS),
+                stream=True,
+            ) as r, open(path, "r+b") as f:
+                r.raise_for_status()
+                f.seek(pos)
+                for block in r.iter_content(256 * 1024):
+                    f.write(block)
+                    pos += len(block)
+                    if time.time() > deadline:
+                        break
+        except requests.RequestException as e:
+            logger.debug("range %d-%d: failed at byte %d: %s", start, end, pos, e)
+        stalls = 0 if pos > attempt_start else stalls + 1
+        if stalls == max_stalls:
+            raise RuntimeError(f"failed to download bytes {start}-{end} of {url}")
+
+
+def _download(url, size, path):
+    """Download url of the given size to path using parallel range requests."""
+    with open(path, "wb") as f:
+        f.truncate(size)
+    ranges = [
+        (start, min(start + DOWNLOAD_CHUNK_SIZE, size) - 1)
+        for start in range(0, size, DOWNLOAD_CHUNK_SIZE)
+    ]
+    threads = int(get_parameter("download_threads"))
+    with ThreadPoolExecutor(max_workers=threads) as pool:
+        list(pool.map(lambda r: _fetch_range(url, path, *r), ranges))
 
 
 class Data(threading.Thread):
@@ -207,10 +259,10 @@ class Data(threading.Thread):
         lines.append("")
         print("\n".join(lines), file=sys.stderr)
 
-    def _atomic_write_cache(self, response, db_hash):
+    def _atomic_write_cache(self, url, size, db_hash):
         """
         Atomically write the database to cache.
-        Streams the SQL dump, decompresses with lzma, executes into a temp db,
+        Downloads the SQL dump, decompresses with lzma, executes into a temp db,
         then renames on success.
         """
         if not self._ensure_cache_dir():
@@ -218,6 +270,7 @@ class Data(threading.Thread):
 
         temp_db_path = None
         temp_hash_path = None
+        temp_xz_path = None
 
         try:
             # Create temp files in the cache directory for atomic rename
@@ -227,14 +280,20 @@ class Data(threading.Thread):
             temp_hash_fd, temp_hash_path = tempfile.mkstemp(
                 dir=self.cache_dir, suffix=".hash.tmp"
             )
+            temp_xz_fd, temp_xz_path = tempfile.mkstemp(
+                dir=self.cache_dir, suffix=".xz.tmp"
+            )
             os.close(temp_db_fd)
             os.close(temp_hash_fd)
+            os.close(temp_xz_fd)
 
-            # Stream download -> lzma decompress -> chunked SQL restore.
+            _download(url, size, temp_xz_path)
+
+            # lzma decompress -> chunked SQL restore.
             # Temp file gets atomically renamed on success, so we can
             # safely skip journal and fsync for maximum write speed.
             metadata = {}
-            with lzma.open(response.raw, mode="rt", encoding="utf-8") as sql:
+            with lzma.open(temp_xz_path, mode="rt", encoding="utf-8") as sql:
                 conn = sqlite3.connect(temp_db_path, isolation_level=None)
                 try:
                     conn.execute("PRAGMA journal_mode=OFF")
@@ -268,6 +327,13 @@ class Data(threading.Thread):
                         pass
             return False
 
+        finally:
+            if temp_xz_path and os.path.exists(temp_xz_path):
+                try:
+                    os.unlink(temp_xz_path)
+                except Exception:
+                    pass
+
     @property
     def path(self):
         with self.lock:
@@ -298,12 +364,11 @@ class Data(threading.Thread):
         url = get_db_url()
         try:
             logger.debug(
-                "update: GET %s (timeout=%s)", url, get_parameter("http_timeout")
+                "update: HEAD %s (timeout=%s)", url, get_parameter("http_timeout")
             )
-            with requests.get(
+            with requests.head(
                 url,
                 timeout=float(get_parameter("http_timeout")),
-                stream=True,
             ) as r:
                 elapsed = time.time() - t0
                 logger.debug("update: HTTP %d in %.1fs", r.status_code, elapsed)
@@ -340,7 +405,9 @@ class Data(threading.Thread):
                 )
 
                 # Download and write to cache atomically
-                if self._atomic_write_cache(r, remote_hash):
+                if self._atomic_write_cache(
+                    url, int(r.headers["content-length"]), remote_hash
+                ):
                     with self.lock:
                         self.actual_db_path = self.cache_db_path
                         self.actual_db_hash = remote_hash
