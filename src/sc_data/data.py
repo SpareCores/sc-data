@@ -131,7 +131,9 @@ def _fetch_range(url, etag, path, start, end, max_stalls=10):
                         pos += len(block)
                 finally:
                     watchdog.cancel()
-        except requests.RequestException as e:
+        # the watchdog's socket shutdown can also surface as ValueError or
+        # AttributeError from the SSL layer, depending on timing
+        except (requests.RequestException, ValueError, AttributeError) as e:
             logger.debug("range %d-%d: failed at byte %d: %s", start, end, pos, e)
         stalls = 0 if pos > attempt_start else stalls + 1
         if stalls == max_stalls:
