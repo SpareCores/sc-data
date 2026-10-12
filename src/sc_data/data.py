@@ -2,13 +2,13 @@ import builtins
 import logging
 import lzma
 import os
+import queue
 import socket
 import sqlite3
 import sys
 import tempfile
 import threading
 import time
-from concurrent.futures import ThreadPoolExecutor
 
 import requests
 
@@ -95,7 +95,7 @@ def _shutdown(response):
         pass  # already finished and released
 
 
-def _fetch_range(url, etag, path, start, end, max_stalls=10):
+def _fetch_range(url, etag, path, start, end, stop, max_stalls=10):
     """Download bytes [start, end] of url into the same offset of path.
 
     Only accepts bytes from the object with the given ETag, so that a file
@@ -105,10 +105,11 @@ def _fetch_range(url, etag, path, start, end, max_stalls=10):
     running longer than DOWNLOAD_ATTEMPT_SECONDS is dropped, and a fresh
     connection resumes from the last written byte. Gives up after max_stalls
     consecutive attempts without progress, i.e. not even one 16 KiB block.
+    Returns early once stop is set.
     """
     pos = start
     stalls = 0
-    while pos <= end:
+    while pos <= end and not stop.is_set():
         attempt_start = pos
         try:
             with requests.get(
@@ -127,6 +128,8 @@ def _fetch_range(url, etag, path, start, end, max_stalls=10):
                     r.raise_for_status()
                     f.seek(pos)
                     for block in r.iter_content(16 * 1024):
+                        if stop.is_set():
+                            return
                         f.write(block)
                         pos += len(block)
                 finally:
@@ -138,19 +141,49 @@ def _fetch_range(url, etag, path, start, end, max_stalls=10):
         stalls = 0 if pos > attempt_start else stalls + 1
         if stalls == max_stalls:
             raise RuntimeError(f"failed to download bytes {start}-{end} of {url}")
+        stop.wait(stalls)  # back off after failed attempts
 
 
-def _download(url, etag, size, path):
-    """Download url of the given ETag and size to path in parallel ranges."""
+def _download(url, etag, size, path, deadline):
+    """Download url of the given ETag and size to path in parallel ranges.
+
+    Gives up at the deadline (time.time() based). Workers are daemon threads,
+    so neither the deadline nor an interpreter exit waits for them: once stop
+    is set, they quit within an attempt (DOWNLOAD_ATTEMPT_SECONDS or so).
+    """
     with open(path, "wb") as f:
         f.truncate(size)
-    ranges = [
-        (start, min(start + DOWNLOAD_CHUNK_SIZE, size) - 1)
-        for start in range(0, size, DOWNLOAD_CHUNK_SIZE)
+    ranges = queue.SimpleQueue()
+    for start in range(0, size, DOWNLOAD_CHUNK_SIZE):
+        ranges.put((start, min(start + DOWNLOAD_CHUNK_SIZE, size) - 1))
+    stop = threading.Event()
+    errors = []
+
+    def worker():
+        try:
+            while not stop.is_set():
+                try:
+                    start, end = ranges.get_nowait()
+                except queue.Empty:
+                    return
+                _fetch_range(url, etag, path, start, end, stop)
+        except Exception as e:
+            errors.append(e)
+            stop.set()
+
+    threads = [
+        threading.Thread(target=worker, daemon=True)
+        for _ in range(int(get_parameter("download_threads")))
     ]
-    threads = int(get_parameter("download_threads"))
-    with ThreadPoolExecutor(max_workers=threads) as pool:
-        list(pool.map(lambda r: _fetch_range(url, etag, path, *r), ranges))
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join(max(0, deadline - time.time()))
+    stop.set()
+    if errors:
+        raise errors[0]
+    if any(t.is_alive() for t in threads):
+        raise TimeoutError("database download did not finish in time")
 
 
 class Data(threading.Thread):
@@ -279,7 +312,7 @@ class Data(threading.Thread):
         lines.append("")
         print("\n".join(lines), file=sys.stderr)
 
-    def _atomic_write_cache(self, url, etag, size, db_hash):
+    def _atomic_write_cache(self, url, etag, size, db_hash, deadline):
         """
         Atomically write the database to cache.
         Downloads the SQL dump, decompresses with lzma, executes into a temp db,
@@ -307,7 +340,7 @@ class Data(threading.Thread):
             os.close(temp_hash_fd)
             os.close(temp_xz_fd)
 
-            _download(url, etag, size, temp_xz_path)
+            _download(url, etag, size, temp_xz_path, deadline)
 
             # lzma decompress -> chunked SQL restore.
             # Temp file gets atomically renamed on success, so we can
@@ -381,6 +414,7 @@ class Data(threading.Thread):
         if self._custom_db_path:
             return True
         t0 = time.time()
+        deadline = t0 + float(get_parameter("http_timeout"))
         url = get_db_url()
         try:
             logger.debug(
@@ -430,6 +464,7 @@ class Data(threading.Thread):
                     r.headers["etag"],
                     int(r.headers["content-length"]),
                     remote_hash,
+                    deadline,
                 ):
                     with self.lock:
                         self.actual_db_path = self.cache_db_path
