@@ -95,8 +95,11 @@ def _shutdown(response):
         pass  # already finished and released
 
 
-def _fetch_range(url, path, start, end, max_stalls=10):
+def _fetch_range(url, etag, path, start, end, max_stalls=10):
     """Download bytes [start, end] of url into the same offset of path.
+
+    Only accepts bytes from the object with the given ETag, so that a file
+    republished during the download cannot result in a mix of two versions.
 
     Individual CDN connections tend to either fly or crawl, so an attempt
     running longer than DOWNLOAD_ATTEMPT_SECONDS is dropped, and a fresh
@@ -110,7 +113,7 @@ def _fetch_range(url, path, start, end, max_stalls=10):
         try:
             with requests.get(
                 url,
-                headers={"Range": f"bytes={pos}-{end}"},
+                headers={"Range": f"bytes={pos}-{end}", "If-Match": etag},
                 timeout=(10, DOWNLOAD_ATTEMPT_SECONDS),
                 stream=True,
             ) as r, open(path, "r+b") as f:
@@ -119,6 +122,8 @@ def _fetch_range(url, path, start, end, max_stalls=10):
                 watchdog = threading.Timer(DOWNLOAD_ATTEMPT_SECONDS, _shutdown, (r,))
                 watchdog.start()
                 try:
+                    if r.status_code == 412:
+                        raise RuntimeError(f"{url} changed during the download")
                     r.raise_for_status()
                     f.seek(pos)
                     for block in r.iter_content(16 * 1024):
@@ -133,8 +138,8 @@ def _fetch_range(url, path, start, end, max_stalls=10):
             raise RuntimeError(f"failed to download bytes {start}-{end} of {url}")
 
 
-def _download(url, size, path):
-    """Download url of the given size to path using parallel range requests."""
+def _download(url, etag, size, path):
+    """Download url of the given ETag and size to path in parallel ranges."""
     with open(path, "wb") as f:
         f.truncate(size)
     ranges = [
@@ -143,7 +148,7 @@ def _download(url, size, path):
     ]
     threads = int(get_parameter("download_threads"))
     with ThreadPoolExecutor(max_workers=threads) as pool:
-        list(pool.map(lambda r: _fetch_range(url, path, *r), ranges))
+        list(pool.map(lambda r: _fetch_range(url, etag, path, *r), ranges))
 
 
 class Data(threading.Thread):
@@ -272,7 +277,7 @@ class Data(threading.Thread):
         lines.append("")
         print("\n".join(lines), file=sys.stderr)
 
-    def _atomic_write_cache(self, url, size, db_hash):
+    def _atomic_write_cache(self, url, etag, size, db_hash):
         """
         Atomically write the database to cache.
         Downloads the SQL dump, decompresses with lzma, executes into a temp db,
@@ -300,7 +305,7 @@ class Data(threading.Thread):
             os.close(temp_hash_fd)
             os.close(temp_xz_fd)
 
-            _download(url, size, temp_xz_path)
+            _download(url, etag, size, temp_xz_path)
 
             # lzma decompress -> chunked SQL restore.
             # Temp file gets atomically renamed on success, so we can
@@ -419,7 +424,10 @@ class Data(threading.Thread):
 
                 # Download and write to cache atomically
                 if self._atomic_write_cache(
-                    url, int(r.headers["content-length"]), remote_hash
+                    url,
+                    r.headers["etag"],
+                    int(r.headers["content-length"]),
+                    remote_hash,
                 ):
                     with self.lock:
                         self.actual_db_path = self.cache_db_path
